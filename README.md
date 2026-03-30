@@ -29,13 +29,28 @@ Provides skills, an agent, and hooks to guide you through the full Stream Deck p
 
 ## Installation
 
-### From the Anthropic marketplace
+### From the Anthropic marketplace (Claude Code CLI)
 
 ```
 /plugin install stream-deck
 ```
 
+### From the Anthropic marketplace (Claude.ai / Desktop app)
+
+1. Go to **Settings > Plugins**
+2. Search for `stream-deck`
+3. Click **Install**
+
+### From GitHub (manual)
+
+```bash
+git clone https://github.com/jdsoliveiraa/stream-deck-skill-cc.git
+claude --plugin-dir ./stream-deck-skill-cc
+```
+
 ### Local development
+
+If you cloned the repo locally, pass it directly:
 
 ```bash
 claude --plugin-dir /path/to/stream-deck-skill-cc
@@ -52,7 +67,7 @@ For plugin development (not for this Claude Code plugin itself):
 
 ## Quick Start
 
-1. Install the plugin
+1. Install the plugin (see [Installation](#installation) above)
 2. Run `/stream-deck:create-plugin com.yourname.my-plugin`
 3. Follow the guided scaffolding
 4. Run `/stream-deck:add-action my-first-action` to add functionality
