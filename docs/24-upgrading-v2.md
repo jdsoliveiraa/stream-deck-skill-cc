@@ -1,0 +1,428 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Upgrading
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Version 2.x
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Upgrading to Version 2.x" [level=1] [ref=e133]
+              - paragraph [ref=e134]:
+                - text: This documentation will guide you through upgrading your Stream Deck plugin, using
+                - code [ref=e135]: "@elgato/streamdeck"
+                - text: ", to version 2."
+              - generic [ref=e136]:
+                - generic [ref=e137]: Terminal
+                - generic [ref=e138]:
+                  - code [ref=e140]:
+                    - generic [ref=e141]: npm i @elgato/streamdeck@latest
+                  - button "Copy to clipboard" [ref=e143] [cursor=pointer]:
+                    - generic [ref=e144]:
+                      - img "Icon" [ref=e145]
+                      - img "Icon" [ref=e148]
+              - heading "Breaking ChangesDirect link to Breaking Changes" [level=2] [ref=e150]:
+                - text: Breaking Changes
+                - link "Direct link to Breaking Changes" [ref=e151] [cursor=pointer]:
+                  - /url: "#breaking-changes"
+                  - text: "#"
+              - list [ref=e152]:
+                - listitem [ref=e153]:
+                  - link "UI namespace" [ref=e154] [cursor=pointer]:
+                    - /url: "#ui-communication"
+                  - text: has been simplified.
+                - listitem [ref=e155]:
+                  - link "Dependencies" [ref=e156] [cursor=pointer]:
+                    - /url: "#dependencies"
+                  - text: have been decoupled.
+                - listitem [ref=e157]:
+                  - link "Manifest namespace" [ref=e158] [cursor=pointer]:
+                    - /url: "#manifest"
+                  - text: has been removed.
+                - listitem [ref=e159]:
+                  - link "Browser import" [ref=e160] [cursor=pointer]:
+                    - /url: "#browser-import"
+                  - text: has been removed.
+              - heading "UI CommunicationDirect link to UI Communication" [level=2] [ref=e161]:
+                - text: UI Communication
+                - link "Direct link to UI Communication" [ref=e162] [cursor=pointer]:
+                  - /url: "#ui-communication"
+                  - text: "#"
+              - paragraph [ref=e163]: The UI namespace responsible for communicating with the property inspector has been streamlined; these improvements come with two breaking changes.
+              - heading "Send to Property InspectorDirect link to Send to Property Inspector" [level=3] [ref=e164]:
+                - text: Send to Property Inspector
+                - link "Direct link to Send to Property Inspector" [ref=e165] [cursor=pointer]:
+                  - /url: "#send-to-property-inspector"
+                  - text: "#"
+              - paragraph [ref=e166]:
+                - text: Sending payloads to the property inspector has now been streamlined, and no longer requires
+                - code [ref=e167]: .current?
+                - text: .
+              - generic [ref=e168]:
+                - tablist [ref=e169]:
+                  - tab "Before" [selected] [ref=e170] [cursor=pointer]
+                  - tab "Now" [ref=e171] [cursor=pointer]
+                - tabpanel [ref=e173]:
+                  - generic [ref=e175]:
+                    - code [ref=e177]:
+                      - generic [ref=e178]: import streamDeck from "@elgato/streamdeck";
+                      - generic [ref=e180]: "streamDeck.ui.current?.sendToPropertyInspector({"
+                      - generic [ref=e181]: "message: \"Hello world\","
+                      - generic [ref=e182]: "});"
+                    - button "Copy to clipboard" [ref=e184] [cursor=pointer]:
+                      - generic [ref=e185]:
+                        - img "Icon" [ref=e186]
+                        - img "Icon" [ref=e189]
+              - heading "Property Inspector ActionDirect link to Property Inspector Action" [level=3] [ref=e191]:
+                - text: Property Inspector Action
+                - link "Direct link to Property Inspector Action" [ref=e192] [cursor=pointer]:
+                  - /url: "#property-inspector-action"
+                  - text: "#"
+              - paragraph [ref=e193]:
+                - text: Accessing the action for current property inspector is now achieved using the
+                - code [ref=e194]: .action
+                - text: property.
+              - generic [ref=e195]:
+                - tablist [ref=e196]:
+                  - tab "Before" [selected] [ref=e197] [cursor=pointer]
+                  - tab "Now" [ref=e198] [cursor=pointer]
+                - tabpanel [ref=e200]:
+                  - generic [ref=e202]:
+                    - code [ref=e204]:
+                      - generic [ref=e205]: import streamDeck from "@elgato/streamdeck";
+                      - generic [ref=e207]: streamDeck.ui.current;
+                    - button "Copy to clipboard" [ref=e209] [cursor=pointer]:
+                      - generic [ref=e210]:
+                        - img "Icon" [ref=e211]
+                        - img "Icon" [ref=e214]
+              - heading "DependenciesDirect link to Dependencies" [level=2] [ref=e216]:
+                - text: Dependencies
+                - link "Direct link to Dependencies" [ref=e217] [cursor=pointer]:
+                  - /url: "#dependencies"
+                  - text: "#"
+              - paragraph [ref=e218]:
+                - text: Previously when publishing
+                - code [ref=e219]: "@elgato/streamdeck"
+                - text: the package was bundled into a single file making dependency resolution difficult, and prone to conflicts.
+              - paragraph [ref=e220]:
+                - text: Starting with version 2.0,
+                - code [ref=e221]: "@elgato/streamdeck"
+                - text: is no longer pre-bundle; this allows more functionality, previously isolated to the Stream Deck SDK, to become accessible, starting with
+                - code [ref=e222]: "@elgato/utils"
+                - text: .
+              - heading "JSONDirect link to JSON" [level=3] [ref=e223]:
+                - text: JSON
+                - link "Direct link to JSON" [ref=e224] [cursor=pointer]:
+                  - /url: "#json"
+                  - text: "#"
+              - generic [ref=e225]:
+                - tablist [ref=e226]:
+                  - tab "Before" [selected] [ref=e227] [cursor=pointer]
+                  - tab "Now" [ref=e228] [cursor=pointer]
+                - tabpanel [ref=e230]:
+                  - generic [ref=e232]:
+                    - code [ref=e234]:
+                      - generic [ref=e235]: "import type {"
+                      - generic [ref=e236]: JsonObject,
+                      - generic [ref=e237]: JsonPrimitive,
+                      - generic [ref=e238]: JsonValue
+                      - generic [ref=e239]: "} from \"@elgato/streamdeck\";"
+                    - button "Copy to clipboard" [ref=e241] [cursor=pointer]:
+                      - generic [ref=e242]:
+                        - img "Icon" [ref=e243]
+                        - img "Icon" [ref=e246]
+              - heading "LoggingDirect link to Logging" [level=3] [ref=e248]:
+                - text: Logging
+                - link "Direct link to Logging" [ref=e249] [cursor=pointer]:
+                  - /url: "#logging"
+                  - text: "#"
+              - generic [ref=e250]:
+                - tablist [ref=e251]:
+                  - tab "Before" [selected] [ref=e252] [cursor=pointer]
+                  - tab "Now" [ref=e253] [cursor=pointer]
+                - tabpanel [ref=e255]:
+                  - generic [ref=e257]:
+                    - code [ref=e259]:
+                      - generic [ref=e260]: "import streamDeck, { LogLevel } from \"@elgato/streamdeck\";"
+                      - generic [ref=e262]: streamDeck.logger.setLevel(LogLevel.TRACE);
+                    - button "Copy to clipboard" [ref=e264] [cursor=pointer]:
+                      - generic [ref=e265]:
+                        - img "Icon" [ref=e266]
+                        - img "Icon" [ref=e269]
+              - heading "MiscellaneousDirect link to Miscellaneous" [level=3] [ref=e271]:
+                - text: Miscellaneous
+                - link "Direct link to Miscellaneous" [ref=e272] [cursor=pointer]:
+                  - /url: "#miscellaneous"
+                  - text: "#"
+              - generic [ref=e273]:
+                - tablist [ref=e274]:
+                  - tab "Before" [selected] [ref=e275] [cursor=pointer]
+                  - tab "Now" [ref=e276] [cursor=pointer]
+                - tabpanel [ref=e278]:
+                  - generic [ref=e280]:
+                    - code [ref=e282]:
+                      - generic [ref=e283]: "import {"
+                      - generic [ref=e284]: Enumerable,
+                      - generic [ref=e285]: EventEmitter,
+                      - generic [ref=e286]: type EventsOf,
+                      - generic [ref=e287]: "} from \"@elgato/streamdeck\";"
+                    - button "Copy to clipboard" [ref=e289] [cursor=pointer]:
+                      - generic [ref=e290]:
+                        - img "Icon" [ref=e291]
+                        - img "Icon" [ref=e294]
+              - heading "ManifestDirect link to Manifest" [level=2] [ref=e296]:
+                - text: Manifest
+                - link "Direct link to Manifest" [ref=e297] [cursor=pointer]:
+                  - /url: "#manifest"
+                  - text: "#"
+              - paragraph [ref=e298]:
+                - text: With the introduction of DRM protection, the manifest is now considered a protected resource, and access to
+                - code [ref=e299]: streamDeck.manifest
+                - text: at runtime has been removed. Learn more about
+                - link "DRM protection" [ref=e300] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution#drm-protection
+                - text: .
+              - heading "Browser ImportDirect link to Browser Import" [level=2] [ref=e301]:
+                - text: Browser Import
+                - link "Direct link to Browser Import" [ref=e302] [cursor=pointer]:
+                  - /url: "#browser-import"
+                  - text: "#"
+              - paragraph [ref=e303]:
+                - text: The ability to import
+                - code [ref=e304]: "@elgato/streamdeck"
+                - text: into the browser (property inspector) has been removed.
+          - navigation "Docs pages" [ref=e305]:
+            - link "Previous « Changes" [ref=e306] [cursor=pointer]:
+              - /url: /streamdeck/sdk/references/websocket/changelog
+              - generic [ref=e307]: Previous
+              - generic [ref=e308]: « Changes
+        - list [ref=e311]:
+          - listitem [ref=e312]:
+            - link "Breaking Changes" [ref=e313] [cursor=pointer]:
+              - /url: "#breaking-changes"
+          - listitem [ref=e314]:
+            - link "UI Communication" [ref=e315] [cursor=pointer]:
+              - /url: "#ui-communication"
+            - list [ref=e316]:
+              - listitem [ref=e317]:
+                - link "Send to Property Inspector" [ref=e318] [cursor=pointer]:
+                  - /url: "#send-to-property-inspector"
+              - listitem [ref=e319]:
+                - link "Property Inspector Action" [ref=e320] [cursor=pointer]:
+                  - /url: "#property-inspector-action"
+          - listitem [ref=e321]:
+            - link "Dependencies" [ref=e322] [cursor=pointer]:
+              - /url: "#dependencies"
+            - list [ref=e323]:
+              - listitem [ref=e324]:
+                - link "JSON" [ref=e325] [cursor=pointer]:
+                  - /url: "#json"
+              - listitem [ref=e326]:
+                - link "Logging" [ref=e327] [cursor=pointer]:
+                  - /url: "#logging"
+              - listitem [ref=e328]:
+                - link "Miscellaneous" [ref=e329] [cursor=pointer]:
+                  - /url: "#miscellaneous"
+          - listitem [ref=e330]:
+            - link "Manifest" [ref=e331] [cursor=pointer]:
+              - /url: "#manifest"
+          - listitem [ref=e332]:
+            - link "Browser Import" [ref=e333] [cursor=pointer]:
+              - /url: "#browser-import"
+  - contentinfo [ref=e334]:
+    - generic [ref=e335]:
+      - generic [ref=e336]:
+        - generic [ref=e337]:
+          - generic [ref=e338]: Makers
+          - list [ref=e339]:
+            - listitem [ref=e340]:
+              - link "Become a Maker" [ref=e341] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e342]:
+              - link "Elgato Icons" [ref=e343] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e344]:
+              - link "Badges" [ref=e345] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e346]:
+          - generic [ref=e347]: Marketplace
+          - list [ref=e348]:
+            - listitem [ref=e349]:
+              - link "Plugins" [ref=e350] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e351]:
+              - link "Icon Packs" [ref=e352] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e353]:
+              - link "Profiles" [ref=e354] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e355]:
+          - generic [ref=e356]: Support
+          - list [ref=e357]:
+            - listitem [ref=e358]:
+              - link "FAQ" [ref=e359] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e360]:
+              - link "Contact" [ref=e361] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e362]:
+              - link "Copyright Claim" [ref=e363] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e364]:
+              - link "Downloads" [ref=e365] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e366]:
+          - generic [ref=e367]: Company
+          - list [ref=e368]:
+            - listitem [ref=e369]:
+              - link "About" [ref=e370] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e371]:
+              - link "Media Room" [ref=e372] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e373]:
+              - link "Terms of Use" [ref=e374] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e375]:
+              - link "Privacy Policy" [ref=e376] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e378]: © 2026 Elgato. All rights reserved.

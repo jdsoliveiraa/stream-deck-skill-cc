@@ -1,0 +1,770 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Plugin Guides
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Actions
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Actions" [level=1] [ref=e133]
+              - paragraph [ref=e134]: Actions represent the core functionality provided by your plugin, and are fundamental to all Stream Deck plugins. All interactive physical elements found on a Stream Deck device, for example keys, dials, pedals, etc. are all associated with actions, allowing users to execute your plugin's functionality.
+              - paragraph [ref=e135]: "Examples of actions include:"
+              - list [ref=e136]:
+                - listitem [ref=e137]: Volume control - Wave Link, Volume Controller, Discord, etc.
+                - listitem [ref=e138]: Turning a light on/off - Control Center, Hue, Govee, etc.
+                - listitem [ref=e139]: Controlling music playback - Spotify, Sound Deck, etc.
+              - heading "Types of ActionsDirect link to Types of Actions" [level=2] [ref=e140]:
+                - text: Types of Actions
+                - link "Direct link to Types of Actions" [ref=e141] [cursor=pointer]:
+                  - /url: "#types-of-actions"
+                  - text: "#"
+              - paragraph [ref=e142]: "There are two Stream Deck action types, also referred to as \"controllers\", these are:"
+              - list [ref=e143]:
+                - listitem [ref=e144]: Key - Includes standard Stream Deck keys (buttons), pedals, G-Keys, etc.
+                - listitem [ref=e145]: Dial - A dial and a portion of the touchscreen, found on Stream Deck +.
+              - generic [ref=e147]:
+                - img "A screenshot of Stream Deck software displaying the canvas of a Stream Deck +, highlighting the top-right key, and a dial that is comprised of a dial and one quarter of the touchscreen" [ref=e149]
+                - generic:
+                  - 'button "Expand image: A screenshot of Stream Deck software displaying the canvas of a Stream Deck +, highlighting the top-right key, and a dial that is comprised of a dial and one quarter of the touchscreen"'
+              - generic [ref=e150]:
+                - generic [ref=e151]:
+                  - img [ref=e153]
+                  - text: Supporting action controllers
+                - paragraph [ref=e158]:
+                  - text: Your plugin can specify which controllers are supported by each action as part of the
+                  - link "action's metadata" [ref=e159] [cursor=pointer]:
+                    - /url: "#metadata"
+                  - text: ", allowing the user to assign the action to either a key and/or a dial (aka an encoder)."
+              - heading "Action IdentifiersDirect link to Action Identifiers" [level=2] [ref=e160]:
+                - text: Action Identifiers
+                - link "Direct link to Action Identifiers" [ref=e161] [cursor=pointer]:
+                  - /url: "#action-identifiers"
+                  - text: "#"
+              - paragraph [ref=e162]: "Actions are uniquely identified by their UUID, which is a reverse DNS formatted string that is defined by you, the plugin's author. The UUID of an action must be prefixed by your plugin's UUID. For example:"
+              - blockquote [ref=e163]:
+                - paragraph [ref=e164]:
+                  - text: If your plugin's UUID is
+                  - code [ref=e165]: com.elgato.hello-world
+                  - text: ", and your plugin has a \"Counter\" action, your action's UUID would be"
+                  - code [ref=e166]: com.elgato.hello-world.counter
+                  - text: .
+              - paragraph [ref=e167]:
+                - text: Similar to your plugin's UUID, action UUIDs must only contain lowercase alphanumeric characters (
+                - code [ref=e168]: a-z
+                - text: ","
+                - code [ref=e169]: 0-9
+                - text: ), hyphens (
+                - code [ref=e170]: "-"
+                - text: ), and periods (
+                - code [ref=e171]: .
+                - text: ).
+              - generic [ref=e172]:
+                - generic [ref=e173]:
+                  - img [ref=e175]
+                  - text: Do not change UUIDs
+                - paragraph [ref=e180]: Once defined and published, UUIDs must never change. Actions on a Stream Deck canvas are identified by the plugin and action UUIDs at the time of the user adding the action to the canvas. Changing either of these UUIDs will result in the action(s) being removed from the user's configuration which can cause confusion and frustration.
+              - heading "Registering ActionsDirect link to Registering Actions" [level=2] [ref=e181]:
+                - text: Registering Actions
+                - link "Direct link to Registering Actions" [ref=e182] [cursor=pointer]:
+                  - /url: "#registering-actions"
+                  - text: "#"
+              - paragraph [ref=e183]: "Actions provided by your plugin are registered in two parts:"
+              - list [ref=e184]:
+                - listitem [ref=e185]: The metadata; stored in your plugin's manifest JSON file.
+                - listitem [ref=e186]: The implementation; registered in the application-layer.
+              - heading "MetadataDirect link to Metadata" [level=3] [ref=e187]:
+                - text: Metadata
+                - link "Direct link to Metadata" [ref=e188] [cursor=pointer]:
+                  - /url: "#metadata"
+                  - text: "#"
+              - paragraph [ref=e189]: "The metadata of your action tells Stream Deck about your action, including:"
+              - list [ref=e190]:
+                - listitem [ref=e191]: The action's name, description, etc.
+                - listitem [ref=e192]: Which types of controllers are supported (for example keys and/or dials).
+                - listitem [ref=e193]: How your action is displayed to the user in the actions list.
+              - paragraph [ref=e194]:
+                - text: Metadata associated with your plugin's actions are stored within your plugin's manifest as entries within the
+                - code [ref=e195]: Actions
+                - text: property. Below is an example of a "Counter" action's metadata in a manifest.
+              - generic [ref=e196]:
+                - generic [ref=e197]: Example of "Actions" within the manifest JSON file
+                - generic [ref=e198]:
+                  - code [ref=e200]:
+                    - generic [ref=e201]: "{"
+                    - generic [ref=e202]: "\"$schema\": \"https://schemas.elgato.com/streamdeck/plugins/manifest.json\","
+                    - generic [ref=e203]: "\"UUID\": \"com.elgato.hello-world\","
+                    - generic [ref=e204]: "\"Name\": \"Hello World\","
+                    - generic [ref=e205]: "\"Version\": \"0.1.0.0\","
+                    - generic [ref=e206]: "\"Author\": \"Elgato\","
+                    - generic [ref=e207]: "\"Actions\": ["
+                    - generic [ref=e208]: "{"
+                    - generic [ref=e209]: "\"Name\": \"Counter\","
+                    - generic [ref=e210]: "\"UUID\": \"com.elgato.hello-world.increment\","
+                    - generic [ref=e211]: "\"Icon\": \"static/imgs/actions/counter/icon\","
+                    - generic [ref=e212]: "\"Tooltip\": \"Displays a count, which increments by one on press.\","
+                    - generic [ref=e213]: "\"Controllers\": [\"Keypad\"],"
+                    - generic [ref=e214]: "\"States\": ["
+                    - generic [ref=e215]: "{"
+                    - generic [ref=e216]: "\"Image\": \"static/imgs/actions/counter/key\","
+                    - generic [ref=e217]: "\"TitleAlignment\": \"middle\""
+                    - generic [ref=e218]: "}"
+                    - generic [ref=e219]: "]"
+                    - generic [ref=e220]: "}"
+                    - generic [ref=e221]: "],"
+                    - generic [ref=e222]: "\"Category\": \"Hello World\","
+                    - generic [ref=e223]: "\"CategoryIcon\": \"static/imgs/plugin/category-icon\","
+                    - generic [ref=e224]: "\"CodePath\": \"bin/plugin.js\","
+                    - generic [ref=e225]: "\"Description\": \".\","
+                    - generic [ref=e226]: "\"Icon\": \"static/imgs/plugin/marketplace\","
+                    - generic [ref=e227]: "\"SDKVersion\": 2,"
+                    - generic [ref=e228]: "\"Software\": {"
+                    - generic [ref=e229]: "\"MinimumVersion\": \"6.6\""
+                    - generic [ref=e230]: "},"
+                    - generic [ref=e231]: "\"OS\": ["
+                    - generic [ref=e232]: "{"
+                    - generic [ref=e233]: "\"Platform\": \"mac\","
+                    - generic [ref=e234]: "\"MinimumVersion\": \"10.15\""
+                    - generic [ref=e235]: "},"
+                    - generic [ref=e236]: "{"
+                    - generic [ref=e237]: "\"Platform\": \"windows\","
+                    - generic [ref=e238]: "\"MinimumVersion\": \"10\""
+                    - generic [ref=e239]: "}"
+                    - generic [ref=e240]: "],"
+                    - generic [ref=e241]: "\"Nodejs\": {"
+                    - generic [ref=e242]: "\"Version\": \"20\","
+                    - generic [ref=e243]: "\"Debug\": \"enabled\""
+                    - generic [ref=e244]: "},"
+                    - generic [ref=e245]: "\"ApplicationsToMonitor\": {"
+                    - generic [ref=e246]: "\"mac\": [\"com.elgato.WaveLink\"],"
+                    - generic [ref=e247]: "\"windows\": [\"Elgato Wave Link.exe\"]"
+                    - generic [ref=e248]: "},"
+                    - generic [ref=e249]: "\"Profiles\": ["
+                    - generic [ref=e250]: "{"
+                    - generic [ref=e251]: "\"Name\": \"My Cool Profile\","
+                    - generic [ref=e252]: "\"DeviceType\": 0,"
+                    - generic [ref=e253]: "\"Readonly\": false,"
+                    - generic [ref=e254]: "\"DontAutoSwitchWhenInstalled\": false,"
+                    - generic [ref=e255]: "\"AutoInstall\": true"
+                    - generic [ref=e256]: "}"
+                    - generic [ref=e257]: "]"
+                    - generic [ref=e258]: "}"
+                  - generic [ref=e259]:
+                    - button "Toggle word wrap" [ref=e260] [cursor=pointer]:
+                      - img [ref=e261]
+                    - button "Copy to clipboard" [ref=e263] [cursor=pointer]:
+                      - generic [ref=e264]:
+                        - img "Icon" [ref=e265]
+                        - img "Icon" [ref=e268]
+              - generic [ref=e270]:
+                - generic [ref=e271]:
+                  - img [ref=e273]
+                  - text: Hiding actions
+                - paragraph [ref=e278]:
+                  - text: Actions defined within the manifest will be visible to the user in the actions list in the Stream Deck app. You can hide specific actions from the user by setting
+                  - code [ref=e279]: VisibleInActionsList
+                  - text: to
+                  - code [ref=e280]: "false"
+                  - text: in the manifest. Your plugin can utilize its own hidden (or visible) actions as part of pre-configured
+                  - link "profiles" [ref=e281] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/profiles
+                  - text: bundled with your plugin. Hiding actions is also useful for deprecating older actions, without completely removing them.
+              - generic [ref=e282]:
+                - generic [ref=e283]:
+                  - img [ref=e285]
+                  - text: Action icons
+                - paragraph [ref=e288]:
+                  - text: Learn more about creating icons for your plugin as part of our
+                  - link "UX guidelines for the actions list" [ref=e289] [cursor=pointer]:
+                    - /url: /guidelines/stream-deck/plugins
+                  - text: .
+              - heading "ImplementationDirect link to Implementation" [level=3] [ref=e290]:
+                - text: Implementation
+                - link "Direct link to Implementation" [ref=e291] [cursor=pointer]:
+                  - /url: "#implementation"
+                  - text: "#"
+              - paragraph [ref=e292]: With your action's metadata defined within the manifest, it is then the responsibility of your plugin's application-layer to provide the implementation, i.e. what your action does when a user interacts with Stream Deck
+              - paragraph [ref=e293]:
+                - text: Actions are represented as single-instance classes that inherit from a
+                - code [ref=e294]: SingletonAction
+                - text: ". Your action's class then overrides methods to handle events from Stream Deck, for example:"
+              - generic [ref=e295]:
+                - generic [ref=e296]: Action class demonstrating the key down event
+                - generic [ref=e297]:
+                  - code [ref=e299]:
+                    - generic [ref=e300]: "import streamDeck, { action, type KeyDownEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e302]: /**
+                    - generic [ref=e303]: "* An action that logs a Stream Deck key press."
+                    - generic [ref=e304]: "*/"
+                    - generic [ref=e305]: "@action({ UUID: \"com.elgato.hello-world.log\" })"
+                    - generic [ref=e306]: "export class LogKeyPressAction extends SingletonAction {"
+                    - generic [ref=e307]: /**
+                    - generic [ref=e308]: "* Handles the user pressing a Stream Deck key (pedal, G-key, etc)."
+                    - generic [ref=e309]: "* @param ev Information about the event."
+                    - generic [ref=e310]: "*/"
+                    - generic [ref=e311]: "override onKeyDown(ev: KeyDownEvent): void | Promise<void> {"
+                    - generic [ref=e312]: "streamDeck.logger.info(`Key pressed!`);"
+                    - generic [ref=e313]: "}"
+                    - generic [ref=e314]: "}"
+                  - generic [ref=e315]:
+                    - button "Toggle word wrap" [ref=e316] [cursor=pointer]:
+                      - img [ref=e317]
+                    - button "Copy to clipboard" [ref=e319] [cursor=pointer]:
+                      - generic [ref=e320]:
+                        - img "Icon" [ref=e321]
+                        - img "Icon" [ref=e324]
+              - paragraph [ref=e326]: "Once implemented, your plugin must register the action in the entry file of the application-layer:"
+              - generic [ref=e327]:
+                - generic [ref=e328]: Registering actions within the plugin
+                - generic [ref=e329]:
+                  - code [ref=e331]:
+                    - generic [ref=e332]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e334]: "import { LogKeyPressAction } from \"./actions/log-key-press\";"
+                    - generic [ref=e336]: streamDeck.actions.registerAction(new LogKeyPressAction());
+                    - generic [ref=e337]: streamDeck.connect();
+                  - button "Copy to clipboard" [ref=e339] [cursor=pointer]:
+                    - generic [ref=e340]:
+                      - img "Icon" [ref=e341]
+                      - img "Icon" [ref=e344]
+              - generic [ref=e346]:
+                - generic [ref=e347]:
+                  - img [ref=e349]
+                  - text: Order of execution
+                - paragraph [ref=e354]:
+                  - text: It is important to register all of your plugin's actions before connecting to Stream Deck. As a general rule of thumb, it is recommended to call
+                  - code [ref=e355]: streamDeck.connect()
+                  - text: last in the entry file of your plugin.
+              - generic [ref=e356]:
+                - generic [ref=e357]:
+                  - img [ref=e359]
+                  - text: User interfaces
+                - paragraph [ref=e362]:
+                  - text: In addition to an action's Node.js implementation, actions can also have a user interface. More commonly referred to as property inspectors, these user interfaces can allow users to configure the settings associated with your action directly within Stream Deck. Learn more about the
+                  - link "architecture of plugins" [ref=e363] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/introduction/plugin-environment#javascript-runtimes
+                  - text: ","
+                  - link "settings" [ref=e364] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/settings
+                  - text: ", and"
+                  - link "property inspectors" [ref=e365] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/ui
+                  - text: .
+              - heading "Handling EventsDirect link to Handling Events" [level=2] [ref=e366]:
+                - text: Handling Events
+                - link "Direct link to Handling Events" [ref=e367] [cursor=pointer]:
+                  - /url: "#handling-events"
+                  - text: "#"
+              - paragraph [ref=e368]: Events are used extensively throughout the Stream Deck SDK, and allow your plugin to react to user interaction on both a hardware and software level.
+              - paragraph [ref=e369]: The diagram below provides an overview of events relating to actions, and their order of invocation. The events emitted are based loosely on how your action is configured, for example property inspector (UI) events will not be emitted for an action that does not have a property inspector associated with it; these events are highlighted with a dashed border.
+              - img "A diagram that shows the events that can occur for a Stream Deck action, as part of the Stream Deck SDK" [ref=e373]
+              - paragraph [ref=e374]:
+                - text: The
+                - code [ref=e375]: SingletonAction
+                - text: class, that your actions inherit from, contains virtual methods that your class should implement to handle events from Stream Deck, for example
+                - code [ref=e376]: onKeyDown
+                - text: ","
+                - code [ref=e377]: onDialRotate
+                - text: ","
+                - code [ref=e378]: onWillAppear
+                - text: ", etc."
+              - paragraph [ref=e379]: "When an event handler is invoked on your action, the event information is supplied as a parameter to provide context, for example:"
+              - generic [ref=e380]:
+                - generic [ref=e381]: Callback functions are provided with an event parameter
+                - generic [ref=e382]:
+                  - code [ref=e384]:
+                    - generic [ref=e385]: "import streamDeck, { action, type KeyDownEvent, SingletonAction, type WillAppearEvent } from \"@elgato/streamdeck\";"
+                    - generic [ref=e387]: /**
+                    - generic [ref=e388]: "* An action that logs a key press."
+                    - generic [ref=e389]: "*/"
+                    - generic [ref=e390]: "@action({ UUID: \"com.elgato.hello-world.log\" })"
+                    - generic [ref=e391]: "export class LogKeyPressAction extends SingletonAction {"
+                    - generic [ref=e392]: /**
+                    - generic [ref=e393]: "* Handles the action appearing on the canvas."
+                    - generic [ref=e394]: "* @param ev Information about the event."
+                    - generic [ref=e395]: "*/"
+                    - generic [ref=e396]: "override onWillAppear(ev: WillAppearEvent): void | Promise<void> {"
+                    - generic [ref=e397]: ev.action; // instance of the action the event is for.
+                    - generic [ref=e398]: ev.action.device; // device information.
+                    - generic [ref=e399]: ev.payload.controller; // type of the action, i.e. key, or dial & touchscreen.
+                    - generic [ref=e401]: // etc.
+                    - generic [ref=e402]: "}"
+                    - generic [ref=e404]: /**
+                    - generic [ref=e405]: "* Handles the user pressing a Stream Deck key (pedal, G-key, etc)."
+                    - generic [ref=e406]: "* @param ev Information about the event."
+                    - generic [ref=e407]: "*/"
+                    - generic [ref=e408]: "override onKeyDown(ev: KeyDownEvent): void | Promise<void> {"
+                    - generic [ref=e409]: "streamDeck.logger.info(`Key pressed!`);"
+                    - generic [ref=e410]: "}"
+                    - generic [ref=e411]: "}"
+                  - generic [ref=e412]:
+                    - button "Toggle word wrap" [ref=e413] [cursor=pointer]:
+                      - img [ref=e414]
+                    - button "Copy to clipboard" [ref=e416] [cursor=pointer]:
+                      - generic [ref=e417]:
+                        - img "Icon" [ref=e418]
+                        - img "Icon" [ref=e421]
+              - generic [ref=e423]:
+                - generic [ref=e424]:
+                  - img [ref=e426]
+                  - text: Settings
+                - paragraph [ref=e431]:
+                  - text: You can
+                  - link "persist settings on actions" [ref=e432] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/settings
+                  - text: ; these settings are provided as part of event arguments and can be accessed via
+                  - code [ref=e433]: ev.payload.settings
+                  - text: .
+              - heading "Accessing Visible ActionsDirect link to Accessing Visible Actions" [level=2] [ref=e434]:
+                - text: Accessing Visible Actions
+                - link "Direct link to Accessing Visible Actions" [ref=e435] [cursor=pointer]:
+                  - /url: "#accessing-visible-actions"
+                  - text: "#"
+              - paragraph [ref=e436]: Your plugin's actions visible on Stream Deck can also be accessed outside of events, allowing you to retrieve information about them and update their appearance. This can be useful, for example, when your plugin has processed a background task and needs to update the actions shown on Stream Deck asynchronously.
+              - paragraph [ref=e437]: "Accessing your plugin's visible actions can be achieved in the following ways:"
+              - generic [ref=e438]:
+                - generic [ref=e439]: Visible Actions
+                - generic [ref=e440]:
+                  - code [ref=e442]:
+                    - generic [ref=e443]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e445]: // Iterate over all of your plugin's visible actions.
+                    - generic [ref=e446]: "streamDeck.actions.forEach((action) => {"
+                    - generic [ref=e447]: action.setTitle("Hello world");
+                    - generic [ref=e448]: "});"
+                  - button "Copy to clipboard" [ref=e450] [cursor=pointer]:
+                    - generic [ref=e451]:
+                      - img "Icon" [ref=e452]
+                      - img "Icon" [ref=e455]
+              - generic [ref=e457]:
+                - generic [ref=e458]: Visible Actions of Type
+                - generic [ref=e459]:
+                  - code [ref=e461]:
+                    - generic [ref=e462]: "import { action, KeyDownEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e464]: /**
+                    - generic [ref=e465]: "* Example of accessing the visible actions of a specific action type."
+                    - generic [ref=e466]: "*/"
+                    - generic [ref=e467]: "@action({ UUID: \"com.elgato.hello-world.increment\" })"
+                    - generic [ref=e468]: "export class IncrementCounter extends SingletonAction {"
+                    - generic [ref=e469]: /**
+                    - generic [ref=e470]: "* Occurs when the user presses the key."
+                    - generic [ref=e471]: "*/"
+                    - generic [ref=e472]: "override onKeyDown(ev: KeyDownEvent) {"
+                    - generic [ref=e473]: // Iterate over visible actions with the UUID "com.elgato.hello-world.increment".
+                    - generic [ref=e474]: "this.actions.forEach((action) => {"
+                    - generic [ref=e475]: ev.action.setTitle("Hello world!");
+                    - generic [ref=e476]: "});"
+                    - generic [ref=e477]: "}"
+                    - generic [ref=e478]: "}"
+                  - generic [ref=e479]:
+                    - button "Toggle word wrap" [ref=e480] [cursor=pointer]:
+                      - img [ref=e481]
+                    - button "Copy to clipboard" [ref=e483] [cursor=pointer]:
+                      - generic [ref=e484]:
+                        - img "Icon" [ref=e485]
+                        - img "Icon" [ref=e488]
+              - generic [ref=e490]:
+                - generic [ref=e491]:
+                  - img [ref=e493]
+                  - text: info
+                - paragraph [ref=e496]: Please note, it is not possible to access or control actions that are not owned by your plugin.
+              - heading "EventsDirect link to Events" [level=2] [ref=e497]:
+                - text: Events
+                - link "Direct link to Events" [ref=e498] [cursor=pointer]:
+                  - /url: "#events"
+                  - text: "#"
+              - paragraph [ref=e499]:
+                - text: The following events are found on the
+                - code [ref=e500]: SingletonAction
+                - text: class, and apply to both keys and dials.
+              - group [ref=e501]:
+                - generic "onDidReceiveResourcesDirect link to onDidReceiveResources" [ref=e502] [cursor=pointer]:
+                  - heading "onDidReceiveResourcesDirect link to onDidReceiveResources" [level=3] [ref=e503]:
+                    - text: onDidReceiveResources
+                    - link "Direct link to onDidReceiveResources" [ref=e504]:
+                      - /url: "#ondidreceiveresources"
+                      - text: "#"
+              - group [ref=e505]:
+                - generic "onDidReceiveSettingsDirect link to onDidReceiveSettings" [ref=e506] [cursor=pointer]:
+                  - heading "onDidReceiveSettingsDirect link to onDidReceiveSettings" [level=3] [ref=e507]:
+                    - text: onDidReceiveSettings
+                    - link "Direct link to onDidReceiveSettings" [ref=e508]:
+                      - /url: "#ondidreceivesettings"
+                      - text: "#"
+              - group [ref=e509]:
+                - generic "onPropertyInspectorDidAppearDirect link to onPropertyInspectorDidAppear" [ref=e510] [cursor=pointer]:
+                  - heading "onPropertyInspectorDidAppearDirect link to onPropertyInspectorDidAppear" [level=3] [ref=e511]:
+                    - text: onPropertyInspectorDidAppear
+                    - link "Direct link to onPropertyInspectorDidAppear" [ref=e512]:
+                      - /url: "#onpropertyinspectordidappear"
+                      - text: "#"
+              - group [ref=e513]:
+                - generic "onPropertyInspectorDidDisappearDirect link to onPropertyInspectorDidDisappear" [ref=e514] [cursor=pointer]:
+                  - heading "onPropertyInspectorDidDisappearDirect link to onPropertyInspectorDidDisappear" [level=3] [ref=e515]:
+                    - text: onPropertyInspectorDidDisappear
+                    - link "Direct link to onPropertyInspectorDidDisappear" [ref=e516]:
+                      - /url: "#onpropertyinspectordiddisappear"
+                      - text: "#"
+              - group [ref=e517]:
+                - generic "onSendToPluginDirect link to onSendToPlugin" [ref=e518] [cursor=pointer]:
+                  - heading "onSendToPluginDirect link to onSendToPlugin" [level=3] [ref=e519]:
+                    - text: onSendToPlugin
+                    - link "Direct link to onSendToPlugin" [ref=e520]:
+                      - /url: "#onsendtoplugin"
+                      - text: "#"
+              - group [ref=e521]:
+                - generic "onTitleParametersDidChangeDirect link to onTitleParametersDidChange" [ref=e522] [cursor=pointer]:
+                  - heading "onTitleParametersDidChangeDirect link to onTitleParametersDidChange" [level=3] [ref=e523]:
+                    - text: onTitleParametersDidChange
+                    - link "Direct link to onTitleParametersDidChange" [ref=e524]:
+                      - /url: "#ontitleparametersdidchange"
+                      - text: "#"
+              - group [ref=e525]:
+                - generic "onWillAppearDirect link to onWillAppear" [ref=e526] [cursor=pointer]:
+                  - heading "onWillAppearDirect link to onWillAppear" [level=3] [ref=e527]:
+                    - text: onWillAppear
+                    - link "Direct link to onWillAppear" [ref=e528]:
+                      - /url: "#onwillappear"
+                      - text: "#"
+              - group [ref=e529]:
+                - generic "onWillDisappearDirect link to onWillDisappear" [ref=e530] [cursor=pointer]:
+                  - heading "onWillDisappearDirect link to onWillDisappear" [level=3] [ref=e531]:
+                    - text: onWillDisappear
+                    - link "Direct link to onWillDisappear" [ref=e532]:
+                      - /url: "#onwilldisappear"
+                      - text: "#"
+              - heading "CommandsDirect link to Commands" [level=2] [ref=e533]:
+                - text: Commands
+                - link "Direct link to Commands" [ref=e534] [cursor=pointer]:
+                  - /url: "#commands"
+                  - text: "#"
+              - paragraph [ref=e535]: The following commands are available to all actions.
+              - group [ref=e536]:
+                - generic "getResourcesDirect link to getResources" [ref=e537] [cursor=pointer]:
+                  - heading "getResourcesDirect link to getResources" [level=3] [ref=e538]:
+                    - text: getResources
+                    - link "Direct link to getResources" [ref=e539]:
+                      - /url: "#getresources"
+                      - text: "#"
+              - group [ref=e540]:
+                - generic "getSettingsDirect link to getSettings" [ref=e541] [cursor=pointer]:
+                  - heading "getSettingsDirect link to getSettings" [level=3] [ref=e542]:
+                    - text: getSettings
+                    - link "Direct link to getSettings" [ref=e543]:
+                      - /url: "#getsettings"
+                      - text: "#"
+              - group [ref=e544]:
+                - generic "isDialDirect link to isDial" [ref=e545] [cursor=pointer]:
+                  - heading "isDialDirect link to isDial" [level=3] [ref=e546]:
+                    - text: isDial
+                    - link "Direct link to isDial" [ref=e547]:
+                      - /url: "#isdial"
+                      - text: "#"
+              - group [ref=e548]:
+                - generic "isKeyDirect link to isKey" [ref=e549] [cursor=pointer]:
+                  - heading "isKeyDirect link to isKey" [level=3] [ref=e550]:
+                    - text: isKey
+                    - link "Direct link to isKey" [ref=e551]:
+                      - /url: "#iskey"
+                      - text: "#"
+              - group [ref=e552]:
+                - generic "setResourcesDirect link to setResources" [ref=e553] [cursor=pointer]:
+                  - heading "setResourcesDirect link to setResources" [level=3] [ref=e554]:
+                    - text: setResources
+                    - link "Direct link to setResources" [ref=e555]:
+                      - /url: "#setresources"
+                      - text: "#"
+              - group [ref=e556]:
+                - generic "setSettingsDirect link to setSettings" [ref=e557] [cursor=pointer]:
+                  - heading "setSettingsDirect link to setSettings" [level=3] [ref=e558]:
+                    - text: setSettings
+                    - link "Direct link to setSettings" [ref=e559]:
+                      - /url: "#setsettings"
+                      - text: "#"
+              - group [ref=e560]:
+                - generic "showAlertDirect link to showAlert" [ref=e561] [cursor=pointer]:
+                  - heading "showAlertDirect link to showAlert" [level=3] [ref=e562]:
+                    - text: showAlert
+                    - link "Direct link to showAlert" [ref=e563]:
+                      - /url: "#showalert"
+                      - text: "#"
+          - navigation "Docs pages" [ref=e564]:
+            - link "Previous « Distribution" [ref=e565] [cursor=pointer]:
+              - /url: /streamdeck/sdk/introduction/distribution
+              - generic [ref=e566]: Previous
+              - generic [ref=e567]: « Distribution
+            - link "Next Keys »" [ref=e568] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/keys
+              - generic [ref=e569]: Next
+              - generic [ref=e570]: Keys »
+        - list [ref=e573]:
+          - listitem [ref=e574]:
+            - link "Types of Actions" [ref=e575] [cursor=pointer]:
+              - /url: "#types-of-actions"
+          - listitem [ref=e576]:
+            - link "Action Identifiers" [ref=e577] [cursor=pointer]:
+              - /url: "#action-identifiers"
+          - listitem [ref=e578]:
+            - link "Registering Actions" [ref=e579] [cursor=pointer]:
+              - /url: "#registering-actions"
+            - list [ref=e580]:
+              - listitem [ref=e581]:
+                - link "Metadata" [ref=e582] [cursor=pointer]:
+                  - /url: "#metadata"
+              - listitem [ref=e583]:
+                - link "Implementation" [ref=e584] [cursor=pointer]:
+                  - /url: "#implementation"
+          - listitem [ref=e585]:
+            - link "Handling Events" [ref=e586] [cursor=pointer]:
+              - /url: "#handling-events"
+          - listitem [ref=e587]:
+            - link "Accessing Visible Actions" [ref=e588] [cursor=pointer]:
+              - /url: "#accessing-visible-actions"
+          - listitem [ref=e589]:
+            - link "Events" [ref=e590] [cursor=pointer]:
+              - /url: "#events"
+            - list [ref=e591]:
+              - listitem [ref=e592]:
+                - link "onDidReceiveResources" [ref=e593] [cursor=pointer]:
+                  - /url: "#ondidreceiveresources"
+              - listitem [ref=e594]:
+                - link "onDidReceiveSettings" [ref=e595] [cursor=pointer]:
+                  - /url: "#ondidreceivesettings"
+              - listitem [ref=e596]:
+                - link "onPropertyInspectorDidAppear" [ref=e597] [cursor=pointer]:
+                  - /url: "#onpropertyinspectordidappear"
+              - listitem [ref=e598]:
+                - link "onPropertyInspectorDidDisappear" [ref=e599] [cursor=pointer]:
+                  - /url: "#onpropertyinspectordiddisappear"
+              - listitem [ref=e600]:
+                - link "onSendToPlugin" [ref=e601] [cursor=pointer]:
+                  - /url: "#onsendtoplugin"
+              - listitem [ref=e602]:
+                - link "onTitleParametersDidChange" [ref=e603] [cursor=pointer]:
+                  - /url: "#ontitleparametersdidchange"
+              - listitem [ref=e604]:
+                - link "onWillAppear" [ref=e605] [cursor=pointer]:
+                  - /url: "#onwillappear"
+              - listitem [ref=e606]:
+                - link "onWillDisappear" [ref=e607] [cursor=pointer]:
+                  - /url: "#onwilldisappear"
+          - listitem [ref=e608]:
+            - link "Commands" [ref=e609] [cursor=pointer]:
+              - /url: "#commands"
+            - list [ref=e610]:
+              - listitem [ref=e611]:
+                - link "getResources" [ref=e612] [cursor=pointer]:
+                  - /url: "#getresources"
+              - listitem [ref=e613]:
+                - link "getSettings" [ref=e614] [cursor=pointer]:
+                  - /url: "#getsettings"
+              - listitem [ref=e615]:
+                - link "isDial" [ref=e616] [cursor=pointer]:
+                  - /url: "#isdial"
+              - listitem [ref=e617]:
+                - link "isKey" [ref=e618] [cursor=pointer]:
+                  - /url: "#iskey"
+              - listitem [ref=e619]:
+                - link "setResources" [ref=e620] [cursor=pointer]:
+                  - /url: "#setresources"
+              - listitem [ref=e621]:
+                - link "setSettings" [ref=e622] [cursor=pointer]:
+                  - /url: "#setsettings"
+              - listitem [ref=e623]:
+                - link "showAlert" [ref=e624] [cursor=pointer]:
+                  - /url: "#showalert"
+  - contentinfo [ref=e625]:
+    - generic [ref=e626]:
+      - generic [ref=e627]:
+        - generic [ref=e628]:
+          - generic [ref=e629]: Makers
+          - list [ref=e630]:
+            - listitem [ref=e631]:
+              - link "Become a Maker" [ref=e632] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e633]:
+              - link "Elgato Icons" [ref=e634] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e635]:
+              - link "Badges" [ref=e636] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e637]:
+          - generic [ref=e638]: Marketplace
+          - list [ref=e639]:
+            - listitem [ref=e640]:
+              - link "Plugins" [ref=e641] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e642]:
+              - link "Icon Packs" [ref=e643] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e644]:
+              - link "Profiles" [ref=e645] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e646]:
+          - generic [ref=e647]: Support
+          - list [ref=e648]:
+            - listitem [ref=e649]:
+              - link "FAQ" [ref=e650] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e651]:
+              - link "Contact" [ref=e652] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e653]:
+              - link "Copyright Claim" [ref=e654] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e655]:
+              - link "Downloads" [ref=e656] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e657]:
+          - generic [ref=e658]: Company
+          - list [ref=e659]:
+            - listitem [ref=e660]:
+              - link "About" [ref=e661] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e662]:
+              - link "Media Room" [ref=e663] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e664]:
+              - link "Terms of Use" [ref=e665] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e666]:
+              - link "Privacy Policy" [ref=e667] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e669]: © 2026 Elgato. All rights reserved.

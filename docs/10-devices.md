@@ -1,0 +1,596 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Plugin Guides
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Devices
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Devices" [level=1] [ref=e133]
+              - paragraph [ref=e134]: The Stream Deck SDK provides a list of available Stream Deck devices.
+              - generic [ref=e135]:
+                - generic [ref=e136]: Array of available devices
+                - generic [ref=e137]:
+                  - code [ref=e139]:
+                    - generic [ref=e140]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e142]: "streamDeck.devices.forEach((device) => {"
+                    - generic [ref=e143]: "const { id, isConnected, name, size, type } = device;"
+                    - generic [ref=e145]: streamDeck.logger.info(name); // Stream Deck Neo, Stream Deck +
+                    - generic [ref=e146]: "});"
+                  - button "Copy to clipboard" [ref=e148] [cursor=pointer]:
+                    - generic [ref=e149]:
+                      - img "Icon" [ref=e150]
+                      - img "Icon" [ref=e153]
+              - heading "Device TypesDirect link to Device Types" [level=2] [ref=e155]:
+                - text: Device Types
+                - link "Direct link to Device Types" [ref=e156] [cursor=pointer]:
+                  - /url: "#device-types"
+                  - text: "#"
+              - paragraph [ref=e157]: "Within the Stream Deck SDK, devices are referenced against an enumeration of known devices; these devices, and their associated values, are as follows:"
+              - table [ref=e158]:
+                - rowgroup [ref=e159]:
+                  - row "Device Type Device(s)" [ref=e160]:
+                    - columnheader "Device Type" [ref=e161]
+                    - columnheader "Device(s)" [ref=e162]
+                - rowgroup [ref=e163]:
+                  - row "0 Stream Deck, Stream Deck Scissor Keys" [ref=e164]:
+                    - cell "0" [ref=e165]
+                    - cell "Stream Deck, Stream Deck Scissor Keys" [ref=e166]:
+                      - link "Stream Deck" [ref=e167] [cursor=pointer]:
+                        - /url: "#stream-deck"
+                      - text: ","
+                      - link "Stream Deck Scissor Keys" [ref=e168] [cursor=pointer]:
+                        - /url: "#stream-deck-scissor-keys"
+                  - row "1 Stream Deck Mini" [ref=e169]:
+                    - cell "1" [ref=e170]
+                    - cell "Stream Deck Mini" [ref=e171]:
+                      - link "Stream Deck Mini" [ref=e172] [cursor=pointer]:
+                        - /url: "#stream-deck-mini"
+                  - row "2 Stream Deck XL" [ref=e173]:
+                    - cell "2" [ref=e174]
+                    - cell "Stream Deck XL" [ref=e175]:
+                      - link "Stream Deck XL" [ref=e176] [cursor=pointer]:
+                        - /url: "#stream-deck-xl"
+                  - row "3 Stream Deck Mobile" [ref=e177]:
+                    - cell "3" [ref=e178]
+                    - cell "Stream Deck Mobile" [ref=e179]:
+                      - link "Stream Deck Mobile" [ref=e180] [cursor=pointer]:
+                        - /url: "#stream-deck-mobile"
+                  - row "4 Corsair GKeys" [ref=e181]:
+                    - cell "4" [ref=e182]
+                    - cell "Corsair GKeys" [ref=e183]:
+                      - link "Corsair GKeys" [ref=e184] [cursor=pointer]:
+                        - /url: "#corsair-g-keys"
+                  - row "5 Stream Deck Pedal" [ref=e185]:
+                    - cell "5" [ref=e186]
+                    - cell "Stream Deck Pedal" [ref=e187]:
+                      - link "Stream Deck Pedal" [ref=e188] [cursor=pointer]:
+                        - /url: "#stream-deck-pedal"
+                  - row "6 Corsair Voyager" [ref=e189]:
+                    - cell "6" [ref=e190]
+                    - cell "Corsair Voyager" [ref=e191]:
+                      - link "Corsair Voyager" [ref=e192] [cursor=pointer]:
+                        - /url: "#corsair-voyager"
+                  - row "7 Stream Deck +" [ref=e193]:
+                    - cell "7" [ref=e194]
+                    - cell "Stream Deck +" [ref=e195]:
+                      - link "Stream Deck +" [ref=e196] [cursor=pointer]:
+                        - /url: "#stream-deck-plus"
+                  - row "8 SCUF Controller" [ref=e197]:
+                    - cell "8" [ref=e198]
+                    - cell "SCUF Controller" [ref=e199]:
+                      - link "SCUF Controller" [ref=e200] [cursor=pointer]:
+                        - /url: "#scuf-controller"
+                  - row "9 Stream Deck Neo" [ref=e201]:
+                    - cell "9" [ref=e202]
+                    - cell "Stream Deck Neo" [ref=e203]:
+                      - link "Stream Deck Neo" [ref=e204] [cursor=pointer]:
+                        - /url: "#stream-deck-neo"
+                  - row "10 Stream Deck Studio" [ref=e205]:
+                    - cell "10" [ref=e206]
+                    - cell "Stream Deck Studio" [ref=e207]:
+                      - link "Stream Deck Studio" [ref=e208] [cursor=pointer]:
+                        - /url: "#stream-deck-studio"
+                  - row "11 Virtual Stream Deck" [ref=e209]:
+                    - cell "11" [ref=e210]
+                    - cell "Virtual Stream Deck" [ref=e211]:
+                      - link "Virtual Stream Deck" [ref=e212] [cursor=pointer]:
+                        - /url: https://www.elgato.com/s/virtual-stream-deck
+                  - row "12 Galleon 100 SD" [ref=e213]:
+                    - cell "12" [ref=e214]
+                    - cell "Galleon 100 SD" [ref=e215]:
+                      - link "Galleon 100 SD" [ref=e216] [cursor=pointer]:
+                        - /url: "#galleon-100-sd"
+                  - row "13 Stream Deck + XL" [ref=e217]:
+                    - cell "13" [ref=e218]
+                    - cell "Stream Deck + XL" [ref=e219]:
+                      - link "Stream Deck + XL" [ref=e220] [cursor=pointer]:
+                        - /url: "#stream-deck-plus-xl"
+              - heading "ConnectingDirect link to Connecting" [level=2] [ref=e221]:
+                - text: Connecting
+                - link "Direct link to Connecting" [ref=e222] [cursor=pointer]:
+                  - /url: "#connecting"
+                  - text: "#"
+              - paragraph [ref=e223]:
+                - text: Your plugin can monitor when a Stream Deck device is connected using the
+                - code [ref=e224]: onDeviceDidConnect
+                - text: event.
+              - generic [ref=e225]:
+                - generic [ref=e226]: Device connected callback
+                - generic [ref=e227]:
+                  - code [ref=e229]:
+                    - generic [ref=e230]: "import streamDeck, { DeviceDidConnectEvent } from \"@elgato/streamdeck\";"
+                    - generic [ref=e232]: "streamDeck.devices.onDeviceDidConnect((ev: DeviceDidConnectEvent) => {"
+                    - generic [ref=e233]: "const { id, isConnected, name, size, type } = ev.device;"
+                    - generic [ref=e235]: streamDeck.logger.info(name);
+                    - generic [ref=e236]: "});"
+                  - generic [ref=e237]:
+                    - button "Toggle word wrap" [ref=e238] [cursor=pointer]:
+                      - img [ref=e239]
+                    - button "Copy to clipboard" [ref=e241] [cursor=pointer]:
+                      - generic [ref=e242]:
+                        - img "Icon" [ref=e243]
+                        - img "Icon" [ref=e246]
+              - heading "ChangingDirect link to Changing" [level=2] [ref=e248]:
+                - text: Changing
+                - link "Direct link to Changing" [ref=e249] [cursor=pointer]:
+                  - /url: "#changing"
+                  - text: "#"
+              - paragraph [ref=e250]:
+                - text: Your plugin can monitor when a Stream Deck device changes, for example its name or size, using the
+                - code [ref=e251]: onDeviceDidChange
+                - text: event.
+              - generic [ref=e252]:
+                - generic [ref=e253]: Device change callback
+                - generic [ref=e254]:
+                  - code [ref=e256]:
+                    - generic [ref=e257]: "import streamDeck, { type DeviceDidChangeEvent } from \"@elgato/streamdeck\";"
+                    - generic [ref=e259]: "streamDeck.devices.onDeviceDidChange((ev: DeviceDidChangeEvent) => {"
+                    - generic [ref=e260]: "const { id, isConnected, name, size, type } = ev.device;"
+                    - generic [ref=e262]: streamDeck.logger.info(name);
+                    - generic [ref=e263]: "});"
+                  - generic [ref=e264]:
+                    - button "Toggle word wrap" [ref=e265] [cursor=pointer]:
+                      - img [ref=e266]
+                    - button "Copy to clipboard" [ref=e268] [cursor=pointer]:
+                      - generic [ref=e269]:
+                        - img "Icon" [ref=e270]
+                        - img "Icon" [ref=e273]
+              - generic [ref=e275]:
+                - generic [ref=e276]:
+                  - img [ref=e278]
+                  - text: Availability
+                - paragraph [ref=e281]: Monitoring device changes is available from Stream Deck 7.0
+              - heading "DisconnectingDirect link to Disconnecting" [level=2] [ref=e282]:
+                - text: Disconnecting
+                - link "Direct link to Disconnecting" [ref=e283] [cursor=pointer]:
+                  - /url: "#disconnecting"
+                  - text: "#"
+              - paragraph [ref=e284]:
+                - text: Your plugin can monitor when a Stream Deck device disconnects using the
+                - code [ref=e285]: onDeviceDidDisconnect
+                - text: event.
+              - generic [ref=e286]:
+                - generic [ref=e287]: Device disconnected callback
+                - generic [ref=e288]:
+                  - code [ref=e290]:
+                    - generic [ref=e291]: "import streamDeck, { DeviceDidDisconnectEvent } from \"@elgato/streamdeck\";"
+                    - generic [ref=e293]: "streamDeck.devices.onDeviceDidDisconnect((ev: DeviceDidDisconnectEvent) => {"
+                    - generic [ref=e294]: "const { id, isConnected, name, size, type } = ev.device;"
+                    - generic [ref=e296]: streamDeck.logger.info(name);
+                    - generic [ref=e297]: "});"
+                  - generic [ref=e298]:
+                    - button "Toggle word wrap" [ref=e299] [cursor=pointer]:
+                      - img [ref=e300]
+                    - button "Copy to clipboard" [ref=e302] [cursor=pointer]:
+                      - generic [ref=e303]:
+                        - img "Icon" [ref=e304]
+                        - img "Icon" [ref=e307]
+              - generic [ref=e309]:
+                - generic [ref=e310]:
+                  - img [ref=e312]
+                  - text: Disconnected Device Visibility
+                - paragraph [ref=e317]: While you can use these events to optimize resource utilization, the keys/encoders can still be visible in the Stream Deck app while the hardware is disconnected.
+              - heading "HardwareDirect link to Hardware" [level=2] [ref=e318]:
+                - text: Hardware
+                - link "Direct link to Hardware" [ref=e319] [cursor=pointer]:
+                  - /url: "#hardware"
+                  - text: "#"
+              - paragraph [ref=e320]: Stream Deck hardware comes in many form factors.
+              - heading "Stream Deck NeoDirect link to Stream Deck Neo" [level=3] [ref=e321]:
+                - text: Stream Deck Neo
+                - link "Direct link to Stream Deck Neo" [ref=e322] [cursor=pointer]:
+                  - /url: "#stream-deck-neo"
+                  - text: "#"
+              - paragraph [ref=e323]: Great workflows made easy. Meet Stream Deck Neo, an eight-key controller that makes everyday tasks fast and fun. So you can focus on bigger things.
+              - list [ref=e324]:
+                - listitem [ref=e325]: 8 customizable LCD keys.
+                - listitem [ref=e326]: 2 capacitive touch buttons for paging.
+              - img "Stream Deck Neo" [ref=e328]
+              - heading "Stream DeckDirect link to Stream Deck" [level=3] [ref=e329]:
+                - text: Stream Deck
+                - link "Direct link to Stream Deck" [ref=e330] [cursor=pointer]:
+                  - /url: "#stream-deck"
+                  - text: "#"
+              - paragraph [ref=e331]: Stream Deck features 15 customizable LCD keys to control apps and platforms. Hit the store for app plugins, icons, tracks plus effects, and keep your setup fresh with interchangeable faceplates.
+              - list [ref=e332]:
+                - listitem [ref=e333]: 15 customizable LCD keys.
+              - img "Stream Deck" [ref=e335]
+              - heading "Stream Deck Scissor KeysDirect link to Stream Deck Scissor Keys" [level=3] [ref=e336]:
+                - text: Stream Deck Scissor Keys
+                - link "Direct link to Stream Deck Scissor Keys" [ref=e337] [cursor=pointer]:
+                  - /url: "#stream-deck-scissor-keys"
+                  - text: "#"
+              - paragraph [ref=e338]: Same Stream Deck power, now with a sharper snap. Smooth, fast, and precise, each key press enables you to control apps, platforms, and devices like never before.
+              - list [ref=e339]:
+                - listitem [ref=e340]: 15 customizable LCD keys.
+              - img "Stream Deck Scissor Keys" [ref=e342]
+              - heading "Stream Deck +Direct link to Stream Deck +" [level=3] [ref=e343]:
+                - text: Stream Deck +
+                - link "Direct link to Stream Deck +" [ref=e344] [cursor=pointer]:
+                  - /url: "#stream-deck-plus"
+                  - text: "#"
+              - paragraph [ref=e345]: Iconic Stream Deck tech with customizable LCD keys, dials, and touch strip. Stream Deck + is your audio mixer, studio controller, production console – anything you want it to be.
+              - list [ref=e346]:
+                - listitem [ref=e347]: 8 customizable LCD keys.
+                - listitem [ref=e348]: 4 dials with rotation and press, with touch strip.
+              - img "Stream Deck +" [ref=e350]
+              - heading "Stream Deck + XLDirect link to Stream Deck + XL" [level=3] [ref=e351]:
+                - text: Stream Deck + XL
+                - link "Direct link to Stream Deck + XL" [ref=e352] [cursor=pointer]:
+                  - /url: "#stream-deck-plus-xl"
+                  - text: "#"
+              - paragraph [ref=e353]: With dozens of customizable controls and endless integrations, Stream Deck + XL puts entire productions and systems under your command—all from one intuitive interface.
+              - list [ref=e354]:
+                - listitem [ref=e355]: 36 customizable LCD keys.
+                - listitem [ref=e356]: 6 dials with rotation and press, with touch strip.
+              - img "Stream Deck + XL" [ref=e358]
+              - heading "Stream Deck XLDirect link to Stream Deck XL" [level=3] [ref=e359]:
+                - text: Stream Deck XL
+                - link "Direct link to Stream Deck XL" [ref=e360] [cursor=pointer]:
+                  - /url: "#stream-deck-xl"
+                  - text: "#"
+              - paragraph [ref=e361]: Boasting 32 customizable LCD keys poised to launch unlimited actions with a tap, Stream Deck XL takes production control to a whole new level.
+              - list [ref=e362]:
+                - listitem [ref=e363]: 32 customizable LCD keys.
+              - img "Stream Deck XL" [ref=e365]
+              - heading "Stream Deck MiniDirect link to Stream Deck Mini" [level=3] [ref=e366]:
+                - text: Stream Deck Mini
+                - link "Direct link to Stream Deck Mini" [ref=e367] [cursor=pointer]:
+                  - /url: "#stream-deck-mini"
+                  - text: "#"
+              - paragraph [ref=e368]: "With Stream Deck Mini, take full control of your content and focus on what matters most: your audience."
+              - list [ref=e369]:
+                - listitem [ref=e370]: 6 customizable LCD keys.
+              - img "Stream Deck Mini" [ref=e372]
+              - heading "Stream Deck PedalDirect link to Stream Deck Pedal" [level=3] [ref=e373]:
+                - text: Stream Deck Pedal
+                - link "Direct link to Stream Deck Pedal" [ref=e374] [cursor=pointer]:
+                  - /url: "#stream-deck-pedal"
+                  - text: "#"
+              - paragraph [ref=e375]: Sturdy, customizable and discreet, Stream Deck Pedal gives you instant hands-free control of your apps and tools.
+              - list [ref=e376]:
+                - listitem [ref=e377]: 3 customizable pedals.
+              - img "Stream Deck Pedal" [ref=e379]
+              - heading "Stream Deck StudioDirect link to Stream Deck Studio" [level=3] [ref=e380]:
+                - text: Stream Deck Studio
+                - link "Direct link to Stream Deck Studio" [ref=e381] [cursor=pointer]:
+                  - /url: "#stream-deck-studio"
+                  - text: "#"
+              - paragraph [ref=e382]: Iconic Elgato hardware powered by custom Bitfocus software. Meet Stream Deck Studio, a hyper-customizable control surface for pro broadcast systems. Built to simplify complex workflows.
+              - list [ref=e383]:
+                - listitem [ref=e384]: 32 customizable LCD keys.
+                - listitem [ref=e385]: 2 dials with rotation and press.
+              - img "Stream Deck Studio" [ref=e389]
+              - heading "Stream Deck MobileDirect link to Stream Deck Mobile" [level=3] [ref=e390]:
+                - text: Stream Deck Mobile
+                - link "Direct link to Stream Deck Mobile" [ref=e391] [cursor=pointer]:
+                  - /url: "#stream-deck-mobile"
+                  - text: "#"
+              - paragraph [ref=e392]: Stream Deck Mobile brings professional stream control, powerful integrations, and the iconic Stream Deck workflow to your iPhone or Android phone.
+              - list [ref=e393]:
+                - listitem [ref=e394]: Up to 64 customizable LCD keys.
+              - img "Stream Deck Mobile" [ref=e396]
+              - heading "Corsair Galleon 100 SDDirect link to Corsair Galleon 100 SD" [level=3] [ref=e397]:
+                - text: Corsair Galleon 100 SD
+                - link "Direct link to Corsair Galleon 100 SD" [ref=e398] [cursor=pointer]:
+                  - /url: "#galleon-100-sd"
+                  - text: "#"
+              - paragraph [ref=e399]: The first high-performance gaming keyboard with a built-in Stream Deck is here. Galleon 100 SD combines Corsair and Elgato engineering for deep control and insight at your fingertips.
+              - list [ref=e400]:
+                - listitem [ref=e401]: 2 dials with rotation and press.
+                - listitem [ref=e402]: LCD screen
+                - listitem [ref=e403]: 12 customizable LCD keys.
+              - img "Galleon 100 SD" [ref=e405]
+              - heading "Corsair G-KeysDirect link to Corsair G-Keys" [level=3] [ref=e406]:
+                - text: Corsair G-Keys
+                - link "Direct link to Corsair G-Keys" [ref=e407] [cursor=pointer]:
+                  - /url: "#corsair-g-keys"
+                  - text: "#"
+              - list [ref=e408]:
+                - listitem [ref=e409]: 6 customizable macro keys.
+              - img "Corsair Keyboard" [ref=e411]
+              - heading "Corsair VoyagerDirect link to Corsair Voyager" [level=3] [ref=e412]:
+                - text: Corsair Voyager
+                - link "Direct link to Corsair Voyager" [ref=e413] [cursor=pointer]:
+                  - /url: "#corsair-voyager"
+                  - text: "#"
+              - paragraph [ref=e414]: The Corsair Voyager combines cutting-edge gaming performance with the best of Corsair, powered by the latest AMD Ryzen™ processors and AMD Radeon™ graphics.
+              - list [ref=e415]:
+                - listitem [ref=e416]: Up to 10 customizable capacitive keys
+              - img "Corsair Voyager Laptop" [ref=e418]
+              - heading "SCUF ControllerDirect link to SCUF Controller" [level=3] [ref=e419]:
+                - text: SCUF Controller
+                - link "Direct link to SCUF Controller" [ref=e420] [cursor=pointer]:
+                  - /url: "#scuf-controller"
+                  - text: "#"
+              - paragraph [ref=e421]: Designed specifically for PC gaming, Envision has more inputs than your standard controller allowing you endless customization and the performance you need.
+              - list [ref=e422]:
+                - listitem [ref=e423]: 5 customizable macro buttons.
+              - img "Scuf Controller" [ref=e425]
+          - navigation "Docs pages" [ref=e426]:
+            - link "Previous « Property Inspectors (UI)" [ref=e427] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/ui
+              - generic [ref=e428]: Previous
+              - generic [ref=e429]: « Property Inspectors (UI)
+            - link "Next Profiles »" [ref=e430] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/profiles
+              - generic [ref=e431]: Next
+              - generic [ref=e432]: Profiles »
+        - list [ref=e435]:
+          - listitem [ref=e436]:
+            - link "Device Types" [ref=e437] [cursor=pointer]:
+              - /url: "#device-types"
+          - listitem [ref=e438]:
+            - link "Connecting" [ref=e439] [cursor=pointer]:
+              - /url: "#connecting"
+          - listitem [ref=e440]:
+            - link "Changing" [ref=e441] [cursor=pointer]:
+              - /url: "#changing"
+          - listitem [ref=e442]:
+            - link "Disconnecting" [ref=e443] [cursor=pointer]:
+              - /url: "#disconnecting"
+          - listitem [ref=e444]:
+            - link "Hardware" [ref=e445] [cursor=pointer]:
+              - /url: "#hardware"
+            - list [ref=e446]:
+              - listitem [ref=e447]:
+                - link "Stream Deck Neo" [ref=e448] [cursor=pointer]:
+                  - /url: "#stream-deck-neo"
+              - listitem [ref=e449]:
+                - link "Stream Deck" [ref=e450] [cursor=pointer]:
+                  - /url: "#stream-deck"
+              - listitem [ref=e451]:
+                - link "Stream Deck Scissor Keys" [ref=e452] [cursor=pointer]:
+                  - /url: "#stream-deck-scissor-keys"
+              - listitem [ref=e453]:
+                - link "Stream Deck +" [ref=e454] [cursor=pointer]:
+                  - /url: "#stream-deck-plus"
+              - listitem [ref=e455]:
+                - link "Stream Deck + XL" [ref=e456] [cursor=pointer]:
+                  - /url: "#stream-deck-plus-xl"
+              - listitem [ref=e457]:
+                - link "Stream Deck XL" [ref=e458] [cursor=pointer]:
+                  - /url: "#stream-deck-xl"
+              - listitem [ref=e459]:
+                - link "Stream Deck Mini" [ref=e460] [cursor=pointer]:
+                  - /url: "#stream-deck-mini"
+              - listitem [ref=e461]:
+                - link "Stream Deck Pedal" [ref=e462] [cursor=pointer]:
+                  - /url: "#stream-deck-pedal"
+              - listitem [ref=e463]:
+                - link "Stream Deck Studio" [ref=e464] [cursor=pointer]:
+                  - /url: "#stream-deck-studio"
+              - listitem [ref=e465]:
+                - link "Stream Deck Mobile" [ref=e466] [cursor=pointer]:
+                  - /url: "#stream-deck-mobile"
+              - listitem [ref=e467]:
+                - link "Corsair Galleon 100 SD" [ref=e468] [cursor=pointer]:
+                  - /url: "#galleon-100-sd"
+              - listitem [ref=e469]:
+                - link "Corsair G-Keys" [ref=e470] [cursor=pointer]:
+                  - /url: "#corsair-g-keys"
+              - listitem [ref=e471]:
+                - link "Corsair Voyager" [ref=e472] [cursor=pointer]:
+                  - /url: "#corsair-voyager"
+              - listitem [ref=e473]:
+                - link "SCUF Controller" [ref=e474] [cursor=pointer]:
+                  - /url: "#scuf-controller"
+  - contentinfo [ref=e475]:
+    - generic [ref=e476]:
+      - generic [ref=e477]:
+        - generic [ref=e478]:
+          - generic [ref=e479]: Makers
+          - list [ref=e480]:
+            - listitem [ref=e481]:
+              - link "Become a Maker" [ref=e482] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e483]:
+              - link "Elgato Icons" [ref=e484] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e485]:
+              - link "Badges" [ref=e486] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e487]:
+          - generic [ref=e488]: Marketplace
+          - list [ref=e489]:
+            - listitem [ref=e490]:
+              - link "Plugins" [ref=e491] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e492]:
+              - link "Icon Packs" [ref=e493] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e494]:
+              - link "Profiles" [ref=e495] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e496]:
+          - generic [ref=e497]: Support
+          - list [ref=e498]:
+            - listitem [ref=e499]:
+              - link "FAQ" [ref=e500] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e501]:
+              - link "Contact" [ref=e502] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e503]:
+              - link "Copyright Claim" [ref=e504] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e505]:
+              - link "Downloads" [ref=e506] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e507]:
+          - generic [ref=e508]: Company
+          - list [ref=e509]:
+            - listitem [ref=e510]:
+              - link "About" [ref=e511] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e512]:
+              - link "Media Room" [ref=e513] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e514]:
+              - link "Terms of Use" [ref=e515] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e516]:
+              - link "Privacy Policy" [ref=e517] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e519]: © 2026 Elgato. All rights reserved.

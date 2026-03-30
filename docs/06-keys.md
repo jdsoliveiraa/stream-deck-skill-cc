@@ -1,0 +1,832 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Plugin Guides
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Keys
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Keys" [level=1] [ref=e133]
+              - paragraph [ref=e134]: One of the two primary types of actions available to Stream Deck plugins; keys are found on all Stream Deck devices, and allow users to activate your plugin's functionality.
+              - heading "What Are KeysDirect link to What Are Keys" [level=2] [ref=e135]:
+                - text: What Are Keys
+                - link "Direct link to What Are Keys" [ref=e136] [cursor=pointer]:
+                  - /url: "#what-are-keys"
+                  - text: "#"
+              - paragraph [ref=e137]:
+                - text: Keys are your plugin's actions located on a Stream Deck canvas, for example on Stream Deck XL, Stream Deck Pedal, etc. They provide visual information to users in the form of a
+                - link "title" [ref=e138] [cursor=pointer]:
+                  - /url: "#titles"
+                - text: and
+                - link "image" [ref=e139] [cursor=pointer]:
+                  - /url: "#images"
+                - text: ", and can be activated by a user interacting with a physical Stream Deck device."
+              - generic [ref=e141]:
+                - img "Screenshot of Stream Deck software highlighting an action key" [ref=e143]
+                - generic:
+                  - 'button "Expand image: Screenshot of Stream Deck software highlighting an action key"'
+              - heading "StatesDirect link to States" [level=2] [ref=e144]:
+                - text: States
+                - link "Direct link to States" [ref=e145] [cursor=pointer]:
+                  - /url: "#states"
+                  - text: "#"
+              - paragraph [ref=e146]:
+                - text: The state of a key action, configured within the
+                - link "manifest" [ref=e147] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest#action-states
+                - text: ", determines an action's behavior and defaults, for example the image shown on the canvas. All key actions must have at least one state, however they can have multiple states."
+              - heading "Multi-State KeysDirect link to Multi-State Keys" [level=3] [ref=e148]:
+                - text: Multi-State Keys
+                - link "Direct link to Multi-State Keys" [ref=e149] [cursor=pointer]:
+                  - /url: "#multi-state-keys"
+                  - text: "#"
+              - paragraph [ref=e150]: In cases where your key action represents toggle functionality, for example on/off or mute/un-mute, you can choose to configure two states within the manifest.
+              - paragraph [ref=e151]: When supporting two states, the state is toggled when the user presses the key, with the new state index available via the payload information.
+              - generic [ref=e152]:
+                - generic [ref=e153]:
+                  - img [ref=e155]
+                  - text: Automatic toggling
+                - paragraph [ref=e160]:
+                  - text: If you would prefer to control states yourself, you can also
+                  - link "opt out of automatic toggling" [ref=e161] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/references/manifest#action-disableautomaticstates
+                  - text: within the manifest.
+              - paragraph [ref=e162]: "Additionally, for action keys that support two states, users have the option of configuring will have the option to configure the icon for each state within Stream Deck:"
+              - generic [ref=e164]:
+                - img "Screenshot of Stream Deck software highlighting an actions's states" [ref=e166]
+                - generic:
+                  - 'button "Expand image: Screenshot of Stream Deck software highlighting an actions''s states"'
+              - generic [ref=e167]:
+                - generic [ref=e168]:
+                  - img [ref=e170]
+                  - text: Maximum number of states
+                - paragraph [ref=e175]: Stream Deck supports up to two states; although adding more states is possible within the manifest, its functionality is not fully supported.
+              - heading "States In Multi-ActionsDirect link to States In Multi-Actions" [level=3] [ref=e176]:
+                - text: States In Multi-Actions
+                - link "Direct link to States In Multi-Actions" [ref=e177] [cursor=pointer]:
+                  - /url: "#states-in-multi-actions"
+                  - text: "#"
+              - paragraph [ref=e178]:
+                - text: When your action has multiple states, it's important to assign a
+                - link "Name" [ref=e179] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest#state-name
+                  - code [ref=e180]: Name
+                - text: to each state, within the manifest. Doing so allows users to specify their desired state when using your action in a multi-action.
+              - paragraph [ref=e181]: The following image shows the Discord "Mute" action which has two states, "Mute" and "Unmute".
+              - img [ref=e185]
+              - paragraph [ref=e186]: "The desired state can then be accessed, as the index (for example 0 or 1), within your plugin in the following way:"
+              - generic [ref=e187]:
+                - generic [ref=e188]: Accessing the user desired state
+                - generic [ref=e189]:
+                  - code [ref=e191]:
+                    - generic [ref=e192]: "import { action, KeyDownEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e194]: /**
+                    - generic [ref=e195]: "* Example Discord Mute action."
+                    - generic [ref=e196]: "*/"
+                    - generic [ref=e197]: "@action({ UUID: \"com.discord.mute\" })"
+                    - generic [ref=e198]: "export class Mute extends SingletonAction {"
+                    - generic [ref=e199]: /**
+                    - generic [ref=e200]: "* Occurs when the user presses the key action."
+                    - generic [ref=e201]: "*/"
+                    - generic [ref=e202]: "override onKeyDown(ev: KeyDownEvent) {"
+                    - generic [ref=e203]: "if (ev.payload.isInMultiAction) {"
+                    - generic [ref=e204]: // We can access the user's desired state via...
+                    - generic [ref=e205]: ev.payload.userDesiredState;
+                    - generic [ref=e206]: "}"
+                    - generic [ref=e207]: "}"
+                    - generic [ref=e208]: "}"
+                  - generic [ref=e209]:
+                    - button "Toggle word wrap" [ref=e210] [cursor=pointer]:
+                      - img [ref=e211]
+                    - button "Copy to clipboard" [ref=e213] [cursor=pointer]:
+                      - generic [ref=e214]:
+                        - img "Icon" [ref=e215]
+                        - img "Icon" [ref=e218]
+              - heading "TitlesDirect link to Titles" [level=2] [ref=e220]:
+                - text: Titles
+                - link "Direct link to Titles" [ref=e221] [cursor=pointer]:
+                  - /url: "#titles"
+                  - text: "#"
+              - paragraph [ref=e222]:
+                - text: All actions have a title; in the case of a key action, the title is rendered either at the top, middle, or bottom of the key, on-top of the image. Your plugin can define a
+                - link "default title" [ref=e223] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest#state-title
+                - text: within the manifest, and update it using the
+                - link "setTitle" [ref=e224] [cursor=pointer]:
+                  - /url: "#settitle"
+                  - code [ref=e225]: setTitle
+                - text: command
+                - link "†" [ref=e226] [cursor=pointer]:
+                  - /url: "#display-precedence"
+                - text: .
+              - heading "Setting TitlesDirect link to Setting Titles" [level=3] [ref=e227]:
+                - text: Setting Titles
+                - link "Direct link to Setting Titles" [ref=e228] [cursor=pointer]:
+                  - /url: "#setting-titles"
+                  - text: "#"
+              - paragraph [ref=e229]: The follow example demonstrates updating the title an action on key down.
+              - generic [ref=e230]:
+                - generic [ref=e231]: Setting action title
+                - generic [ref=e232]:
+                  - code [ref=e234]:
+                    - generic [ref=e235]: "import { action, KeyDownEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e237]: /**
+                    - generic [ref=e238]: "* Example action that updates the title."
+                    - generic [ref=e239]: "*/"
+                    - generic [ref=e240]: "@action({ UUID: \"com.elgato.hello-world.increment\" })"
+                    - generic [ref=e241]: "export class IncrementCounter extends SingletonAction {"
+                    - generic [ref=e242]: /**
+                    - generic [ref=e243]: "* Occurs when the user presses the key action."
+                    - generic [ref=e244]: "*/"
+                    - generic [ref=e245]: "override onKeyDown(ev: KeyDownEvent) {"
+                    - generic [ref=e246]: ev.action.setTitle("Hello world!");
+                    - generic [ref=e247]: "}"
+                    - generic [ref=e248]: "}"
+                  - generic [ref=e249]:
+                    - button "Toggle word wrap" [ref=e250] [cursor=pointer]:
+                      - img [ref=e251]
+                    - button "Copy to clipboard" [ref=e253] [cursor=pointer]:
+                      - generic [ref=e254]:
+                        - img "Icon" [ref=e255]
+                        - img "Icon" [ref=e258]
+              - paragraph [ref=e260]: You can also update the title on a more granular level using options.
+              - generic [ref=e261]:
+                - generic [ref=e262]: Setting action title for specified state
+                - generic [ref=e263]:
+                  - code [ref=e265]:
+                    - generic [ref=e266]: "import { action, KeyDownEvent, SingletonAction, Target } from \"@elgato/streamdeck\";"
+                    - generic [ref=e268]: /**
+                    - generic [ref=e269]: "* Example action that updates the title."
+                    - generic [ref=e270]: "*/"
+                    - generic [ref=e271]: "@action({ UUID: \"com.elgato.hello-world.increment\" })"
+                    - generic [ref=e272]: "export class IncrementCounter extends SingletonAction {"
+                    - generic [ref=e273]: /**
+                    - generic [ref=e274]: "* Occurs when the user presses the key action."
+                    - generic [ref=e275]: "*/"
+                    - generic [ref=e276]: "override onKeyDown(ev: KeyDownEvent) {"
+                    - generic [ref=e277]: "ev.action.setTitle(\"Hello world!\", {"
+                    - generic [ref=e278]: "state: 0,"
+                    - generic [ref=e279]: "target: Target.Hardware,"
+                    - generic [ref=e280]: "});"
+                    - generic [ref=e281]: "}"
+                    - generic [ref=e282]: "}"
+                  - generic [ref=e283]:
+                    - button "Toggle word wrap" [ref=e284] [cursor=pointer]:
+                      - img [ref=e285]
+                    - button "Copy to clipboard" [ref=e287] [cursor=pointer]:
+                      - generic [ref=e288]:
+                        - img "Icon" [ref=e289]
+                        - img "Icon" [ref=e292]
+              - heading "User ChangesDirect link to User Changes" [level=3] [ref=e294]:
+                - text: User Changes
+                - link "Direct link to User Changes" [ref=e295] [cursor=pointer]:
+                  - /url: "#user-changes"
+                  - text: "#"
+              - paragraph [ref=e296]:
+                - text: Your plugin can monitor for changes the user makes to the title using the
+                - link "onTitleParameterDidChange" [ref=e297] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions#ontitleparametersdidchange
+                  - code [ref=e298]: onTitleParameterDidChange
+                - text: event.
+              - heading "ImagesDirect link to Images" [level=2] [ref=e299]:
+                - text: Images
+                - link "Direct link to Images" [ref=e300] [cursor=pointer]:
+                  - /url: "#images"
+                  - text: "#"
+              - paragraph [ref=e301]:
+                - text: Your plugin can update an action key's image
+                - link "†" [ref=e302] [cursor=pointer]:
+                  - /url: "#display-precedence"
+                - text: using the
+                - link "setImage" [ref=e303] [cursor=pointer]:
+                  - /url: "#setimage"
+                  - code [ref=e304]: setImage
+                - text: command. The
+                - code [ref=e305]: setImage
+                - text: function accepts a path to an image file or an
+                - link "image data URL" [ref=e306] [cursor=pointer]:
+                  - /url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URLs
+                - text: "with base64 encoded data. Stream Deck supports multiple image formats:"
+              - list [ref=e307]:
+                - listitem [ref=e308]:
+                  - text: SVG -
+                  - code [ref=e309]: image/svg+xml
+                  - text: (recommended).
+                - listitem [ref=e310]:
+                  - text: JPG/JPEG -
+                  - code [ref=e311]: image/jpeg
+                - listitem [ref=e312]:
+                  - text: PNG -
+                  - code [ref=e313]: image/png
+                - listitem [ref=e314]:
+                  - text: WEBP -
+                  - code [ref=e315]: image/webp
+              - generic [ref=e316]:
+                - generic [ref=e317]:
+                  - img [ref=e319]
+                  - text: Animated image formats
+                - paragraph [ref=e324]:
+                  - text: The
+                  - code [ref=e325]: setImage
+                  - text: function does not support animated image formats, such as GIF.
+              - heading "From SVGDirect link to From SVG" [level=3] [ref=e326]:
+                - text: From SVG
+                - link "Direct link to From SVG" [ref=e327] [cursor=pointer]:
+                  - /url: "#from-svg"
+                  - text: "#"
+              - paragraph [ref=e328]: The image of a key action be be updated using an encoded SVG string, and is useful if your plugin needs to customize the image before rendering.
+              - generic [ref=e329]:
+                - generic [ref=e330]: Setting action image using a dynamic SVG
+                - generic [ref=e331]:
+                  - code [ref=e333]:
+                    - generic [ref=e334]: "import { action, KeyDownEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e336]: /**
+                    - generic [ref=e337]: "* Example action that updates the key action image from an SVG on key press."
+                    - generic [ref=e338]: "*/"
+                    - generic [ref=e339]: "@action({ UUID: \"com.elgato.hello-world.increment\" })"
+                    - generic [ref=e340]: "export class IncrementCounter extends SingletonAction {"
+                    - generic [ref=e341]: /**
+                    - generic [ref=e342]: "* Occurs when the user presses the key action."
+                    - generic [ref=e343]: "*/"
+                    - generic [ref=e344]: "override onKeyDown(ev: KeyDownEvent<CounterSettings>) {"
+                    - generic [ref=e345]: "const { count } = ev.payload.settings;"
+                    - generic [ref=e346]: const isRed = count % 2 === 0;
+                    - generic [ref=e347]: "const svg = `<svg width=\"100\" height=\"100\">"
+                    - generic [ref=e348]: "<circle fill=\"${isRed ? \"red\" : \"blue\"}\" r=\"45\" cx=\"50\" cy=\"50\" ></circle>"
+                    - generic [ref=e349]: "</svg>`;"
+                    - generic [ref=e351]: "ev.action.setImage(`data:image/svg+xml,${encodeURIComponent(svg)}`);"
+                    - generic [ref=e352]: "ev.action.setSettings({ count: count + 1 });"
+                    - generic [ref=e353]: "}"
+                    - generic [ref=e354]: "}"
+                    - generic [ref=e356]: "type CounterSettings = {"
+                    - generic [ref=e357]: "count: number;"
+                    - generic [ref=e358]: "};"
+                  - generic [ref=e359]:
+                    - button "Toggle word wrap" [ref=e360] [cursor=pointer]:
+                      - img [ref=e361]
+                    - button "Copy to clipboard" [ref=e363] [cursor=pointer]:
+                      - generic [ref=e364]:
+                        - img "Icon" [ref=e365]
+                        - img "Icon" [ref=e368]
+              - heading "From Data URLDirect link to From Data URL" [level=3] [ref=e370]:
+                - text: From Data URL
+                - link "Direct link to From Data URL" [ref=e371] [cursor=pointer]:
+                  - /url: "#from-data-url"
+                  - text: "#"
+              - paragraph [ref=e372]:
+                - text: The image of a key action can be updated using an
+                - link "image data URL" [ref=e373] [cursor=pointer]:
+                  - /url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URLs
+                - text: with a multitude of
+                - link "MIME types" [ref=e374] [cursor=pointer]:
+                  - /url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types#image_types
+                - text: and base64 encoded data.
+              - generic [ref=e375]:
+                - generic [ref=e376]: Setting action image using image data URL
+                - generic [ref=e377]:
+                  - code [ref=e379]:
+                    - generic [ref=e380]: "import { action, KeyDownEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e382]: /**
+                    - generic [ref=e383]: "* Example action that updates the key action image from a data URL on key press."
+                    - generic [ref=e384]: "*/"
+                    - generic [ref=e385]: "@action({ UUID: \"com.elgato.hello-world.increment\" })"
+                    - generic [ref=e386]: "export class IncrementCounter extends SingletonAction {"
+                    - generic [ref=e387]: /**
+                    - generic [ref=e388]: "* Occurs when the user presses the key action."
+                    - generic [ref=e389]: "*/"
+                    - generic [ref=e390]: "override onKeyDown(ev: KeyDownEvent) {"
+                    - generic [ref=e391]: ev.action.setImage(
+                    - generic [ref=e392]: // base64 data URL
+                    - generic [ref=e393]: "\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAIAAADajyQQAAAFF2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS41LjAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIgogICAgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIgogICAgeG1sbnM6ZXhpZj0iaHR0cDovL25zLmFkb2JlLmNvbS9leGlmLzEuMC8iCiAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyIKICAgIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIgogICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgeG1wOkNyZWF0ZURhdGU9IjIwMjQtMDgtMTNUMTU6MDA6MTUtMDQwMCIKICAgeG1wOk1vZGlmeURhdGU9IjIwMjQtMDgtMTNUMTU6MDE6NTMtMDQ6MDAiCiAgIHhtcDpNZXRhZGF0YURhdGU9IjIwMjQtMDgtMTNUMTU6MDE6NTMtMDQ6MDAiCiAgIHBob3Rvc2hvcDpEYXRlQ3JlYXRlZD0iMjAyNC0wOC0xM1QxNTowMDoxNS0wNDAwIgogICBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIgogICBwaG90b3Nob3A6SUNDUHJvZmlsZT0ic1JHQiBJRUM2MTk2Ni0yLjEiCiAgIGV4aWY6UGl4ZWxYRGltZW5zaW9uPSI3MiIKICAgZXhpZjpQaXhlbFlEaW1lbnNpb249IjcyIgogICBleGlmOkNvbG9yU3BhY2U9IjEiCiAgIHRpZmY6SW1hZ2VXaWR0aD0iNzIiCiAgIHRpZmY6SW1hZ2VMZW5ndGg9IjcyIgogICB0aWZmOlJlc29sdXRpb25Vbml0PSIyIgogICB0aWZmOlhSZXNvbHV0aW9uPSIzMDAvMSIKICAgdGlmZjpZUmVzb2x1dGlvbj0iMzAwLzEiPgogICA8eG1wTU06SGlzdG9yeT4KICAgIDxyZGY6U2VxPgogICAgIDxyZGY6bGkKICAgICAgc3RFdnQ6YWN0aW9uPSJwcm9kdWNlZCIKICAgICAgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWZmaW5pdHkgRGVzaWduZXIgMiAyLjUuMyIKICAgICAgc3RFdnQ6d2hlbj0iMjAyNC0wOC0xM1QxNTowMTo1My0wNDowMCIvPgogICAgPC9yZGY6U2VxPgogICA8L3htcE1NOkhpc3Rvcnk+CiAgPC9yZGY6RGVzY3JpcHRpb24+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+xLBe4AAAAYFpQ0NQc1JHQiBJRUM2MTk2Ni0yLjEAACiRdZHLS0JBFIc/tUhKK6pFixYS1sqiB0htgpSwQELMIKuN3nwEPi73KiFtg7ZCQdSm16L+gtoGrYOgKIJo7bqoTcXt3AyMyBnOOd/8Zs5h5gxYIxklqzcMQTZX0MIBn2shuuhqqmDHSYdYa0zR1clQKEjd8XaHxYw3A2at+uf+HS0rCV0Bi114QlG1gvC0cHCtoJq8LdylpGMrwqfCHk0uKHxr6vEqV0xOVfnDZC0S9oO1XdiV+sXxX6yktaywvBx3NlNUfu5jvsSRyM3PSewV60EnTAAfLmaYwo+XYcbFexlghEFZUSd/6Dt/lrzkKuJVSmiskiJNAY+oRamekJgUPSEzQ8ns/9++6snRkWp1hw8anwzjpQ+atuCzbBjvh4bxeQS2R7jI1fLzBzD2Knq5prn3oW0Dzi5rWnwHzjeh+0GNabFvySZmTSbh+QScUei8hualas9+9jm+h8i6fNUV7O5Bv5xvW/4CDa5nvRjbKwoAAAAJcEhZcwAALiMAAC4jAXilP3YAAABvSURBVGiB7c8BDcAgAMAwwBzK0M1VPM+eVsE279njj9bXAW8xVmOsxliNsRpjNcZqjNUYqzFWY6zGWI2xGmM1xmqM1RirMVZjrMZYjbEaYzXGaozVGKsxVmOsxliNsRpjNcZqjNUYqzFWY6zGWM0D2SQCW/zbGkwAAAAASUVORK5CYII=\","
+                    - generic [ref=e394]: );
+                    - generic [ref=e395]: "}"
+                    - generic [ref=e396]: "}"
+                  - generic [ref=e397]:
+                    - button "Toggle word wrap" [ref=e398] [cursor=pointer]:
+                      - img [ref=e399]
+                    - button "Copy to clipboard" [ref=e401] [cursor=pointer]:
+                      - generic [ref=e402]:
+                        - img "Icon" [ref=e403]
+                        - img "Icon" [ref=e406]
+              - heading "From FileDirect link to From File" [level=3] [ref=e408]:
+                - text: From File
+                - link "Direct link to From File" [ref=e409] [cursor=pointer]:
+                  - /url: "#from-file"
+                  - text: "#"
+              - paragraph [ref=e410]: You can update the image of a key action directly from a file located on disk.
+              - generic [ref=e411]:
+                - generic [ref=e412]: Setting action image using image path
+                - generic [ref=e413]:
+                  - code [ref=e415]:
+                    - generic [ref=e416]: "import { action, KeyDownEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e418]: /**
+                    - generic [ref=e419]: "* Example action that updates the key action image from a file."
+                    - generic [ref=e420]: "*/"
+                    - generic [ref=e421]: "@action({ UUID: \"com.elgato.hello-world.increment\" })"
+                    - generic [ref=e422]: "export class IncrementCounter extends SingletonAction {"
+                    - generic [ref=e423]: /**
+                    - generic [ref=e424]: "* Occurs when the user presses the key action."
+                    - generic [ref=e425]: "*/"
+                    - generic [ref=e426]: "override onKeyDown(ev: KeyDownEvent) {"
+                    - generic [ref=e427]: ev.action.setImage("imgs/actions/counter/key.png"); // image path
+                    - generic [ref=e428]: "}"
+                    - generic [ref=e429]: "}"
+                  - generic [ref=e430]:
+                    - button "Toggle word wrap" [ref=e431] [cursor=pointer]:
+                      - img [ref=e432]
+                    - button "Copy to clipboard" [ref=e434] [cursor=pointer]:
+                      - generic [ref=e435]:
+                        - img "Icon" [ref=e436]
+                        - img "Icon" [ref=e439]
+              - heading "OptionsDirect link to Options" [level=3] [ref=e441]:
+                - text: Options
+                - link "Direct link to Options" [ref=e442] [cursor=pointer]:
+                  - /url: "#options"
+                  - text: "#"
+              - paragraph [ref=e443]:
+                - text: You can also provide optional
+                - code [ref=e444]: ImageOptions
+                - text: to specify a
+                - code [ref=e445]: Target
+                - text: (hardware, software, or both) and a state (0 or 1), when updating images of an action key.
+              - generic [ref=e446]:
+                - generic [ref=e447]: Setting action image with specified target options
+                - generic [ref=e448]:
+                  - code [ref=e450]:
+                    - generic [ref=e451]: "import { action, KeyDownEvent, SingletonAction, Target } from \"@elgato/streamdeck\";"
+                    - generic [ref=e453]: /**
+                    - generic [ref=e454]: "* Example action that updates the key action image with additional options."
+                    - generic [ref=e455]: "*/"
+                    - generic [ref=e456]: "@action({ UUID: \"com.elgato.hello-world.increment\" })"
+                    - generic [ref=e457]: "export class IncrementCounter extends SingletonAction {"
+                    - generic [ref=e458]: /**
+                    - generic [ref=e459]: "* Occurs when the user presses the key action."
+                    - generic [ref=e460]: "*/"
+                    - generic [ref=e461]: "override onKeyDown(ev: KeyDownEvent) {"
+                    - generic [ref=e462]: "ev.action.setImage(\"imgs/actions/counter/key.png\", {"
+                    - generic [ref=e463]: "target: Target.HardwareAndSoftware,"
+                    - generic [ref=e464]: "state: 1,"
+                    - generic [ref=e465]: "});"
+                    - generic [ref=e466]: "}"
+                    - generic [ref=e467]: "}"
+                  - generic [ref=e468]:
+                    - button "Toggle word wrap" [ref=e469] [cursor=pointer]:
+                      - img [ref=e470]
+                    - button "Copy to clipboard" [ref=e472] [cursor=pointer]:
+                      - generic [ref=e473]:
+                        - img "Icon" [ref=e474]
+                        - img "Icon" [ref=e477]
+              - heading "Display PrecedenceDirect link to Display Precedence" [level=2] [ref=e479]:
+                - text: Display Precedence
+                - link "Direct link to Display Precedence" [ref=e480] [cursor=pointer]:
+                  - /url: "#display-precedence"
+                  - text: "#"
+              - paragraph [ref=e481]: When rendering an action key's title and image, a specific order precedence is followed, thus determining what is rendered on the key.
+              - paragraph [ref=e482]: "The following list defines the precedence, with the first item being the highest priority, and last being the lowest priority:"
+              - list [ref=e483]:
+                - listitem [ref=e484]: User defined titles and/or images.
+                - listitem [ref=e485]:
+                  - text: Titles and/or images set at runtime using
+                  - code [ref=e486]: setTitle
+                  - text: /
+                  - code [ref=e487]: setImage
+                  - text: .
+                - listitem [ref=e488]: Default titles and/or images defined within the manifest.
+              - heading "Temporary FeedbackDirect link to Temporary Feedback" [level=2] [ref=e489]:
+                - text: Temporary Feedback
+                - link "Direct link to Temporary Feedback" [ref=e490] [cursor=pointer]:
+                  - /url: "#temporary-feedback"
+                  - text: "#"
+              - paragraph [ref=e491]:
+                - text: There may be times when you want to show user temporary feedback on a key, for example when an action succeeds or fails. To achieve this, you can use the
+                - link "showOk" [ref=e492] [cursor=pointer]:
+                  - /url: "#showok"
+                  - code [ref=e493]: showOk
+                - text: and
+                - link "showAlert" [ref=e494] [cursor=pointer]:
+                  - /url: "#showalert"
+                  - code [ref=e495]: showAlert
+                - text: functions on the
+                - code [ref=e496]: action
+                - text: .
+              - img "Screenshot of Stream Deck software showing action feedback" [ref=e500]
+              - generic [ref=e501]:
+                - generic [ref=e502]:
+                  - img [ref=e504]
+                  - text: tip
+                - paragraph [ref=e509]:
+                  - text: It is best practice to accompany
+                  - code [ref=e510]: showAlert
+                  - text: with a
+                  - link "log entry" [ref=e511] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/logging
+                  - text: to help diagnose what caused the warning.
+              - heading "EventsDirect link to Events" [level=2] [ref=e512]:
+                - text: Events
+                - link "Direct link to Events" [ref=e513] [cursor=pointer]:
+                  - /url: "#events"
+                  - text: "#"
+              - paragraph [ref=e514]:
+                - text: In addition to the
+                - link "action events" [ref=e515] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions#events
+                - text: found on both keys and dials, keys also receive the following events in the form of overridable methods on the
+                - code [ref=e516]: SingletonAction
+                - text: class.
+              - group [ref=e517]:
+                - generic "onKeyDownDirect link to onKeyDown" [ref=e518] [cursor=pointer]:
+                  - heading "onKeyDownDirect link to onKeyDown" [level=3] [ref=e519]:
+                    - text: onKeyDown
+                    - link "Direct link to onKeyDown" [ref=e520]:
+                      - /url: "#onkeydown"
+                      - text: "#"
+              - group [ref=e521]:
+                - generic "onKeyUpDirect link to onKeyUp" [ref=e522] [cursor=pointer]:
+                  - heading "onKeyUpDirect link to onKeyUp" [level=3] [ref=e523]:
+                    - text: onKeyUp
+                    - link "Direct link to onKeyUp" [ref=e524]:
+                      - /url: "#onkeyup"
+                      - text: "#"
+              - heading "CommandsDirect link to Commands" [level=2] [ref=e525]:
+                - text: Commands
+                - link "Direct link to Commands" [ref=e526] [cursor=pointer]:
+                  - /url: "#commands"
+                  - text: "#"
+              - paragraph [ref=e527]: The following commands are available to key actions.
+              - generic [ref=e528]:
+                - generic [ref=e529]:
+                  - img [ref=e531]
+                  - text: tip
+                - paragraph [ref=e536]:
+                  - text: Some events are applicable to both dials and keys, such as
+                  - link "onWillAppear" [ref=e537] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/actions#onwillappear
+                    - code [ref=e538]: onWillAppear
+                  - text: . To invoke a key-only command within these event handlers, you need to first assert the action is a key using
+                  - link "Action.isKey()" [ref=e539] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/actions#iskey
+                    - code [ref=e540]: Action.isKey()
+                  - text: .
+              - group [ref=e541]:
+                - generic "getResourcesDirect link to getResources" [ref=e542] [cursor=pointer]:
+                  - heading "getResourcesDirect link to getResources" [level=3] [ref=e543]:
+                    - text: getResources
+                    - link "Direct link to getResources" [ref=e544]:
+                      - /url: "#getresources"
+                      - text: "#"
+              - group [ref=e545]:
+                - generic "getSettingsDirect link to getSettings" [ref=e546] [cursor=pointer]:
+                  - heading "getSettingsDirect link to getSettings" [level=3] [ref=e547]:
+                    - text: getSettings
+                    - link "Direct link to getSettings" [ref=e548]:
+                      - /url: "#getsettings"
+                      - text: "#"
+              - group [ref=e549]:
+                - generic "setImageDirect link to setImage" [ref=e550] [cursor=pointer]:
+                  - heading "setImageDirect link to setImage" [level=3] [ref=e551]:
+                    - text: setImage
+                    - link "Direct link to setImage" [ref=e552]:
+                      - /url: "#setimage"
+                      - text: "#"
+              - group [ref=e553]:
+                - generic "setResourcesDirect link to setResources" [ref=e554] [cursor=pointer]:
+                  - heading "setResourcesDirect link to setResources" [level=3] [ref=e555]:
+                    - text: setResources
+                    - link "Direct link to setResources" [ref=e556]:
+                      - /url: "#setresources"
+                      - text: "#"
+              - group [ref=e557]:
+                - generic "setSettingsDirect link to setSettings" [ref=e558] [cursor=pointer]:
+                  - heading "setSettingsDirect link to setSettings" [level=3] [ref=e559]:
+                    - text: setSettings
+                    - link "Direct link to setSettings" [ref=e560]:
+                      - /url: "#setsettings"
+                      - text: "#"
+              - group [ref=e561]:
+                - generic "setStateDirect link to setState" [ref=e562] [cursor=pointer]:
+                  - heading "setStateDirect link to setState" [level=3] [ref=e563]:
+                    - text: setState
+                    - link "Direct link to setState" [ref=e564]:
+                      - /url: "#setstate"
+                      - text: "#"
+              - group [ref=e565]:
+                - generic "setTitleDirect link to setTitle" [ref=e566] [cursor=pointer]:
+                  - heading "setTitleDirect link to setTitle" [level=3] [ref=e567]:
+                    - text: setTitle
+                    - link "Direct link to setTitle" [ref=e568]:
+                      - /url: "#settitle"
+                      - text: "#"
+              - group [ref=e569]:
+                - generic "showAlertDirect link to showAlert" [ref=e570] [cursor=pointer]:
+                  - heading "showAlertDirect link to showAlert" [level=3] [ref=e571]:
+                    - text: showAlert
+                    - link "Direct link to showAlert" [ref=e572]:
+                      - /url: "#showalert"
+                      - text: "#"
+              - group [ref=e573]:
+                - generic "showOkDirect link to showOk" [ref=e574] [cursor=pointer]:
+                  - heading "showOkDirect link to showOk" [level=3] [ref=e575]:
+                    - text: showOk
+                    - link "Direct link to showOk" [ref=e576]:
+                      - /url: "#showok"
+                      - text: "#"
+              - generic [ref=e578]:
+                - code [ref=e580]
+                - button "Copy to clipboard" [ref=e583] [cursor=pointer]:
+                  - generic [ref=e584]:
+                    - img "Icon" [ref=e585]
+                    - img "Icon" [ref=e588]
+          - navigation "Docs pages" [ref=e590]:
+            - link "Previous « Actions" [ref=e591] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/actions
+              - generic [ref=e592]: Previous
+              - generic [ref=e593]: « Actions
+            - link "Next Dials & Touch Strip »" [ref=e594] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/dials
+              - generic [ref=e595]: Next
+              - generic [ref=e596]: Dials & Touch Strip »
+        - list [ref=e599]:
+          - listitem [ref=e600]:
+            - link "What Are Keys" [ref=e601] [cursor=pointer]:
+              - /url: "#what-are-keys"
+          - listitem [ref=e602]:
+            - link "States" [ref=e603] [cursor=pointer]:
+              - /url: "#states"
+            - list [ref=e604]:
+              - listitem [ref=e605]:
+                - link "Multi-State Keys" [ref=e606] [cursor=pointer]:
+                  - /url: "#multi-state-keys"
+              - listitem [ref=e607]:
+                - link "States In Multi-Actions" [ref=e608] [cursor=pointer]:
+                  - /url: "#states-in-multi-actions"
+          - listitem [ref=e609]:
+            - link "Titles" [ref=e610] [cursor=pointer]:
+              - /url: "#titles"
+            - list [ref=e611]:
+              - listitem [ref=e612]:
+                - link "Setting Titles" [ref=e613] [cursor=pointer]:
+                  - /url: "#setting-titles"
+              - listitem [ref=e614]:
+                - link "User Changes" [ref=e615] [cursor=pointer]:
+                  - /url: "#user-changes"
+          - listitem [ref=e616]:
+            - link "Images" [ref=e617] [cursor=pointer]:
+              - /url: "#images"
+            - list [ref=e618]:
+              - listitem [ref=e619]:
+                - link "From SVG" [ref=e620] [cursor=pointer]:
+                  - /url: "#from-svg"
+              - listitem [ref=e621]:
+                - link "From Data URL" [ref=e622] [cursor=pointer]:
+                  - /url: "#from-data-url"
+              - listitem [ref=e623]:
+                - link "From File" [ref=e624] [cursor=pointer]:
+                  - /url: "#from-file"
+              - listitem [ref=e625]:
+                - link "Options" [ref=e626] [cursor=pointer]:
+                  - /url: "#options"
+          - listitem [ref=e627]:
+            - link "Display Precedence" [ref=e628] [cursor=pointer]:
+              - /url: "#display-precedence"
+          - listitem [ref=e629]:
+            - link "Temporary Feedback" [ref=e630] [cursor=pointer]:
+              - /url: "#temporary-feedback"
+          - listitem [ref=e631]:
+            - link "Events" [ref=e632] [cursor=pointer]:
+              - /url: "#events"
+            - list [ref=e633]:
+              - listitem [ref=e634]:
+                - link "onKeyDown" [ref=e635] [cursor=pointer]:
+                  - /url: "#onkeydown"
+              - listitem [ref=e636]:
+                - link "onKeyUp" [ref=e637] [cursor=pointer]:
+                  - /url: "#onkeyup"
+          - listitem [ref=e638]:
+            - link "Commands" [ref=e639] [cursor=pointer]:
+              - /url: "#commands"
+            - list [ref=e640]:
+              - listitem [ref=e641]:
+                - link "getResources" [ref=e642] [cursor=pointer]:
+                  - /url: "#getresources"
+              - listitem [ref=e643]:
+                - link "getSettings" [ref=e644] [cursor=pointer]:
+                  - /url: "#getsettings"
+              - listitem [ref=e645]:
+                - link "setImage" [ref=e646] [cursor=pointer]:
+                  - /url: "#setimage"
+              - listitem [ref=e647]:
+                - link "setResources" [ref=e648] [cursor=pointer]:
+                  - /url: "#setresources"
+              - listitem [ref=e649]:
+                - link "setSettings" [ref=e650] [cursor=pointer]:
+                  - /url: "#setsettings"
+              - listitem [ref=e651]:
+                - link "setState" [ref=e652] [cursor=pointer]:
+                  - /url: "#setstate"
+              - listitem [ref=e653]:
+                - link "setTitle" [ref=e654] [cursor=pointer]:
+                  - /url: "#settitle"
+              - listitem [ref=e655]:
+                - link "showAlert" [ref=e656] [cursor=pointer]:
+                  - /url: "#showalert"
+              - listitem [ref=e657]:
+                - link "showOk" [ref=e658] [cursor=pointer]:
+                  - /url: "#showok"
+  - contentinfo [ref=e659]:
+    - generic [ref=e660]:
+      - generic [ref=e661]:
+        - generic [ref=e662]:
+          - generic [ref=e663]: Makers
+          - list [ref=e664]:
+            - listitem [ref=e665]:
+              - link "Become a Maker" [ref=e666] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e667]:
+              - link "Elgato Icons" [ref=e668] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e669]:
+              - link "Badges" [ref=e670] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e671]:
+          - generic [ref=e672]: Marketplace
+          - list [ref=e673]:
+            - listitem [ref=e674]:
+              - link "Plugins" [ref=e675] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e676]:
+              - link "Icon Packs" [ref=e677] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e678]:
+              - link "Profiles" [ref=e679] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e680]:
+          - generic [ref=e681]: Support
+          - list [ref=e682]:
+            - listitem [ref=e683]:
+              - link "FAQ" [ref=e684] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e685]:
+              - link "Contact" [ref=e686] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e687]:
+              - link "Copyright Claim" [ref=e688] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e689]:
+              - link "Downloads" [ref=e690] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e691]:
+          - generic [ref=e692]: Company
+          - list [ref=e693]:
+            - listitem [ref=e694]:
+              - link "About" [ref=e695] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e696]:
+              - link "Media Room" [ref=e697] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e698]:
+              - link "Terms of Use" [ref=e699] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e700]:
+              - link "Privacy Policy" [ref=e701] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e703]: © 2026 Elgato. All rights reserved.

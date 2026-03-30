@@ -1,0 +1,521 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Introduction
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Distribution
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Distribution" [level=1] [ref=e133]
+              - paragraph [ref=e134]: In this article you'll learn about preparing and packaging your plugin ready for publishing on Marketplace.
+              - heading "OverviewDirect link to Overview" [level=2] [ref=e135]:
+                - text: Overview
+                - link "Direct link to Overview" [ref=e136] [cursor=pointer]:
+                  - /url: "#overview"
+                  - text: "#"
+              - paragraph [ref=e137]:
+                - text: Plugins are packaged into
+                - code [ref=e138]: .streamDeckPlugin
+                - text: files using the
+                - link "Stream Deck CLI" [ref=e139] [cursor=pointer]:
+                  - /url: /streamdeck/cli/intro
+                - text: ", and once packaged, contain everything your plugin needs to be distributed on Marketplace, or directly to users."
+              - paragraph [ref=e140]: Below of an overview of creating a Stream Deck plugin, through to Marketplace.
+              - img "A flow diagram that indicates how a Stream Deck plugin is published, with the steps, 'Create', 'Pack', 'Upload' to Maker Console, 'Review', and then 'Publish' to Marketplace. The flow diagram highlights that plugins are DRM protected after they have been uploaded to Maker Console." [ref=e142]
+              - heading "DRM ProtectionDirect link to DRM Protection" [level=2] [ref=e143]:
+                - text: DRM Protection
+                - link "Direct link to DRM Protection" [ref=e144] [cursor=pointer]:
+                  - /url: "#drm-protection"
+                  - text: "#"
+              - paragraph [ref=e145]: Plugins distributed on Marketplace are eligible for DRM (Digital Rights Management), providing you and your intellectual property with an extra level of protection.
+              - paragraph [ref=e146]: "Benefits on DRM protection also include:"
+              - list [ref=e147]:
+                - listitem [ref=e148]:
+                  - strong [ref=e149]: File Encryption
+                  - text: — Prevent unauthorized vendors from executing your plugin without your consent.
+                - listitem [ref=e150]:
+                  - strong [ref=e151]: Integrity Checking
+                  - text: — Protect users from tampered files, with built-in file integrity verification.
+                - listitem [ref=e152]:
+                  - strong [ref=e153]: New SDK Features
+                  - text: — Unlock new Stream Deck SDK features.
+              - generic [ref=e154]:
+                - generic [ref=e155]:
+                  - img [ref=e157]
+                  - text: info
+                - generic [ref=e159]:
+                  - paragraph [ref=e160]:
+                    - text: Plugins created with Stream Deck CLI 1.6 or higher have DRM enabled as default; to check your CLI version run
+                    - code [ref=e161]: streamdeck -v
+                    - text: ", and update by running:"
+                  - generic [ref=e162]:
+                    - generic [ref=e163]: Update Stream Deck CLI
+                    - generic [ref=e164]:
+                      - code [ref=e166]:
+                        - generic [ref=e167]: npm install -g @elgato/cli@latest
+                      - button "Copy to clipboard" [ref=e169] [cursor=pointer]:
+                        - generic [ref=e170]:
+                          - img "Icon" [ref=e171]
+                          - img "Icon" [ref=e174]
+              - heading "Compatibility & ReadinessDirect link to Compatibility & Readiness" [level=3] [ref=e176]:
+                - text: Compatibility & Readiness
+                - link "Direct link to Compatibility & Readiness" [ref=e177] [cursor=pointer]:
+                  - /url: "#compatibility--readiness"
+                  - text: "#"
+              - paragraph [ref=e178]: The following set of criteria are pre-requisites for DRM protection, and it is important they are reviewed before enabling DRM protection.
+              - paragraph [ref=e179]:
+                - strong [ref=e180]: Node.js SDK
+                - text: — Node.js plugins must be using
+                - code [ref=e181]: "@elgato/streamdeck"
+                - text: v2 or higher.
+                - link "Learn more" [ref=e182] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+                - text: .
+              - paragraph [ref=e183]:
+                - strong [ref=e184]: File Integrity
+                - text: — Files distributed in your plugin are immutable.
+              - list [ref=e185]:
+                - listitem [ref=e186]:
+                  - img [ref=e187]
+                  - generic [ref=e190]: "Do:"
+                  - text: Generate required files at runtime.
+                - listitem [ref=e191]:
+                  - img [ref=e192]
+                  - generic [ref=e195]: "Don't:"
+                  - text: Modify files after they have been distributed in your plugin.
+              - paragraph [ref=e196]:
+                - strong [ref=e197]: Manifest
+                - text: — Your plugin's manifest is a protected asset.
+              - list [ref=e198]:
+                - listitem [ref=e199]:
+                  - img [ref=e200]
+                  - generic [ref=e203]: "Do:"
+                  - paragraph [ref=e204]: Include a separate JSON file, or embed directly into your codebase, additionally required non-sensitive information.
+                - listitem [ref=e205]:
+                  - img [ref=e206]
+                  - generic [ref=e209]: "Don't:"
+                  - text: Access the manifest JSON file at runtime.
+              - generic [ref=e210]:
+                - generic [ref=e211]:
+                  - img [ref=e213]
+                  - text: tl;dr
+                - list [ref=e218]:
+                  - listitem [ref=e219]:
+                    - text: Node.js plugins must be using
+                    - code [ref=e220]: "@elgato/streamdeck"
+                    - text: v2 or higher.
+                  - listitem [ref=e221]: Files distributed with your plugin are immutable.
+                  - listitem [ref=e222]: Your plugin's manifest cannot be accessed at runtime.
+              - generic [ref=e223]:
+                - generic [ref=e224]:
+                  - img [ref=e226]
+                  - text: SDK compatibility
+                - paragraph [ref=e231]: DRM protection is available to all Stream Deck SDK libraries, such as C#, C++, and Go, and is not limited to Node.js.
+              - heading "Enabling DRMDirect link to Enabling DRM" [level=3] [ref=e232]:
+                - text: Enabling DRM
+                - link "Direct link to Enabling DRM" [ref=e233] [cursor=pointer]:
+                  - /url: "#enabling-drm"
+                  - text: "#"
+              - paragraph [ref=e234]: "After reviewing compatibility, to enable DRM:"
+              - list [ref=e235]:
+                - listitem [ref=e236]:
+                  - text: Update to
+                  - code [ref=e237]: "@elgato/streamdeck"
+                  - text: v2 or higher (Node.js plugins only).
+                  - link "Learn more" [ref=e238] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/releases/upgrading/v2
+                  - text: .
+                - listitem [ref=e239]:
+                  - text: In your manifest
+                  - list [ref=e240]:
+                    - listitem [ref=e241]:
+                      - text: Set
+                      - link "UUID" [ref=e242] [cursor=pointer]:
+                        - /url: /streamdeck/sdk/references/manifest#manifest-uuid
+                        - code [ref=e243]: UUID
+                      - text: to your plugin's identifier, e.g.
+                      - code [ref=e244]: com.elgato.wave-link
+                      - text: .
+                    - listitem [ref=e245]:
+                      - text: Update
+                      - link "SDKVersion" [ref=e246] [cursor=pointer]:
+                        - /url: /streamdeck/sdk/references/manifest#manifest-sdkversion
+                        - code [ref=e247]: SDKVersion
+                      - text: to be
+                      - code [ref=e248]: "3"
+                      - text: .
+                    - listitem [ref=e249]:
+                      - text: Update
+                      - link "Software.MinimumVersion" [ref=e250] [cursor=pointer]:
+                        - /url: /streamdeck/sdk/references/manifest#software-minimumversion
+                        - code [ref=e251]: Software.MinimumVersion
+                      - text: to be
+                      - code [ref=e252]: "\"6.9\""
+                      - text: or higher.
+              - generic [ref=e253]:
+                - generic [ref=e254]:
+                  - img [ref=e256]
+                  - text: Caution
+                - paragraph [ref=e259]:
+                  - text: Plugins with DRM enabled are only protected
+                  - strong [ref=e260]: after
+                  - text: they have been uploaded and processed in Maker Console.
+                  - link "Learn more about accessing a DRM protected version of your plugin" [ref=e261] [cursor=pointer]:
+                    - /url: "#testing-with-drm"
+                  - text: .
+              - heading "Testing with DRMDirect link to Testing with DRM" [level=3] [ref=e262]:
+                - text: Testing with DRM
+                - link "Direct link to Testing with DRM" [ref=e263] [cursor=pointer]:
+                  - /url: "#testing-with-drm"
+                  - text: "#"
+              - paragraph [ref=e264]:
+                - text: Plugins with DRM enabled are only protected
+                - strong [ref=e265]: after
+                - text: they have been uploaded and processed in Maker Console.
+              - paragraph [ref=e266]: "On occasion, you may need to access the DRM protected version of your plugin before publishing it to users, for example when you want to:"
+              - list [ref=e267]:
+                - listitem [ref=e268]: Distribute a beta version to testers.
+                - listitem [ref=e269]: Test your plugin is DRM compatible.
+              - paragraph [ref=e270]: To prepare and access a DRM protected version of your plugin.
+              - list [ref=e271]:
+                - listitem [ref=e272]:
+                  - text: Log in to
+                  - link "Maker Console" [ref=e273] [cursor=pointer]:
+                    - /url: https://maker.elgato.com
+                  - text: .
+                - listitem [ref=e274]: Upload your plugin, with "Publish after review" unselected.
+                - listitem [ref=e275]: Navigate to your product's page in Maker Console.
+                - listitem [ref=e276]: Select the "Versions" tab.
+                - listitem [ref=e277]: Select the new version of your plugin.
+                - listitem [ref=e278]: Download the DRM protected version.
+              - heading "PackagingDirect link to Packaging" [level=2] [ref=e279]:
+                - text: Packaging
+                - link "Direct link to Packaging" [ref=e280] [cursor=pointer]:
+                  - /url: "#packaging"
+                  - text: "#"
+              - paragraph [ref=e281]:
+                - text: When your plugin is ready for distribution, you can package it into a
+                - code [ref=e282]: .streamDeckPlugin
+                - text: installer file using the Stream Deck CLI's
+                - link "pack" [ref=e283] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/pack
+                  - code [ref=e284]: pack
+                - text: command.
+              - generic [ref=e285]:
+                - generic [ref=e286]: Example of packaging a plugin
+                - generic [ref=e287]:
+                  - code [ref=e289]:
+                    - generic [ref=e290]: "# Pack the *.sdPlugin directory"
+                    - generic [ref=e291]: streamdeck pack com.elgato.hello-world.sdPlugin
+                  - button "Copy to clipboard" [ref=e293] [cursor=pointer]:
+                    - generic [ref=e294]:
+                      - img "Icon" [ref=e295]
+                      - img "Icon" [ref=e298]
+              - paragraph [ref=e300]:
+                - text: Running the
+                - code [ref=e301]: pack
+                - text: command does the following
+              - list [ref=e302]:
+                - listitem [ref=e303]:
+                  - text: Validates your plugin and supporting files.
+                  - list [ref=e304]:
+                    - listitem [ref=e305]:
+                      - text: See also
+                      - link "validate" [ref=e306] [cursor=pointer]:
+                        - /url: /streamdeck/cli/commands/validate
+                        - code [ref=e307]: validate
+                      - text: .
+                - listitem [ref=e308]:
+                  - text: Bundles the contents of the
+                  - code [ref=e309]: "*.sdPlugin"
+                  - text: directory.
+                - listitem [ref=e310]:
+                  - text: Outputs the
+                  - code [ref=e311]: .streamDeckPlugin
+                  - text: installer file.
+              - generic [ref=e312]:
+                - generic [ref=e313]:
+                  - img [ref=e315]
+                  - text: Ignoring files
+                - paragraph [ref=e320]:
+                  - text: When packaging your plugin, you can ignore files by specifying paths, using
+                  - code [ref=e321]: .gitignore
+                  - text: specification, within a
+                  - code [ref=e322]: .sdignore
+                  - text: file.
+                  - link "Learn more about ignoring files when packaging" [ref=e323] [cursor=pointer]:
+                    - /url: /streamdeck/cli/commands/pack#description
+                  - text: .
+              - heading "PublishingDirect link to Publishing" [level=2] [ref=e324]:
+                - text: Publishing
+                - link "Direct link to Publishing" [ref=e325] [cursor=pointer]:
+                  - /url: "#publishing"
+                  - text: "#"
+              - paragraph [ref=e326]: Marketplace provides a platform for your plugin, and allows you to reach millions of Stream Deck users by making your plugin discoverable within the catalog of Stream Deck plugins.
+              - figure [ref=e327]:
+                - paragraph [ref=e328]:
+                  - link "Get it on Marketplace" [ref=e329] [cursor=pointer]:
+                    - /url: https://marketplace.elgato.com/stream-deck/plugins
+                    - img "Get it on Marketplace" [ref=e330]
+              - paragraph [ref=e331]: "To publish on Marketplace, you should follow these steps:"
+              - list [ref=e332]:
+                - listitem [ref=e333]:
+                  - link "Review plugin guidelines" [ref=e334] [cursor=pointer]:
+                    - /url: /guidelines/stream-deck/plugins
+                  - text: — Make sure your plugin conforms to Stream Deck and Marketplace style guidelines.
+                - listitem [ref=e335]:
+                  - link "Create an app icon" [ref=e336] [cursor=pointer]:
+                    - /url: /guidelines/products
+                  - text: — Create an eye-catching app icon.
+                - listitem [ref=e337]:
+                  - link "Create gallery items" [ref=e338] [cursor=pointer]:
+                    - /url: /guidelines/products
+                  - text: — Showcase your plugins functionality.
+                - listitem [ref=e339]:
+                  - link "Submit for review" [ref=e340] [cursor=pointer]:
+                    - /url: https://maker.elgato.com
+                  - text: — Submit, manage, and review your products using Maker Console.
+              - paragraph [ref=e341]:
+                - text: You can also learn more about submitting products to Marketplace in
+                - link "Become a Maker" [ref=e342] [cursor=pointer]:
+                  - /url: /marketplace/become-a-maker
+                - text: .
+              - generic [ref=e343]:
+                - generic [ref=e344]:
+                  - img [ref=e346]
+                  - text: Returning Makers
+                - paragraph [ref=e349]:
+                  - text: Returning Maker? After creating an account within Maker Console, if you are unable to see your plugins, please contact our Maker Relations team on
+                  - link "maker@elgato.com" [ref=e350] [cursor=pointer]:
+                    - /url: mailto:maker@elgato.com
+                  - text: .
+          - navigation "Docs pages" [ref=e351]:
+            - link "Previous « Plugin Environment" [ref=e352] [cursor=pointer]:
+              - /url: /streamdeck/sdk/introduction/plugin-environment
+              - generic [ref=e353]: Previous
+              - generic [ref=e354]: « Plugin Environment
+            - link "Next Actions »" [ref=e355] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/actions
+              - generic [ref=e356]: Next
+              - generic [ref=e357]: Actions »
+        - list [ref=e360]:
+          - listitem [ref=e361]:
+            - link "Overview" [ref=e362] [cursor=pointer]:
+              - /url: "#overview"
+          - listitem [ref=e363]:
+            - link "DRM Protection" [ref=e364] [cursor=pointer]:
+              - /url: "#drm-protection"
+            - list [ref=e365]:
+              - listitem [ref=e366]:
+                - link "Compatibility & Readiness" [ref=e367] [cursor=pointer]:
+                  - /url: "#compatibility--readiness"
+              - listitem [ref=e368]:
+                - link "Enabling DRM" [ref=e369] [cursor=pointer]:
+                  - /url: "#enabling-drm"
+              - listitem [ref=e370]:
+                - link "Testing with DRM" [ref=e371] [cursor=pointer]:
+                  - /url: "#testing-with-drm"
+          - listitem [ref=e372]:
+            - link "Packaging" [ref=e373] [cursor=pointer]:
+              - /url: "#packaging"
+          - listitem [ref=e374]:
+            - link "Publishing" [ref=e375] [cursor=pointer]:
+              - /url: "#publishing"
+  - contentinfo [ref=e376]:
+    - generic [ref=e377]:
+      - generic [ref=e378]:
+        - generic [ref=e379]:
+          - generic [ref=e380]: Makers
+          - list [ref=e381]:
+            - listitem [ref=e382]:
+              - link "Become a Maker" [ref=e383] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e384]:
+              - link "Elgato Icons" [ref=e385] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e386]:
+              - link "Badges" [ref=e387] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e388]:
+          - generic [ref=e389]: Marketplace
+          - list [ref=e390]:
+            - listitem [ref=e391]:
+              - link "Plugins" [ref=e392] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e393]:
+              - link "Icon Packs" [ref=e394] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e395]:
+              - link "Profiles" [ref=e396] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e397]:
+          - generic [ref=e398]: Support
+          - list [ref=e399]:
+            - listitem [ref=e400]:
+              - link "FAQ" [ref=e401] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e402]:
+              - link "Contact" [ref=e403] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e404]:
+              - link "Copyright Claim" [ref=e405] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e406]:
+              - link "Downloads" [ref=e407] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e408]:
+          - generic [ref=e409]: Company
+          - list [ref=e410]:
+            - listitem [ref=e411]:
+              - link "About" [ref=e412] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e413]:
+              - link "Media Room" [ref=e414] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e415]:
+              - link "Terms of Use" [ref=e416] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e417]:
+              - link "Privacy Policy" [ref=e418] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e420]: © 2026 Elgato. All rights reserved.

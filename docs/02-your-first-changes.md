@@ -1,0 +1,518 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Introduction
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Your First Changes
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Your First Changes" [level=1] [ref=e133]
+              - paragraph [ref=e134]: In this article you'll make changes to your newly generated Stream Deck plugin, and apply those changes in Stream Deck.
+              - heading "Changing \"Counter\"Direct link to Changing \"Counter\"" [level=2] [ref=e135]:
+                - text: Changing "Counter"
+                - link "Direct link to Changing \"Counter\"" [ref=e136] [cursor=pointer]:
+                  - /url: "#changing-counter"
+                  - text: "#"
+              - paragraph [ref=e137]:
+                - text: The logic that controls the "Counter" action, in the newly generated Stream Deck plugin, is located within the
+                - code [ref=e138]: IncrementCounter
+                - text: "class, which will look like this:"
+              - generic [ref=e139]:
+                - generic [ref=e140]: src/actions/increment-counter.ts
+                - generic [ref=e141]:
+                  - code [ref=e143]:
+                    - generic [ref=e144]: "import { action, KeyDownEvent, SingletonAction, WillAppearEvent } from \"@elgato/streamdeck\";"
+                    - generic [ref=e146]: "@action({ UUID: \"com.elgato.hello-world.increment\" })"
+                    - generic [ref=e147]: "export class IncrementCounter extends SingletonAction<CounterSettings> {"
+                    - generic [ref=e148]: /**
+                    - generic [ref=e149]: "* Occurs when the action will appear."
+                    - generic [ref=e150]: "*/"
+                    - generic [ref=e151]: "override onWillAppear(ev: WillAppearEvent<CounterSettings>): void | Promise<void> {"
+                    - generic [ref=e152]: "return ev.action.setTitle(`${ev.payload.settings.count ?? 0}`);"
+                    - generic [ref=e153]: "}"
+                    - generic [ref=e155]: /**
+                    - generic [ref=e156]: "* Occurs when the action's key is pressed down."
+                    - generic [ref=e157]: "*/"
+                    - generic [ref=e158]: "override async onKeyDown(ev: KeyDownEvent<CounterSettings>): Promise<void> {"
+                    - generic [ref=e159]: // Determine the current count from the settings.
+                    - generic [ref=e160]: let count = ev.payload.settings.count ?? 0;
+                    - generic [ref=e161]: count++;
+                    - generic [ref=e163]: // Update the current count in the action's settings, and change the title.
+                    - generic [ref=e164]: "await ev.action.setSettings({ count });"
+                    - generic [ref=e165]: "await ev.action.setTitle(`${count}`);"
+                    - generic [ref=e166]: "}"
+                    - generic [ref=e167]: "}"
+                    - generic [ref=e169]: "type CounterSettings = {"
+                    - generic [ref=e170]: "count: number;"
+                    - generic [ref=e171]: "};"
+                  - generic [ref=e172]:
+                    - button "Toggle word wrap" [ref=e173] [cursor=pointer]:
+                      - img [ref=e174]
+                    - button "Copy to clipboard" [ref=e176] [cursor=pointer]:
+                      - generic [ref=e177]:
+                        - img "Icon" [ref=e178]
+                        - img "Icon" [ref=e181]
+              - paragraph [ref=e183]:
+                - text: The
+                - code [ref=e184]: IncrementCounter
+                - text: "class implements two virtual methods, these are:"
+              - list [ref=e185]:
+                - listitem [ref=e186]:
+                  - code [ref=e187]: onWillAppear
+                  - list [ref=e188]:
+                    - listitem [ref=e189]: Occurs when the action appears on the canvas of Stream Deck.
+                    - listitem [ref=e190]: In this example, displays the current count.
+                - listitem [ref=e191]:
+                  - code [ref=e192]: onKeyDown
+                  - list [ref=e193]:
+                    - listitem [ref=e194]: Occurs when the user presses the key down on Stream Deck
+                    - listitem [ref=e195]: In this example, increments the count and shows the new count.
+              - generic [ref=e196]:
+                - generic [ref=e197]:
+                  - img [ref=e199]
+                  - text: tip
+                - generic [ref=e203]:
+                  - paragraph [ref=e204]:
+                    - text: Actions extend the
+                    - code [ref=e205]: SingletonAction
+                    - text: "class which provides virtual methods for intercepting events, for example:"
+                  - list [ref=e206]:
+                    - listitem [ref=e207]:
+                      - code [ref=e208]: onWillDisappear
+                    - listitem [ref=e209]:
+                      - code [ref=e210]: onKeyDown
+                    - listitem [ref=e211]:
+                      - code [ref=e212]: onDialRotate
+              - generic [ref=e213]:
+                - generic [ref=e214]:
+                  - img [ref=e216]
+                  - text: "Scenario: Change request"
+                - paragraph [ref=e221]: "\"The counter action currently increments the count by 1 and then displays the new count. Instead, we want the counter to be a binary counter, which doubles the count each time the key is pressed.\""
+              - paragraph [ref=e222]:
+                - text: Within the
+                - code [ref=e223]: IncrementCounter
+                - text: class, the
+                - code [ref=e224]: onKeyDown
+                - text: "method can be updated so that the count is doubled on each press; the method could be updated to look something like this:"
+              - generic [ref=e225]:
+                - generic [ref=e226]: Key down event changes
+                - generic [ref=e227]:
+                  - code [ref=e229]:
+                    - generic [ref=e230]: "import { action, KeyDownEvent, SingletonAction, WillAppearEvent } from \"@elgato/streamdeck\";"
+                    - generic [ref=e232]: "@action({ UUID: \"com.elgato.hello-world.increment\" })"
+                    - generic [ref=e233]: "export class IncrementCounter extends SingletonAction<CounterSettings> {"
+                    - generic [ref=e234]: /**
+                    - generic [ref=e235]: "* Occurs when the action will appear."
+                    - generic [ref=e236]: "*/"
+                    - generic [ref=e237]: "override onWillAppear(ev: WillAppearEvent<CounterSettings>): void | Promise<void> {"
+                    - generic [ref=e238]: "return ev.action.setTitle(`${ev.payload.settings.count ?? 0}`);"
+                    - generic [ref=e239]: "}"
+                    - generic [ref=e241]: /**
+                    - generic [ref=e242]: "* Occurs when the action's key is pressed down."
+                    - generic [ref=e243]: "*/"
+                    - generic [ref=e244]: "override async onKeyDown(ev: KeyDownEvent<CounterSettings>): Promise<void> {"
+                    - generic [ref=e245]: // Determine the current count from the settings, and times it by two.
+                    - generic [ref=e246]: let count = ev.payload.settings.count ?? 0;
+                    - generic [ref=e247]: "if (count === 0) {"
+                    - generic [ref=e248]: count = 1;
+                    - generic [ref=e249]: "} else {"
+                    - generic [ref=e250]: count = count * 2;
+                    - generic [ref=e251]: "}"
+                    - generic [ref=e253]: // Update the current count in the action's settings, and change the title.
+                    - generic [ref=e254]: "await ev.action.setSettings({ count });"
+                    - generic [ref=e255]: "await ev.action.setTitle(`${count}`);"
+                    - generic [ref=e256]: "}"
+                    - generic [ref=e257]: "}"
+                    - generic [ref=e259]: "type CounterSettings = {"
+                    - generic [ref=e260]: "count: number;"
+                    - generic [ref=e261]: "};"
+                  - generic [ref=e262]:
+                    - button "Toggle word wrap" [ref=e263] [cursor=pointer]:
+                      - img [ref=e264]
+                    - button "Copy to clipboard" [ref=e266] [cursor=pointer]:
+                      - generic [ref=e267]:
+                        - img "Icon" [ref=e268]
+                        - img "Icon" [ref=e271]
+              - paragraph [ref=e273]: "With these changes saved, build the plugin with the following command in a terminal:"
+              - generic [ref=e274]:
+                - tablist [ref=e275]:
+                  - tab "npm" [selected] [ref=e276] [cursor=pointer]
+                  - tab "yarn" [ref=e277] [cursor=pointer]
+                  - tab "pnpm" [ref=e278] [cursor=pointer]
+                - tabpanel [ref=e280]:
+                  - generic [ref=e281]:
+                    - generic [ref=e282]: Terminal
+                    - generic [ref=e283]:
+                      - code [ref=e285]:
+                        - generic [ref=e286]: npm run build
+                      - button "Copy to clipboard" [ref=e288] [cursor=pointer]:
+                        - generic [ref=e289]:
+                          - img "Icon" [ref=e290]
+                          - img "Icon" [ref=e293]
+              - paragraph [ref=e295]: "And then restart the plugin in Stream Deck with the following command in a terminal:"
+              - generic [ref=e297]:
+                - code [ref=e299]:
+                  - generic [ref=e300]: streamdeck restart <plugin_uuid>
+                - button "Copy to clipboard" [ref=e302] [cursor=pointer]:
+                  - generic [ref=e303]:
+                    - img "Icon" [ref=e304]
+                    - img "Icon" [ref=e307]
+              - paragraph [ref=e309]: "For example:"
+              - generic [ref=e310]:
+                - generic [ref=e311]: Terminal
+                - generic [ref=e312]:
+                  - code [ref=e314]:
+                    - generic [ref=e315]: streamdeck restart com.elgato.hello-world
+                  - button "Copy to clipboard" [ref=e317] [cursor=pointer]:
+                    - generic [ref=e318]:
+                      - img "Icon" [ref=e319]
+                      - img "Icon" [ref=e322]
+              - generic [ref=e324]:
+                - generic [ref=e325]:
+                  - img [ref=e327]
+                  - text: Plugin UUID
+                - paragraph [ref=e332]:
+                  - text: Your plugin's unique identifier is a reverse-DNS string generated during the
+                  - code [ref=e333]: streamdeck create
+                  - text: command that represents your organization and product, for example
+                  - code [ref=e334]: com.elgato.wavelink
+                  - text: .
+              - paragraph [ref=e335]: "Pressing the Stream Deck key now should double the count, like so:"
+              - img "Recording of the counter action doubling its count each time it is pressed" [ref=e337]
+              - heading "Hot-reloadDirect link to Hot-reload" [level=2] [ref=e338]:
+                - text: Hot-reload
+                - link "Direct link to Hot-reload" [ref=e339] [cursor=pointer]:
+                  - /url: "#hot-reload"
+                  - text: "#"
+              - paragraph [ref=e340]:
+                - text: In the previous chapter, the changes to the
+                - code [ref=e341]: IncrementCounter
+                - text: "were applied using two commands:"
+              - list [ref=e342]:
+                - listitem [ref=e343]:
+                  - text: The
+                  - code [ref=e344]: build
+                  - text: script.
+                - listitem [ref=e345]:
+                  - code [ref=e346]: streamdeck restart <plugin_uuid>
+              - paragraph [ref=e347]:
+                - text: An alternative approach to applying changes in real-time is hot-reloading, or live-reloading. Plugins generated from
+                - code [ref=e348]: streamdeck create
+                - text: "come with hot-reload as standard; to begin watching for changes to files, run the following command in a terminal:"
+              - generic [ref=e349]:
+                - tablist [ref=e350]:
+                  - tab "npm" [selected] [ref=e351] [cursor=pointer]
+                  - tab "yarn" [ref=e352] [cursor=pointer]
+                  - tab "pnpm" [ref=e353] [cursor=pointer]
+                - tabpanel [ref=e355]:
+                  - generic [ref=e356]:
+                    - generic [ref=e357]: Terminal
+                    - generic [ref=e358]:
+                      - code [ref=e360]:
+                        - generic [ref=e361]: npm run watch
+                      - button "Copy to clipboard" [ref=e363] [cursor=pointer]:
+                        - generic [ref=e364]:
+                          - img "Icon" [ref=e365]
+                          - img "Icon" [ref=e368]
+              - generic [ref=e370]:
+                - generic [ref=e371]:
+                  - img [ref=e373]
+                  - text: "Scenario: Change request"
+                - paragraph [ref=e378]: "\"The new a binary counter changes look great, but we've had a new request to reset the count to zero after it reaches 256.\""
+              - paragraph [ref=e379]: With hot-reload running, let's apply changes for the new change request.
+              - generic [ref=e380]:
+                - generic [ref=e381]: More key down even changes
+                - generic [ref=e382]:
+                  - code [ref=e384]:
+                    - generic [ref=e385]: "import { action, KeyDownEvent, SingletonAction, WillAppearEvent } from \"@elgato/streamdeck\";"
+                    - generic [ref=e387]: "@action({ UUID: \"com.elgato.hello-world.increment\" })"
+                    - generic [ref=e388]: "export class IncrementCounter extends SingletonAction<CounterSettings> {"
+                    - generic [ref=e389]: /**
+                    - generic [ref=e390]: "* Occurs when the action will appear."
+                    - generic [ref=e391]: "*/"
+                    - generic [ref=e392]: "override onWillAppear(ev: WillAppearEvent<CounterSettings>): void | Promise<void> {"
+                    - generic [ref=e393]: "return ev.action.setTitle(`${ev.payload.settings.count ?? 0}`);"
+                    - generic [ref=e394]: "}"
+                    - generic [ref=e396]: /**
+                    - generic [ref=e397]: "* Occurs when the action's key is pressed down."
+                    - generic [ref=e398]: "*/"
+                    - generic [ref=e399]: "override async onKeyDown(ev: KeyDownEvent<CounterSettings>): Promise<void> {"
+                    - generic [ref=e400]: // Determine the current count from the settings.
+                    - generic [ref=e401]: let count = ev.payload.settings.count ?? 0;
+                    - generic [ref=e402]: "if (count === 0) {"
+                    - generic [ref=e403]: count = 1;
+                    - generic [ref=e404]: "} else if (count < 256) {"
+                    - generic [ref=e405]: count = count * 2;
+                    - generic [ref=e406]: "} else {"
+                    - generic [ref=e407]: count = 0;
+                    - generic [ref=e408]: "}"
+                    - generic [ref=e410]: // Update the current count in the action's settings, and change the title.
+                    - generic [ref=e411]: "await ev.action.setSettings({ count });"
+                    - generic [ref=e412]: "await ev.action.setTitle(`${count}`);"
+                    - generic [ref=e413]: "}"
+                    - generic [ref=e414]: "}"
+                    - generic [ref=e416]: "type CounterSettings = {"
+                    - generic [ref=e417]: "count: number;"
+                    - generic [ref=e418]: "};"
+                  - generic [ref=e419]:
+                    - button "Toggle word wrap" [ref=e420] [cursor=pointer]:
+                      - img [ref=e421]
+                    - button "Copy to clipboard" [ref=e423] [cursor=pointer]:
+                      - generic [ref=e424]:
+                        - img "Icon" [ref=e425]
+                        - img "Icon" [ref=e428]
+              - paragraph [ref=e430]: "Upon saving the file, the change will trigger a re-build of the plugin, and will automatically restart the plugin in Stream Deck. The changes can then be tested:"
+              - img "Recording of the counter action doubling its count each time it is pressed, with a limit of 256" [ref=e432]
+              - heading "DebuggingDirect link to Debugging" [level=2] [ref=e433]:
+                - text: Debugging
+                - link "Direct link to Debugging" [ref=e434] [cursor=pointer]:
+                  - /url: "#debugging"
+                  - text: "#"
+              - paragraph [ref=e435]: Stream Deck plugins leverage Node.js' built-in inspector flag for debugging, allowing you to use popular external debugging tools, such as VS Code, to step-through your plugin's execution paths whilst testing.
+              - paragraph [ref=e436]: "Attaching to your Stream Deck plugin in VS Code can be achieved with the following steps:"
+              - list [ref=e437]:
+                - listitem [ref=e438]:
+                  - text: In VS Code, open the "Quick Open" panel (
+                  - code [ref=e439]: Ctrl+P
+                  - text: /
+                  - code [ref=e440]: Cmd+P
+                  - text: )
+                - listitem [ref=e441]:
+                  - text: Enter
+                  - code [ref=e442]: "> Debug: Attach to Node Process"
+                  - text: ", and press"
+                  - code [ref=e443]: Return
+                  - text: .
+                - listitem [ref=e444]:
+                  - text: Select the
+                  - code [ref=e445]: node20
+                  - text: process.
+              - img "VS Code attach to node process window, listing the node20 process" [ref=e447]
+              - generic [ref=e448]:
+                - generic [ref=e449]:
+                  - img [ref=e451]
+                  - text: tip
+                - paragraph [ref=e456]:
+                  - text: By default, Stream Deck will automatically assign an available port to the
+                  - link "Node.js inspect flag" [ref=e457] [cursor=pointer]:
+                    - /url: https://nodejs.org/docs/latest-v20.x/api/cli.html#--inspecthostport
+                  - text: to avoid conflicts. This behavior can be overridden in the manifest's
+                  - code [ref=e458]: Nodejs.Debug
+                  - text: property.
+          - navigation "Docs pages" [ref=e459]:
+            - link "Previous « Getting Started" [ref=e460] [cursor=pointer]:
+              - /url: /streamdeck/sdk/introduction/getting-started
+              - generic [ref=e461]: Previous
+              - generic [ref=e462]: « Getting Started
+            - link "Next Plugin Environment »" [ref=e463] [cursor=pointer]:
+              - /url: /streamdeck/sdk/introduction/plugin-environment
+              - generic [ref=e464]: Next
+              - generic [ref=e465]: Plugin Environment »
+        - list [ref=e468]:
+          - listitem [ref=e469]:
+            - link "Changing \"Counter\"" [ref=e470] [cursor=pointer]:
+              - /url: "#changing-counter"
+          - listitem [ref=e471]:
+            - link "Hot-reload" [ref=e472] [cursor=pointer]:
+              - /url: "#hot-reload"
+          - listitem [ref=e473]:
+            - link "Debugging" [ref=e474] [cursor=pointer]:
+              - /url: "#debugging"
+  - contentinfo [ref=e475]:
+    - generic [ref=e476]:
+      - generic [ref=e477]:
+        - generic [ref=e478]:
+          - generic [ref=e479]: Makers
+          - list [ref=e480]:
+            - listitem [ref=e481]:
+              - link "Become a Maker" [ref=e482] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e483]:
+              - link "Elgato Icons" [ref=e484] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e485]:
+              - link "Badges" [ref=e486] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e487]:
+          - generic [ref=e488]: Marketplace
+          - list [ref=e489]:
+            - listitem [ref=e490]:
+              - link "Plugins" [ref=e491] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e492]:
+              - link "Icon Packs" [ref=e493] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e494]:
+              - link "Profiles" [ref=e495] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e496]:
+          - generic [ref=e497]: Support
+          - list [ref=e498]:
+            - listitem [ref=e499]:
+              - link "FAQ" [ref=e500] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e501]:
+              - link "Contact" [ref=e502] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e503]:
+              - link "Copyright Claim" [ref=e504] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e505]:
+              - link "Downloads" [ref=e506] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e507]:
+          - generic [ref=e508]: Company
+          - list [ref=e509]:
+            - listitem [ref=e510]:
+              - link "About" [ref=e511] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e512]:
+              - link "Media Room" [ref=e513] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e514]:
+              - link "Terms of Use" [ref=e515] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e516]:
+              - link "Privacy Policy" [ref=e517] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e519]: © 2026 Elgato. All rights reserved.

@@ -1,0 +1,1310 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: References
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Manifest
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Manifest" [level=1] [ref=e133]
+              - paragraph [ref=e134]: "The manifest JSON file defines your plugin, and provides important metadata that determines how your plugin is executed, and rendered within Stream Deck; this includes:"
+              - list [ref=e135]:
+                - listitem [ref=e136]:
+                  - text: Your plugin's entry point, aka
+                  - link "CodePath" [ref=e137] [cursor=pointer]:
+                    - /url: "#manifest-codepath"
+                  - text: .
+                - listitem [ref=e138]:
+                  - text: Your
+                  - link "actions" [ref=e139] [cursor=pointer]:
+                    - /url: "#manifest-actions"
+                  - text: metadata, such as the name, icon, states etc.
+                - listitem [ref=e140]:
+                  - text: Minimum required version of
+                  - link "Stream Deck" [ref=e141] [cursor=pointer]:
+                    - /url: "#manifest-software"
+                  - text: ", and"
+                  - link "Node.js" [ref=e142] [cursor=pointer]:
+                    - /url: "#manifest-nodejs"
+                  - text: .
+                - listitem [ref=e143]:
+                  - text: Supported
+                  - link "operating systems" [ref=e144] [cursor=pointer]:
+                    - /url: "#manifest-os"
+                  - text: .
+              - heading "ExamplesDirect link to Examples" [level=2] [ref=e145]:
+                - text: Examples
+                - link "Direct link to Examples" [ref=e146] [cursor=pointer]:
+                  - /url: "#examples"
+                  - text: "#"
+              - generic [ref=e147]:
+                - tablist [ref=e148]:
+                  - tab "Basic" [selected] [ref=e149] [cursor=pointer]
+                  - tab "Dial support" [ref=e150] [cursor=pointer]
+                  - tab "Profiles" [ref=e151] [cursor=pointer]
+                  - tab "App monitoring" [ref=e152] [cursor=pointer]
+                - tabpanel [ref=e154]:
+                  - generic [ref=e155]:
+                    - generic [ref=e156]: manifest.json
+                    - generic [ref=e157]:
+                      - code [ref=e159]:
+                        - generic [ref=e160]: "{"
+                        - generic [ref=e161]: "\"$schema\": \"https://schemas.elgato.com/streamdeck/plugins/manifest.json\","
+                        - generic [ref=e162]: "\"Actions\": ["
+                        - generic [ref=e163]: "{"
+                        - generic [ref=e164]: "\"Icon\": \"action-icon\","
+                        - generic [ref=e165]: "\"Name\": \"Action One\","
+                        - generic [ref=e166]: "\"States\": ["
+                        - generic [ref=e167]: "{"
+                        - generic [ref=e168]: "\"Image\": \"state-image\""
+                        - generic [ref=e169]: "}"
+                        - generic [ref=e170]: "],"
+                        - generic [ref=e171]: "\"UUID\": \"come.elgato.test.one\""
+                        - generic [ref=e172]: "}"
+                        - generic [ref=e173]: "],"
+                        - generic [ref=e174]: "\"Author\": \"Elgato\","
+                        - generic [ref=e175]: "\"CodePath\": \"bin/plugin.js\","
+                        - generic [ref=e176]: "\"Description\": \"Demo plugin with a minimal manifest.\","
+                        - generic [ref=e177]: "\"Icon\": \"plugin-icon\","
+                        - generic [ref=e178]: "\"Name\": \"Test Plugin\","
+                        - generic [ref=e179]: "\"Nodejs\": {"
+                        - generic [ref=e180]: "\"Version\": \"20\""
+                        - generic [ref=e181]: "},"
+                        - generic [ref=e182]: "\"OS\": ["
+                        - generic [ref=e183]: "{"
+                        - generic [ref=e184]: "\"Platform\": \"mac\","
+                        - generic [ref=e185]: "\"MinimumVersion\": \"13\""
+                        - generic [ref=e186]: "},"
+                        - generic [ref=e187]: "{"
+                        - generic [ref=e188]: "\"Platform\": \"windows\","
+                        - generic [ref=e189]: "\"MinimumVersion\": \"10\""
+                        - generic [ref=e190]: "}"
+                        - generic [ref=e191]: "],"
+                        - generic [ref=e192]: "\"UUID\": \"com.elgato.test\","
+                        - generic [ref=e193]: "\"Version\": \"1.0.0.0\","
+                        - generic [ref=e194]: "\"SDKVersion\": 2,"
+                        - generic [ref=e195]: "\"Software\": {"
+                        - generic [ref=e196]: "\"MinimumVersion\": \"6.6\""
+                        - generic [ref=e197]: "}"
+                        - generic [ref=e198]: "}"
+                      - generic [ref=e199]:
+                        - button "Toggle word wrap" [ref=e200] [cursor=pointer]:
+                          - img [ref=e201]
+                        - button "Copy to clipboard" [ref=e203] [cursor=pointer]:
+                          - generic [ref=e204]:
+                            - img "Icon" [ref=e205]
+                            - img "Icon" [ref=e208]
+              - heading "JSON SchemaDirect link to JSON Schema" [level=2] [ref=e210]:
+                - text: JSON Schema
+                - link "Direct link to JSON Schema" [ref=e211] [cursor=pointer]:
+                  - /url: "#json-schema"
+                  - text: "#"
+              - paragraph [ref=e212]: "A JSON schema is available for the manifest JSON file, providing intellisense and validation, and is available at the following URL:"
+              - generic [ref=e213]:
+                - generic [ref=e214]: JSON schema URL
+                - generic [ref=e215]:
+                  - code [ref=e217]:
+                    - generic [ref=e218]: https://schemas.elgato.com/streamdeck/plugins/manifest.json
+                  - button "Copy to clipboard" [ref=e220] [cursor=pointer]:
+                    - generic [ref=e221]:
+                      - img "Icon" [ref=e222]
+                      - img "Icon" [ref=e225]
+              - paragraph [ref=e227]:
+                - text: You can reference this URL using the
+                - code [ref=e228]: $schema
+                - text: "property within your manifest:"
+              - generic [ref=e229]:
+                - generic [ref=e230]: Manifest JSON file
+                - generic [ref=e231]:
+                  - code [ref=e233]:
+                    - generic [ref=e234]: "{"
+                    - generic [ref=e235]: "\"$schema\": \"https://schemas.elgato.com/streamdeck/plugins/manifest.json\","
+                    - generic [ref=e236]: "\"Author\": \"Elgato\","
+                    - generic [ref=e237]: "\"Name\": \"Test Plugin\""
+                    - generic [ref=e238]: // ...
+                    - generic [ref=e239]: "}"
+                  - generic [ref=e240]:
+                    - button "Toggle word wrap" [ref=e241] [cursor=pointer]:
+                      - img [ref=e242]
+                    - button "Copy to clipboard" [ref=e244] [cursor=pointer]:
+                      - generic [ref=e245]:
+                        - img "Icon" [ref=e246]
+                        - img "Icon" [ref=e249]
+              - heading "TypeScript DeclarationDirect link to TypeScript Declaration" [level=2] [ref=e251]:
+                - text: TypeScript Declaration
+                - link "Direct link to TypeScript Declaration" [ref=e252] [cursor=pointer]:
+                  - /url: "#typescript-declaration"
+                  - text: "#"
+              - generic [ref=e253]:
+                - generic [ref=e254]: Manifest TypeScript declaration
+                - generic [ref=e255]:
+                  - code [ref=e257]:
+                    - generic [ref=e258]: "type Manifest = {"
+                    - generic [ref=e259]: "Actions: {"
+                    - generic [ref=e260]: "Controllers?: [\"Encoder\" | \"Keypad\", (\"Encoder\" | \"Keypad\")?];"
+                    - generic [ref=e261]: "DisableAutomaticStates?: boolean;"
+                    - generic [ref=e262]: "DisableCaching?: boolean;"
+                    - generic [ref=e263]: "Encoder?: {"
+                    - generic [ref=e264]: "background?: string;"
+                    - generic [ref=e265]: "Icon?: string;"
+                    - generic [ref=e266]: "layout?: `${string}.json` | \"$A0\" | \"$A1\" | \"$B1\" | \"$B2\" | \"$C1\" | \"$X1\";"
+                    - generic [ref=e267]: "StackColor?: string;"
+                    - generic [ref=e268]: "TriggerDescription?: {"
+                    - generic [ref=e269]: "LongTouch?: string;"
+                    - generic [ref=e270]: "Push?: string;"
+                    - generic [ref=e271]: "Rotate?: string;"
+                    - generic [ref=e272]: "Touch?: string;"
+                    - generic [ref=e273]: "};"
+                    - generic [ref=e274]: "};"
+                    - generic [ref=e275]: "Icon: string;"
+                    - generic [ref=e276]: "Name: string;"
+                    - generic [ref=e277]: "OS?: (\"mac\" | \"windows\")[];"
+                    - generic [ref=e278]: "PropertyInspectorPath?: `${string}.htm` | `${string}.html`;"
+                    - generic [ref=e279]: "States: {"
+                    - generic [ref=e280]: "FontFamily?: string;"
+                    - generic [ref=e281]: "FontSize?: number;"
+                    - generic [ref=e282]: "FontStyle?: \"\" | \"Bold Italic\" | \"Bold\" | \"Italic\" | \"Regular\";"
+                    - generic [ref=e283]: "FontUnderline?: boolean;"
+                    - generic [ref=e284]: "Image: string;"
+                    - generic [ref=e285]: "MultiActionImage?: string;"
+                    - generic [ref=e286]: "Name?: string;"
+                    - generic [ref=e287]: "ShowTitle?: boolean;"
+                    - generic [ref=e288]: "Title?: string;"
+                    - generic [ref=e289]: "TitleAlignment?: \"bottom\" | \"middle\" | \"top\";"
+                    - generic [ref=e290]: "TitleColor?: string;"
+                    - generic [ref=e291]: "}[];"
+                    - generic [ref=e292]: "SupportedInKeyLogicActions?: boolean;"
+                    - generic [ref=e293]: "SupportedInMultiActions?: boolean;"
+                    - generic [ref=e294]: "SupportURL?: string;"
+                    - generic [ref=e295]: "Tooltip?: string;"
+                    - generic [ref=e296]: "UserTitleEnabled?: boolean;"
+                    - generic [ref=e297]: "UUID: string;"
+                    - generic [ref=e298]: "VisibleInActionsList?: boolean;"
+                    - generic [ref=e299]: "}[];"
+                    - generic [ref=e300]: "ApplicationsToMonitor?: {"
+                    - generic [ref=e301]: "mac?: string[];"
+                    - generic [ref=e302]: "windows?: string[];"
+                    - generic [ref=e303]: "};"
+                    - generic [ref=e304]: "Author: string;"
+                    - generic [ref=e305]: "Category?: string;"
+                    - generic [ref=e306]: "CategoryIcon?: string;"
+                    - generic [ref=e307]: "CodePath: string;"
+                    - generic [ref=e308]: "CodePathMac?: string;"
+                    - generic [ref=e309]: "CodePathWin?: string;"
+                    - generic [ref=e310]: "DefaultWindowSize?: [number, number];"
+                    - generic [ref=e311]: "Description: string;"
+                    - generic [ref=e312]: "Icon: string;"
+                    - generic [ref=e313]: "Name: string;"
+                    - generic [ref=e314]: "Nodejs?: {"
+                    - generic [ref=e315]: "Debug?: string;"
+                    - generic [ref=e316]: "GenerateProfilerOutput?: boolean;"
+                    - generic [ref=e317]: "Version: \"20\" | \"24\";"
+                    - generic [ref=e318]: "};"
+                    - generic [ref=e319]: "OS: ["
+                    - generic [ref=e320]: "{"
+                    - generic [ref=e321]: "MinimumVersion: string;"
+                    - generic [ref=e322]: "Platform: \"mac\" | \"windows\";"
+                    - generic [ref=e323]: "},"
+                    - generic [ref=e324]: "{"
+                    - generic [ref=e325]: "MinimumVersion: string;"
+                    - generic [ref=e326]: "Platform: \"mac\" | \"windows\";"
+                    - generic [ref=e327]: "}?,"
+                    - generic [ref=e328]: "];"
+                    - generic [ref=e329]: "Profiles?: {"
+                    - generic [ref=e330]: "AutoInstall?: boolean;"
+                    - generic [ref=e331]: "DeviceType: 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13;"
+                    - generic [ref=e332]: "DontAutoSwitchWhenInstalled?: boolean;"
+                    - generic [ref=e333]: "Name: string;"
+                    - generic [ref=e334]: "Readonly?: boolean;"
+                    - generic [ref=e335]: "}[];"
+                    - generic [ref=e336]: "PropertyInspectorPath?: `${string}.htm` | `${string}.html`;"
+                    - generic [ref=e337]: "SDKVersion: 2 | 3;"
+                    - generic [ref=e338]: "Software: {"
+                    - generic [ref=e339]: "MinimumVersion: \"6.4\" | \"6.5\" | \"6.6\" | \"6.7\" | \"6.8\" | \"6.9\" | \"7.0\" | \"7.1\" | \"7.2\" | \"7.3\";"
+                    - generic [ref=e340]: "};"
+                    - generic [ref=e341]: "SupportURL?: string;"
+                    - generic [ref=e342]: "URL?: string;"
+                    - generic [ref=e343]: "UUID: string;"
+                    - generic [ref=e344]: "Version: string;"
+                    - generic [ref=e345]: "};"
+                  - generic [ref=e346]:
+                    - button "Toggle word wrap" [ref=e347] [cursor=pointer]:
+                      - img [ref=e348]
+                    - button "Copy to clipboard" [ref=e350] [cursor=pointer]:
+                      - generic [ref=e351]:
+                        - img "Icon" [ref=e352]
+                        - img "Icon" [ref=e355]
+              - generic [ref=e357]:
+                - generic [ref=e358]:
+                  - img [ref=e360]
+                  - text: File path extensions
+                - paragraph [ref=e365]:
+                  - text: Some file path properties within the manifest must have their file extension omitted. For example
+                  - link "Icon" [ref=e366] [cursor=pointer]:
+                    - /url: "#manifest-icon"
+                  - text: and a profile's
+                  - link "Name" [ref=e367] [cursor=pointer]:
+                    - /url: "#profile-name"
+                  - text: are extension-less file paths, whereas properties such as
+                  - link "CodePath" [ref=e368] [cursor=pointer]:
+                    - /url: "#manifest-codepath"
+                  - text: and
+                  - link "PropertyInspectorPath" [ref=e369] [cursor=pointer]:
+                    - /url: "#manifest-propertyinspectorpath"
+                  - text: require an extension. For more information, please refer to the documentation of the property.
+              - heading "DefinitionsDirect link to Definitions" [level=2] [ref=e370]:
+                - text: Definitions
+                - link "Direct link to Definitions" [ref=e371] [cursor=pointer]:
+                  - /url: "#definitions"
+                  - text: "#"
+              - heading "ManifestDirect link to Manifest" [level=3] [ref=e372]:
+                - text: Manifest
+                - link "Direct link to Manifest" [ref=e373] [cursor=pointer]:
+                  - /url: "#manifest"
+                  - text: "#"
+              - paragraph [ref=e374]: Defines the plugin and available actions, and all information associated with them, including the plugin's entry point, all iconography, action default behavior, etc.
+              - paragraph [ref=e375]:
+                - strong [ref=e376]: Properties
+              - group [ref=e377]:
+                - 'generic "Actions: Action[] Direct link to Actions Required" [ref=e378] [cursor=pointer]':
+                  - generic [ref=e379]:
+                    - generic [ref=e380]:
+                      - strong [ref=e381]: Actions
+                      - generic [ref=e382]:
+                        - text: ":"
+                        - link "Action" [ref=e383]:
+                          - /url: "#action"
+                        - text: "[]"
+                    - link "Direct link to Actions" [ref=e384]:
+                      - /url: "#manifest-actions"
+                      - img [ref=e385]
+                  - generic [ref=e387]: Required
+              - group [ref=e388]:
+                - 'generic "ApplicationsToMonitor: ApplicationMonitoring Direct link to ApplicationsToMonitor" [ref=e389] [cursor=pointer]':
+                  - generic [ref=e390]:
+                    - generic [ref=e391]:
+                      - strong [ref=e392]: ApplicationsToMonitor
+                      - generic [ref=e393]:
+                        - text: ":"
+                        - link "ApplicationMonitoring" [ref=e394]:
+                          - /url: "#applicationmonitoring"
+                    - link "Direct link to ApplicationsToMonitor" [ref=e395]:
+                      - /url: "#manifest-applicationstomonitor"
+                      - img [ref=e396]
+              - group [ref=e398]:
+                - 'generic "Author: string Direct link to Author Required" [ref=e399] [cursor=pointer]':
+                  - generic [ref=e400]:
+                    - generic [ref=e401]:
+                      - strong [ref=e402]: Author
+                      - generic [ref=e403]: ": string"
+                    - link "Direct link to Author" [ref=e404]:
+                      - /url: "#manifest-author"
+                      - img [ref=e405]
+                  - generic [ref=e407]: Required
+              - group [ref=e408]:
+                - 'generic "Category: string Direct link to Category" [ref=e409] [cursor=pointer]':
+                  - generic [ref=e410]:
+                    - generic [ref=e411]:
+                      - strong [ref=e412]: Category
+                      - generic [ref=e413]: ": string"
+                    - link "Direct link to Category" [ref=e414]:
+                      - /url: "#manifest-category"
+                      - img [ref=e415]
+              - group [ref=e417]:
+                - 'generic "CategoryIcon: string Direct link to CategoryIcon" [ref=e418] [cursor=pointer]':
+                  - generic [ref=e419]:
+                    - generic [ref=e420]:
+                      - strong [ref=e421]: CategoryIcon
+                      - generic [ref=e422]: ": string"
+                    - link "Direct link to CategoryIcon" [ref=e423]:
+                      - /url: "#manifest-categoryicon"
+                      - img [ref=e424]
+              - group [ref=e426]:
+                - 'generic "CodePath: string Direct link to CodePath Required" [ref=e427] [cursor=pointer]':
+                  - generic [ref=e428]:
+                    - generic [ref=e429]:
+                      - strong [ref=e430]: CodePath
+                      - generic [ref=e431]: ": string"
+                    - link "Direct link to CodePath" [ref=e432]:
+                      - /url: "#manifest-codepath"
+                      - img [ref=e433]
+                  - generic [ref=e435]: Required
+              - group [ref=e436]:
+                - 'generic "CodePathMac: string Direct link to CodePathMac" [ref=e437] [cursor=pointer]':
+                  - generic [ref=e438]:
+                    - generic [ref=e439]:
+                      - strong [ref=e440]: CodePathMac
+                      - generic [ref=e441]: ": string"
+                    - link "Direct link to CodePathMac" [ref=e442]:
+                      - /url: "#manifest-codepathmac"
+                      - img [ref=e443]
+              - group [ref=e445]:
+                - 'generic "CodePathWin: string Direct link to CodePathWin" [ref=e446] [cursor=pointer]':
+                  - generic [ref=e447]:
+                    - generic [ref=e448]:
+                      - strong [ref=e449]: CodePathWin
+                      - generic [ref=e450]: ": string"
+                    - link "Direct link to CodePathWin" [ref=e451]:
+                      - /url: "#manifest-codepathwin"
+                      - img [ref=e452]
+              - group [ref=e454]:
+                - 'generic "DefaultWindowSize: [number, number] Direct link to DefaultWindowSize" [ref=e455] [cursor=pointer]':
+                  - generic [ref=e456]:
+                    - generic [ref=e457]:
+                      - strong [ref=e458]: DefaultWindowSize
+                      - generic [ref=e459]: ": [number, number]"
+                    - link "Direct link to DefaultWindowSize" [ref=e460]:
+                      - /url: "#manifest-defaultwindowsize"
+                      - img [ref=e461]
+              - group [ref=e463]:
+                - 'generic "Description: string Direct link to Description Required" [ref=e464] [cursor=pointer]':
+                  - generic [ref=e465]:
+                    - generic [ref=e466]:
+                      - strong [ref=e467]: Description
+                      - generic [ref=e468]: ": string"
+                    - link "Direct link to Description" [ref=e469]:
+                      - /url: "#manifest-description"
+                      - img [ref=e470]
+                  - generic [ref=e472]: Required
+              - group [ref=e473]:
+                - 'generic "Icon: string Direct link to Icon Required" [ref=e474] [cursor=pointer]':
+                  - generic [ref=e475]:
+                    - generic [ref=e476]:
+                      - strong [ref=e477]: Icon
+                      - generic [ref=e478]: ": string"
+                    - link "Direct link to Icon" [ref=e479]:
+                      - /url: "#manifest-icon"
+                      - img [ref=e480]
+                  - generic [ref=e482]: Required
+              - group [ref=e483]:
+                - 'generic "Name: string Direct link to Name Required" [ref=e484] [cursor=pointer]':
+                  - generic [ref=e485]:
+                    - generic [ref=e486]:
+                      - strong [ref=e487]: Name
+                      - generic [ref=e488]: ": string"
+                    - link "Direct link to Name" [ref=e489]:
+                      - /url: "#manifest-name"
+                      - img [ref=e490]
+                  - generic [ref=e492]: Required
+              - group [ref=e493]:
+                - 'generic "Nodejs: Nodejs Direct link to Nodejs" [ref=e494] [cursor=pointer]':
+                  - generic [ref=e495]:
+                    - generic [ref=e496]:
+                      - strong [ref=e497]: Nodejs
+                      - generic [ref=e498]:
+                        - text: ":"
+                        - link "Nodejs" [ref=e499]:
+                          - /url: "#nodejs"
+                    - link "Direct link to Nodejs" [ref=e500]:
+                      - /url: "#manifest-nodejs"
+                      - img [ref=e501]
+              - group [ref=e503]:
+                - 'generic "OS: [OS, OS?] Direct link to OS Required" [ref=e504] [cursor=pointer]':
+                  - generic [ref=e505]:
+                    - generic [ref=e506]:
+                      - strong [ref=e507]: OS
+                      - generic [ref=e508]:
+                        - text: ": ["
+                        - link "OS" [ref=e509]:
+                          - /url: "#os"
+                        - text: ","
+                        - link "OS" [ref=e510]:
+                          - /url: "#os"
+                        - text: "?]"
+                    - link "Direct link to OS" [ref=e511]:
+                      - /url: "#manifest-os"
+                      - img [ref=e512]
+                  - generic [ref=e514]: Required
+              - group [ref=e515]:
+                - 'generic "Profiles: Profile[] Direct link to Profiles" [ref=e516] [cursor=pointer]':
+                  - generic [ref=e517]:
+                    - generic [ref=e518]:
+                      - strong [ref=e519]: Profiles
+                      - generic [ref=e520]:
+                        - text: ":"
+                        - link "Profile" [ref=e521]:
+                          - /url: "#profile"
+                        - text: "[]"
+                    - link "Direct link to Profiles" [ref=e522]:
+                      - /url: "#manifest-profiles"
+                      - img [ref=e523]
+              - group [ref=e525]:
+                - 'generic "PropertyInspectorPath: ${string}.htm, ${string}.html Direct link to PropertyInspectorPath" [ref=e526] [cursor=pointer]':
+                  - generic [ref=e527]:
+                    - generic [ref=e528]:
+                      - strong [ref=e529]: PropertyInspectorPath
+                      - generic [ref=e530]:
+                        - text: ":"
+                        - code [ref=e531]: "${string}.htm"
+                        - text: ","
+                        - code [ref=e532]: "${string}.html"
+                    - link "Direct link to PropertyInspectorPath" [ref=e533]:
+                      - /url: "#manifest-propertyinspectorpath"
+                      - img [ref=e534]
+              - group [ref=e536]:
+                - 'generic "SDKVersion: 2, 3 Direct link to SDKVersion Required" [ref=e537] [cursor=pointer]':
+                  - generic [ref=e538]:
+                    - generic [ref=e539]:
+                      - strong [ref=e540]: SDKVersion
+                      - generic [ref=e541]: ": 2, 3"
+                    - link "Direct link to SDKVersion" [ref=e542]:
+                      - /url: "#manifest-sdkversion"
+                      - img [ref=e543]
+                  - generic [ref=e545]: Required
+              - group [ref=e546]:
+                - 'generic "Software: Software Direct link to Software Required" [ref=e547] [cursor=pointer]':
+                  - generic [ref=e548]:
+                    - generic [ref=e549]:
+                      - strong [ref=e550]: Software
+                      - generic [ref=e551]:
+                        - text: ":"
+                        - link "Software" [ref=e552]:
+                          - /url: "#software"
+                    - link "Direct link to Software" [ref=e553]:
+                      - /url: "#manifest-software"
+                      - img [ref=e554]
+                  - generic [ref=e556]: Required
+              - group [ref=e557]:
+                - 'generic "SupportURL: string Direct link to SupportURL" [ref=e558] [cursor=pointer]':
+                  - generic [ref=e559]:
+                    - generic [ref=e560]:
+                      - strong [ref=e561]: SupportURL
+                      - generic [ref=e562]: ": string"
+                    - link "Direct link to SupportURL" [ref=e563]:
+                      - /url: "#manifest-supporturl"
+                      - img [ref=e564]
+              - group [ref=e566]:
+                - 'generic "URL: string Direct link to URL" [ref=e567] [cursor=pointer]':
+                  - generic [ref=e568]:
+                    - generic [ref=e569]:
+                      - strong [ref=e570]: URL
+                      - generic [ref=e571]: ": string"
+                    - link "Direct link to URL" [ref=e572]:
+                      - /url: "#manifest-url"
+                      - img [ref=e573]
+              - group [ref=e575]:
+                - 'generic "UUID: string Direct link to UUID Required" [ref=e576] [cursor=pointer]':
+                  - generic [ref=e577]:
+                    - generic [ref=e578]:
+                      - strong [ref=e579]: UUID
+                      - generic [ref=e580]: ": string"
+                    - link "Direct link to UUID" [ref=e581]:
+                      - /url: "#manifest-uuid"
+                      - img [ref=e582]
+                  - generic [ref=e584]: Required
+              - group [ref=e585]:
+                - 'generic "Version: string Direct link to Version Required" [ref=e586] [cursor=pointer]':
+                  - generic [ref=e587]:
+                    - generic [ref=e588]:
+                      - strong [ref=e589]: Version
+                      - generic [ref=e590]: ": string"
+                    - link "Direct link to Version" [ref=e591]:
+                      - /url: "#manifest-version"
+                      - img [ref=e592]
+                  - generic [ref=e594]: Required
+              - heading "ActionDirect link to Action" [level=3] [ref=e595]:
+                - text: Action
+                - link "Direct link to Action" [ref=e596] [cursor=pointer]:
+                  - /url: "#action"
+                  - text: "#"
+              - paragraph [ref=e597]: Provides information about an action provided by the plugin.
+              - paragraph [ref=e598]:
+                - strong [ref=e599]: Properties
+              - group [ref=e600]:
+                - 'generic "Controllers: [(\"Encoder\", \"Keypad\"), (\"Encoder\", \"Keypad\")?] Direct link to Controllers" [ref=e601] [cursor=pointer]':
+                  - generic [ref=e602]:
+                    - generic [ref=e603]:
+                      - strong [ref=e604]: Controllers
+                      - generic [ref=e605]: ": [(\"Encoder\", \"Keypad\"), (\"Encoder\", \"Keypad\")?]"
+                    - link "Direct link to Controllers" [ref=e606]:
+                      - /url: "#action-controllers"
+                      - img [ref=e607]
+              - group [ref=e609]:
+                - 'generic "DisableAutomaticStates: boolean Direct link to DisableAutomaticStates" [ref=e610] [cursor=pointer]':
+                  - generic [ref=e611]:
+                    - generic [ref=e612]:
+                      - strong [ref=e613]: DisableAutomaticStates
+                      - generic [ref=e614]: ": boolean"
+                    - link "Direct link to DisableAutomaticStates" [ref=e615]:
+                      - /url: "#action-disableautomaticstates"
+                      - img [ref=e616]
+              - group [ref=e618]:
+                - 'generic "DisableCaching: boolean Direct link to DisableCaching" [ref=e619] [cursor=pointer]':
+                  - generic [ref=e620]:
+                    - generic [ref=e621]:
+                      - strong [ref=e622]: DisableCaching
+                      - generic [ref=e623]: ": boolean"
+                    - link "Direct link to DisableCaching" [ref=e624]:
+                      - /url: "#action-disablecaching"
+                      - img [ref=e625]
+              - group [ref=e627]:
+                - 'generic "Encoder: Encoder Direct link to Encoder" [ref=e628] [cursor=pointer]':
+                  - generic [ref=e629]:
+                    - generic [ref=e630]:
+                      - strong [ref=e631]: Encoder
+                      - generic [ref=e632]:
+                        - text: ":"
+                        - link "Encoder" [ref=e633]:
+                          - /url: "#encoder"
+                    - link "Direct link to Encoder" [ref=e634]:
+                      - /url: "#action-encoder"
+                      - img [ref=e635]
+              - group [ref=e637]:
+                - 'generic "Icon: string Direct link to Icon Required" [ref=e638] [cursor=pointer]':
+                  - generic [ref=e639]:
+                    - generic [ref=e640]:
+                      - strong [ref=e641]: Icon
+                      - generic [ref=e642]: ": string"
+                    - link "Direct link to Icon" [ref=e643]:
+                      - /url: "#action-icon"
+                      - img [ref=e644]
+                  - generic [ref=e646]: Required
+              - group [ref=e647]:
+                - 'generic "Name: string Direct link to Name Required" [ref=e648] [cursor=pointer]':
+                  - generic [ref=e649]:
+                    - generic [ref=e650]:
+                      - strong [ref=e651]: Name
+                      - generic [ref=e652]: ": string"
+                    - link "Direct link to Name" [ref=e653]:
+                      - /url: "#action-name"
+                      - img [ref=e654]
+                  - generic [ref=e656]: Required
+              - group [ref=e657]:
+                - 'generic "OS: (\"mac\", \"windows\")[] Direct link to OS" [ref=e658] [cursor=pointer]':
+                  - generic [ref=e659]:
+                    - generic [ref=e660]:
+                      - strong [ref=e661]: OS
+                      - generic [ref=e662]: ": (\"mac\", \"windows\")[]"
+                    - link "Direct link to OS" [ref=e663]:
+                      - /url: "#action-os"
+                      - img [ref=e664]
+              - group [ref=e666]:
+                - 'generic "PropertyInspectorPath: ${string}.htm, ${string}.html Direct link to PropertyInspectorPath" [ref=e667] [cursor=pointer]':
+                  - generic [ref=e668]:
+                    - generic [ref=e669]:
+                      - strong [ref=e670]: PropertyInspectorPath
+                      - generic [ref=e671]:
+                        - text: ":"
+                        - code [ref=e672]: "${string}.htm"
+                        - text: ","
+                        - code [ref=e673]: "${string}.html"
+                    - link "Direct link to PropertyInspectorPath" [ref=e674]:
+                      - /url: "#action-propertyinspectorpath"
+                      - img [ref=e675]
+              - group [ref=e677]:
+                - 'generic "States: State[] Direct link to States Required" [ref=e678] [cursor=pointer]':
+                  - generic [ref=e679]:
+                    - generic [ref=e680]:
+                      - strong [ref=e681]: States
+                      - generic [ref=e682]:
+                        - text: ":"
+                        - link "State" [ref=e683]:
+                          - /url: "#state"
+                        - text: "[]"
+                    - link "Direct link to States" [ref=e684]:
+                      - /url: "#action-states"
+                      - img [ref=e685]
+                  - generic [ref=e687]: Required
+              - group [ref=e688]:
+                - 'generic "SupportedInKeyLogicActions: boolean Direct link to SupportedInKeyLogicActions" [ref=e689] [cursor=pointer]':
+                  - generic [ref=e690]:
+                    - generic [ref=e691]:
+                      - strong [ref=e692]: SupportedInKeyLogicActions
+                      - generic [ref=e693]: ": boolean"
+                    - link "Direct link to SupportedInKeyLogicActions" [ref=e694]:
+                      - /url: "#action-supportedinkeylogicactions"
+                      - img [ref=e695]
+              - group [ref=e697]:
+                - 'generic "SupportedInMultiActions: boolean Direct link to SupportedInMultiActions" [ref=e698] [cursor=pointer]':
+                  - generic [ref=e699]:
+                    - generic [ref=e700]:
+                      - strong [ref=e701]: SupportedInMultiActions
+                      - generic [ref=e702]: ": boolean"
+                    - link "Direct link to SupportedInMultiActions" [ref=e703]:
+                      - /url: "#action-supportedinmultiactions"
+                      - img [ref=e704]
+              - group [ref=e706]:
+                - 'generic "SupportURL: string Direct link to SupportURL" [ref=e707] [cursor=pointer]':
+                  - generic [ref=e708]:
+                    - generic [ref=e709]:
+                      - strong [ref=e710]: SupportURL
+                      - generic [ref=e711]: ": string"
+                    - link "Direct link to SupportURL" [ref=e712]:
+                      - /url: "#action-supporturl"
+                      - img [ref=e713]
+              - group [ref=e715]:
+                - 'generic "Tooltip: string Direct link to Tooltip" [ref=e716] [cursor=pointer]':
+                  - generic [ref=e717]:
+                    - generic [ref=e718]:
+                      - strong [ref=e719]: Tooltip
+                      - generic [ref=e720]: ": string"
+                    - link "Direct link to Tooltip" [ref=e721]:
+                      - /url: "#action-tooltip"
+                      - img [ref=e722]
+              - group [ref=e724]:
+                - 'generic "UUID: string Direct link to UUID Required" [ref=e725] [cursor=pointer]':
+                  - generic [ref=e726]:
+                    - generic [ref=e727]:
+                      - strong [ref=e728]: UUID
+                      - generic [ref=e729]: ": string"
+                    - link "Direct link to UUID" [ref=e730]:
+                      - /url: "#action-uuid"
+                      - img [ref=e731]
+                  - generic [ref=e733]: Required
+              - group [ref=e734]:
+                - 'generic "UserTitleEnabled: boolean Direct link to UserTitleEnabled" [ref=e735] [cursor=pointer]':
+                  - generic [ref=e736]:
+                    - generic [ref=e737]:
+                      - strong [ref=e738]: UserTitleEnabled
+                      - generic [ref=e739]: ": boolean"
+                    - link "Direct link to UserTitleEnabled" [ref=e740]:
+                      - /url: "#action-usertitleenabled"
+                      - img [ref=e741]
+              - group [ref=e743]:
+                - 'generic "VisibleInActionsList: boolean Direct link to VisibleInActionsList" [ref=e744] [cursor=pointer]':
+                  - generic [ref=e745]:
+                    - generic [ref=e746]:
+                      - strong [ref=e747]: VisibleInActionsList
+                      - generic [ref=e748]: ": boolean"
+                    - link "Direct link to VisibleInActionsList" [ref=e749]:
+                      - /url: "#action-visibleinactionslist"
+                      - img [ref=e750]
+              - heading "ApplicationMonitoringDirect link to ApplicationMonitoring" [level=3] [ref=e752]:
+                - text: ApplicationMonitoring
+                - link "Direct link to ApplicationMonitoring" [ref=e753] [cursor=pointer]:
+                  - /url: "#applicationmonitoring"
+                  - text: "#"
+              - paragraph [ref=e754]: Applications to monitor on Mac and Windows; upon a monitored application being launched or terminated, Stream Deck will notify the plugin.
+              - paragraph [ref=e755]:
+                - strong [ref=e756]: Properties
+              - group [ref=e757]:
+                - 'generic "mac: string[] Direct link to mac" [ref=e758] [cursor=pointer]':
+                  - generic [ref=e759]:
+                    - generic [ref=e760]:
+                      - strong [ref=e761]: mac
+                      - generic [ref=e762]: ": string[]"
+                    - link "Direct link to mac" [ref=e763]:
+                      - /url: "#applicationmonitoring-mac"
+                      - img [ref=e764]
+              - group [ref=e766]:
+                - 'generic "windows: string[] Direct link to windows" [ref=e767] [cursor=pointer]':
+                  - generic [ref=e768]:
+                    - generic [ref=e769]:
+                      - strong [ref=e770]: windows
+                      - generic [ref=e771]: ": string[]"
+                    - link "Direct link to windows" [ref=e772]:
+                      - /url: "#applicationmonitoring-windows"
+                      - img [ref=e773]
+              - heading "EncoderDirect link to Encoder" [level=3] [ref=e775]:
+                - text: Encoder
+                - link "Direct link to Encoder" [ref=e776] [cursor=pointer]:
+                  - /url: "#encoder"
+                  - text: "#"
+              - paragraph [ref=e777]:
+                - text: Provides information about how the action functions as part of an
+                - code [ref=e778]: Encoder
+                - text: (dial / touchscreen).
+              - paragraph [ref=e779]:
+                - strong [ref=e780]: Properties
+              - group [ref=e781]:
+                - 'generic "Icon: string Direct link to Icon" [ref=e782] [cursor=pointer]':
+                  - generic [ref=e783]:
+                    - generic [ref=e784]:
+                      - strong [ref=e785]: Icon
+                      - generic [ref=e786]: ": string"
+                    - link "Direct link to Icon" [ref=e787]:
+                      - /url: "#encoder-icon"
+                      - img [ref=e788]
+              - group [ref=e790]:
+                - 'generic "StackColor: string Direct link to StackColor" [ref=e791] [cursor=pointer]':
+                  - generic [ref=e792]:
+                    - generic [ref=e793]:
+                      - strong [ref=e794]: StackColor
+                      - generic [ref=e795]: ": string"
+                    - link "Direct link to StackColor" [ref=e796]:
+                      - /url: "#encoder-stackcolor"
+                      - img [ref=e797]
+              - group [ref=e799]:
+                - 'generic "TriggerDescription: TriggerDescriptions Direct link to TriggerDescription" [ref=e800] [cursor=pointer]':
+                  - generic [ref=e801]:
+                    - generic [ref=e802]:
+                      - strong [ref=e803]: TriggerDescription
+                      - generic [ref=e804]:
+                        - text: ":"
+                        - link "TriggerDescriptions" [ref=e805]:
+                          - /url: "#triggerdescriptions"
+                    - link "Direct link to TriggerDescription" [ref=e806]:
+                      - /url: "#encoder-triggerdescription"
+                      - img [ref=e807]
+              - group [ref=e809]:
+                - 'generic "background: string Direct link to background" [ref=e810] [cursor=pointer]':
+                  - generic [ref=e811]:
+                    - generic [ref=e812]:
+                      - strong [ref=e813]: background
+                      - generic [ref=e814]: ": string"
+                    - link "Direct link to background" [ref=e815]:
+                      - /url: "#encoder-background"
+                      - img [ref=e816]
+              - group [ref=e818]:
+                - 'generic "layout: ${string}.json, \"$A0\", \"$A1\", \"$B1\", \"$B2\", \"$C1\", \"$X1\" Direct link to layout" [ref=e819] [cursor=pointer]':
+                  - generic [ref=e820]:
+                    - generic [ref=e821]:
+                      - strong [ref=e822]: layout
+                      - generic [ref=e823]:
+                        - text: ":"
+                        - code [ref=e824]: "${string}.json"
+                        - text: ", \"$A0\", \"$A1\", \"$B1\", \"$B2\", \"$C1\", \"$X1\""
+                    - link "Direct link to layout" [ref=e825]:
+                      - /url: "#encoder-layout"
+                      - img [ref=e826]
+              - heading "NodejsDirect link to Nodejs" [level=3] [ref=e828]:
+                - text: Nodejs
+                - link "Direct link to Nodejs" [ref=e829] [cursor=pointer]:
+                  - /url: "#nodejs"
+                  - text: "#"
+              - paragraph [ref=e830]: Configuration options for Node.js based plugins.
+              - paragraph [ref=e831]:
+                - strong [ref=e832]: Properties
+              - group [ref=e833]:
+                - 'generic "Debug: string Direct link to Debug" [ref=e834] [cursor=pointer]':
+                  - generic [ref=e835]:
+                    - generic [ref=e836]:
+                      - strong [ref=e837]: Debug
+                      - generic [ref=e838]: ": string"
+                    - link "Direct link to Debug" [ref=e839]:
+                      - /url: "#nodejs-debug"
+                      - img [ref=e840]
+              - group [ref=e842]:
+                - 'generic "GenerateProfilerOutput: boolean Direct link to GenerateProfilerOutput" [ref=e843] [cursor=pointer]':
+                  - generic [ref=e844]:
+                    - generic [ref=e845]:
+                      - strong [ref=e846]: GenerateProfilerOutput
+                      - generic [ref=e847]: ": boolean"
+                    - link "Direct link to GenerateProfilerOutput" [ref=e848]:
+                      - /url: "#nodejs-generateprofileroutput"
+                      - img [ref=e849]
+              - group [ref=e851]:
+                - 'generic "Version: \"20\", \"24\" Direct link to Version Required" [ref=e852] [cursor=pointer]':
+                  - generic [ref=e853]:
+                    - generic [ref=e854]:
+                      - strong [ref=e855]: Version
+                      - generic [ref=e856]: ": \"20\", \"24\""
+                    - link "Direct link to Version" [ref=e857]:
+                      - /url: "#nodejs-version"
+                      - img [ref=e858]
+                  - generic [ref=e860]: Required
+              - heading "OSDirect link to OS" [level=3] [ref=e861]:
+                - text: OS
+                - link "Direct link to OS" [ref=e862] [cursor=pointer]:
+                  - /url: "#os"
+                  - text: "#"
+              - paragraph [ref=e863]: Operating system that the plugin supports, and the minimum required version needed to run the plugin.
+              - paragraph [ref=e864]:
+                - strong [ref=e865]: Properties
+              - group [ref=e866]:
+                - 'generic "MinimumVersion: string Direct link to MinimumVersion Required" [ref=e867] [cursor=pointer]':
+                  - generic [ref=e868]:
+                    - generic [ref=e869]:
+                      - strong [ref=e870]: MinimumVersion
+                      - generic [ref=e871]: ": string"
+                    - link "Direct link to MinimumVersion" [ref=e872]:
+                      - /url: "#os-minimumversion"
+                      - img [ref=e873]
+                  - generic [ref=e875]: Required
+              - group [ref=e876]:
+                - 'generic "Platform: \"mac\", \"windows\" Direct link to Platform Required" [ref=e877] [cursor=pointer]':
+                  - generic [ref=e878]:
+                    - generic [ref=e879]:
+                      - strong [ref=e880]: Platform
+                      - generic [ref=e881]: ": \"mac\", \"windows\""
+                    - link "Direct link to Platform" [ref=e882]:
+                      - /url: "#os-platform"
+                      - img [ref=e883]
+                  - generic [ref=e885]: Required
+              - heading "ProfileDirect link to Profile" [level=3] [ref=e886]:
+                - text: Profile
+                - link "Direct link to Profile" [ref=e887] [cursor=pointer]:
+                  - /url: "#profile"
+                  - text: "#"
+              - paragraph [ref=e888]: Provides information for pre-defined profile distributed with this plugin.
+              - paragraph [ref=e889]:
+                - strong [ref=e890]: Properties
+              - group [ref=e891]:
+                - 'generic "AutoInstall: boolean Direct link to AutoInstall" [ref=e892] [cursor=pointer]':
+                  - generic [ref=e893]:
+                    - generic [ref=e894]:
+                      - strong [ref=e895]: AutoInstall
+                      - generic [ref=e896]: ": boolean"
+                    - link "Direct link to AutoInstall" [ref=e897]:
+                      - /url: "#profile-autoinstall"
+                      - img [ref=e898]
+              - group [ref=e900]:
+                - 'generic "DeviceType: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 Direct link to DeviceType Required" [ref=e901] [cursor=pointer]':
+                  - generic [ref=e902]:
+                    - generic [ref=e903]:
+                      - strong [ref=e904]: DeviceType
+                      - generic [ref=e905]: ": 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13"
+                    - link "Direct link to DeviceType" [ref=e906]:
+                      - /url: "#profile-devicetype"
+                      - img [ref=e907]
+                  - generic [ref=e909]: Required
+              - group [ref=e910]:
+                - 'generic "DontAutoSwitchWhenInstalled: boolean Direct link to DontAutoSwitchWhenInstalled" [ref=e911] [cursor=pointer]':
+                  - generic [ref=e912]:
+                    - generic [ref=e913]:
+                      - strong [ref=e914]: DontAutoSwitchWhenInstalled
+                      - generic [ref=e915]: ": boolean"
+                    - link "Direct link to DontAutoSwitchWhenInstalled" [ref=e916]:
+                      - /url: "#profile-dontautoswitchwheninstalled"
+                      - img [ref=e917]
+              - group [ref=e919]:
+                - 'generic "Name: string Direct link to Name Required" [ref=e920] [cursor=pointer]':
+                  - generic [ref=e921]:
+                    - generic [ref=e922]:
+                      - strong [ref=e923]: Name
+                      - generic [ref=e924]: ": string"
+                    - link "Direct link to Name" [ref=e925]:
+                      - /url: "#profile-name"
+                      - img [ref=e926]
+                  - generic [ref=e928]: Required
+              - group [ref=e929]:
+                - 'generic "Readonly: boolean Direct link to Readonly" [ref=e930] [cursor=pointer]':
+                  - generic [ref=e931]:
+                    - generic [ref=e932]:
+                      - strong [ref=e933]: Readonly
+                      - generic [ref=e934]: ": boolean"
+                    - link "Direct link to Readonly" [ref=e935]:
+                      - /url: "#profile-readonly"
+                      - img [ref=e936]
+              - heading "SoftwareDirect link to Software" [level=3] [ref=e938]:
+                - text: Software
+                - link "Direct link to Software" [ref=e939] [cursor=pointer]:
+                  - /url: "#software"
+                  - text: "#"
+              - paragraph [ref=e940]: Determines the Stream Deck software requirements for this plugin.
+              - paragraph [ref=e941]:
+                - strong [ref=e942]: Properties
+              - group [ref=e943]:
+                - 'generic "MinimumVersion: \"6.4\", \"6.5\", \"6.6\", \"6.7\", \"6.8\", \"6.9\", \"7.0\", \"7.1\", \"7.2\", \"7.3\" Direct link to MinimumVersion Required" [ref=e944] [cursor=pointer]':
+                  - generic [ref=e945]:
+                    - generic [ref=e946]:
+                      - strong [ref=e947]: MinimumVersion
+                      - generic [ref=e948]: ": \"6.4\", \"6.5\", \"6.6\", \"6.7\", \"6.8\", \"6.9\", \"7.0\", \"7.1\", \"7.2\", \"7.3\""
+                    - link "Direct link to MinimumVersion" [ref=e949]:
+                      - /url: "#software-minimumversion"
+                      - img [ref=e950]
+                  - generic [ref=e952]: Required
+              - heading "StateDirect link to State" [level=3] [ref=e953]:
+                - text: State
+                - link "Direct link to State" [ref=e954] [cursor=pointer]:
+                  - /url: "#state"
+                  - text: "#"
+              - paragraph [ref=e955]: States the action can be in. When two states are defined the action will act as a toggle, with users being able to select their preferred iconography for each state.
+              - paragraph [ref=e956]:
+                - text: "Note: Automatic toggling of the state on action activation can be disabled by setting"
+                - code [ref=e957]: DisableAutomaticStates
+                - text: to
+                - code [ref=e958]: "true"
+                - text: .
+              - paragraph [ref=e959]:
+                - strong [ref=e960]: Properties
+              - group [ref=e961]:
+                - 'generic "FontFamily: string Direct link to FontFamily" [ref=e962] [cursor=pointer]':
+                  - generic [ref=e963]:
+                    - generic [ref=e964]:
+                      - strong [ref=e965]: FontFamily
+                      - generic [ref=e966]: ": string"
+                    - link "Direct link to FontFamily" [ref=e967]:
+                      - /url: "#state-fontfamily"
+                      - img [ref=e968]
+              - group [ref=e970]:
+                - 'generic "FontSize: number Direct link to FontSize" [ref=e971] [cursor=pointer]':
+                  - generic [ref=e972]:
+                    - generic [ref=e973]:
+                      - strong [ref=e974]: FontSize
+                      - generic [ref=e975]: ": number"
+                    - link "Direct link to FontSize" [ref=e976]:
+                      - /url: "#state-fontsize"
+                      - img [ref=e977]
+              - group [ref=e979]:
+                - 'generic "FontStyle: \"\", \"Bold Italic\", \"Bold\", \"Italic\", \"Regular\" Direct link to FontStyle" [ref=e980] [cursor=pointer]':
+                  - generic [ref=e981]:
+                    - generic [ref=e982]:
+                      - strong [ref=e983]: FontStyle
+                      - generic [ref=e984]: ": \"\", \"Bold Italic\", \"Bold\", \"Italic\", \"Regular\""
+                    - link "Direct link to FontStyle" [ref=e985]:
+                      - /url: "#state-fontstyle"
+                      - img [ref=e986]
+              - group [ref=e988]:
+                - 'generic "FontUnderline: boolean Direct link to FontUnderline" [ref=e989] [cursor=pointer]':
+                  - generic [ref=e990]:
+                    - generic [ref=e991]:
+                      - strong [ref=e992]: FontUnderline
+                      - generic [ref=e993]: ": boolean"
+                    - link "Direct link to FontUnderline" [ref=e994]:
+                      - /url: "#state-fontunderline"
+                      - img [ref=e995]
+              - group [ref=e997]:
+                - 'generic "Image: string Direct link to Image Required" [ref=e998] [cursor=pointer]':
+                  - generic [ref=e999]:
+                    - generic [ref=e1000]:
+                      - strong [ref=e1001]: Image
+                      - generic [ref=e1002]: ": string"
+                    - link "Direct link to Image" [ref=e1003]:
+                      - /url: "#state-image"
+                      - img [ref=e1004]
+                  - generic [ref=e1006]: Required
+              - group [ref=e1007]:
+                - 'generic "MultiActionImage: string Direct link to MultiActionImage" [ref=e1008] [cursor=pointer]':
+                  - generic [ref=e1009]:
+                    - generic [ref=e1010]:
+                      - strong [ref=e1011]: MultiActionImage
+                      - generic [ref=e1012]: ": string"
+                    - link "Direct link to MultiActionImage" [ref=e1013]:
+                      - /url: "#state-multiactionimage"
+                      - img [ref=e1014]
+              - group [ref=e1016]:
+                - 'generic "Name: string Direct link to Name" [ref=e1017] [cursor=pointer]':
+                  - generic [ref=e1018]:
+                    - generic [ref=e1019]:
+                      - strong [ref=e1020]: Name
+                      - generic [ref=e1021]: ": string"
+                    - link "Direct link to Name" [ref=e1022]:
+                      - /url: "#state-name"
+                      - img [ref=e1023]
+              - group [ref=e1025]:
+                - 'generic "ShowTitle: boolean Direct link to ShowTitle" [ref=e1026] [cursor=pointer]':
+                  - generic [ref=e1027]:
+                    - generic [ref=e1028]:
+                      - strong [ref=e1029]: ShowTitle
+                      - generic [ref=e1030]: ": boolean"
+                    - link "Direct link to ShowTitle" [ref=e1031]:
+                      - /url: "#state-showtitle"
+                      - img [ref=e1032]
+              - group [ref=e1034]:
+                - 'generic "Title: string Direct link to Title" [ref=e1035] [cursor=pointer]':
+                  - generic [ref=e1036]:
+                    - generic [ref=e1037]:
+                      - strong [ref=e1038]: Title
+                      - generic [ref=e1039]: ": string"
+                    - link "Direct link to Title" [ref=e1040]:
+                      - /url: "#state-title"
+                      - img [ref=e1041]
+              - group [ref=e1043]:
+                - 'generic "TitleAlignment: \"bottom\", \"middle\", \"top\" Direct link to TitleAlignment" [ref=e1044] [cursor=pointer]':
+                  - generic [ref=e1045]:
+                    - generic [ref=e1046]:
+                      - strong [ref=e1047]: TitleAlignment
+                      - generic [ref=e1048]: ": \"bottom\", \"middle\", \"top\""
+                    - link "Direct link to TitleAlignment" [ref=e1049]:
+                      - /url: "#state-titlealignment"
+                      - img [ref=e1050]
+              - group [ref=e1052]:
+                - 'generic "TitleColor: string Direct link to TitleColor" [ref=e1053] [cursor=pointer]':
+                  - generic [ref=e1054]:
+                    - generic [ref=e1055]:
+                      - strong [ref=e1056]: TitleColor
+                      - generic [ref=e1057]: ": string"
+                    - link "Direct link to TitleColor" [ref=e1058]:
+                      - /url: "#state-titlecolor"
+                      - img [ref=e1059]
+              - heading "TriggerDescriptionsDirect link to TriggerDescriptions" [level=3] [ref=e1061]:
+                - text: TriggerDescriptions
+                - link "Direct link to TriggerDescriptions" [ref=e1062] [cursor=pointer]:
+                  - /url: "#triggerdescriptions"
+                  - text: "#"
+              - paragraph [ref=e1063]: Descriptions that define the interaction of the action when it is associated with a dial / touchscreen on the Stream Deck +. This information is shown to the user.
+              - paragraph [ref=e1064]:
+                - strong [ref=e1065]: "Examples:"
+              - list [ref=e1066]:
+                - listitem [ref=e1067]: "\"Adjust volume\""
+                - listitem [ref=e1068]: "\"Play / Pause\""
+              - paragraph [ref=e1069]:
+                - strong [ref=e1070]: Properties
+              - group [ref=e1071]:
+                - 'generic "LongTouch: string Direct link to LongTouch" [ref=e1072] [cursor=pointer]':
+                  - generic [ref=e1073]:
+                    - generic [ref=e1074]:
+                      - strong [ref=e1075]: LongTouch
+                      - generic [ref=e1076]: ": string"
+                    - link "Direct link to LongTouch" [ref=e1077]:
+                      - /url: "#triggerdescriptions-longtouch"
+                      - img [ref=e1078]
+              - group [ref=e1080]:
+                - 'generic "Push: string Direct link to Push" [ref=e1081] [cursor=pointer]':
+                  - generic [ref=e1082]:
+                    - generic [ref=e1083]:
+                      - strong [ref=e1084]: Push
+                      - generic [ref=e1085]: ": string"
+                    - link "Direct link to Push" [ref=e1086]:
+                      - /url: "#triggerdescriptions-push"
+                      - img [ref=e1087]
+              - group [ref=e1089]:
+                - 'generic "Rotate: string Direct link to Rotate" [ref=e1090] [cursor=pointer]':
+                  - generic [ref=e1091]:
+                    - generic [ref=e1092]:
+                      - strong [ref=e1093]: Rotate
+                      - generic [ref=e1094]: ": string"
+                    - link "Direct link to Rotate" [ref=e1095]:
+                      - /url: "#triggerdescriptions-rotate"
+                      - img [ref=e1096]
+              - group [ref=e1098]:
+                - 'generic "Touch: string Direct link to Touch" [ref=e1099] [cursor=pointer]':
+                  - generic [ref=e1100]:
+                    - generic [ref=e1101]:
+                      - strong [ref=e1102]: Touch
+                      - generic [ref=e1103]: ": string"
+                    - link "Direct link to Touch" [ref=e1104]:
+                      - /url: "#triggerdescriptions-touch"
+                      - img [ref=e1105]
+          - navigation "Docs pages" [ref=e1107]:
+            - link "Previous « Code Linting" [ref=e1108] [cursor=pointer]:
+              - /url: /streamdeck/sdk/style-guide/linting
+              - generic [ref=e1109]: Previous
+              - generic [ref=e1110]: « Code Linting
+            - link "Next Touch Strip Layout »" [ref=e1111] [cursor=pointer]:
+              - /url: /streamdeck/sdk/references/touch-strip-layout
+              - generic [ref=e1112]: Next
+              - generic [ref=e1113]: Touch Strip Layout »
+        - list [ref=e1116]:
+          - listitem [ref=e1117]:
+            - link "Examples" [ref=e1118] [cursor=pointer]:
+              - /url: "#examples"
+          - listitem [ref=e1119]:
+            - link "JSON Schema" [ref=e1120] [cursor=pointer]:
+              - /url: "#json-schema"
+          - listitem [ref=e1121]:
+            - link "TypeScript Declaration" [ref=e1122] [cursor=pointer]:
+              - /url: "#typescript-declaration"
+          - listitem [ref=e1123]:
+            - link "Definitions" [ref=e1124] [cursor=pointer]:
+              - /url: "#definitions"
+            - list [ref=e1125]:
+              - listitem [ref=e1126]:
+                - link "Manifest" [ref=e1127] [cursor=pointer]:
+                  - /url: "#manifest"
+              - listitem [ref=e1128]:
+                - link "Action" [ref=e1129] [cursor=pointer]:
+                  - /url: "#action"
+              - listitem [ref=e1130]:
+                - link "ApplicationMonitoring" [ref=e1131] [cursor=pointer]:
+                  - /url: "#applicationmonitoring"
+              - listitem [ref=e1132]:
+                - link "Encoder" [ref=e1133] [cursor=pointer]:
+                  - /url: "#encoder"
+              - listitem [ref=e1134]:
+                - link "Nodejs" [ref=e1135] [cursor=pointer]:
+                  - /url: "#nodejs"
+              - listitem [ref=e1136]:
+                - link "OS" [ref=e1137] [cursor=pointer]:
+                  - /url: "#os"
+              - listitem [ref=e1138]:
+                - link "Profile" [ref=e1139] [cursor=pointer]:
+                  - /url: "#profile"
+              - listitem [ref=e1140]:
+                - link "Software" [ref=e1141] [cursor=pointer]:
+                  - /url: "#software"
+              - listitem [ref=e1142]:
+                - link "State" [ref=e1143] [cursor=pointer]:
+                  - /url: "#state"
+              - listitem [ref=e1144]:
+                - link "TriggerDescriptions" [ref=e1145] [cursor=pointer]:
+                  - /url: "#triggerdescriptions"
+  - contentinfo [ref=e1146]:
+    - generic [ref=e1147]:
+      - generic [ref=e1148]:
+        - generic [ref=e1149]:
+          - generic [ref=e1150]: Makers
+          - list [ref=e1151]:
+            - listitem [ref=e1152]:
+              - link "Become a Maker" [ref=e1153] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e1154]:
+              - link "Elgato Icons" [ref=e1155] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e1156]:
+              - link "Badges" [ref=e1157] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e1158]:
+          - generic [ref=e1159]: Marketplace
+          - list [ref=e1160]:
+            - listitem [ref=e1161]:
+              - link "Plugins" [ref=e1162] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e1163]:
+              - link "Icon Packs" [ref=e1164] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e1165]:
+              - link "Profiles" [ref=e1166] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e1167]:
+          - generic [ref=e1168]: Support
+          - list [ref=e1169]:
+            - listitem [ref=e1170]:
+              - link "FAQ" [ref=e1171] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e1172]:
+              - link "Contact" [ref=e1173] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e1174]:
+              - link "Copyright Claim" [ref=e1175] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e1176]:
+              - link "Downloads" [ref=e1177] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e1178]:
+          - generic [ref=e1179]: Company
+          - list [ref=e1180]:
+            - listitem [ref=e1181]:
+              - link "About" [ref=e1182] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e1183]:
+              - link "Media Room" [ref=e1184] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e1185]:
+              - link "Terms of Use" [ref=e1186] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e1187]:
+              - link "Privacy Policy" [ref=e1188] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e1190]: © 2026 Elgato. All rights reserved.

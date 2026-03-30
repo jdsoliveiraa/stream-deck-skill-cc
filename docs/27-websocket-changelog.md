@@ -1,0 +1,586 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [expanded] [ref=e107] [cursor=pointer]
+                - list [ref=e108]:
+                  - listitem [ref=e109]:
+                    - link "Plugin" [ref=e110] [cursor=pointer]:
+                      - /url: /streamdeck/sdk/references/websocket/plugin
+                  - listitem [ref=e111]:
+                    - link "Property Inspector (UI)" [ref=e112] [cursor=pointer]:
+                      - /url: /streamdeck/sdk/references/websocket/ui
+                  - listitem [ref=e113]:
+                    - link "Changes" [ref=e114] [cursor=pointer]:
+                      - /url: /streamdeck/sdk/references/websocket/changelog
+          - listitem [ref=e115]:
+            - generic [ref=e117]: Upgrading
+            - list [ref=e118]:
+              - listitem [ref=e119]:
+                - link "Version 2.x" [ref=e120] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e121]:
+      - generic [ref=e123]:
+        - generic [ref=e125]:
+          - article [ref=e126]:
+            - navigation "Breadcrumbs" [ref=e127]:
+              - list [ref=e128]:
+                - listitem [ref=e129]:
+                  - link "Home page" [ref=e130] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e131]
+                - listitem [ref=e133]:
+                  - generic [ref=e134]: References
+                - listitem [ref=e135]:
+                  - generic [ref=e136]: WebSocket API
+                - listitem [ref=e137]:
+                  - generic [ref=e138]: Changes
+            - generic [ref=e139]: "Version: 2.0.0"
+            - generic [ref=e140]:
+              - heading "Web Socket API Changes" [level=1] [ref=e142]
+              - paragraph [ref=e143]: Learn more about changes related to building Stream Deck plugins using the Web Socket API.
+              - heading "Stream DeckDirect link to Stream Deck" [level=2] [ref=e144]:
+                - text: Stream Deck
+                - link "Direct link to Stream Deck" [ref=e145] [cursor=pointer]:
+                  - /url: "#stream-deck"
+                  - text: "#"
+              - heading "v7.1.0Direct link to v7.1.0" [level=3] [ref=e146]:
+                - text: v7.1.0
+                - link "Direct link to v7.1.0" [ref=e147] [cursor=pointer]:
+                  - /url: "#stream-deck-7-1-0"
+                  - text: "#"
+              - list [ref=e148]:
+                - listitem [ref=e149]:
+                  - text: Added support for
+                  - link "embedding resources" [ref=e150] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/references/websocket/plugin#setresources
+                  - text: within actions.
+                - listitem [ref=e151]:
+                  - text: Added support for Node.js 24, configurable within the
+                  - link "manifest" [ref=e152] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/references/manifest#nodejs-version
+                  - text: .
+                - listitem [ref=e153]: Added in-app developer tools that track the current property inspector.
+                - listitem [ref=e154]: Fixed device type mapping for Stream Deck Scissor Keys and Corsair keyboards.
+              - heading "v7.0.0Direct link to v7.0.0" [level=3] [ref=e155]:
+                - text: v7.0.0
+                - link "Direct link to v7.0.0" [ref=e156] [cursor=pointer]:
+                  - /url: "#stream-deck-7-0-0"
+                  - text: "#"
+              - list [ref=e157]:
+                - listitem [ref=e158]:
+                  - text: Added
+                  - code [ref=e159]: deviceDidChange
+                  - text: event.
+                  - list [ref=e160]:
+                    - listitem [ref=e161]: Occurs when a devices' metadata or size changes.
+                    - listitem [ref=e162]:
+                      - link "Learn more" [ref=e163] [cursor=pointer]:
+                        - /url: /streamdeck/sdk/references/websocket/plugin#devicedidchange
+                      - text: about listening to device changes.
+                - listitem [ref=e164]:
+                  - text: Added support for passive deep-link messages using the
+                  - code [ref=e165]: "?streamdeck=hidden"
+                  - text: query parameter.
+                  - list [ref=e166]:
+                    - listitem [ref=e167]: Passive deep-links messages will not bring Stream Deck to the foreground.
+                    - listitem [ref=e168]:
+                      - link "Learn more" [ref=e169] [cursor=pointer]:
+                        - /url: /streamdeck/sdk/guides/deep-linking#active-vs-passive
+                      - text: about active vs passive deep-link message.
+                - listitem [ref=e170]:
+                  - text: Added
+                  - code [ref=e171]: SupportedInKeyLogicActions
+                  - text: property to actions within the manifest.
+                  - list [ref=e172]:
+                    - listitem [ref=e173]:
+                      - text: When
+                      - code [ref=e174]: "false"
+                      - text: ", the action will not be usable within Key Logic actions."
+                    - listitem [ref=e175]:
+                      - text: Optional property; default is
+                      - code [ref=e176]: "true"
+                      - text: .
+                - listitem [ref=e177]: Added device type for Virtual Stream Deck (11).
+                - listitem [ref=e178]:
+                  - text: Updated device
+                  - code [ref=e179]: size
+                  - text: to reflect the visual size of the device.
+                  - list [ref=e180]:
+                    - listitem [ref=e181]: Previously always 8 x 8 for Stream Deck Mobile and Virtual Stream Deck.
+                - listitem [ref=e182]: Fixed an issue whereby linked plugins would not run on first launch after installing Stream Deck.
+              - heading "v6.9.0Direct link to v6.9.0" [level=3] [ref=e183]:
+                - text: v6.9.0
+                - link "Direct link to v6.9.0" [ref=e184] [cursor=pointer]:
+                  - /url: "#stream-deck-6-9-0"
+                  - text: "#"
+              - list [ref=e185]:
+                - listitem [ref=e186]:
+                  - generic [ref=e187]:
+                    - text: Added
+                    - code [ref=e188]: SupportURL
+                    - text: "option to the manifest:"
+                  - list [ref=e189]:
+                    - listitem [ref=e190]: When specified, users will see a help button above the property inspector of the selected action.
+                    - listitem [ref=e191]:
+                      - text: Specifying a
+                      - code [ref=e192]: SupportURL
+                      - text: at the
+                      - link "root level" [ref=e193] [cursor=pointer]:
+                        - /url: /streamdeck/sdk/references/manifest#manifest-supporturl
+                      - text: (plugin) will apply to all actions.
+                    - listitem [ref=e194]:
+                      - text: Specifying a
+                      - code [ref=e195]: SupportURL
+                      - text: at the
+                      - link "action level" [ref=e196] [cursor=pointer]:
+                        - /url: /streamdeck/sdk/references/manifest#action-supporturl
+                      - text: will override the plugin
+                      - code [ref=e197]: SupportURL
+                      - text: .
+                    - listitem [ref=e198]:
+                      - code [ref=e199]: SupportURL
+                      - text: values are optional, but recommended.
+                - listitem [ref=e200]: Added device type for Stream Deck Studio.
+                - listitem [ref=e201]: Improved parsing of URLs when receiving deep-link messages, to support empty segments.
+                - listitem [ref=e202]:
+                  - text: Resolved an issue whereby updating a layout item's
+                  - code [ref=e203]: zOrder
+                  - text: to the same value would result in an error.
+                - listitem [ref=e204]: Updated Node.js runtime to v20.19.0.
+                - listitem [ref=e205]: Updated Chromium to v122.0.6261.171.
+              - generic [ref=e206]:
+                - generic [ref=e207]:
+                  - img [ref=e209]
+                  - text: Property inspector event changes
+                - paragraph [ref=e212]:
+                  - text: As part of the upgrade to Chromium 122, the
+                  - code [ref=e213]: beforeunload
+                  - text: event is no longer emitted within the property inspector when the property inspector disappears.
+              - generic [ref=e214]:
+                - generic [ref=e215]:
+                  - img [ref=e217]
+                  - text: Quality of life improvement
+                - paragraph [ref=e222]: Stream Deck now will appear in the Dock on macOS when the main configuration window is active.
+              - heading "v6.7.0Direct link to v6.7.0" [level=3] [ref=e223]:
+                - text: v6.7.0
+                - link "Direct link to v6.7.0" [ref=e224] [cursor=pointer]:
+                  - /url: "#stream-deck-6-7-0"
+                  - text: "#"
+              - list [ref=e225]:
+                - listitem [ref=e226]:
+                  - text: Added
+                  - code [ref=e227]: isInMultiAction
+                  - text: to property inspector action information.
+                - listitem [ref=e228]: Updated Node.js runtime to v20.15.0
+                - listitem [ref=e229]: Updated Chromium to v118.0.5993.220.
+              - heading "v6.6.0Direct link to v6.6.0" [level=3] [ref=e230]:
+                - text: v6.6.0
+                - link "Direct link to v6.6.0" [ref=e231] [cursor=pointer]:
+                  - /url: "#stream-deck-6-6-0"
+                  - text: "#"
+              - list [ref=e232]:
+                - listitem [ref=e233]: Added support for Stream Deck Neo, and SCUF controllers.
+                - listitem [ref=e234]:
+                  - text: Added support for OS-specific actions via
+                  - code [ref=e235]: Actions[].OS
+                  - text: within the manifest.
+                - listitem [ref=e236]:
+                  - text: Added the ability to disable automatically installing pre-defined profiles, when a plugin is installed, via
+                  - code [ref=e237]: Profiles[].AutoInstall
+                  - text: within the manifest.
+              - heading "v6.5.0Direct link to v6.5.0" [level=3] [ref=e238]:
+                - text: v6.5.0
+                - link "Direct link to v6.5.0" [ref=e239] [cursor=pointer]:
+                  - /url: "#stream-deck-6-5-0"
+                  - text: "#"
+              - generic [ref=e240]:
+                - generic [ref=e241]:
+                  - img [ref=e243]
+                  - text: warning
+                - paragraph [ref=e248]:
+                  - text: Please note, from Stream Deck 6.5 onwards,
+                  - code [ref=e249]: dialPress
+                  - text: will not be emitted by the API. Plugins should use
+                  - code [ref=e250]: dialDown
+                  - text: and
+                  - code [ref=e251]: dialUp
+                  - text: to receive events relating to dial presses.
+              - list [ref=e252]:
+                - listitem [ref=e253]: Added support for receiving deep-link messages.
+                - listitem [ref=e254]:
+                  - text: Added support for switching to a specific profile page when calling
+                  - code [ref=e255]: switchToProfile
+                  - text: .
+                - listitem [ref=e256]:
+                  - text: Added
+                  - code [ref=e257]: controller
+                  - text: information to
+                  - code [ref=e258]: WillAppear
+                  - text: and
+                  - code [ref=e259]: WillDisappear
+                  - text: events for multi-actions.
+                - listitem [ref=e260]:
+                  - text: Added support for Node.js plugins with the
+                  - code [ref=e261]: .cjs
+                  - text: or
+                  - code [ref=e262]: .mjs
+                  - text: file extensions.
+                - listitem [ref=e263]:
+                  - text: Removed
+                  - code [ref=e264]: dialPress
+                  - text: event in favour of
+                  - code [ref=e265]: dialDown
+                  - text: and
+                  - code [ref=e266]: dialUp
+                  - text: .
+                - listitem [ref=e267]: Updated Node.js runtime to v20.8.1.
+              - heading "v6.4.0Direct link to v6.4.0" [level=3] [ref=e268]:
+                - text: v6.4.0
+                - link "Direct link to v6.4.0" [ref=e269] [cursor=pointer]:
+                  - /url: "#stream-deck-6-4-0"
+                  - text: "#"
+              - list [ref=e270]:
+                - listitem [ref=e271]: Added support for Node.js plugins (beta).
+                - listitem [ref=e272]:
+                  - text: Added
+                  - code [ref=e273]: DisableAutomaticStates
+                  - text: option to manifest.
+                - listitem [ref=e274]:
+                  - text: Added
+                  - code [ref=e275]: setTriggerDescription
+                  - text: command for Stream Deck + encoders.
+                - listitem [ref=e276]:
+                  - text: Added
+                  - code [ref=e277]: range
+                  - text: to BAR layout item.
+                - listitem [ref=e278]:
+                  - text: Added
+                  - code [ref=e279]: range
+                  - text: to GBAR layout item.
+                - listitem [ref=e280]:
+                  - text: Added
+                  - code [ref=e281]: text-overflow
+                  - text: to TEXT layout item.
+                - listitem [ref=e282]:
+                  - text: Deprecated support for installing plugins using the
+                  - code [ref=e283]: streamdeck://
+                  - text: scheme.
+              - heading "v6.1.0Direct link to v6.1.0" [level=3] [ref=e284]:
+                - text: v6.1.0
+                - link "Direct link to v6.1.0" [ref=e285] [cursor=pointer]:
+                  - /url: "#stream-deck-6-1-0"
+                  - text: "#"
+              - list [ref=e286]:
+                - listitem [ref=e287]:
+                  - text: Add
+                  - code [ref=e288]: dialDown
+                  - text: event for Stream Deck + encoders.
+                - listitem [ref=e289]:
+                  - text: Add
+                  - code [ref=e290]: dialUp
+                  - text: event for Stream Deck + encoders.
+                - listitem [ref=e291]:
+                  - text: Deprecated
+                  - code [ref=e292]: dialPress
+                  - text: event for Stream Deck + encoders.
+              - heading "v6.0.0Direct link to v6.0.0" [level=3] [ref=e293]:
+                - text: v6.0.0
+                - link "Direct link to v6.0.0" [ref=e294] [cursor=pointer]:
+                  - /url: "#stream-deck-6-0-0"
+                  - text: "#"
+              - list [ref=e295]:
+                - listitem [ref=e296]: Add support for Stream Deck +.
+                - listitem [ref=e297]:
+                  - text: Add
+                  - code [ref=e298]: UserTitleEnabled
+                  - text: property to the manifest.
+                - listitem [ref=e299]:
+                  - text: Add
+                  - code [ref=e300]: Encoder
+                  - text: to the manifest for Stream Deck + devices.
+                - listitem [ref=e301]:
+                  - text: Add
+                  - code [ref=e302]: TriggerDescription
+                  - text: to the manifest for Stream Deck + devices.
+                - listitem [ref=e303]:
+                  - text: Add
+                  - code [ref=e304]: Layouts
+                  - text: for Stream Deck + displays.
+                - listitem [ref=e305]:
+                  - text: Add
+                  - code [ref=e306]: setFeedback
+                  - text: event for Stream Deck + displays.
+                - listitem [ref=e307]:
+                  - text: Add
+                  - code [ref=e308]: setFeedbackLayout
+                  - text: event for Stream Deck + displays.
+                - listitem [ref=e309]:
+                  - text: Add
+                  - code [ref=e310]: touchTap
+                  - text: event for Stream Deck + displays.
+                - listitem [ref=e311]:
+                  - text: Add
+                  - code [ref=e312]: dialPress
+                  - text: event for Stream Deck + encoders.
+                - listitem [ref=e313]:
+                  - text: Add
+                  - code [ref=e314]: dialRotate
+                  - text: event for Stream Deck + encoders.
+                - listitem [ref=e315]:
+                  - text: Update
+                  - code [ref=e316]: willAppear
+                  - text: and
+                  - code [ref=e317]: willDisappear
+                  - text: events to include the
+                  - code [ref=e318]: controller
+                  - text: property.
+              - heading "ArchiveDirect link to Archive" [level=2] [ref=e319]:
+                - text: Archive
+                - link "Direct link to Archive" [ref=e320] [cursor=pointer]:
+                  - /url: "#archive"
+                  - text: "#"
+              - group [ref=e321]:
+                - generic "Stream Deck v5Direct link to Stream Deck v5" [ref=e322] [cursor=pointer]:
+                  - heading "Stream Deck v5Direct link to Stream Deck v5" [level=3] [ref=e323]:
+                    - text: Stream Deck v5
+                    - link "Direct link to Stream Deck v5" [ref=e324]:
+                      - /url: "#stream-deck-v5"
+                      - text: "#"
+              - group [ref=e325]:
+                - generic "Stream Deck v4Direct link to Stream Deck v4" [ref=e326] [cursor=pointer]:
+                  - heading "Stream Deck v4Direct link to Stream Deck v4" [level=3] [ref=e327]:
+                    - text: Stream Deck v4
+                    - link "Direct link to Stream Deck v4" [ref=e328]:
+                      - /url: "#stream-deck-v4"
+                      - text: "#"
+          - navigation "Docs pages" [ref=e329]:
+            - link "Previous « Property Inspector (UI)" [ref=e330] [cursor=pointer]:
+              - /url: /streamdeck/sdk/references/websocket/ui
+              - generic [ref=e331]: Previous
+              - generic [ref=e332]: « Property Inspector (UI)
+            - link "Next Version 2.x »" [ref=e333] [cursor=pointer]:
+              - /url: /streamdeck/sdk/releases/upgrading/v2
+              - generic [ref=e334]: Next
+              - generic [ref=e335]: Version 2.x »
+        - list [ref=e338]:
+          - listitem [ref=e339]:
+            - link "Stream Deck" [ref=e340] [cursor=pointer]:
+              - /url: "#stream-deck"
+            - list [ref=e341]:
+              - listitem [ref=e342]:
+                - link "v7.1.0" [ref=e343] [cursor=pointer]:
+                  - /url: "#stream-deck-7-1-0"
+              - listitem [ref=e344]:
+                - link "v7.0.0" [ref=e345] [cursor=pointer]:
+                  - /url: "#stream-deck-7-0-0"
+              - listitem [ref=e346]:
+                - link "v6.9.0" [ref=e347] [cursor=pointer]:
+                  - /url: "#stream-deck-6-9-0"
+              - listitem [ref=e348]:
+                - link "v6.7.0" [ref=e349] [cursor=pointer]:
+                  - /url: "#stream-deck-6-7-0"
+              - listitem [ref=e350]:
+                - link "v6.6.0" [ref=e351] [cursor=pointer]:
+                  - /url: "#stream-deck-6-6-0"
+              - listitem [ref=e352]:
+                - link "v6.5.0" [ref=e353] [cursor=pointer]:
+                  - /url: "#stream-deck-6-5-0"
+              - listitem [ref=e354]:
+                - link "v6.4.0" [ref=e355] [cursor=pointer]:
+                  - /url: "#stream-deck-6-4-0"
+              - listitem [ref=e356]:
+                - link "v6.1.0" [ref=e357] [cursor=pointer]:
+                  - /url: "#stream-deck-6-1-0"
+              - listitem [ref=e358]:
+                - link "v6.0.0" [ref=e359] [cursor=pointer]:
+                  - /url: "#stream-deck-6-0-0"
+          - listitem [ref=e360]:
+            - link "Archive" [ref=e361] [cursor=pointer]:
+              - /url: "#archive"
+            - list [ref=e362]:
+              - listitem [ref=e363]:
+                - link "Stream Deck v5" [ref=e364] [cursor=pointer]:
+                  - /url: "#stream-deck-v5"
+              - listitem [ref=e365]:
+                - link "Stream Deck v4" [ref=e366] [cursor=pointer]:
+                  - /url: "#stream-deck-v4"
+  - contentinfo [ref=e367]:
+    - generic [ref=e368]:
+      - generic [ref=e369]:
+        - generic [ref=e370]:
+          - generic [ref=e371]: Makers
+          - list [ref=e372]:
+            - listitem [ref=e373]:
+              - link "Become a Maker" [ref=e374] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e375]:
+              - link "Elgato Icons" [ref=e376] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e377]:
+              - link "Badges" [ref=e378] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e379]:
+          - generic [ref=e380]: Marketplace
+          - list [ref=e381]:
+            - listitem [ref=e382]:
+              - link "Plugins" [ref=e383] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e384]:
+              - link "Icon Packs" [ref=e385] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e386]:
+              - link "Profiles" [ref=e387] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e388]:
+          - generic [ref=e389]: Support
+          - list [ref=e390]:
+            - listitem [ref=e391]:
+              - link "FAQ" [ref=e392] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e393]:
+              - link "Contact" [ref=e394] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e395]:
+              - link "Copyright Claim" [ref=e396] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e397]:
+              - link "Downloads" [ref=e398] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e399]:
+          - generic [ref=e400]: Company
+          - list [ref=e401]:
+            - listitem [ref=e402]:
+              - link "About" [ref=e403] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e404]:
+              - link "Media Room" [ref=e405] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e406]:
+              - link "Terms of Use" [ref=e407] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e408]:
+              - link "Privacy Policy" [ref=e409] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e411]: © 2026 Elgato. All rights reserved.

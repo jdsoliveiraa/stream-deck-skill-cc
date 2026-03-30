@@ -1,0 +1,602 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Plugin Guides
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Property Inspectors (UI)
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Property Inspectors (UI)" [level=1] [ref=e133]
+              - paragraph [ref=e134]: Property inspectors are HTML web views that provide users with an interface to adjust plugin settings.
+              - generic [ref=e135]:
+                - generic [ref=e136]:
+                  - img [ref=e138]
+                  - text: Work in progress
+                - paragraph [ref=e143]: The property inspector and its documentation are still in development. The information provided here is subject to change.
+              - heading "Getting StartedDirect link to Getting Started" [level=2] [ref=e144]:
+                - text: Getting Started
+                - link "Direct link to Getting Started" [ref=e145] [cursor=pointer]:
+                  - /url: "#getting-started"
+                  - text: "#"
+              - paragraph [ref=e146]:
+                - text: Start by creating an HTML file in your
+                - code [ref=e147]: ui
+                - text: directory within
+                - code [ref=e148]: "*.sdPlugin"
+                - text: .
+              - generic [ref=e149]:
+                - generic [ref=e150]: Plugin file structure
+                - generic [ref=e151]:
+                  - code [ref=e153]:
+                    - generic [ref=e154]: .
+                    - generic [ref=e155]: ├── *.sdPlugin/
+                    - generic [ref=e156]: │ ├── bin/
+                    - generic [ref=e157]: │ ├── imgs/
+                    - generic [ref=e158]: │ ├── logs/
+                    - generic [ref=e159]: │ ├── ui/
+                    - generic [ref=e160]: │ │ └── increment-counter.html
+                    - generic [ref=e161]: │ └── manifest.json
+                    - generic [ref=e162]: ├── src/
+                    - generic [ref=e163]: │ ├── actions/
+                    - generic [ref=e164]: │ │ └── increment-counter.ts
+                    - generic [ref=e165]: │ └── plugin.ts
+                    - generic [ref=e166]: ├── package.json
+                    - generic [ref=e167]: ├── rollup.config.mjs
+                    - generic [ref=e168]: └── tsconfig.json
+                  - button "Copy to clipboard" [ref=e170] [cursor=pointer]:
+                    - generic [ref=e171]:
+                      - img "Icon" [ref=e172]
+                      - img "Icon" [ref=e175]
+              - paragraph [ref=e177]:
+                - text: Add the path to your property inspector HTML file in the action's
+                - code [ref=e178]: PropertyInspectorPath
+                - text: property of your manifest file.
+              - generic [ref=e179]:
+                - generic [ref=e180]: Manifest with a property inspector at the action level
+                - generic [ref=e181]:
+                  - code [ref=e183]:
+                    - generic [ref=e184]: "{"
+                    - generic [ref=e185]: "\"$schema\": \"https://schemas.elgato.com/streamdeck/plugins/manifest.json\","
+                    - generic [ref=e186]: "\"Name\": \"Counter\","
+                    - generic [ref=e187]: "\"Version\": \"1.0.0.0\","
+                    - generic [ref=e188]: "\"Actions\": ["
+                    - generic [ref=e189]: "{"
+                    - generic [ref=e190]: "\"Name\": \"Counter\","
+                    - generic [ref=e191]: "\"UUID\": \"com.elgato.hello-world.increment\","
+                    - generic [ref=e192]: "\"PropertyInspectorPath\": \"ui/increment-counter.html\""
+                    - generic [ref=e193]: // ...
+                    - generic [ref=e194]: "}"
+                    - generic [ref=e195]: "]"
+                    - generic [ref=e196]: // ...
+                    - generic [ref=e197]: "}"
+                  - generic [ref=e198]:
+                    - button "Toggle word wrap" [ref=e199] [cursor=pointer]:
+                      - img [ref=e200]
+                    - button "Copy to clipboard" [ref=e202] [cursor=pointer]:
+                      - generic [ref=e203]:
+                        - img "Icon" [ref=e204]
+                        - img "Icon" [ref=e207]
+              - paragraph [ref=e209]:
+                - text: There can also be a property inspector declared at the plugin level that will appear for any actions that do not explicitly declare a
+                - code [ref=e210]: PropertyInspectorPath
+                - text: .
+              - generic [ref=e211]:
+                - generic [ref=e212]: Manifest with a property inspector at the plugin level
+                - generic [ref=e213]:
+                  - code [ref=e215]:
+                    - generic [ref=e216]: "{"
+                    - generic [ref=e217]: "\"$schema\": \"https://schemas.elgato.com/streamdeck/plugins/manifest.json\","
+                    - generic [ref=e218]: "\"Name\": \"Counter\","
+                    - generic [ref=e219]: "\"Version\": \"1.0.0.0\","
+                    - generic [ref=e220]: "\"PropertyInspectorPath\": \"increment-counter.html\","
+                    - generic [ref=e221]: "\"Actions\": ["
+                    - generic [ref=e222]: "{"
+                    - generic [ref=e223]: "\"Name\": \"Counter\","
+                    - generic [ref=e224]: "\"UUID\": \"ui/com.elgato.hello-world.increment\""
+                    - generic [ref=e225]: // ...
+                    - generic [ref=e226]: "}"
+                    - generic [ref=e227]: "]"
+                    - generic [ref=e228]: // ...
+                    - generic [ref=e229]: "}"
+                  - generic [ref=e230]:
+                    - button "Toggle word wrap" [ref=e231] [cursor=pointer]:
+                      - img [ref=e232]
+                    - button "Copy to clipboard" [ref=e234] [cursor=pointer]:
+                      - generic [ref=e235]:
+                        - img "Icon" [ref=e236]
+                        - img "Icon" [ref=e239]
+              - heading "UI LibraryDirect link to UI Library" [level=2] [ref=e241]:
+                - text: UI Library
+                - link "Direct link to UI Library" [ref=e242] [cursor=pointer]:
+                  - /url: "#ui-library"
+                  - text: "#"
+              - paragraph [ref=e243]: The Stream Deck UI library, called sdpi-components (Stream Deck Property Inspector Components), is designed to streamline building property inspectors. The UI library enables communication with your plugin from the property inspector, as well as providing a collection of web components for building consistent and user-friendly interfaces.
+              - paragraph [ref=e244]: To use the UI library, you will need to reference it in one of the following ways.
+              - generic [ref=e245]:
+                - tablist [ref=e246]:
+                  - tab "Local (recommended)" [selected] [ref=e247] [cursor=pointer]
+                  - tab "Remote" [ref=e248] [cursor=pointer]
+                - tabpanel [ref=e250]:
+                  - paragraph [ref=e251]: Referencing the UI library locally ensures a consistent and predictable experience for users, and where applicable allows your plugin to work without an internet connection.
+                  - paragraph [ref=e252]:
+                    - text: To reference the UI library locally, download
+                    - link "sdpi-components.js" [ref=e253] [cursor=pointer]:
+                      - /url: https://sdpi-components.dev/releases/v4/sdpi-components.js
+                    - text: alongside your local HTML file, and reference the file within your property inspector.
+                  - generic [ref=e254]:
+                    - generic [ref=e255]: Property inspector HTML
+                    - generic [ref=e256]:
+                      - code [ref=e258]:
+                        - generic [ref=e259]: <!doctype html>
+                        - generic [ref=e260]: <html>
+                        - generic [ref=e262]: <head lang="en">
+                        - generic [ref=e263]: <meta charset="utf-8" />
+                        - generic [ref=e264]: <script src="sdpi-components.js"></script>
+                        - generic [ref=e265]: </head>
+                        - generic [ref=e267]: <body>
+                        - generic [ref=e268]: <sdpi-item label="Name">
+                        - generic [ref=e269]: <sdpi-textfield setting="name"></sdpi-textfield>
+                        - generic [ref=e270]: </sdpi-item>
+                        - generic [ref=e271]: </body>
+                        - generic [ref=e273]: </html>
+                      - button "Copy to clipboard" [ref=e275] [cursor=pointer]:
+                        - generic [ref=e276]:
+                          - img "Icon" [ref=e277]
+                          - img "Icon" [ref=e280]
+              - heading "ComponentsDirect link to Components" [level=3] [ref=e282]:
+                - text: Components
+                - link "Direct link to Components" [ref=e283] [cursor=pointer]:
+                  - /url: "#components"
+                  - text: "#"
+              - paragraph [ref=e284]: The following components are available as part of the sdpi-components UI library.
+              - table [ref=e285]:
+                - rowgroup [ref=e286]:
+                  - row "Component sdpi-component" [ref=e287]:
+                    - columnheader "Component" [ref=e288]
+                    - columnheader "sdpi-component" [ref=e289]
+                - rowgroup [ref=e290]:
+                  - row "Button <sdpi-button>" [ref=e291]:
+                    - cell "Button" [ref=e292]:
+                      - link "Button" [ref=e293] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/button
+                    - cell "<sdpi-button>" [ref=e294]:
+                      - code [ref=e295]: <sdpi-button>
+                  - row "Checkbox <sdpi-checkbox>" [ref=e296]:
+                    - cell "Checkbox" [ref=e297]:
+                      - link "Checkbox" [ref=e298] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/checkbox
+                    - cell "<sdpi-checkbox>" [ref=e299]:
+                      - code [ref=e300]: <sdpi-checkbox>
+                  - row "Checkbox List <sdpi-checkbox-list>" [ref=e301]:
+                    - cell "Checkbox List" [ref=e302]:
+                      - link "Checkbox List" [ref=e303] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/checkbox-list
+                    - cell "<sdpi-checkbox-list>" [ref=e304]:
+                      - code [ref=e305]: <sdpi-checkbox-list>
+                  - row "Color <sdpi-color>" [ref=e306]:
+                    - cell "Color" [ref=e307]:
+                      - link "Color" [ref=e308] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/color
+                    - cell "<sdpi-color>" [ref=e309]:
+                      - code [ref=e310]: <sdpi-color>
+                  - row "Date <sdpi-calendar type=\"date\">" [ref=e311]:
+                    - cell "Date" [ref=e312]:
+                      - link "Date" [ref=e313] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/calendar/date
+                    - cell "<sdpi-calendar type=\"date\">" [ref=e314]:
+                      - code [ref=e315]: <sdpi-calendar type="date">
+                  - row "Datetime (Local) <sdpi-calendar type=\"datetime-local\">" [ref=e316]:
+                    - cell "Datetime (Local)" [ref=e317]:
+                      - link "Datetime (Local)" [ref=e318] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/calendar/datetime-local
+                    - cell "<sdpi-calendar type=\"datetime-local\">" [ref=e319]:
+                      - code [ref=e320]: <sdpi-calendar type="datetime-local">
+                  - row "Delegate <sdpi-delegate>" [ref=e321]:
+                    - cell "Delegate" [ref=e322]:
+                      - link "Delegate" [ref=e323] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/delegate
+                    - cell "<sdpi-delegate>" [ref=e324]:
+                      - code [ref=e325]: <sdpi-delegate>
+                  - row "File <sdpi-file>" [ref=e326]:
+                    - cell "File" [ref=e327]:
+                      - link "File" [ref=e328] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/file
+                    - cell "<sdpi-file>" [ref=e329]:
+                      - code [ref=e330]: <sdpi-file>
+                  - row "Month <sdpi-calendar type=\"month\">" [ref=e331]:
+                    - cell "Month" [ref=e332]:
+                      - link "Month" [ref=e333] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/calendar/month
+                    - cell "<sdpi-calendar type=\"month\">" [ref=e334]:
+                      - code [ref=e335]: <sdpi-calendar type="month">
+                  - row "Password <sdpi-password>" [ref=e336]:
+                    - cell "Password" [ref=e337]:
+                      - link "Password" [ref=e338] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/password
+                    - cell "<sdpi-password>" [ref=e339]:
+                      - code [ref=e340]: <sdpi-password>
+                  - row "Radio <sdpi-radio>" [ref=e341]:
+                    - cell "Radio" [ref=e342]:
+                      - link "Radio" [ref=e343] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/radio
+                    - cell "<sdpi-radio>" [ref=e344]:
+                      - code [ref=e345]: <sdpi-radio>
+                  - row "Range <sdpi-range>" [ref=e346]:
+                    - cell "Range" [ref=e347]:
+                      - link "Range" [ref=e348] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/range
+                    - cell "<sdpi-range>" [ref=e349]:
+                      - code [ref=e350]: <sdpi-range>
+                  - row "Select <sdpi-select>" [ref=e351]:
+                    - cell "Select" [ref=e352]:
+                      - link "Select" [ref=e353] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/select
+                    - cell "<sdpi-select>" [ref=e354]:
+                      - code [ref=e355]: <sdpi-select>
+                  - row "Textarea <sdpi-textarea>" [ref=e356]:
+                    - cell "Textarea" [ref=e357]:
+                      - link "Textarea" [ref=e358] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/textarea
+                    - cell "<sdpi-textarea>" [ref=e359]:
+                      - code [ref=e360]: <sdpi-textarea>
+                  - row "Textfield <sdpi-textfield>" [ref=e361]:
+                    - cell "Textfield" [ref=e362]:
+                      - link "Textfield" [ref=e363] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/textfield
+                    - cell "<sdpi-textfield>" [ref=e364]:
+                      - code [ref=e365]: <sdpi-textfield>
+                  - row "Time <sdpi-calendar type=\"time\">" [ref=e366]:
+                    - cell "Time" [ref=e367]:
+                      - link "Time" [ref=e368] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/calendar/time
+                    - cell "<sdpi-calendar type=\"time\">" [ref=e369]:
+                      - code [ref=e370]: <sdpi-calendar type="time">
+                  - row "Week <sdpi-calendar type=\"week\">" [ref=e371]:
+                    - cell "Week" [ref=e372]:
+                      - link "Week" [ref=e373] [cursor=pointer]:
+                        - /url: https://sdpi-components.dev/docs/components/calendar/week
+                    - cell "<sdpi-calendar type=\"week\">" [ref=e374]:
+                      - code [ref=e375]: <sdpi-calendar type="week">
+              - heading "Stream Deck ClientDirect link to Stream Deck Client" [level=3] [ref=e376]:
+                - text: Stream Deck Client
+                - link "Direct link to Stream Deck Client" [ref=e377] [cursor=pointer]:
+                  - /url: "#stream-deck-client"
+                  - text: "#"
+              - paragraph [ref=e378]:
+                - text: The
+                - link "Stream Deck Client" [ref=e379] [cursor=pointer]:
+                  - /url: https://sdpi-components.dev/docs/helpers/stream-deck-client
+                - text: allows the property inspector to communicate directly with the plugin. Once you've included the
+                - code [ref=e380]: sdpi-components.js
+                - text: script tag in the property inspector's HTML file, you can reference
+                - code [ref=e381]: streamDeckClient
+                - text: from the
+                - code [ref=e382]: SDPIComponents
+                - text: namespace.
+              - generic [ref=e383]:
+                - tablist [ref=e384]:
+                  - tab "Local (recommended)" [selected] [ref=e385] [cursor=pointer]
+                  - tab "Remote" [ref=e386] [cursor=pointer]
+                - tabpanel [ref=e388]:
+                  - generic [ref=e389]:
+                    - generic [ref=e390]: Property inspector HTML
+                    - generic [ref=e391]:
+                      - code [ref=e393]:
+                        - generic [ref=e394]: <!doctype html>
+                        - generic [ref=e395]: <html>
+                        - generic [ref=e397]: <head lang="en">
+                        - generic [ref=e398]: <meta charset="utf-8" />
+                        - generic [ref=e399]: <script src="sdpi-components.js"></script>
+                        - generic [ref=e400]: </head>
+                        - generic [ref=e402]: <body>
+                        - generic [ref=e403]: <script>
+                        - generic [ref=e404]: "const { streamDeckClient } = SDPIComponents;"
+                        - generic [ref=e406]: "streamDeckClient.setSettings({"
+                        - generic [ref=e407]: "name: \"John Doe\","
+                        - generic [ref=e408]: "showName: true,"
+                        - generic [ref=e409]: "favColor: \"green\","
+                        - generic [ref=e410]: "});"
+                        - generic [ref=e411]: </script>
+                        - generic [ref=e412]: </body>
+                        - generic [ref=e414]: </html>
+                      - button "Copy to clipboard" [ref=e416] [cursor=pointer]:
+                        - generic [ref=e417]:
+                          - img "Icon" [ref=e418]
+                          - img "Icon" [ref=e421]
+              - heading "DebuggingDirect link to Debugging" [level=2] [ref=e423]:
+                - text: Debugging
+                - link "Direct link to Debugging" [ref=e424] [cursor=pointer]:
+                  - /url: "#debugging"
+                  - text: "#"
+              - paragraph [ref=e425]:
+                - text: To debug the property inspector,
+                - link "developer mode" [ref=e426] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/dev
+                - text: must be enabled. Developer mode is enabled by default when the CLI tool's
+                - link "create" [ref=e427] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/create
+                  - code [ref=e428]: create
+                - text: command runs, but can also be enabled directly with the
+                - link "dev" [ref=e429] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/dev
+                  - code [ref=e430]: dev
+                - text: command.
+              - generic [ref=e431]:
+                - generic [ref=e432]: Terminal
+                - generic [ref=e433]:
+                  - code [ref=e435]:
+                    - generic [ref=e436]: streamdeck dev
+                  - button "Copy to clipboard" [ref=e438] [cursor=pointer]:
+                    - generic [ref=e439]:
+                      - img "Icon" [ref=e440]
+                      - img "Icon" [ref=e443]
+              - paragraph [ref=e445]:
+                - text: Once enabled, the remote debugger will be available at
+                - link "http://localhost:23654/" [ref=e446] [cursor=pointer]:
+                  - /url: http://localhost:23654/
+                  - code [ref=e447]: http://localhost:23654/
+                - text: with a list of available pages. Select the property inspector's page to debug using the browser's built-in web development tools. In most browsers these tools can be accessed by pressing
+                - code [ref=e448]: F12
+                - text: or the
+                - code [ref=e449]: inspect
+                - text: option in the context menu.
+              - generic [ref=e450]:
+                - generic [ref=e451]:
+                  - img [ref=e453]
+                  - text: Open the property inspector
+                - paragraph [ref=e456]: The property inspector must be visible within Stream Deck for the page to appear in the list of pages availabe for debug.
+              - paragraph [ref=e457]:
+                - text: Utilizing the
+                - code [ref=e458]: didReceiveSettings
+                - text: event within the plugin's action may also be useful for debugging settings and the property inspector.
+              - generic [ref=e459]:
+                - generic [ref=e460]: Receive settings callback
+                - generic [ref=e461]:
+                  - code [ref=e463]:
+                    - generic [ref=e464]: "import streamDeck, { action, type DidReceiveSettingsEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e466]: // Define the action's settings type.
+                    - generic [ref=e467]: "type Settings = {"
+                    - generic [ref=e468]: "count: number;"
+                    - generic [ref=e469]: "};"
+                    - generic [ref=e471]: "@action({ UUID: \"com.elgato.hello-world.counter\" })"
+                    - generic [ref=e472]: "class Counter extends SingletonAction<Settings> {"
+                    - generic [ref=e473]: /**
+                    - generic [ref=e474]: "* Occurs when the application-layer receives the settings from the UI."
+                    - generic [ref=e475]: "*/"
+                    - generic [ref=e476]: "override onDidReceiveSettings(ev: DidReceiveSettingsEvent<Settings>): void {"
+                    - generic [ref=e477]: // Handle the settings changing in the property inspector (UI).
+                    - generic [ref=e478]: "}"
+                    - generic [ref=e479]: "}"
+                    - generic [ref=e481]: streamDeck.actions.registerAction(new Counter());
+                    - generic [ref=e482]: streamDeck.connect();
+                  - generic [ref=e483]:
+                    - button "Toggle word wrap" [ref=e484] [cursor=pointer]:
+                      - img [ref=e485]
+                    - button "Copy to clipboard" [ref=e487] [cursor=pointer]:
+                      - generic [ref=e488]:
+                        - img "Icon" [ref=e489]
+                        - img "Icon" [ref=e492]
+          - navigation "Docs pages" [ref=e494]:
+            - link "Previous « Settings" [ref=e495] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/settings
+              - generic [ref=e496]: Previous
+              - generic [ref=e497]: « Settings
+            - link "Next Devices »" [ref=e498] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/devices
+              - generic [ref=e499]: Next
+              - generic [ref=e500]: Devices »
+        - list [ref=e503]:
+          - listitem [ref=e504]:
+            - link "Getting Started" [ref=e505] [cursor=pointer]:
+              - /url: "#getting-started"
+          - listitem [ref=e506]:
+            - link "UI Library" [ref=e507] [cursor=pointer]:
+              - /url: "#ui-library"
+            - list [ref=e508]:
+              - listitem [ref=e509]:
+                - link "Components" [ref=e510] [cursor=pointer]:
+                  - /url: "#components"
+              - listitem [ref=e511]:
+                - link "Stream Deck Client" [ref=e512] [cursor=pointer]:
+                  - /url: "#stream-deck-client"
+          - listitem [ref=e513]:
+            - link "Debugging" [ref=e514] [cursor=pointer]:
+              - /url: "#debugging"
+  - contentinfo [ref=e515]:
+    - generic [ref=e516]:
+      - generic [ref=e517]:
+        - generic [ref=e518]:
+          - generic [ref=e519]: Makers
+          - list [ref=e520]:
+            - listitem [ref=e521]:
+              - link "Become a Maker" [ref=e522] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e523]:
+              - link "Elgato Icons" [ref=e524] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e525]:
+              - link "Badges" [ref=e526] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e527]:
+          - generic [ref=e528]: Marketplace
+          - list [ref=e529]:
+            - listitem [ref=e530]:
+              - link "Plugins" [ref=e531] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e532]:
+              - link "Icon Packs" [ref=e533] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e534]:
+              - link "Profiles" [ref=e535] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e536]:
+          - generic [ref=e537]: Support
+          - list [ref=e538]:
+            - listitem [ref=e539]:
+              - link "FAQ" [ref=e540] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e541]:
+              - link "Contact" [ref=e542] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e543]:
+              - link "Copyright Claim" [ref=e544] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e545]:
+              - link "Downloads" [ref=e546] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e547]:
+          - generic [ref=e548]: Company
+          - list [ref=e549]:
+            - listitem [ref=e550]:
+              - link "About" [ref=e551] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e552]:
+              - link "Media Room" [ref=e553] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e554]:
+              - link "Terms of Use" [ref=e555] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e556]:
+              - link "Privacy Policy" [ref=e557] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e559]: © 2026 Elgato. All rights reserved.

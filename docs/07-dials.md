@@ -1,0 +1,921 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Plugin Guides
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Dials & Touch Strip
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Dials & Touch Strip" [level=1] [ref=e133]
+              - paragraph [ref=e134]: Dial actions are a combination of two parts of Stream Deck, the dial itself and a portion of the touch strip.
+              - heading "What is an Encoder?Direct link to What is an Encoder?" [level=2] [ref=e135]:
+                - text: What is an Encoder?
+                - link "Direct link to What is an Encoder?" [ref=e136] [cursor=pointer]:
+                  - /url: "#what-is-an-encoder"
+                  - text: "#"
+              - paragraph [ref=e137]: The dial and portion of the touch strip that make up a dial action are collectively known as an "Encoder". Combined, they allow for your plugin to receive dial and touch events, as well as provide feedback on the touch strip in the form of layouts.
+              - generic [ref=e139]:
+                - img "Screenshot of Stream Deck software highlighting an action slot" [ref=e141]
+                - generic:
+                  - 'button "Expand image: Screenshot of Stream Deck software highlighting an action slot"'
+              - heading "LayoutsDirect link to Layouts" [level=2] [ref=e142]:
+                - text: Layouts
+                - link "Direct link to Layouts" [ref=e143] [cursor=pointer]:
+                  - /url: "#layouts"
+                  - text: "#"
+              - paragraph [ref=e144]:
+                - text: Layouts are used to draw information about your actions on the touch display. Stream deck has a few
+                - link "built-in layouts" [ref=e145] [cursor=pointer]:
+                  - /url: "#built-in-layouts"
+                - text: ", but you can also build your own"
+                - link "custom layouts" [ref=e146] [cursor=pointer]:
+                  - /url: "#custom-layouts"
+                - text: using JSON files included in your plugin folder. Layouts are composed of
+                - link "layout items" [ref=e147] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout#definitions
+                - text: that can be updated programmatically.
+              - heading "Built-in LayoutsDirect link to Built-in Layouts" [level=3] [ref=e148]:
+                - text: Built-in Layouts
+                - link "Direct link to Built-in Layouts" [ref=e149] [cursor=pointer]:
+                  - /url: "#built-in-layouts"
+                  - text: "#"
+              - paragraph [ref=e150]: There are several built-in layouts available when rendering information on the Stream Deck + touch strip.
+              - generic [ref=e151]:
+                - tablist [ref=e152]:
+                  - tab "Icon ($X1)" [selected] [ref=e153] [cursor=pointer]
+                  - tab "Canvas ($A0)" [ref=e154] [cursor=pointer]
+                  - tab "Value ($A1)" [ref=e155] [cursor=pointer]
+                  - tab "Indicator ($B1)" [ref=e156] [cursor=pointer]
+                  - tab "Gradient indicator ($B2)" [ref=e157] [cursor=pointer]
+                  - tab "Double indicator ($C1)" [ref=e158] [cursor=pointer]
+                - tabpanel [ref=e160]:
+                  - img "Preview of the built-in layout $X1. There is a title placeholder, and an icon placeholder" [ref=e162]
+                  - generic [ref=e163]:
+                    - generic [ref=e164]: JSON file for pre-defined layout "$X1"
+                    - generic [ref=e165]:
+                      - code [ref=e167]:
+                        - generic [ref=e168]: "{"
+                        - generic [ref=e169]: "\"$schema\": \"https://schemas.elgato.com/streamdeck/plugins/layout.json\","
+                        - generic [ref=e170]: "\"id\": \"$X1\","
+                        - generic [ref=e171]: "\"items\": ["
+                        - generic [ref=e172]: "{"
+                        - generic [ref=e173]: "\"key\": \"title\","
+                        - generic [ref=e174]: "\"type\": \"text\","
+                        - generic [ref=e175]: "\"rect\": [16, 10, 136, 24],"
+                        - generic [ref=e176]: "\"font\": { \"size\": 16, \"weight\": 600 },"
+                        - generic [ref=e177]: "\"alignment\": \"left\""
+                        - generic [ref=e178]: "},"
+                        - generic [ref=e179]: "{"
+                        - generic [ref=e180]: "\"key\": \"icon\","
+                        - generic [ref=e181]: "\"type\": \"pixmap\","
+                        - generic [ref=e182]: "\"rect\": [76, 40, 48, 48]"
+                        - generic [ref=e183]: "}"
+                        - generic [ref=e184]: "]"
+                        - generic [ref=e185]: "}"
+                      - generic [ref=e186]:
+                        - button "Toggle word wrap" [ref=e187] [cursor=pointer]:
+                          - img [ref=e188]
+                        - button "Copy to clipboard" [ref=e190] [cursor=pointer]:
+                          - generic [ref=e191]:
+                            - img "Icon" [ref=e192]
+                            - img "Icon" [ref=e195]
+              - heading "ManifestDirect link to Manifest" [level=4] [ref=e197]:
+                - text: Manifest
+                - link "Direct link to Manifest" [ref=e198] [cursor=pointer]:
+                  - /url: "#manifest"
+                  - text: "#"
+              - paragraph [ref=e199]:
+                - text: Built-in layouts can be used as an action's default layout by setting the
+                - link "Actions[].Encoder.layout" [ref=e200] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest#encoder-layout
+                  - code [ref=e201]: Actions[].Encoder.layout
+                - text: "property within the manifest. For example:"
+              - generic [ref=e202]:
+                - generic [ref=e203]: Manifest JSON file, with an action referencing a built-in layout
+                - generic [ref=e204]:
+                  - code [ref=e206]:
+                    - generic [ref=e207]: "{"
+                    - generic [ref=e208]: "\"$schema\": \"https://schemas.elgato.com/streamdeck/plugins/manifest.json\","
+                    - generic [ref=e209]: "\"Actions\": ["
+                    - generic [ref=e210]: "{"
+                    - generic [ref=e211]: "\"Icon\": \"action-icon\","
+                    - generic [ref=e212]: "\"Name\": \"Action One\","
+                    - generic [ref=e213]: "\"Controllers\": [\"Encoder\"],"
+                    - generic [ref=e214]: "\"Encoder\": {"
+                    - generic [ref=e215]: "\"layout\": \"$B1\""
+                    - generic [ref=e216]: "},"
+                    - generic [ref=e217]: "\"States\": ["
+                    - generic [ref=e218]: "{"
+                    - generic [ref=e219]: "\"Image\": \"state-image\""
+                    - generic [ref=e220]: "}"
+                    - generic [ref=e221]: "],"
+                    - generic [ref=e222]: "\"UUID\": \"come.elgato.test.one\""
+                    - generic [ref=e223]: "}"
+                    - generic [ref=e224]: "],"
+                    - generic [ref=e225]: "\"Author\": \"Elgato\","
+                    - generic [ref=e226]: "\"Software\": {"
+                    - generic [ref=e227]: "\"MinimumVersion\": \"6.6\""
+                    - generic [ref=e228]: "}"
+                    - generic [ref=e229]: // ...
+                    - generic [ref=e230]: "}"
+                  - generic [ref=e231]:
+                    - button "Toggle word wrap" [ref=e232] [cursor=pointer]:
+                      - img [ref=e233]
+                    - button "Copy to clipboard" [ref=e235] [cursor=pointer]:
+                      - generic [ref=e236]:
+                        - img "Icon" [ref=e237]
+                        - img "Icon" [ref=e240]
+              - heading "ProgrammaticallyDirect link to Programmatically" [level=4] [ref=e242]:
+                - text: Programmatically
+                - link "Direct link to Programmatically" [ref=e243] [cursor=pointer]:
+                  - /url: "#programmatically"
+                  - text: "#"
+              - paragraph [ref=e244]:
+                - text: Built-in layouts can also be assigned to an instance of an action programmatically using the
+                - link "setFeedbackLayout" [ref=e245] [cursor=pointer]:
+                  - /url: "#setfeedbacklayout"
+                  - code [ref=e246]: setFeedbackLayout
+                - text: "function, for example:"
+              - generic [ref=e247]:
+                - generic [ref=e248]: Action class updating its layout to a built-in layout
+                - generic [ref=e249]:
+                  - code [ref=e251]:
+                    - generic [ref=e252]: "import { action, SingletonAction, WillAppearEvent } from \"@elgato/streamdeck\";"
+                    - generic [ref=e254]: "@action({ UUID: \"com.elgato.test.one\" })"
+                    - generic [ref=e255]: "export class IncrementCounter extends SingletonAction {"
+                    - generic [ref=e256]: /**
+                    - generic [ref=e257]: "* Occurs when the action will appear."
+                    - generic [ref=e258]: "*/"
+                    - generic [ref=e259]: "override onWillAppear(ev: WillAppearEvent): Promise<void> {"
+                    - generic [ref=e260]: "if (ev.action.isDial()) {"
+                    - generic [ref=e261]: return ev.action.setFeedbackLayout("$B1");
+                    - generic [ref=e262]: "}"
+                    - generic [ref=e263]: "}"
+                    - generic [ref=e264]: "}"
+                  - generic [ref=e265]:
+                    - button "Toggle word wrap" [ref=e266] [cursor=pointer]:
+                      - img [ref=e267]
+                    - button "Copy to clipboard" [ref=e269] [cursor=pointer]:
+                      - generic [ref=e270]:
+                        - img "Icon" [ref=e271]
+                        - img "Icon" [ref=e274]
+              - heading "Custom LayoutsDirect link to Custom Layouts" [level=3] [ref=e276]:
+                - text: Custom Layouts
+                - link "Direct link to Custom Layouts" [ref=e277] [cursor=pointer]:
+                  - /url: "#custom-layouts"
+                  - text: "#"
+              - paragraph [ref=e278]:
+                - text: Custom layouts are composed of
+                - link "layout items" [ref=e279] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+                - text: provided in a JSON file located in the
+                - code [ref=e280]: "*.sdPlugin"
+                - text: folder.
+              - generic [ref=e281]:
+                - generic [ref=e282]:
+                  - img [ref=e284]
+                  - text: warning
+                - paragraph [ref=e289]: Layouts have a canvas size of 200 × 100 px. If items fall outside of these bounds, Stream Deck will not render the layout.
+              - heading "ManifestDirect link to Manifest" [level=4] [ref=e290]:
+                - text: Manifest
+                - link "Direct link to Manifest" [ref=e291] [cursor=pointer]:
+                  - /url: "#manifest-1"
+                  - text: "#"
+              - paragraph [ref=e292]:
+                - text: Custom layouts can be used as an action's default layout by setting the
+                - link "Actions[].Encoder.layout" [ref=e293] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest#encoder-layout
+                  - code [ref=e294]: Actions[].Encoder.layout
+                - text: "property within the manifest. For example:"
+              - generic [ref=e295]:
+                - generic [ref=e296]: Manifest JSON file, with an action referencing a custom layout file
+                - generic [ref=e297]:
+                  - code [ref=e299]:
+                    - generic [ref=e300]: "{"
+                    - generic [ref=e301]: "\"$schema\": \"https://schemas.elgato.com/streamdeck/plugins/manifest.json\","
+                    - generic [ref=e302]: "\"Actions\": ["
+                    - generic [ref=e303]: "{"
+                    - generic [ref=e304]: "\"Icon\": \"action-icon\","
+                    - generic [ref=e305]: "\"Name\": \"Action One\","
+                    - generic [ref=e306]: "\"Controllers\": [\"Encoder\"],"
+                    - generic [ref=e307]: "\"Encoder\": {"
+                    - generic [ref=e308]: "\"layout\": \"custom-layout.json\""
+                    - generic [ref=e309]: "},"
+                    - generic [ref=e310]: "\"States\": ["
+                    - generic [ref=e311]: "{"
+                    - generic [ref=e312]: "\"Image\": \"state-image\""
+                    - generic [ref=e313]: "}"
+                    - generic [ref=e314]: "],"
+                    - generic [ref=e315]: "\"UUID\": \"come.elgato.test.one\""
+                    - generic [ref=e316]: "}"
+                    - generic [ref=e317]: "],"
+                    - generic [ref=e318]: "\"Author\": \"Elgato\","
+                    - generic [ref=e319]: "\"Software\": {"
+                    - generic [ref=e320]: "\"MinimumVersion\": \"6.6\""
+                    - generic [ref=e321]: "}"
+                    - generic [ref=e322]: // ...
+                    - generic [ref=e323]: "}"
+                  - generic [ref=e324]:
+                    - button "Toggle word wrap" [ref=e325] [cursor=pointer]:
+                      - img [ref=e326]
+                    - button "Copy to clipboard" [ref=e328] [cursor=pointer]:
+                      - generic [ref=e329]:
+                        - img "Icon" [ref=e330]
+                        - img "Icon" [ref=e333]
+              - heading "ProgrammaticallyDirect link to Programmatically" [level=4] [ref=e335]:
+                - text: Programmatically
+                - link "Direct link to Programmatically" [ref=e336] [cursor=pointer]:
+                  - /url: "#programmatically-1"
+                  - text: "#"
+              - paragraph [ref=e337]:
+                - text: Custom layouts can also be assigned to an instance of an action programmatically using the
+                - link "setFeedbackLayout" [ref=e338] [cursor=pointer]:
+                  - /url: "#setfeedbacklayout"
+                  - code [ref=e339]: setFeedbackLayout
+                - text: "function, for example:"
+              - generic [ref=e340]:
+                - generic [ref=e341]: Action class updating its layout to a custom layout file
+                - generic [ref=e342]:
+                  - code [ref=e344]:
+                    - generic [ref=e345]: "import { action, SingletonAction, WillAppearEvent } from \"@elgato/streamdeck\";"
+                    - generic [ref=e347]: "@action({ UUID: \"com.elgato.test.one\" })"
+                    - generic [ref=e348]: "export class IncrementCounter extends SingletonAction {"
+                    - generic [ref=e349]: /**
+                    - generic [ref=e350]: "* Occurs when the action will appear."
+                    - generic [ref=e351]: "*/"
+                    - generic [ref=e352]: "override onWillAppear(ev: WillAppearEvent): Promise<void> {"
+                    - generic [ref=e353]: "if (ev.action.isDial()) {"
+                    - generic [ref=e354]: return ev.action.setFeedbackLayout("custom-layout.json");
+                    - generic [ref=e355]: "}"
+                    - generic [ref=e356]: "}"
+                    - generic [ref=e357]: "}"
+                  - generic [ref=e358]:
+                    - button "Toggle word wrap" [ref=e359] [cursor=pointer]:
+                      - img [ref=e360]
+                    - button "Copy to clipboard" [ref=e362] [cursor=pointer]:
+                      - generic [ref=e363]:
+                        - img "Icon" [ref=e364]
+                        - img "Icon" [ref=e367]
+              - heading "DebuggingDirect link to Debugging" [level=4] [ref=e369]:
+                - text: Debugging
+                - link "Direct link to Debugging" [ref=e370] [cursor=pointer]:
+                  - /url: "#debugging"
+                  - text: "#"
+              - paragraph [ref=e371]:
+                - text: You can debug your custom layouts using the CLI tool's
+                - link "validate" [ref=e372] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/validate
+                  - code [ref=e373]: validate
+                - text: command.
+              - generic [ref=e374]:
+                - generic [ref=e375]: Terminal
+                - generic [ref=e376]:
+                  - code [ref=e378]:
+                    - generic [ref=e379]: streamdeck validate
+                  - button "Copy to clipboard" [ref=e381] [cursor=pointer]:
+                    - generic [ref=e382]:
+                      - img "Icon" [ref=e383]
+                      - img "Icon" [ref=e386]
+              - paragraph [ref=e388]: For example, here is a layout in which the item would render outside the canvas.
+              - generic [ref=e389]:
+                - generic [ref=e390]: Invalid custom layout
+                - generic [ref=e391]:
+                  - code [ref=e393]:
+                    - generic [ref=e394]: "{"
+                    - generic [ref=e395]: "\"$schema\": \"https://schemas.elgato.com/streamdeck/plugins/layout.json\","
+                    - generic [ref=e396]: "\"id\": \"hello-world\","
+                    - generic [ref=e397]: "\"items\": ["
+                    - generic [ref=e398]: "{"
+                    - generic [ref=e399]: "\"key\": \"title\","
+                    - generic [ref=e400]: "\"type\": \"text\","
+                    - generic [ref=e401]: "\"rect\": [100, 0, 136, 50], // x (100) + width (136) exceeds 200"
+                    - generic [ref=e402]: "\"font\": { \"size\": 32, \"weight\": 600 },"
+                    - generic [ref=e403]: "\"alignment\": \"left\""
+                    - generic [ref=e404]: "}"
+                    - generic [ref=e405]: "]"
+                    - generic [ref=e406]: "}"
+                  - generic [ref=e407]:
+                    - button "Toggle word wrap" [ref=e408] [cursor=pointer]:
+                      - img [ref=e409]
+                    - button "Copy to clipboard" [ref=e411] [cursor=pointer]:
+                      - generic [ref=e412]:
+                        - img "Icon" [ref=e413]
+                        - img "Icon" [ref=e416]
+              - paragraph [ref=e418]: "The CLI tool would provide the following output:"
+              - generic [ref=e419]:
+                - generic [ref=e420]: Layout validation output
+                - generic [ref=e421]:
+                  - code [ref=e423]:
+                    - generic [ref=e424]: 8:13 error items[0].rect[0] must not be outside of the canvas
+                    - generic [ref=e425]: 8:13 error └ Width and height, relative to the x and y, must be within the 200x100 px canvas
+                  - generic [ref=e426]:
+                    - button "Toggle word wrap" [ref=e427] [cursor=pointer]:
+                      - img [ref=e428]
+                    - button "Copy to clipboard" [ref=e430] [cursor=pointer]:
+                      - generic [ref=e431]:
+                        - img "Icon" [ref=e432]
+                        - img "Icon" [ref=e435]
+              - generic [ref=e437]:
+                - generic [ref=e438]:
+                  - img [ref=e440]
+                  - text: warning
+                - paragraph [ref=e445]:
+                  - text: If a layout item is anticipated to render outside of the given bounds, Stream Deck will not render the layout and instead provide details in
+                  - link "Stream Deck app logs" [ref=e446] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/logging#stream-deck-logs
+                  - text: .
+              - heading "Updating LayoutsDirect link to Updating Layouts" [level=2] [ref=e447]:
+                - text: Updating Layouts
+                - link "Direct link to Updating Layouts" [ref=e448] [cursor=pointer]:
+                  - /url: "#updating-layouts"
+                  - text: "#"
+              - paragraph [ref=e449]:
+                - text: You can update the values in a layout programmatically using the
+                - link "setFeedback" [ref=e450] [cursor=pointer]:
+                  - /url: "#setfeedback"
+                  - code [ref=e451]: setFeedback
+                - text: function, by referencing layout items by their
+                - code [ref=e452]: key
+                - text: . You can directly update the value of the item or set specific properties of the item. Properties not included in the payload will remain unchanged.
+              - generic [ref=e453]:
+                - generic [ref=e454]: Action class updating a $B1 layout via value
+                - generic [ref=e455]:
+                  - code [ref=e457]:
+                    - generic [ref=e458]: "import { action, DialUpEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e460]: "@action({ UUID: \"com.elgato.layout-image-test.increment\" })"
+                    - generic [ref=e461]: "export class IncrementCounter extends SingletonAction<CounterSettings> {"
+                    - generic [ref=e462]: /**
+                    - generic [ref=e463]: "* Occurs when the user releases a dial."
+                    - generic [ref=e464]: "*/"
+                    - generic [ref=e465]: "override onDialUp(ev: DialUpEvent<CounterSettings>): Promise<void> | void {"
+                    - generic [ref=e466]: "ev.action.setFeedback({"
+                    - generic [ref=e467]: "title: \"Half way there\","
+                    - generic [ref=e468]: "});"
+                    - generic [ref=e469]: "}"
+                    - generic [ref=e470]: "}"
+                    - generic [ref=e472]: /**
+                    - generic [ref=e473]: "* Settings for {@link IncrementCounter}."
+                    - generic [ref=e474]: "*/"
+                    - generic [ref=e475]: "type CounterSettings = {"
+                    - generic [ref=e476]: "count?: number;"
+                    - generic [ref=e477]: "incrementBy?: number;"
+                    - generic [ref=e478]: "};"
+                  - generic [ref=e479]:
+                    - button "Toggle word wrap" [ref=e480] [cursor=pointer]:
+                      - img [ref=e481]
+                    - button "Copy to clipboard" [ref=e483] [cursor=pointer]:
+                      - generic [ref=e484]:
+                        - img "Icon" [ref=e485]
+                        - img "Icon" [ref=e488]
+              - generic [ref=e490]:
+                - generic [ref=e491]: Action class updating a $B1 layout via properties
+                - generic [ref=e492]:
+                  - code [ref=e494]:
+                    - generic [ref=e495]: "import { action, DialUpEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e497]: "@action({ UUID: \"com.elgato.layout-image-test.increment\" })"
+                    - generic [ref=e498]: "export class IncrementCounter extends SingletonAction<CounterSettings> {"
+                    - generic [ref=e499]: /**
+                    - generic [ref=e500]: "* Occurs when the user releases a dial."
+                    - generic [ref=e501]: "*/"
+                    - generic [ref=e502]: "override onDialUp(ev: DialUpEvent<CounterSettings>): Promise<void> | void {"
+                    - generic [ref=e503]: "ev.action.setFeedback({"
+                    - generic [ref=e504]: "indicator: {"
+                    - generic [ref=e505]: "value: 50,"
+                    - generic [ref=e506]: "},"
+                    - generic [ref=e507]: "});"
+                    - generic [ref=e508]: "}"
+                    - generic [ref=e509]: "}"
+                    - generic [ref=e511]: /**
+                    - generic [ref=e512]: "* Settings for {@link IncrementCounter}."
+                    - generic [ref=e513]: "*/"
+                    - generic [ref=e514]: "type CounterSettings = {"
+                    - generic [ref=e515]: "count?: number;"
+                    - generic [ref=e516]: "incrementBy?: number;"
+                    - generic [ref=e517]: "};"
+                  - generic [ref=e518]:
+                    - button "Toggle word wrap" [ref=e519] [cursor=pointer]:
+                      - img [ref=e520]
+                    - button "Copy to clipboard" [ref=e522] [cursor=pointer]:
+                      - generic [ref=e523]:
+                        - img "Icon" [ref=e524]
+                        - img "Icon" [ref=e527]
+              - img "Stream Deck + touch display with updated layout values." [ref=e530]
+              - heading "Reserved Layout Item KeysDirect link to Reserved Layout Item Keys" [level=2] [ref=e531]:
+                - text: Reserved Layout Item Keys
+                - link "Direct link to Reserved Layout Item Keys" [ref=e532] [cursor=pointer]:
+                  - /url: "#reserved-layout-item-keys"
+                  - text: "#"
+              - paragraph [ref=e533]:
+                - text: Layouts utilize the
+                - code [ref=e534]: key
+                - text: value of an item to identify said item, however there are a few reserved keys that can be overridden by the user.
+              - list [ref=e535]:
+                - listitem [ref=e536]:
+                  - code [ref=e537]: title
+                  - text: "- As with"
+                  - link "key actions" [ref=e538] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/keys#display-precedence
+                  - text: ", users can set a custom title for dial/touch strip actions, which will take precedence over the plugin provided title."
+                - listitem [ref=e539]:
+                  - code [ref=e540]: icon
+                  - text: "- As with"
+                  - link "key actions" [ref=e541] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/keys#display-precedence
+                  - text: ", users can set a custom icon for dial/touch strip actions, which will take precedence over the plugin provided icon."
+              - heading "Trigger DescriptionsDirect link to Trigger Descriptions" [level=2] [ref=e542]:
+                - text: Trigger Descriptions
+                - link "Direct link to Trigger Descriptions" [ref=e543] [cursor=pointer]:
+                  - /url: "#trigger-descriptions"
+                  - text: "#"
+              - paragraph [ref=e544]:
+                - text: Trigger descriptions can help the user to understand what the encoder does in a particular dial action. This can be set in the manifest file using the
+                - link "Actions[].Encoder.TriggerDescriptions" [ref=e545] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest#triggerdescriptions
+                  - code [ref=e546]: Actions[].Encoder.TriggerDescriptions
+                - text: property.
+              - img "Screenshot of Stream Deck software highlighting trigger descriptions" [ref=e550]
+              - generic [ref=e551]:
+                - generic [ref=e552]: Manifest JSON file, with an action referencing a trigger description
+                - generic [ref=e553]:
+                  - code [ref=e555]:
+                    - generic [ref=e556]: "{"
+                    - generic [ref=e557]: "\"Actions\": ["
+                    - generic [ref=e558]: "{"
+                    - generic [ref=e559]: "\"Icon\": \"action-icon\","
+                    - generic [ref=e560]: "\"Name\": \"Trigger Description Example\","
+                    - generic [ref=e561]: "\"Controllers\": [\"Encoder\"],"
+                    - generic [ref=e562]: "\"Encoder\": {"
+                    - generic [ref=e563]: "\"layout\": \"$A1\","
+                    - generic [ref=e564]: "\"TriggerDescription\": {"
+                    - generic [ref=e565]: "\"Push\": \"Play / Pause\","
+                    - generic [ref=e566]: "\"Rotate\": \"Adjust Volume\","
+                    - generic [ref=e567]: "\"Touch\": \"Play / Pause\","
+                    - generic [ref=e568]: "\"LongTouch\": \"Skip Track\""
+                    - generic [ref=e569]: "}"
+                    - generic [ref=e570]: "}"
+                    - generic [ref=e571]: "}"
+                    - generic [ref=e572]: "]"
+                    - generic [ref=e573]: // ...
+                    - generic [ref=e574]: "}"
+                  - button "Copy to clipboard" [ref=e576] [cursor=pointer]:
+                    - generic [ref=e577]:
+                      - img "Icon" [ref=e578]
+                      - img "Icon" [ref=e581]
+              - heading "Update Trigger DescriptionsDirect link to Update Trigger Descriptions" [level=3] [ref=e583]:
+                - text: Update Trigger Descriptions
+                - link "Direct link to Update Trigger Descriptions" [ref=e584] [cursor=pointer]:
+                  - /url: "#update-trigger-descriptions"
+                  - text: "#"
+              - paragraph [ref=e585]:
+                - text: You can programmatically update the trigger descriptions using the
+                - link "setTriggerDescription" [ref=e586] [cursor=pointer]:
+                  - /url: "#settriggerdescription"
+                  - code [ref=e587]: setTriggerDescription
+                - text: function.
+              - generic [ref=e588]:
+                - generic [ref=e589]: Action class updating its trigger description
+                - generic [ref=e590]:
+                  - code [ref=e592]:
+                    - generic [ref=e593]: "import { action, DialUpEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e595]: "@action({ UUID: \"com.elgato.trigger-description-example.increment\" })"
+                    - generic [ref=e596]: "export class IncrementCounter extends SingletonAction<CounterSettings> {"
+                    - generic [ref=e597]: /**
+                    - generic [ref=e598]: "* Occurs when the user releases a dial."
+                    - generic [ref=e599]: "*/"
+                    - generic [ref=e600]: "override onDialUp(ev: DialUpEvent<CounterSettings>): Promise<void> | void {"
+                    - generic [ref=e601]: "ev.action.setTriggerDescription({"
+                    - generic [ref=e602]: "push: \"Increment counter\","
+                    - generic [ref=e603]: "rotate: \"Adjust increment\","
+                    - generic [ref=e604]: "touch: \"Increment counter\","
+                    - generic [ref=e605]: "longTouch: \"Reset counter\","
+                    - generic [ref=e606]: "});"
+                    - generic [ref=e607]: "}"
+                    - generic [ref=e608]: "}"
+                    - generic [ref=e610]: /**
+                    - generic [ref=e611]: "* Settings for {@link IncrementCounter}."
+                    - generic [ref=e612]: "*/"
+                    - generic [ref=e613]: "type CounterSettings = {"
+                    - generic [ref=e614]: "count?: number;"
+                    - generic [ref=e615]: "incrementBy?: number;"
+                    - generic [ref=e616]: "};"
+                  - generic [ref=e617]:
+                    - button "Toggle word wrap" [ref=e618] [cursor=pointer]:
+                      - img [ref=e619]
+                    - button "Copy to clipboard" [ref=e621] [cursor=pointer]:
+                      - generic [ref=e622]:
+                        - img "Icon" [ref=e623]
+                        - img "Icon" [ref=e626]
+              - heading "EventsDirect link to Events" [level=2] [ref=e628]:
+                - text: Events
+                - link "Direct link to Events" [ref=e629] [cursor=pointer]:
+                  - /url: "#events"
+                  - text: "#"
+              - paragraph [ref=e630]:
+                - text: In addition to the
+                - link "action events" [ref=e631] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions#events
+                - text: found on both keys and dials, dials also receive the following events in the form of overridable methods on the
+                - code [ref=e632]: SingletonAction
+                - text: class.
+              - group [ref=e633]:
+                - generic "onDialDownDirect link to onDialDown" [ref=e634] [cursor=pointer]:
+                  - heading "onDialDownDirect link to onDialDown" [level=3] [ref=e635]:
+                    - text: onDialDown
+                    - link "Direct link to onDialDown" [ref=e636]:
+                      - /url: "#ondialdown"
+                      - text: "#"
+              - group [ref=e637]:
+                - generic "onDialRotateDirect link to onDialRotate" [ref=e638] [cursor=pointer]:
+                  - heading "onDialRotateDirect link to onDialRotate" [level=3] [ref=e639]:
+                    - text: onDialRotate
+                    - link "Direct link to onDialRotate" [ref=e640]:
+                      - /url: "#ondialrotate"
+                      - text: "#"
+              - group [ref=e641]:
+                - generic "onDialUpDirect link to onDialUp" [ref=e642] [cursor=pointer]:
+                  - heading "onDialUpDirect link to onDialUp" [level=3] [ref=e643]:
+                    - text: onDialUp
+                    - link "Direct link to onDialUp" [ref=e644]:
+                      - /url: "#ondialup"
+                      - text: "#"
+              - group [ref=e645]:
+                - generic "onTouchTapDirect link to onTouchTap" [ref=e646] [cursor=pointer]:
+                  - heading "onTouchTapDirect link to onTouchTap" [level=3] [ref=e647]:
+                    - text: onTouchTap
+                    - link "Direct link to onTouchTap" [ref=e648]:
+                      - /url: "#ontouchtap"
+                      - text: "#"
+              - heading "CommandsDirect link to Commands" [level=2] [ref=e649]:
+                - text: Commands
+                - link "Direct link to Commands" [ref=e650] [cursor=pointer]:
+                  - /url: "#commands"
+                  - text: "#"
+              - paragraph [ref=e651]: The following commands are available to dial actions.
+              - generic [ref=e652]:
+                - generic [ref=e653]:
+                  - img [ref=e655]
+                  - text: tip
+                - paragraph [ref=e660]:
+                  - text: Some events are applicable to both dials and keys, such as
+                  - link "onWillAppear" [ref=e661] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/actions#onwillappear
+                    - code [ref=e662]: onWillAppear
+                  - text: . To invoke a dial-only command within these event handlers, you need to first assert the action is a dial using
+                  - link "Action.isDial()" [ref=e663] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/actions#isdial
+                    - code [ref=e664]: Action.isDial()
+                  - text: .
+              - group [ref=e665]:
+                - generic "getResourcesDirect link to getResources" [ref=e666] [cursor=pointer]:
+                  - heading "getResourcesDirect link to getResources" [level=3] [ref=e667]:
+                    - text: getResources
+                    - link "Direct link to getResources" [ref=e668]:
+                      - /url: "#getresources"
+                      - text: "#"
+              - group [ref=e669]:
+                - generic "getSettingsDirect link to getSettings" [ref=e670] [cursor=pointer]:
+                  - heading "getSettingsDirect link to getSettings" [level=3] [ref=e671]:
+                    - text: getSettings
+                    - link "Direct link to getSettings" [ref=e672]:
+                      - /url: "#getsettings"
+                      - text: "#"
+              - group [ref=e673]:
+                - generic "setFeedbackDirect link to setFeedback" [ref=e674] [cursor=pointer]:
+                  - heading "setFeedbackDirect link to setFeedback" [level=3] [ref=e675]:
+                    - text: setFeedback
+                    - link "Direct link to setFeedback" [ref=e676]:
+                      - /url: "#setfeedback"
+                      - text: "#"
+              - group [ref=e677]:
+                - generic "setFeedbackLayoutDirect link to setFeedbackLayout" [ref=e678] [cursor=pointer]:
+                  - heading "setFeedbackLayoutDirect link to setFeedbackLayout" [level=3] [ref=e679]:
+                    - text: setFeedbackLayout
+                    - link "Direct link to setFeedbackLayout" [ref=e680]:
+                      - /url: "#setfeedbacklayout"
+                      - text: "#"
+              - group [ref=e681]:
+                - generic "setImageDirect link to setImage" [ref=e682] [cursor=pointer]:
+                  - heading "setImageDirect link to setImage" [level=3] [ref=e683]:
+                    - text: setImage
+                    - link "Direct link to setImage" [ref=e684]:
+                      - /url: "#setimage"
+                      - text: "#"
+              - group [ref=e685]:
+                - generic "setResourcesDirect link to setResources" [ref=e686] [cursor=pointer]:
+                  - heading "setResourcesDirect link to setResources" [level=3] [ref=e687]:
+                    - text: setResources
+                    - link "Direct link to setResources" [ref=e688]:
+                      - /url: "#setresources"
+                      - text: "#"
+              - group [ref=e689]:
+                - generic "setSettingsDirect link to setSettings" [ref=e690] [cursor=pointer]:
+                  - heading "setSettingsDirect link to setSettings" [level=3] [ref=e691]:
+                    - text: setSettings
+                    - link "Direct link to setSettings" [ref=e692]:
+                      - /url: "#setsettings"
+                      - text: "#"
+              - group [ref=e693]:
+                - generic "setTitleDirect link to setTitle" [ref=e694] [cursor=pointer]:
+                  - heading "setTitleDirect link to setTitle" [level=3] [ref=e695]:
+                    - text: setTitle
+                    - link "Direct link to setTitle" [ref=e696]:
+                      - /url: "#settitle"
+                      - text: "#"
+              - group [ref=e697]:
+                - generic "setTriggerDescriptionDirect link to setTriggerDescription" [ref=e698] [cursor=pointer]:
+                  - heading "setTriggerDescriptionDirect link to setTriggerDescription" [level=3] [ref=e699]:
+                    - text: setTriggerDescription
+                    - link "Direct link to setTriggerDescription" [ref=e700]:
+                      - /url: "#settriggerdescription"
+                      - text: "#"
+              - group [ref=e701]:
+                - generic "showAlertDirect link to showAlert" [ref=e702] [cursor=pointer]:
+                  - heading "showAlertDirect link to showAlert" [level=3] [ref=e703]:
+                    - text: showAlert
+                    - link "Direct link to showAlert" [ref=e704]:
+                      - /url: "#showalert"
+                      - text: "#"
+          - navigation "Docs pages" [ref=e705]:
+            - link "Previous « Keys" [ref=e706] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/keys
+              - generic [ref=e707]: Previous
+              - generic [ref=e708]: « Keys
+            - link "Next Settings »" [ref=e709] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/settings
+              - generic [ref=e710]: Next
+              - generic [ref=e711]: Settings »
+        - list [ref=e714]:
+          - listitem [ref=e715]:
+            - link "What is an Encoder?" [ref=e716] [cursor=pointer]:
+              - /url: "#what-is-an-encoder"
+          - listitem [ref=e717]:
+            - link "Layouts" [ref=e718] [cursor=pointer]:
+              - /url: "#layouts"
+            - list [ref=e719]:
+              - listitem [ref=e720]:
+                - link "Built-in Layouts" [ref=e721] [cursor=pointer]:
+                  - /url: "#built-in-layouts"
+              - listitem [ref=e722]:
+                - link "Custom Layouts" [ref=e723] [cursor=pointer]:
+                  - /url: "#custom-layouts"
+          - listitem [ref=e724]:
+            - link "Updating Layouts" [ref=e725] [cursor=pointer]:
+              - /url: "#updating-layouts"
+          - listitem [ref=e726]:
+            - link "Reserved Layout Item Keys" [ref=e727] [cursor=pointer]:
+              - /url: "#reserved-layout-item-keys"
+          - listitem [ref=e728]:
+            - link "Trigger Descriptions" [ref=e729] [cursor=pointer]:
+              - /url: "#trigger-descriptions"
+            - list [ref=e730]:
+              - listitem [ref=e731]:
+                - link "Update Trigger Descriptions" [ref=e732] [cursor=pointer]:
+                  - /url: "#update-trigger-descriptions"
+          - listitem [ref=e733]:
+            - link "Events" [ref=e734] [cursor=pointer]:
+              - /url: "#events"
+            - list [ref=e735]:
+              - listitem [ref=e736]:
+                - link "onDialDown" [ref=e737] [cursor=pointer]:
+                  - /url: "#ondialdown"
+              - listitem [ref=e738]:
+                - link "onDialRotate" [ref=e739] [cursor=pointer]:
+                  - /url: "#ondialrotate"
+              - listitem [ref=e740]:
+                - link "onDialUp" [ref=e741] [cursor=pointer]:
+                  - /url: "#ondialup"
+              - listitem [ref=e742]:
+                - link "onTouchTap" [ref=e743] [cursor=pointer]:
+                  - /url: "#ontouchtap"
+          - listitem [ref=e744]:
+            - link "Commands" [ref=e745] [cursor=pointer]:
+              - /url: "#commands"
+            - list [ref=e746]:
+              - listitem [ref=e747]:
+                - link "getResources" [ref=e748] [cursor=pointer]:
+                  - /url: "#getresources"
+              - listitem [ref=e749]:
+                - link "getSettings" [ref=e750] [cursor=pointer]:
+                  - /url: "#getsettings"
+              - listitem [ref=e751]:
+                - link "setFeedback" [ref=e752] [cursor=pointer]:
+                  - /url: "#setfeedback"
+              - listitem [ref=e753]:
+                - link "setFeedbackLayout" [ref=e754] [cursor=pointer]:
+                  - /url: "#setfeedbacklayout"
+              - listitem [ref=e755]:
+                - link "setImage" [ref=e756] [cursor=pointer]:
+                  - /url: "#setimage"
+              - listitem [ref=e757]:
+                - link "setResources" [ref=e758] [cursor=pointer]:
+                  - /url: "#setresources"
+              - listitem [ref=e759]:
+                - link "setSettings" [ref=e760] [cursor=pointer]:
+                  - /url: "#setsettings"
+              - listitem [ref=e761]:
+                - link "setTitle" [ref=e762] [cursor=pointer]:
+                  - /url: "#settitle"
+              - listitem [ref=e763]:
+                - link "setTriggerDescription" [ref=e764] [cursor=pointer]:
+                  - /url: "#settriggerdescription"
+              - listitem [ref=e765]:
+                - link "showAlert" [ref=e766] [cursor=pointer]:
+                  - /url: "#showalert"
+  - contentinfo [ref=e767]:
+    - generic [ref=e768]:
+      - generic [ref=e769]:
+        - generic [ref=e770]:
+          - generic [ref=e771]: Makers
+          - list [ref=e772]:
+            - listitem [ref=e773]:
+              - link "Become a Maker" [ref=e774] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e775]:
+              - link "Elgato Icons" [ref=e776] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e777]:
+              - link "Badges" [ref=e778] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e779]:
+          - generic [ref=e780]: Marketplace
+          - list [ref=e781]:
+            - listitem [ref=e782]:
+              - link "Plugins" [ref=e783] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e784]:
+              - link "Icon Packs" [ref=e785] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e786]:
+              - link "Profiles" [ref=e787] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e788]:
+          - generic [ref=e789]: Support
+          - list [ref=e790]:
+            - listitem [ref=e791]:
+              - link "FAQ" [ref=e792] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e793]:
+              - link "Contact" [ref=e794] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e795]:
+              - link "Copyright Claim" [ref=e796] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e797]:
+              - link "Downloads" [ref=e798] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e799]:
+          - generic [ref=e800]: Company
+          - list [ref=e801]:
+            - listitem [ref=e802]:
+              - link "About" [ref=e803] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e804]:
+              - link "Media Room" [ref=e805] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e806]:
+              - link "Terms of Use" [ref=e807] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e808]:
+              - link "Privacy Policy" [ref=e809] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e811]: © 2026 Elgato. All rights reserved.

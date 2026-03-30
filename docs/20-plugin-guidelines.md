@@ -1,0 +1,730 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Marketplace" [ref=e10] [cursor=pointer]:
+          - /url: /marketplace/become-a-maker
+      - generic [ref=e11]:
+        - button "Discover" [ref=e13] [cursor=pointer]
+        - link "Discord" [ref=e14] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e15] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e16] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - button "Search (Command+K)" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]:
+            - img [ref=e24]
+            - generic [ref=e26]: Search
+          - generic [ref=e27]:
+            - generic [ref=e28]: ⌘
+            - generic [ref=e29]: K
+  - generic [ref=e32]:
+    - complementary [ref=e33]:
+      - navigation "Docs sidebar" [ref=e36]:
+        - list [ref=e37]:
+          - listitem [ref=e38]:
+            - generic [ref=e40]: Getting Started
+            - list [ref=e41]:
+              - listitem [ref=e42]:
+                - link "Become a Maker" [ref=e43] [cursor=pointer]:
+                  - /url: /marketplace/become-a-maker
+          - listitem [ref=e44]:
+            - generic [ref=e46]: Products
+            - list [ref=e47]:
+              - listitem [ref=e48]:
+                - button "Stream Deck" [ref=e50] [cursor=pointer]
+              - listitem [ref=e51]:
+                - button "Wave Link" [ref=e53] [cursor=pointer]
+              - listitem [ref=e54]:
+                - link "Camera Hub" [ref=e55] [cursor=pointer]:
+                  - /url: https://marketplace.elgato.com/video
+                  - text: Camera Hub
+                  - img [ref=e56]
+              - listitem [ref=e58]:
+                - link "OBS" [ref=e59] [cursor=pointer]:
+                  - /url: /obs/scene-collections/
+                  - text: OBS
+                  - img [ref=e60]
+          - listitem [ref=e62]:
+            - generic [ref=e64]: Maker Console
+            - list [ref=e65]:
+              - listitem [ref=e66]:
+                - link "Getting Started" [ref=e67] [cursor=pointer]:
+                  - /url: /maker-console/getting-started
+              - listitem [ref=e68]:
+                - link "Review Process" [ref=e69] [cursor=pointer]:
+                  - /url: /maker-console/review-process
+              - listitem [ref=e70]:
+                - link "Submitting Products" [ref=e71] [cursor=pointer]:
+                  - /url: /maker-console/submitting-products
+              - listitem [ref=e72]:
+                - link "Managing Products" [ref=e73] [cursor=pointer]:
+                  - /url: /maker-console/managing-products
+              - listitem [ref=e74]:
+                - link "Organization" [ref=e75] [cursor=pointer]:
+                  - /url: /maker-console/organization
+          - listitem [ref=e76]:
+            - generic [ref=e78]: Guidelines
+            - list [ref=e79]:
+              - listitem [ref=e80]:
+                - link "Products" [ref=e81] [cursor=pointer]:
+                  - /url: /guidelines/products
+              - listitem [ref=e82]:
+                - link "Branding" [ref=e83] [cursor=pointer]:
+                  - /url: /guidelines/branding
+              - listitem [ref=e84]:
+                - generic [ref=e86]: Stream Deck
+                - list [ref=e87]:
+                  - listitem [ref=e88]:
+                    - link "Plugins" [ref=e89] [cursor=pointer]:
+                      - /url: /guidelines/stream-deck/plugins
+                  - listitem [ref=e90]:
+                    - link "Profiles" [ref=e91] [cursor=pointer]:
+                      - /url: /guidelines/stream-deck/profiles
+                  - listitem [ref=e92]:
+                    - link "Icons" [ref=e93] [cursor=pointer]:
+                      - /url: /guidelines/stream-deck/icons
+          - listitem [ref=e94]:
+            - generic [ref=e96]: Monetization
+            - list [ref=e97]:
+              - listitem [ref=e98]:
+                - link "Stripe Connect" [ref=e99] [cursor=pointer]:
+                  - /url: /monetization/stripe
+              - listitem [ref=e100]:
+                - link "Revenue Share" [ref=e101] [cursor=pointer]:
+                  - /url: /monetization/revenue-share
+              - listitem [ref=e102]:
+                - link "Tax Reporting" [ref=e103] [cursor=pointer]:
+                  - /url: /monetization/tax
+              - listitem [ref=e104]:
+                - link "Refunds" [ref=e105] [cursor=pointer]:
+                  - /url: https://www.elgato.com/s/refund-policy-marketplace
+                  - text: Refunds
+                  - img [ref=e106]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Resources
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Elgato Icons" [ref=e113] [cursor=pointer]:
+                  - /url: /resources/icons
+              - listitem [ref=e114]:
+                - link "Badges" [ref=e115] [cursor=pointer]:
+                  - /url: /resources/badges
+    - main [ref=e116]:
+      - generic [ref=e118]:
+        - generic [ref=e120]:
+          - article [ref=e121]:
+            - navigation "Breadcrumbs" [ref=e122]:
+              - list [ref=e123]:
+                - listitem [ref=e124]:
+                  - link "Home page" [ref=e125] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e126]
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Guidelines
+                - listitem [ref=e130]:
+                  - generic [ref=e131]: Stream Deck
+                - listitem [ref=e132]:
+                  - generic [ref=e133]: Plugins
+            - generic [ref=e134]:
+              - heading "Plugin Guidelines" [level=1] [ref=e136]
+              - paragraph [ref=e137]: The following style guide outlines the guidelines that your Stream Deck plugin's metadata must conform to when publishing on Marketplace. In doing so, it ensures an inclusive, consistent, and good user-experience for Stream Deck users.
+              - paragraph [ref=e138]: "On this page, you'll learn more about:"
+              - list [ref=e139]:
+                - listitem [ref=e140]:
+                  - paragraph [ref=e141]: Guidelines for defining the metadata associated with your plugin.
+                - listitem [ref=e142]:
+                  - paragraph [ref=e143]: Image dimensions and requirements.
+                - listitem [ref=e144]:
+                  - paragraph [ref=e145]: General best practices, such as providing visual feedback.
+              - generic [ref=e146]:
+                - generic [ref=e147]:
+                  - img [ref=e149]
+                  - text: Change requests
+                - paragraph [ref=e152]: We, Elgato, reserve the right to request changes to your product to ensure it conforms the necessary guidelines. Failure to do so may result in your Marketplace submission being declined, or your product being removed from Marketplace.
+              - heading "UUIDsDirect link to UUIDs" [level=2] [ref=e153]:
+                - text: UUIDs
+                - link "Direct link to UUIDs" [ref=e154] [cursor=pointer]:
+                  - /url: "#uuids"
+                  - text: "#"
+              - paragraph [ref=e155]: "Universally unique identifiers (UUIDs) are used by Stream Deck and Marketplace to identify:"
+              - list [ref=e156]:
+                - listitem [ref=e157]:
+                  - paragraph [ref=e158]:
+                    - text: Your
+                    - link "plugin" [ref=e159] [cursor=pointer]:
+                      - /url: https://docs.elgato.com/streamdeck/sdk/references/manifest/#manifest-uuid
+                    - text: .
+                - listitem [ref=e160]:
+                  - paragraph [ref=e161]:
+                    - link "Actions" [ref=e162] [cursor=pointer]:
+                      - /url: https://docs.elgato.com/streamdeck/sdk/references/manifest/#action-uuid
+                    - text: within your plugin.
+              - generic [ref=e163]: Requirements
+              - generic [ref=e164]:
+                - list [ref=e166]:
+                  - listitem [ref=e167]:
+                    - paragraph [ref=e168]:
+                      - text: Do:include author (organization name) and plugin name in your plugin UUID — for example
+                      - code [ref=e169]: com.elgato.volume-controller
+                      - text: .
+                  - listitem [ref=e170]:
+                    - paragraph [ref=e171]:
+                      - text: Do:prefix action UUIDs with your plugin UUID — for example
+                      - code [ref=e172]: com.elgato.volume-controller.mute-audio-device
+                      - text: .
+                - list [ref=e174]:
+                  - listitem [ref=e175]:
+                    - paragraph [ref=e176]: Don't:change UUIDs after publishing your plugin.
+              - generic [ref=e177]: Recommendations
+              - list [ref=e180]:
+                - listitem [ref=e181]:
+                  - paragraph [ref=e182]:
+                    - text: Recommended:reverse DNS format — consider using the format
+                    - code [ref=e183]: "{DOMAIN}.{PRODUCT}"
+                    - text: ", for example"
+                    - code [ref=e184]: com.elgato.wave-link
+                    - text: .
+                - listitem [ref=e185]:
+                  - paragraph [ref=e186]:
+                    - text: "Recommended:"
+                    - link "VisibleInActionsList" [ref=e187] [cursor=pointer]:
+                      - /url: https://docs.elgato.com/streamdeck/sdk/references/manifest/#action-visibleinactionslist
+                      - code [ref=e188]: VisibleInActionsList
+                    - text: — prefer cloning actions, and hiding older implementations instead of changing action UUIDs.
+              - heading "PluginDirect link to Plugin" [level=2] [ref=e189]:
+                - text: Plugin
+                - link "Direct link to Plugin" [ref=e190] [cursor=pointer]:
+                  - /url: "#plugin"
+                  - text: "#"
+              - heading "NameDirect link to Name" [level=3] [ref=e191]:
+                - text: Name
+                - link "Direct link to Name" [ref=e192] [cursor=pointer]:
+                  - /url: "#name"
+                  - text: "#"
+              - paragraph [ref=e193]: Your plugin's name is a word, or short phrase, that uniquely identifies your plugin and the functionality it provides.
+              - generic [ref=e194]: Requirements
+              - generic [ref=e195]:
+                - list [ref=e197]:
+                  - listitem [ref=e198]:
+                    - paragraph [ref=e199]:
+                      - text: Do:use a unique name — check your name is available on
+                      - link "Marketplace" [ref=e200] [cursor=pointer]:
+                        - /url: https://marketplace.elgato.com/stream-deck/plugins
+                      - text: .
+                  - listitem [ref=e201]:
+                    - paragraph [ref=e202]: Do:accurately reflect the functionality provided by your plugin.
+                - list [ref=e204]:
+                  - listitem [ref=e205]:
+                    - paragraph [ref=e206]: Don't:infringe copyright or trademarks.
+                  - listitem [ref=e207]:
+                    - paragraph [ref=e208]: Don't:use derogatory or offensive vocabulary.
+              - generic [ref=e209]: Recommendations
+              - generic [ref=e210]:
+                - list [ref=e212]:
+                  - listitem [ref=e213]:
+                    - paragraph [ref=e214]: Recommended:descriptive and concise — for example "Volume Controller", "Screen Capture", "Color Picker", etc.
+                  - listitem [ref=e215]:
+                    - paragraph [ref=e216]: Recommended:memorable and easy to pronounce.
+                - list [ref=e218]:
+                  - listitem [ref=e219]:
+                    - paragraph [ref=e220]: Not recommended:organization name — avoid including your organization name in your plugin's name; organization is already visible on Marketplace.
+              - heading "AuthorDirect link to Author" [level=3] [ref=e221]:
+                - text: Author
+                - link "Direct link to Author" [ref=e222] [cursor=pointer]:
+                  - /url: "#author"
+                  - text: "#"
+              - paragraph [ref=e223]:
+                - text: The
+                - link "Author" [ref=e224] [cursor=pointer]:
+                  - /url: https://docs.elgato.com/streamdeck/sdk/references/manifest/#manifest-author
+                  - code [ref=e225]: Author
+                - text: field within the manifest uniquely identifies you, or your organization, as the creator of the plugin, and is visible within Marketplace and Stream Deck.
+              - generic [ref=e226]: Requirements
+              - generic [ref=e227]:
+                - list [ref=e229]:
+                  - listitem [ref=e230]:
+                    - paragraph [ref=e231]: Do:use your Marketplace organization name.
+                  - listitem [ref=e232]:
+                    - paragraph [ref=e233]: Do:use company name where applicable — for example "Elgato".
+                  - listitem [ref=e234]:
+                    - paragraph [ref=e235]: Do:use your real name, if you wish too — for example "Jane Doe".
+                  - listitem [ref=e236]:
+                    - paragraph [ref=e237]: Do:use your online alias, if you wish too — for example "jdodo".
+                - list [ref=e239]:
+                  - listitem [ref=e240]:
+                    - paragraph [ref=e241]: Don't:infringe copyright or trademarks.
+                  - listitem [ref=e242]:
+                    - paragraph [ref=e243]: Don't:use derogatory or offensive vocabulary
+              - heading "IconDirect link to Icon" [level=3] [ref=e244]:
+                - text: Icon
+                - link "Direct link to Icon" [ref=e245] [cursor=pointer]:
+                  - /url: "#icon"
+                  - text: "#"
+              - paragraph [ref=e246]:
+                - text: Your plugin's
+                - link "icon" [ref=e247] [cursor=pointer]:
+                  - /url: https://docs.elgato.com/streamdeck/sdk/references/manifest#manifest-icon
+                - text: ", visible within Stream Deck preferences pane, must adhere to the following guidelines."
+              - heading "SizingDirect link to Sizing" [level=4] [ref=e248]:
+                - text: Sizing
+                - link "Direct link to Sizing" [ref=e249] [cursor=pointer]:
+                  - /url: "#sizing"
+                  - text: "#"
+              - figure "Plugin icon, 256 × 256 px and 512 × 512 px (high DPI)." [ref=e250]:
+                - img [ref=e251]
+                - generic [ref=e252]: Plugin icon, 256 × 256 px and 512 × 512 px (high DPI).
+              - generic [ref=e253]: Requirements
+              - generic [ref=e254]:
+                - list [ref=e256]:
+                  - listitem [ref=e257]:
+                    - paragraph [ref=e258]: Do:use PNG format.
+                  - listitem [ref=e259]:
+                    - paragraph [ref=e260]: Do:accurately portray what your plugin does.
+                - list [ref=e262]:
+                  - listitem [ref=e263]:
+                    - paragraph [ref=e264]: Don't:infringe copyright.
+                  - listitem [ref=e265]:
+                    - paragraph [ref=e266]: Don't:use offensive imagery.
+              - heading "Actions ListDirect link to Actions List" [level=2] [ref=e267]:
+                - text: Actions List
+                - link "Direct link to Actions List" [ref=e268] [cursor=pointer]:
+                  - /url: "#actions-list"
+                  - text: "#"
+              - heading "NamingDirect link to Naming" [level=3] [ref=e269]:
+                - text: Naming
+                - link "Direct link to Naming" [ref=e270] [cursor=pointer]:
+                  - /url: "#naming"
+                  - text: "#"
+              - paragraph [ref=e271]:
+                - text: Your plugin's
+                - link "category" [ref=e272] [cursor=pointer]:
+                  - /url: https://docs.elgato.com/streamdeck/sdk/references/manifest#manifest-category
+                - text: and
+                - link "action names" [ref=e273] [cursor=pointer]:
+                  - /url: https://docs.elgato.com/streamdeck/sdk/references/manifest#action-name
+                - text: must accurately represent their functionality, and be sufficiently descriptive but concise (approximately 30 characters or less).
+              - figure [ref=e274]:
+                - img [ref=e275]
+              - generic [ref=e276]: Requirements
+              - generic [ref=e277]:
+                - list [ref=e279]:
+                  - listitem [ref=e280]:
+                    - paragraph [ref=e281]:
+                      - text: Do:specify the
+                      - link "category" [ref=e282] [cursor=pointer]:
+                        - /url: https://docs.elgato.com/streamdeck/sdk/references/manifest#manifest-category
+                      - text: .
+                  - listitem [ref=e283]:
+                    - paragraph [ref=e284]:
+                      - text: Do:use the same, or similar, values for plugin
+                      - link "name" [ref=e285] [cursor=pointer]:
+                        - /url: https://docs.elgato.com/streamdeck/sdk/references/manifest/#manifest-name
+                      - text: and
+                      - link "category" [ref=e286] [cursor=pointer]:
+                        - /url: https://docs.elgato.com/streamdeck/sdk/references/manifest/#manifest-category
+                      - text: .
+                - list [ref=e288]:
+                  - listitem [ref=e289]:
+                    - paragraph [ref=e290]: Don't:include author names in category, for example "Camera Controls (John Doe)".
+                  - listitem [ref=e291]:
+                    - paragraph [ref=e292]: Don't:use derogatory or offensive vocabulary.
+              - generic [ref=e293]: Recommendations
+              - generic [ref=e294]:
+                - list [ref=e296]:
+                  - listitem [ref=e297]:
+                    - paragraph [ref=e298]:
+                      - text: Recommended:specify action
+                      - link "tooltips" [ref=e299] [cursor=pointer]:
+                        - /url: https://docs.elgato.com/streamdeck/sdk/references/manifest#action-tooltip
+                      - text: .
+                  - listitem [ref=e300]:
+                    - paragraph [ref=e301]: Recommended:"Volume Controller", "Mute Audio Device" — descriptive and concise names.
+                  - listitem [ref=e302]:
+                    - paragraph [ref=e303]: Recommended:"Twitch Mod Controls" — descriptive without infringing copyright exclusivity.
+                - list [ref=e305]:
+                  - listitem [ref=e306]:
+                    - paragraph [ref=e307]: Not recommended:"Moderator Controls for Streaming" — too vague, and more than 30 characters.
+                  - listitem [ref=e308]:
+                    - paragraph [ref=e309]: Not recommended:"Toggle Chat Mode And Send Message" — should be two separate actions.
+                  - listitem [ref=e310]:
+                    - paragraph [ref=e311]: Not recommended:"Elgato Wave Link" — omit organization when also the author, prefer "Wave Link".
+              - heading "IconsDirect link to Icons" [level=3] [ref=e312]:
+                - text: Icons
+                - link "Direct link to Icons" [ref=e313] [cursor=pointer]:
+                  - /url: "#icons"
+                  - text: "#"
+              - paragraph [ref=e314]:
+                - link "Category" [ref=e315] [cursor=pointer]:
+                  - /url: https://docs.elgato.com/streamdeck/sdk/references/manifest#manifest-categoryicon
+                - text: and
+                - link "action" [ref=e316] [cursor=pointer]:
+                  - /url: https://docs.elgato.com/streamdeck/sdk/references/manifest#action-icon
+                - text: icons within the action list supports both vectorized (SVG) and rasterized (PNG) image files, with SVG being the recommended format to provide optimal scaling.
+              - heading "SizingDirect link to Sizing" [level=4] [ref=e317]:
+                - text: Sizing
+                - link "Direct link to Sizing" [ref=e318] [cursor=pointer]:
+                  - /url: "#sizing-1"
+                  - text: "#"
+              - figure "Category icon, 28 × 28 px — and 56 × 56 px (high DPI) when using rasterized images." [ref=e319]:
+                - img [ref=e320]
+                - generic [ref=e321]: Category icon, 28 × 28 px — and 56 × 56 px (high DPI) when using rasterized images.
+              - figure "Action icon, 20 × 20 px — and 40 × 40 px (high DPI) when using rasterized images." [ref=e322]:
+                - img [ref=e323]
+                - generic [ref=e324]: Action icon, 20 × 20 px — and 40 × 40 px (high DPI) when using rasterized images.
+              - generic [ref=e325]: Requirements
+              - generic [ref=e326]:
+                - generic [ref=e327]:
+                  - list [ref=e328]:
+                    - listitem [ref=e329]:
+                      - paragraph [ref=e330]: Do:use SVG or PNG format.
+                    - listitem [ref=e331]:
+                      - paragraph [ref=e332]: Do:use monochromatic color scheme, with a transparent background.
+                    - listitem [ref=e333]:
+                      - paragraph [ref=e334]: Do:provide high-DPI variants when using rasterized images (PNG).
+                    - listitem [ref=e335]:
+                      - paragraph [ref=e336]:
+                        - text: Do:use white stroke,
+                        - code [ref=e337]: "#FFFFFF"
+                        - text: ", for action list icons."
+                  - figure "Good — Monochromatic category icon with white stroke." [ref=e338]:
+                    - img [ref=e339]
+                    - generic [ref=e340]: Good — Monochromatic category icon with white stroke.
+                  - figure "Good — Monochromatic action icon with white stroke; auto-adjusted by Stream Deck." [ref=e341]:
+                    - img [ref=e342]
+                    - generic [ref=e343]: Good — Monochromatic action icon with white stroke; auto-adjusted by Stream Deck.
+                - generic [ref=e344]:
+                  - list [ref=e345]:
+                    - listitem [ref=e346]:
+                      - paragraph [ref=e347]: Don't:use colors to style action list icons.
+                  - figure "Bad — Action lists icons with color." [ref=e348]:
+                    - img [ref=e349]
+                    - generic [ref=e350]: Bad — Action lists icons with color.
+                  - list [ref=e351]:
+                    - listitem [ref=e352]:
+                      - paragraph [ref=e353]: Don't:use solid backgrounds on action list icons.
+                  - figure "Bad — Action list icons with a solid background." [ref=e354]:
+                    - img [ref=e355]
+                    - generic [ref=e356]: Bad — Action list icons with a solid background.
+              - generic [ref=e357]: Recommendations
+              - generic [ref=e358]:
+                - list [ref=e360]:
+                  - listitem [ref=e361]:
+                    - paragraph [ref=e362]: Recommended:SVG — scale well on all devices and layouts.
+                - list [ref=e364]:
+                  - listitem [ref=e365]:
+                    - paragraph [ref=e366]: Not recommended:PNG — rasterized images may not scale well.
+              - heading "GroupingDirect link to Grouping" [level=3] [ref=e367]:
+                - text: Grouping
+                - link "Direct link to Grouping" [ref=e368] [cursor=pointer]:
+                  - /url: "#grouping"
+                  - text: "#"
+              - paragraph [ref=e369]: When determining the actions provided by your plugin, you should aim to provide an array of functionality that adds value to your plugin, without overwhelming the user.
+              - generic [ref=e370]: Recommendations
+              - generic [ref=e371]:
+                - generic [ref=e372]:
+                  - list [ref=e373]:
+                    - listitem [ref=e374]:
+                      - paragraph [ref=e375]: Recommended:combine actions — actions with common settings should be consolidated, and have a property inspector for configuring them.
+                  - figure "Good — Consolidate actions that share settings" [ref=e376]:
+                    - img [ref=e377]
+                    - generic [ref=e378]: Good — Consolidate actions that share settings
+                  - list [ref=e379]:
+                    - listitem [ref=e380]:
+                      - paragraph [ref=e381]: Recommended:provide a reasonable amount of functionality, between 2 and 30 actions, no more.
+                - generic [ref=e382]:
+                  - list [ref=e383]:
+                    - listitem [ref=e384]:
+                      - paragraph [ref=e385]: Not recommended:avoid static actions that aren't configurable.
+                  - figure "Bad — Avoid static actions" [ref=e386]:
+                    - img [ref=e387]
+                    - generic [ref=e388]: Bad — Avoid static actions
+              - heading "Key IconsDirect link to Key Icons" [level=2] [ref=e389]:
+                - text: Key Icons
+                - link "Direct link to Key Icons" [ref=e390] [cursor=pointer]:
+                  - /url: "#key-icons"
+                  - text: "#"
+              - paragraph [ref=e391]:
+                - link "Key icons" [ref=e392] [cursor=pointer]:
+                  - /url: https://docs.elgato.com/streamdeck/sdk/references/manifest#state-image
+                - text: ", represented as state images within the manifest, can be vectorized (SVG) or rasterized (PNG) images, with SVG being the recommended format to provide optimal scaling."
+              - paragraph [ref=e393]: In addition to static images, animated (GIF) images may also be specified within the manifest, but cannot be used when programmatically updating actions.
+              - heading "SizingDirect link to Sizing" [level=3] [ref=e394]:
+                - text: Sizing
+                - link "Direct link to Sizing" [ref=e395] [cursor=pointer]:
+                  - /url: "#sizing-2"
+                  - text: "#"
+              - figure "Key icon, 72 × 72 px — and 144 × 144 px (high DPI) when using rasterized images." [ref=e396]:
+                - img [ref=e397]
+                - generic [ref=e398]: Key icon, 72 × 72 px — and 144 × 144 px (high DPI) when using rasterized images.
+              - generic [ref=e399]:
+                - generic [ref=e400]:
+                  - img [ref=e402]
+                  - text: Updating programmatically
+                - paragraph [ref=e405]: When updating key icons programmatically only one image size can be supplied. For rasterized images, it is recommended to provide an image that uses the higher DPI dimensions; Stream Deck will scale the image down accordingly.
+              - generic [ref=e406]: Requirements
+              - list [ref=e409]:
+                - listitem [ref=e410]:
+                  - paragraph [ref=e411]: Do:use SVG, PNG, or GIF format.
+                - listitem [ref=e412]:
+                  - paragraph [ref=e413]:
+                    - text: Do:use
+                    - link "states" [ref=e414] [cursor=pointer]:
+                      - /url: https://docs.elgato.com/streamdeck/sdk/references/manifest#state-image
+                    - text: effectively — update icons when a state associated with the action changes, for example the associated smart light is turned on / off.
+              - generic [ref=e415]: Recommendations
+              - generic [ref=e416]:
+                - generic [ref=e417]:
+                  - list [ref=e418]:
+                    - listitem [ref=e419]:
+                      - paragraph [ref=e420]: Recommended:SVG — vectorized images allow you to provide visually appealing dynamic keys, for example charts and meters.
+                    - listitem [ref=e421]:
+                      - paragraph [ref=e422]: Recommended:positional awareness — consider grouping actions based on their coordinates to provide new levels of interactions.
+                  - figure "Good — Volume Controller's action act as an interactive slider when actions are paired together." [ref=e423]:
+                    - img [ref=e424]
+                    - generic [ref=e425]: Good — Volume Controller's action act as an interactive slider when actions are paired together.
+                - list [ref=e427]:
+                  - listitem [ref=e428]:
+                    - paragraph [ref=e429]: Not recommended:programmatic flooding — keys are not intended for rendering high frame rate videos; limit programmatic calls to a maximum of 10 per second.
+              - heading "LayoutsDirect link to Layouts" [level=2] [ref=e430]:
+                - text: Layouts
+                - link "Direct link to Layouts" [ref=e431] [cursor=pointer]:
+                  - /url: "#layouts"
+                  - text: "#"
+              - paragraph [ref=e432]:
+                - text: Touch strip
+                - link "layouts" [ref=e433] [cursor=pointer]:
+                  - /url: https://docs.elgato.com/streamdeck/sdk/guides/dials#layouts
+                - text: found on Stream Deck + support providing rich feedback in the form of elements, and allow for touch and hold interaction. The following should be considered when using layouts.
+              - heading "SizingDirect link to Sizing" [level=3] [ref=e434]:
+                - text: Sizing
+                - link "Direct link to Sizing" [ref=e435] [cursor=pointer]:
+                  - /url: "#sizing-3"
+                  - text: "#"
+              - figure "Touch strip layout, 200 × 100 px" [ref=e436]:
+                - img [ref=e437]
+                - generic [ref=e438]: Touch strip layout, 200 × 100 px
+              - generic [ref=e439]:
+                - generic [ref=e440]:
+                  - img [ref=e442]
+                  - text: Layout boundary
+                - paragraph [ref=e445]: All elements within a layout must be within the bounds of the layout; if an element exceeds the bounds, the layout will fail to load.
+              - generic [ref=e446]: Requirements
+              - list [ref=e449]:
+                - listitem [ref=e450]:
+                  - paragraph [ref=e451]: Do:use accessible touch size — interactive elements should be accessible, and have a touch size of at least 35 × 35 px.
+              - generic [ref=e452]: Recommendations
+              - generic [ref=e453]:
+                - list [ref=e455]:
+                  - listitem [ref=e456]:
+                    - paragraph [ref=e457]:
+                      - text: "Recommended:"
+                      - link "built-in layouts" [ref=e458] [cursor=pointer]:
+                        - /url: https://docs.elgato.com/streamdeck/sdk/guides/dials#built-in-layouts
+                      - text: — where suitable, consider using pre-defined layouts.
+                  - listitem [ref=e459]:
+                    - paragraph [ref=e460]: Recommended:partial updates — utilize elements effectively to update portions of layouts.
+                  - listitem [ref=e461]:
+                    - paragraph [ref=e462]: Recommended:responsive — elements should update promptly when the state associated with the
+                - list [ref=e464]:
+                  - listitem [ref=e465]:
+                    - paragraph [ref=e466]: Not recommended:lots of touchable elements — space on the touch strip is limited, and cramped elements can be difficult for users with accessibility requirements.
+                  - listitem [ref=e467]:
+                    - paragraph [ref=e468]: Not recommended:programmatic flooding — touch strips are not intended for rendering high frame rate videos; limit programmatic calls to a maximum of 10 per second.
+              - heading "Temporary FeedbackDirect link to Temporary Feedback" [level=2] [ref=e469]:
+                - text: Temporary Feedback
+                - link "Direct link to Temporary Feedback" [ref=e470] [cursor=pointer]:
+                  - /url: "#temporary-feedback"
+                  - text: "#"
+              - paragraph [ref=e471]: Stream Deck SDK enables your plugin to provide feedback to the user when an action (or operation) succeeds or fails.
+              - generic [ref=e472]: Requirements
+              - list [ref=e475]:
+                - listitem [ref=e476]:
+                  - paragraph [ref=e477]:
+                    - text: Do:use
+                    - link "showAlert" [ref=e478] [cursor=pointer]:
+                      - /url: https://docs.elgato.com/streamdeck/sdk/guides/keys#showalert
+                      - code [ref=e479]: showAlert
+                    - text: to inform the user when an action was unsuccessful. Also applicable to
+                    - link "dials" [ref=e480] [cursor=pointer]:
+                      - /url: https://docs.elgato.com/streamdeck/sdk/guides/dials#showalert
+                    - text: .
+              - generic [ref=e481]: Recommendations
+              - generic [ref=e482]:
+                - list [ref=e484]:
+                  - listitem [ref=e485]:
+                    - paragraph [ref=e486]:
+                      - text: Recommended:use
+                      - link "showOk" [ref=e487] [cursor=pointer]:
+                        - /url: https://docs.elgato.com/streamdeck/sdk/guides/keys#showok
+                        - code [ref=e488]: showOk
+                      - text: to inform the user of success when there is no visual indicator, for example a file was written or request was sent.
+                - list [ref=e490]:
+                  - listitem [ref=e491]:
+                    - paragraph [ref=e492]:
+                      - text: Not recommended:duplicate success indicators — for actions that have visual indication of success, for example a light changing and the action's state updating,
+                      - code [ref=e493]: showOk
+                      - text: is unnecessary.
+              - generic [ref=e494]:
+                - generic [ref=e495]:
+                  - img [ref=e497]
+                  - text: Logging
+                - paragraph [ref=e502]:
+                  - text: Use
+                  - link "logging" [ref=e503] [cursor=pointer]:
+                    - /url: https://docs.elgato.com/streamdeck/sdk/guides/logging
+                  - text: to record information, specifically when issues occur, to assist with diagnosing potential problems.
+              - heading "Property Inspectors (UI)Direct link to Property Inspectors (UI)" [level=2] [ref=e504]:
+                - text: Property Inspectors (UI)
+                - link "Direct link to Property Inspectors (UI)" [ref=e505] [cursor=pointer]:
+                  - /url: "#property-inspectors-ui"
+                  - text: "#"
+              - paragraph [ref=e506]: Property inspectors within your Stream Deck plugin play an integral role in allowing users to configure and customize your plugin's actions. Property inspectors must adhere to the following guidelines.
+              - generic [ref=e507]: Requirements
+              - generic [ref=e508]:
+                - list [ref=e510]:
+                  - listitem [ref=e511]:
+                    - paragraph [ref=e512]: Do:use checkbox for boolean settings.
+                  - listitem [ref=e513]:
+                    - paragraph [ref=e514]: Do:use select or radio for single-select settings.
+                  - listitem [ref=e515]:
+                    - paragraph [ref=e516]: Do:provide validation feedback.
+                  - listitem [ref=e517]:
+                    - paragraph [ref=e518]: Do:automatically save settings on change.
+                  - listitem [ref=e519]:
+                    - paragraph [ref=e520]: Do:provide setup help — where necessary, provide links to support pages.
+                - list [ref=e522]:
+                  - listitem [ref=e523]:
+                    - paragraph [ref=e524]: Don't:include donation or sponsor links — prefer "Additional Links" in your product's page on Marketplace.
+                  - listitem [ref=e525]:
+                    - paragraph [ref=e526]: Don't:list copyright — prefer description, or "Additional Links", in your product's page on Marketplace.
+                  - listitem [ref=e527]:
+                    - paragraph [ref=e528]: Don't:have a "Save" button for action settings.
+              - generic [ref=e529]: Recommendations
+              - generic [ref=e530]:
+                - list [ref=e532]:
+                  - listitem [ref=e533]:
+                    - paragraph [ref=e534]: Recommended:hidden by default — to prevent flickering, when using a single property inspector file, hide components by default, and show only necessary components on DOM ready.
+                - list [ref=e536]:
+                  - listitem [ref=e537]:
+                    - paragraph [ref=e538]: Not recommended:complex configuration — avoid using "lots" of components; prefer splitting the action into smaller actions if necessary.
+                  - listitem [ref=e539]:
+                    - paragraph [ref=e540]: Not recommended:large paragraphs — space is limited, and should be reserved for configuration.
+          - navigation "Docs pages"
+        - list [ref=e543]:
+          - listitem [ref=e544]:
+            - link "UUIDs" [ref=e545] [cursor=pointer]:
+              - /url: "#uuids"
+          - listitem [ref=e546]:
+            - link "Plugin" [ref=e547] [cursor=pointer]:
+              - /url: "#plugin"
+            - list [ref=e548]:
+              - listitem [ref=e549]:
+                - link "Name" [ref=e550] [cursor=pointer]:
+                  - /url: "#name"
+              - listitem [ref=e551]:
+                - link "Author" [ref=e552] [cursor=pointer]:
+                  - /url: "#author"
+              - listitem [ref=e553]:
+                - link "Icon" [ref=e554] [cursor=pointer]:
+                  - /url: "#icon"
+          - listitem [ref=e555]:
+            - link "Actions List" [ref=e556] [cursor=pointer]:
+              - /url: "#actions-list"
+            - list [ref=e557]:
+              - listitem [ref=e558]:
+                - link "Naming" [ref=e559] [cursor=pointer]:
+                  - /url: "#naming"
+              - listitem [ref=e560]:
+                - link "Icons" [ref=e561] [cursor=pointer]:
+                  - /url: "#icons"
+              - listitem [ref=e562]:
+                - link "Grouping" [ref=e563] [cursor=pointer]:
+                  - /url: "#grouping"
+          - listitem [ref=e564]:
+            - link "Key Icons" [ref=e565] [cursor=pointer]:
+              - /url: "#key-icons"
+            - list [ref=e566]:
+              - listitem [ref=e567]:
+                - link "Sizing" [ref=e568] [cursor=pointer]:
+                  - /url: "#sizing-2"
+          - listitem [ref=e569]:
+            - link "Layouts" [ref=e570] [cursor=pointer]:
+              - /url: "#layouts"
+            - list [ref=e571]:
+              - listitem [ref=e572]:
+                - link "Sizing" [ref=e573] [cursor=pointer]:
+                  - /url: "#sizing-3"
+          - listitem [ref=e574]:
+            - link "Temporary Feedback" [ref=e575] [cursor=pointer]:
+              - /url: "#temporary-feedback"
+          - listitem [ref=e576]:
+            - link "Property Inspectors (UI)" [ref=e577] [cursor=pointer]:
+              - /url: "#property-inspectors-ui"
+  - contentinfo [ref=e578]:
+    - generic [ref=e579]:
+      - generic [ref=e580]:
+        - generic [ref=e581]:
+          - generic [ref=e582]: Makers
+          - list [ref=e583]:
+            - listitem [ref=e584]:
+              - link "Become a Maker" [ref=e585] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e586]:
+              - link "Elgato Icons" [ref=e587] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e588]:
+              - link "Badges" [ref=e589] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e590]:
+          - generic [ref=e591]: Marketplace
+          - list [ref=e592]:
+            - listitem [ref=e593]:
+              - link "Plugins" [ref=e594] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e595]:
+              - link "Icon Packs" [ref=e596] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e597]:
+              - link "Profiles" [ref=e598] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e599]:
+          - generic [ref=e600]: Support
+          - list [ref=e601]:
+            - listitem [ref=e602]:
+              - link "FAQ" [ref=e603] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e604]:
+              - link "Contact" [ref=e605] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e606]:
+              - link "Copyright Claim" [ref=e607] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e608]:
+              - link "Downloads" [ref=e609] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e610]:
+          - generic [ref=e611]: Company
+          - list [ref=e612]:
+            - listitem [ref=e613]:
+              - link "About" [ref=e614] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e615]:
+              - link "Media Room" [ref=e616] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e617]:
+              - link "Terms of Use" [ref=e618] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e619]:
+              - link "Privacy Policy" [ref=e620] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e622]: © 2026 Elgato. All rights reserved.

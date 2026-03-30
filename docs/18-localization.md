@@ -1,0 +1,524 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Plugin Guides
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Localization
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Localization" [level=1] [ref=e133]
+              - paragraph [ref=e134]: The Stream Deck SDK supports localization, enabling you to build your plugin for a wider audience.
+              - heading "Supported LanguagesDirect link to Supported Languages" [level=2] [ref=e135]:
+                - text: Supported Languages
+                - link "Direct link to Supported Languages" [ref=e136] [cursor=pointer]:
+                  - /url: "#supported-languages"
+                  - text: "#"
+              - paragraph [ref=e137]: "The following languages are supported by Stream Deck:"
+              - list [ref=e138]:
+                - listitem [ref=e139]: "Chinese (Simplified): zh_CN.json"
+                - listitem [ref=e140]:
+                  - text: "Chinese (Traditional): zh_TW.json"
+                  - superscript [ref=e141]: "1"
+                - listitem [ref=e142]: "German: de.json"
+                - listitem [ref=e143]: "English: en.json"
+                - listitem [ref=e144]: "French: fr.json"
+                - listitem [ref=e145]: "Japanese: ja.json"
+                - listitem [ref=e146]: "Korean: ko.json"
+                - listitem [ref=e147]: "Spanish: es.json"
+              - paragraph [ref=e148]:
+                - superscript [ref=e149]: "1"
+                - text: Available from Stream Deck 6.8
+              - paragraph [ref=e150]:
+                - text: Each of the supported languages' resources are stored in JSON files within the
+                - code [ref=e151]: "*.sdPlugin"
+                - text: "directory, and are named by their language code, like so:"
+              - generic [ref=e152]:
+                - generic [ref=e153]: Plugin file structure
+                - generic [ref=e154]:
+                  - code [ref=e156]:
+                    - generic [ref=e157]: .
+                    - generic [ref=e158]: ├── *.sdPlugin/
+                    - generic [ref=e159]: │ ├── bin/
+                    - generic [ref=e160]: │ ├── imgs/
+                    - generic [ref=e161]: │ ├── logs/
+                    - generic [ref=e162]: │ ├── ui/
+                    - generic [ref=e163]: │ │ └── increment-counter.html
+                    - generic [ref=e164]: "| ├── de.json"
+                    - generic [ref=e165]: "| ├── en.json"
+                    - generic [ref=e166]: "| ├── es.json"
+                    - generic [ref=e167]: "| ├── fr.json"
+                    - generic [ref=e168]: "| ├── ja.json"
+                    - generic [ref=e169]: "| ├── ko.json"
+                    - generic [ref=e170]: │ ├── manifest.json
+                    - generic [ref=e171]: "| ├── zh_CN.json"
+                    - generic [ref=e172]: "| └── zh_TW.json"
+                    - generic [ref=e173]: ├── src/
+                    - generic [ref=e174]: │ ├── actions/
+                    - generic [ref=e175]: │ │ └── increment-counter.ts
+                    - generic [ref=e176]: │ └── plugin.ts
+                    - generic [ref=e177]: ├── package.json
+                    - generic [ref=e178]: ├── rollup.config.mjs
+                    - generic [ref=e179]: └── tsconfig.json
+                  - button "Copy to clipboard" [ref=e181] [cursor=pointer]:
+                    - generic [ref=e182]:
+                      - img "Icon" [ref=e183]
+                      - img "Icon" [ref=e186]
+              - heading "Localized ResourcesDirect link to Localized Resources" [level=2] [ref=e188]:
+                - text: Localized Resources
+                - link "Direct link to Localized Resources" [ref=e189] [cursor=pointer]:
+                  - /url: "#localized-resources"
+                  - text: "#"
+              - paragraph [ref=e190]: "As part of localization, you can provide resources that:"
+              - list [ref=e191]:
+                - listitem [ref=e192]: Override manifest strings that are displayed throughout Stream Deck, for example the action list.
+                - listitem [ref=e193]: Custom localizations to be used within your plugin or property inspector.
+              - generic [ref=e194]:
+                - generic [ref=e195]:
+                  - img [ref=e197]
+                  - text: Please note
+                - paragraph [ref=e202]:
+                  - text: Localizations are handled slightly differently in
+                  - link "sdpi-components" [ref=e203] [cursor=pointer]:
+                    - /url: https://sdpi-components.dev/docs/helpers/localization
+                  - text: ", whereby property inspector resources are placed directly in the HTML file. This is subject to change in the future."
+              - heading "Manifest StringsDirect link to Manifest Strings" [level=3] [ref=e204]:
+                - text: Manifest Strings
+                - link "Direct link to Manifest Strings" [ref=e205] [cursor=pointer]:
+                  - /url: "#manifest-strings"
+                  - text: "#"
+              - paragraph [ref=e206]: Within the manifest, the following strings can be localized.
+              - heading "RootDirect link to Root" [level=4] [ref=e207]:
+                - text: Root
+                - link "Direct link to Root" [ref=e208] [cursor=pointer]:
+                  - /url: "#root"
+                  - text: "#"
+              - list [ref=e209]:
+                - listitem [ref=e210]:
+                  - link "Name" [ref=e211] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/references/manifest#manifest-name
+                    - code [ref=e212]: Name
+                - listitem [ref=e213]:
+                  - link "Description" [ref=e214] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/references/manifest#manifest-description
+                    - code [ref=e215]: Description
+              - heading "ActionsDirect link to actions" [level=4] [ref=e216]:
+                - code [ref=e217]: Actions
+                - link "Direct link to actions" [ref=e218] [cursor=pointer]:
+                  - /url: "#actions"
+                  - text: "#"
+              - list [ref=e219]:
+                - listitem [ref=e220]:
+                  - link "Name" [ref=e221] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/references/manifest#action-name
+                    - code [ref=e222]: Name
+                - listitem [ref=e223]:
+                  - link "Tooltip" [ref=e224] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/references/manifest#action-tooltip
+                    - code [ref=e225]: Tooltip
+              - heading "Actions[].Encoder.TriggerDescriptionsDirect link to actionsencodertriggerdescriptions" [level=4] [ref=e226]:
+                - code [ref=e227]: Actions[].Encoder.TriggerDescriptions
+                - link "Direct link to actionsencodertriggerdescriptions" [ref=e228] [cursor=pointer]:
+                  - /url: "#actionsencodertriggerdescriptions"
+                  - text: "#"
+              - list [ref=e229]:
+                - listitem [ref=e230]:
+                  - link "LongTouch" [ref=e231] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/references/manifest#triggerdescriptions-longtouch
+                    - code [ref=e232]: LongTouch
+                - listitem [ref=e233]:
+                  - link "Push" [ref=e234] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/references/manifest#triggerdescriptions-push
+                    - code [ref=e235]: Push
+                - listitem [ref=e236]:
+                  - link "Rotate" [ref=e237] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/references/manifest#triggerdescriptions-rotate
+                    - code [ref=e238]: Rotate
+                - listitem [ref=e239]:
+                  - link "Touch" [ref=e240] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/references/manifest#triggerdescriptions-touch
+                    - code [ref=e241]: Touch
+              - heading "Actions[].States[]Direct link to actionsstates" [level=4] [ref=e242]:
+                - code [ref=e243]: Actions[].States[]
+                - link "Direct link to actionsstates" [ref=e244] [cursor=pointer]:
+                  - /url: "#actionsstates"
+                  - text: "#"
+              - list [ref=e245]:
+                - listitem [ref=e246]:
+                  - link "Name" [ref=e247] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/references/manifest#state-name
+                    - code [ref=e248]: Name
+              - heading "ExampleDirect link to Example" [level=4] [ref=e249]:
+                - text: Example
+                - link "Direct link to Example" [ref=e250] [cursor=pointer]:
+                  - /url: "#example"
+                  - text: "#"
+              - paragraph [ref=e251]: The following example demonstrates localizing the manifest strings, including strings associated with an action (indexed by the action's UUID), to German.
+              - generic [ref=e252]:
+                - generic [ref=e253]: Example manifest for a volume controller plugin
+                - generic [ref=e254]:
+                  - code [ref=e256]:
+                    - generic [ref=e257]: "{"
+                    - generic [ref=e258]: // Some properties omitted for brevity...
+                    - generic [ref=e259]: "\"Name\": \"Volume Controller\","
+                    - generic [ref=e260]: "\"Description\": \"Take control of your audio volume\","
+                    - generic [ref=e261]: "\"Actions\": ["
+                    - generic [ref=e262]: "{"
+                    - generic [ref=e263]: "\"UUID\": \"com.example.volume.adjust\","
+                    - generic [ref=e264]: "\"Name\": \"Volume control\","
+                    - generic [ref=e265]: "\"Tooltip\": \"Control your volume\","
+                    - generic [ref=e266]: "\"States\": ["
+                    - generic [ref=e267]: "{"
+                    - generic [ref=e268]: "\"Name\": \"Unmute\""
+                    - generic [ref=e269]: "},"
+                    - generic [ref=e270]: "{"
+                    - generic [ref=e271]: "\"Name\": \"Mute\""
+                    - generic [ref=e272]: "}"
+                    - generic [ref=e273]: "],"
+                    - generic [ref=e274]: "\"Encoder\": {"
+                    - generic [ref=e275]: "\"TriggerDescription\": {"
+                    - generic [ref=e276]: "\"LongTouch\": \"Mute\","
+                    - generic [ref=e277]: "\"Push\": \"Toggle mute\","
+                    - generic [ref=e278]: "\"Rotate\": \"Adjust\","
+                    - generic [ref=e279]: "\"Touch\": \"Stummschaltung umschalten\""
+                    - generic [ref=e280]: "}"
+                    - generic [ref=e281]: "}"
+                    - generic [ref=e282]: "}"
+                    - generic [ref=e283]: "]"
+                    - generic [ref=e284]: "}"
+                  - button "Copy to clipboard" [ref=e286] [cursor=pointer]:
+                    - generic [ref=e287]:
+                      - img "Icon" [ref=e288]
+                      - img "Icon" [ref=e291]
+              - generic [ref=e293]:
+                - generic [ref=e294]: de.json, containing localizations for the aforementioned manifest example
+                - generic [ref=e295]:
+                  - code [ref=e297]:
+                    - generic [ref=e298]: "{"
+                    - generic [ref=e299]: "\"Name\": \"Lautstärkeregler\","
+                    - generic [ref=e300]: "\"Description\": \"Übernehmen Sie die Kontrolle über Ihre Audiolautstärke\","
+                    - generic [ref=e301]: "\"com.example.volume.adjust\": {"
+                    - generic [ref=e302]: "\"Name\": \"Lautstärkeregelung\","
+                    - generic [ref=e303]: "\"Tooltip\": \"Kontrollieren Sie Ihre Lautstärke\","
+                    - generic [ref=e304]: "\"States\": ["
+                    - generic [ref=e305]: "{"
+                    - generic [ref=e306]: "\"Name\": \"Stummschaltung aufheben\""
+                    - generic [ref=e307]: "},"
+                    - generic [ref=e308]: "{"
+                    - generic [ref=e309]: "\"Name\": \"Stumm\""
+                    - generic [ref=e310]: "}"
+                    - generic [ref=e311]: "],"
+                    - generic [ref=e312]: "\"Encoder\": {"
+                    - generic [ref=e313]: "\"TriggerDescription\": {"
+                    - generic [ref=e314]: "\"LongTouch\": \"Stumm\","
+                    - generic [ref=e315]: "\"Push\": \"Stummschaltung umschalten\","
+                    - generic [ref=e316]: "\"Rotate\": \"Anpassen\","
+                    - generic [ref=e317]: "\"Touch\": \"Stummschaltung umschalten\""
+                    - generic [ref=e318]: "}"
+                    - generic [ref=e319]: "}"
+                    - generic [ref=e320]: "}"
+                    - generic [ref=e321]: "}"
+                  - generic [ref=e322]:
+                    - button "Toggle word wrap" [ref=e323] [cursor=pointer]:
+                      - img [ref=e324]
+                    - button "Copy to clipboard" [ref=e326] [cursor=pointer]:
+                      - generic [ref=e327]:
+                        - img "Icon" [ref=e328]
+                        - img "Icon" [ref=e331]
+              - generic [ref=e333]:
+                - generic [ref=e334]:
+                  - img [ref=e336]
+                  - text: Default values
+                - paragraph [ref=e339]: If no localization file is provided, Stream Deck will use the values provided in the manifest JSON file. A language JSON file will override the manifest, even if the manifest provides text in said language, for example English.
+              - heading "Custom StringsDirect link to Custom Strings" [level=3] [ref=e340]:
+                - text: Custom Strings
+                - link "Direct link to Custom Strings" [ref=e341] [cursor=pointer]:
+                  - /url: "#custom-strings"
+                  - text: "#"
+              - paragraph [ref=e342]:
+                - text: In addition to overriding manifest strings, you can provide custom localizations by defining a
+                - code [ref=e343]: Localization
+                - text: object. The example below is an updated version of the
+                - code [ref=e344]: fr.json
+                - text: example that includes custom strings.
+              - generic [ref=e345]:
+                - generic [ref=e346]: fr.json
+                - generic [ref=e347]:
+                  - code [ref=e349]:
+                    - generic [ref=e350]: "{"
+                    - generic [ref=e351]: "\"Name\": \"Lautstärkeregler\","
+                    - generic [ref=e352]: "\"Description\": \"Übernehmen Sie die Kontrolle über Ihre Audiolautstärke\","
+                    - generic [ref=e353]: "\"com.example.volume.adjust\": {"
+                    - generic [ref=e354]: "\"Name\": \"Lautstärkeregelung\","
+                    - generic [ref=e355]: "\"Tooltip\": \"Kontrollieren Sie Ihre Lautstärke\","
+                    - generic [ref=e356]: "\"States\": ["
+                    - generic [ref=e357]: "{"
+                    - generic [ref=e358]: "\"Name\": \"Stummschaltung aufheben\""
+                    - generic [ref=e359]: "},"
+                    - generic [ref=e360]: "{"
+                    - generic [ref=e361]: "\"Name\": \"Stumm\""
+                    - generic [ref=e362]: "}"
+                    - generic [ref=e363]: "],"
+                    - generic [ref=e364]: "\"Encoder\": {"
+                    - generic [ref=e365]: "\"TriggerDescription\": {"
+                    - generic [ref=e366]: "\"LongTouch\": \"Stumm\","
+                    - generic [ref=e367]: "\"Push\": \"Stummschaltung umschalten\","
+                    - generic [ref=e368]: "\"Rotate\": \"Anpassen\","
+                    - generic [ref=e369]: "\"Touch\": \"Stummschaltung umschalten\""
+                    - generic [ref=e370]: "}"
+                    - generic [ref=e371]: "}"
+                    - generic [ref=e372]: "},"
+                    - generic [ref=e373]: "\"Localization\": {"
+                    - generic [ref=e374]: "\"More info\": \"Weitere Informationen\","
+                    - generic [ref=e375]: "\"Save\": \"Speichern\","
+                    - generic [ref=e376]: "\"Reset\": \"Zurücksetzen\""
+                    - generic [ref=e377]: "}"
+                    - generic [ref=e378]: "}"
+                  - generic [ref=e379]:
+                    - button "Toggle word wrap" [ref=e380] [cursor=pointer]:
+                      - img [ref=e381]
+                    - button "Copy to clipboard" [ref=e383] [cursor=pointer]:
+                      - generic [ref=e384]:
+                        - img "Icon" [ref=e385]
+                        - img "Icon" [ref=e388]
+              - paragraph [ref=e390]:
+                - text: Your custom strings can then be read using
+                - code [ref=e391]: streamDeck.i18n.translate
+                - text: function.
+              - generic [ref=e392]:
+                - generic [ref=e393]: Reading custom localizations
+                - generic [ref=e394]:
+                  - code [ref=e396]:
+                    - generic [ref=e397]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e399]: streamDeck.i18n.translate("More info");
+                    - generic [ref=e400]: "// Output: \"More info\""
+                    - generic [ref=e402]: streamDeck.i18n.translate("More info", "de");
+                    - generic [ref=e403]: "// Output: \"Weitere Informationen\""
+                    - generic [ref=e405]: streamDeck.i18n.translate("More info", "es");
+                    - generic [ref=e406]: "// Output: \"More info\", es.json is not defined"
+                  - button "Copy to clipboard" [ref=e408] [cursor=pointer]:
+                    - generic [ref=e409]:
+                      - img "Icon" [ref=e410]
+                      - img "Icon" [ref=e413]
+              - paragraph [ref=e415]: When resolving custom localizations, the following order is applied.
+              - img [ref=e417]
+          - navigation "Docs pages" [ref=e418]:
+            - link "Previous « Logging" [ref=e419] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/logging
+              - generic [ref=e420]: Previous
+              - generic [ref=e421]: « Logging
+            - link "Next Code Linting »" [ref=e422] [cursor=pointer]:
+              - /url: /streamdeck/sdk/style-guide/linting
+              - generic [ref=e423]: Next
+              - generic [ref=e424]: Code Linting »
+        - list [ref=e427]:
+          - listitem [ref=e428]:
+            - link "Supported Languages" [ref=e429] [cursor=pointer]:
+              - /url: "#supported-languages"
+          - listitem [ref=e430]:
+            - link "Localized Resources" [ref=e431] [cursor=pointer]:
+              - /url: "#localized-resources"
+            - list [ref=e432]:
+              - listitem [ref=e433]:
+                - link "Manifest Strings" [ref=e434] [cursor=pointer]:
+                  - /url: "#manifest-strings"
+              - listitem [ref=e435]:
+                - link "Custom Strings" [ref=e436] [cursor=pointer]:
+                  - /url: "#custom-strings"
+  - contentinfo [ref=e437]:
+    - generic [ref=e438]:
+      - generic [ref=e439]:
+        - generic [ref=e440]:
+          - generic [ref=e441]: Makers
+          - list [ref=e442]:
+            - listitem [ref=e443]:
+              - link "Become a Maker" [ref=e444] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e445]:
+              - link "Elgato Icons" [ref=e446] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e447]:
+              - link "Badges" [ref=e448] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e449]:
+          - generic [ref=e450]: Marketplace
+          - list [ref=e451]:
+            - listitem [ref=e452]:
+              - link "Plugins" [ref=e453] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e454]:
+              - link "Icon Packs" [ref=e455] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e456]:
+              - link "Profiles" [ref=e457] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e458]:
+          - generic [ref=e459]: Support
+          - list [ref=e460]:
+            - listitem [ref=e461]:
+              - link "FAQ" [ref=e462] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e463]:
+              - link "Contact" [ref=e464] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e465]:
+              - link "Copyright Claim" [ref=e466] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e467]:
+              - link "Downloads" [ref=e468] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e469]:
+          - generic [ref=e470]: Company
+          - list [ref=e471]:
+            - listitem [ref=e472]:
+              - link "About" [ref=e473] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e474]:
+              - link "Media Room" [ref=e475] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e476]:
+              - link "Terms of Use" [ref=e477] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e478]:
+              - link "Privacy Policy" [ref=e479] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e481]: © 2026 Elgato. All rights reserved.

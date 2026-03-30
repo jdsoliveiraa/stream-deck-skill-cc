@@ -1,0 +1,578 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Plugin Guides
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Deep-Linking
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Deep-Linking" [level=1] [ref=e133]
+              - paragraph [ref=e134]: "Deep-linking is the process of sending messages to local apps via custom URL scheme registered on the user's device, for example a computer or mobile phone. This can be useful when:"
+              - list [ref=e135]:
+                - listitem [ref=e136]: Handling callbacks from an authorization provider (OAuth2).
+                - listitem [ref=e137]: Configuring a local IPC between two local apps.
+                - listitem [ref=e138]: Receiving settings from a separate integration.
+              - paragraph [ref=e139]:
+                - text: Stream Deck SDK streamlines the process of deep-linking by providing plugins with a unique URL that allows them to receive deep-link messages under the pre-registered
+                - code [ref=e140]: streamdeck://
+                - text: scheme.
+              - heading "Receiving MessagesDirect link to Receiving Messages" [level=2] [ref=e141]:
+                - text: Receiving Messages
+                - link "Direct link to Receiving Messages" [ref=e142] [cursor=pointer]:
+                  - /url: "#receiving-messages"
+                  - text: "#"
+              - paragraph [ref=e143]:
+                - text: Handling inbound deep-link messages can be achieved with the
+                - code [ref=e144]: onDidReceiveDeepLink
+                - text: event handler found in the
+                - code [ref=e145]: system
+                - text: "namespace, for example:"
+              - generic [ref=e146]:
+                - generic [ref=e147]: Deep-link event callback
+                - generic [ref=e148]:
+                  - code [ref=e150]:
+                    - generic [ref=e151]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e153]: "streamDeck.system.onDidReceiveDeepLink((ev) => {"
+                    - generic [ref=e154]: // Handle the deep-link message
+                    - generic [ref=e155]: "});"
+                    - generic [ref=e157]: streamDeck.connect();
+                  - button "Copy to clipboard" [ref=e159] [cursor=pointer]:
+                    - generic [ref=e160]:
+                      - img "Icon" [ref=e161]
+                      - img "Icon" [ref=e164]
+              - paragraph [ref=e166]: With a handler function registered, your plugin is now set up to receive deep-link messages.
+              - heading "Deep-Link URLDirect link to Deep-Link URL" [level=3] [ref=e167]:
+                - text: Deep-Link URL
+                - link "Direct link to Deep-Link URL" [ref=e168] [cursor=pointer]:
+                  - /url: "#deep-link-url"
+                  - text: "#"
+              - paragraph [ref=e169]: "Each plugin has a unique URL based on their unique identifier using the following format:"
+              - generic [ref=e171]:
+                - code [ref=e173]:
+                  - generic [ref=e174]: streamdeck://plugins/message/<PLUGIN_UUID>
+                - button "Copy to clipboard" [ref=e176] [cursor=pointer]:
+                  - generic [ref=e177]:
+                    - img "Icon" [ref=e178]
+                    - img "Icon" [ref=e181]
+              - paragraph [ref=e183]:
+                - text: With this URL, the plugin is able to receive inbound deep-link messages in the form of a URL that follows the
+                - link "RFC-3986" [ref=e184] [cursor=pointer]:
+                  - /url: https://datatracker.ietf.org/doc/html/rfc3986#section-3
+                - text: "structure:"
+              - generic [ref=e186]:
+                - code [ref=e188]:
+                  - generic [ref=e189]: streamdeck://plugins/message/<PLUGIN_UUID>[path]["?" query]["#" fragment]
+                - generic [ref=e190]:
+                  - button "Toggle word wrap" [ref=e191] [cursor=pointer]:
+                    - img [ref=e192]
+                  - button "Copy to clipboard" [ref=e194] [cursor=pointer]:
+                    - generic [ref=e195]:
+                      - img "Icon" [ref=e196]
+                      - img "Icon" [ref=e199]
+              - paragraph [ref=e201]: "For example:"
+              - generic [ref=e203]:
+                - code [ref=e205]:
+                  - generic [ref=e206]: href
+                  - generic [ref=e207]: ┌───────────┴───────────┐
+                  - generic [ref=e208]: streamdeck://plugins/message/com.elgato.hello-world/hello?name=Elgato#waving
+                  - generic [ref=e209]: └─┬──┘ └────┬────┘ └─┬──┘
+                  - generic [ref=e210]: path query fragment
+                - generic [ref=e211]:
+                  - button "Toggle word wrap" [ref=e212] [cursor=pointer]:
+                    - img [ref=e213]
+                  - button "Copy to clipboard" [ref=e215] [cursor=pointer]:
+                    - generic [ref=e216]:
+                      - img "Icon" [ref=e217]
+                      - img "Icon" [ref=e220]
+              - heading "Active vs PassiveDirect link to Active vs Passive" [level=3] [ref=e222]:
+                - text: Active vs Passive
+                - link "Direct link to Active vs Passive" [ref=e223] [cursor=pointer]:
+                  - /url: "#active-vs-passive"
+                  - text: "#"
+              - paragraph [ref=e224]: By default, when your plugin receives a deep-link message, Stream Deck's window is brought to the foreground. These are referred to as active deep-links, and are useful in scenarios such as OAuth, when you want the user to continue a flow in Stream Deck.
+              - generic [ref=e225]:
+                - generic [ref=e226]: Example of an active deep-link
+                - generic [ref=e227]:
+                  - code [ref=e229]:
+                    - generic [ref=e230]: streamdeck://plugins/message/com.elgato.hello-world/hello
+                  - button "Copy to clipboard" [ref=e232] [cursor=pointer]:
+                    - generic [ref=e233]:
+                      - img "Icon" [ref=e234]
+                      - img "Icon" [ref=e237]
+              - paragraph [ref=e239]:
+                - text: From Stream Deck 7.0, it is also possible to send deep-link messages whereby Stream Deck's window is
+                - emphasis [ref=e240]: not
+                - text: brought to the foreground. These are referred to as passive deep-links, and are useful in scenarios such as setup operations. For example, sending the port of a local WebSocket server from your app to your plugin so that they can communicate.
+              - paragraph [ref=e241]:
+                - text: To a receive deep-link message as a passive message, you must specify the query string parameter
+                - code [ref=e242]: streamdeck=hidden
+                - text: "within your deep-link URL, for example:"
+              - generic [ref=e243]:
+                - generic [ref=e244]: Example of a passive deep-link
+                - generic [ref=e245]:
+                  - code [ref=e247]:
+                    - generic [ref=e248]: streamdeck://plugins/message/com.elgato.hello-world/hello?streamdeck=hidden
+                    - generic [ref=e249]: └───────┬───────┘
+                    - generic [ref=e250]: Passive deep-link
+                  - generic [ref=e251]:
+                    - button "Toggle word wrap" [ref=e252] [cursor=pointer]:
+                      - img [ref=e253]
+                    - button "Copy to clipboard" [ref=e255] [cursor=pointer]:
+                      - generic [ref=e256]:
+                        - img "Icon" [ref=e257]
+                        - img "Icon" [ref=e260]
+              - paragraph [ref=e262]: Below is a summary of the differences between active and passive deep-links.
+              - table [ref=e263]:
+                - rowgroup [ref=e264]:
+                  - row "Active Passive" [ref=e265]:
+                    - columnheader [ref=e266]
+                    - columnheader "Active" [ref=e267]
+                    - columnheader "Passive" [ref=e268]
+                - rowgroup [ref=e269]:
+                  - row "Default Yes No" [ref=e270]:
+                    - cell "Default" [ref=e271]
+                    - cell "Yes" [ref=e272]
+                    - cell "No" [ref=e273]
+                  - row "Stream Deck version 6.5 or higher 7.0 or higher" [ref=e274]:
+                    - cell "Stream Deck version" [ref=e275]
+                    - cell "6.5 or higher" [ref=e276]
+                    - cell "7.0 or higher" [ref=e277]
+                  - row "Stream Deck brought to foreground Yes No" [ref=e278]:
+                    - cell "Stream Deck brought to foreground" [ref=e279]
+                    - cell "Yes" [ref=e280]
+                    - cell "No" [ref=e281]
+                  - row "streamdeck query string value - hidden" [ref=e282]:
+                    - cell "streamdeck query string value" [ref=e283]:
+                      - code [ref=e284]: streamdeck
+                      - text: query string value
+                    - cell "-" [ref=e285]
+                    - cell "hidden" [ref=e286]:
+                      - code [ref=e287]: hidden
+                  - row "OAuth ✅ Recommended ❌ Not recommended" [ref=e288]:
+                    - cell "OAuth" [ref=e289]
+                    - cell "✅ Recommended" [ref=e290]
+                    - cell "❌ Not recommended" [ref=e291]
+                  - row "Setup messages requiring user ✅ Recommended ❌ Not recommended" [ref=e292]:
+                    - cell "Setup messages requiring user" [ref=e293]
+                    - cell "✅ Recommended" [ref=e294]
+                    - cell "❌ Not recommended" [ref=e295]
+                  - row "Setup messages not requiring user ❌ Not recommended ✅ Recommended" [ref=e296]:
+                    - cell "Setup messages not requiring user" [ref=e297]
+                    - cell "❌ Not recommended" [ref=e298]
+                    - cell "✅ Recommended" [ref=e299]
+              - heading "ExampleDirect link to Example" [level=3] [ref=e300]:
+                - text: Example
+                - link "Direct link to Example" [ref=e301] [cursor=pointer]:
+                  - /url: "#example"
+                  - text: "#"
+              - paragraph [ref=e302]: "Given the following event handler:"
+              - generic [ref=e303]:
+                - generic [ref=e304]: Reading a deep-link message
+                - generic [ref=e305]:
+                  - code [ref=e307]:
+                    - generic [ref=e308]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e310]: "streamDeck.system.onDidReceiveDeepLink((ev) => {"
+                    - generic [ref=e311]: "const { path, fragment } = ev.url;"
+                    - generic [ref=e313]: "streamDeck.logger.info(`Path = ${path}`);"
+                    - generic [ref=e314]: "streamDeck.logger.info(`Fragment = ${fragment}`);"
+                    - generic [ref=e315]: "});"
+                    - generic [ref=e317]: streamDeck.connect();
+                  - button "Copy to clipboard" [ref=e319] [cursor=pointer]:
+                    - generic [ref=e320]:
+                      - img "Icon" [ref=e321]
+                      - img "Icon" [ref=e324]
+              - paragraph [ref=e326]:
+                - text: To send a message to the plugin with the unique identifier
+                - code [ref=e327]: com.elgato.hello-world
+                - text: ", you would submit the following URL:"
+              - generic [ref=e329]:
+                - code [ref=e331]:
+                  - generic [ref=e332]: streamdeck://plugins/message/com.elgato.hello-world/Hello%20world#Testing
+                - generic [ref=e333]:
+                  - button "Toggle word wrap" [ref=e334] [cursor=pointer]:
+                    - img [ref=e335]
+                  - button "Copy to clipboard" [ref=e337] [cursor=pointer]:
+                    - generic [ref=e338]:
+                      - img "Icon" [ref=e339]
+                      - img "Icon" [ref=e342]
+              - paragraph [ref=e344]: "Which would then log the following:"
+              - generic [ref=e346]:
+                - code [ref=e348]:
+                  - generic [ref=e349]: Path = /Hello%20world
+                  - generic [ref=e350]: Fragment = Testing
+                - button "Copy to clipboard" [ref=e352] [cursor=pointer]:
+                  - generic [ref=e353]:
+                    - img "Icon" [ref=e354]
+                    - img "Icon" [ref=e357]
+              - paragraph [ref=e359]:
+                - text: Information on the event is parsed from the deep-link URL using the native
+                - link "URL" [ref=e360] [cursor=pointer]:
+                  - /url: https://developer.mozilla.org/en-US/docs/Web/API/URL
+                - text: API, with the unique prefix ignored, i.e.
+                - code [ref=e361]: streamdeck://plugins/message/<PLUGIN_UUID>
+                - text: .
+              - generic [ref=e362]:
+                - generic [ref=e363]:
+                  - img [ref=e365]
+                  - text: Testing deep-links
+                - paragraph [ref=e370]: To test deep-linking, enter the URL in your browsers URL bar and press return. Alternatively, on Windows you can submit the URL directly in the Run panel, opened with Win + R.
+              - heading "Known LimitationsDirect link to Known Limitations" [level=2] [ref=e371]:
+                - text: Known Limitations
+                - link "Direct link to Known Limitations" [ref=e372] [cursor=pointer]:
+                  - /url: "#known-limitations"
+                  - text: "#"
+              - list [ref=e373]:
+                - listitem [ref=e374]:
+                  - text: Some authorization providers do not accept custom URL schemes as a callback URL. If this is the case, consider using the
+                  - link "OAuth2 redirect proxy" [ref=e375] [cursor=pointer]:
+                    - /url: "#oauth2-redirect-proxy"
+                  - text: .
+                - listitem [ref=e376]: Keep deep-link messages small (under 2,000 characters). If you need to transfer more data, consider using a WebSocket connection.
+                - listitem [ref=e377]: Deep-links are only accessible locally, and it is therefore not possible to receive deep-link messages from remote sources.
+              - heading "OAuth2 Redirect ProxyDirect link to OAuth2 Redirect Proxy" [level=2] [ref=e378]:
+                - text: OAuth2 Redirect Proxy
+                - link "Direct link to OAuth2 Redirect Proxy" [ref=e379] [cursor=pointer]:
+                  - /url: "#oauth2-redirect-proxy"
+                  - text: "#"
+              - generic [ref=e380]:
+                - generic [ref=e381]:
+                  - img [ref=e383]
+                  - text: warning
+                - generic [ref=e387]:
+                  - paragraph [ref=e388]:
+                    - text: The OAuth2 redirect proxy is designed to assist with OAuth2 code grant flow for authorization providers that do not accept custom schemes as part of their callback URLs, for example
+                    - code [ref=e389]: streamdeck://
+                    - text: .
+                  - paragraph [ref=e390]: It is recommended you use your plugin's deep-link URL as the callback URL unless absolutely necessary.
+              - paragraph [ref=e391]:
+                - text: The OAuth2 redirect proxy is a remotely accessibly
+                - code [ref=e392]: https://
+                - text: URL that has the single responsibility of forwarding messages to Stream Deck plugins via deep-linking. Due to the sensitive nature of the redirect proxy, no information sent to the proxy is stored on Elgato servers.
+              - paragraph [ref=e393]: "The following diagram provides an overview of the flow:"
+              - img "Flow diagram that depicts OAuth2 authorization code grant flow; the callback of the authorization provider goes via the redirect proxy, which then forwards the message to the plugin via deep-linking" [ref=e395]
+              - heading "Redirect URLDirect link to Redirect URL" [level=3] [ref=e396]:
+                - text: Redirect URL
+                - link "Direct link to Redirect URL" [ref=e397] [cursor=pointer]:
+                  - /url: "#redirect-url"
+                  - text: "#"
+              - paragraph [ref=e398]:
+                - text: The redirect URL follows a similar structure to the
+                - link "deep-link URL" [ref=e399] [cursor=pointer]:
+                  - /url: "#deep-link-url"
+                - text: ", and is uniquely identifiable based on your plugin's identifier. This unique URL should be supplied to the authorization provider as the callback URL when authenticating with OAuth2. The format is as follows:"
+              - generic [ref=e401]:
+                - code [ref=e403]:
+                  - generic [ref=e404]: https://oauth2-redirect.elgato.com/streamdeck/plugins/message/<PLUGIN_UUID>
+                - generic [ref=e405]:
+                  - button "Toggle word wrap" [ref=e406] [cursor=pointer]:
+                    - img [ref=e407]
+                  - button "Copy to clipboard" [ref=e409] [cursor=pointer]:
+                    - generic [ref=e410]:
+                      - img "Icon" [ref=e411]
+                      - img "Icon" [ref=e414]
+              - paragraph [ref=e416]: "Upon receiving a callback from an authorization provider, the request is forwarded to your plugin. Please note, only a subset of query parameters are forwarded when present, these are:"
+              - table [ref=e417]:
+                - rowgroup [ref=e418]:
+                  - row "Query Parameter Description" [ref=e419]:
+                    - columnheader "Query Parameter" [ref=e420]
+                    - columnheader "Description" [ref=e421]
+                - rowgroup [ref=e422]:
+                  - row "code Authorization code to exchange for an access token." [ref=e423]:
+                    - cell "code" [ref=e424]:
+                      - code [ref=e425]: code
+                    - cell "Authorization code to exchange for an access token." [ref=e426]
+                  - row "state Optional value supplied as part of requesting authorization." [ref=e427]:
+                    - cell "state" [ref=e428]:
+                      - code [ref=e429]: state
+                    - cell "Optional value supplied as part of requesting authorization." [ref=e430]
+                  - row "scope Specifies the level of access that was granted to the app." [ref=e431]:
+                    - cell "scope" [ref=e432]:
+                      - code [ref=e433]: scope
+                    - cell "Specifies the level of access that was granted to the app." [ref=e434]
+                  - row "error Error returned by the authorization provider when unsuccessful." [ref=e435]:
+                    - cell "error" [ref=e436]:
+                      - code [ref=e437]: error
+                    - cell "Error returned by the authorization provider when unsuccessful." [ref=e438]
+              - heading "URL BuilderDirect link to URL Builder" [level=2] [ref=e439]:
+                - text: URL Builder
+                - link "Direct link to URL Builder" [ref=e440] [cursor=pointer]:
+                  - /url: "#url-builder"
+                  - text: "#"
+              - generic [ref=e441]:
+                - generic [ref=e442]: "Plugin UUID:"
+                - textbox "Plugin UUID:" [ref=e443]: com.elgato.hello-world
+              - generic [ref=e444]:
+                - generic [ref=e445]: "Path:"
+                - textbox "Path:" [ref=e446]: auth
+              - paragraph [ref=e447]: "URLs:"
+              - generic [ref=e448]:
+                - generic [ref=e449]: Deep-link URL
+                - generic [ref=e450]:
+                  - code [ref=e452]:
+                    - generic [ref=e453]: streamdeck://plugins/message/com.elgato.hello-world/auth
+                  - button "Copy to clipboard" [ref=e455] [cursor=pointer]:
+                    - generic [ref=e456]:
+                      - img "Icon" [ref=e457]
+                      - img "Icon" [ref=e460]
+              - paragraph [ref=e462]:
+                - button "Icon Open in Stream Deck" [ref=e463] [cursor=pointer]:
+                  - img "Icon" [ref=e464]
+                  - generic [ref=e467]: Open in Stream Deck
+              - generic [ref=e468]:
+                - generic [ref=e469]: OAuth2 redirect proxy URL
+                - generic [ref=e470]:
+                  - code [ref=e472]:
+                    - generic [ref=e473]: https://oauth2-redirect.elgato.com/streamdeck/plugins/message/com.elgato.hello-world/auth
+                  - generic [ref=e474]:
+                    - button "Toggle word wrap" [ref=e475] [cursor=pointer]:
+                      - img [ref=e476]
+                    - button "Copy to clipboard" [ref=e478] [cursor=pointer]:
+                      - generic [ref=e479]:
+                        - img "Icon" [ref=e480]
+                        - img "Icon" [ref=e483]
+              - generic [ref=e485]:
+                - generic [ref=e486]: OAuth2 redirect proxy URL (encoded)
+                - generic [ref=e487]:
+                  - code [ref=e489]:
+                    - generic [ref=e490]: https%3A%2F%2Foauth2-redirect.elgato.com%2Fstreamdeck%2Fplugins%2Fmessage%2Fcom.elgato.hello-world%2Fauth
+                  - generic [ref=e491]:
+                    - button "Toggle word wrap" [ref=e492] [cursor=pointer]:
+                      - img [ref=e493]
+                    - button "Copy to clipboard" [ref=e495] [cursor=pointer]:
+                      - generic [ref=e496]:
+                        - img "Icon" [ref=e497]
+                        - img "Icon" [ref=e500]
+          - navigation "Docs pages" [ref=e502]:
+            - link "Previous « System" [ref=e503] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/system
+              - generic [ref=e504]: Previous
+              - generic [ref=e505]: « System
+            - link "Next App Monitoring »" [ref=e506] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/app-monitoring
+              - generic [ref=e507]: Next
+              - generic [ref=e508]: App Monitoring »
+        - list [ref=e511]:
+          - listitem [ref=e512]:
+            - link "Receiving Messages" [ref=e513] [cursor=pointer]:
+              - /url: "#receiving-messages"
+            - list [ref=e514]:
+              - listitem [ref=e515]:
+                - link "Deep-Link URL" [ref=e516] [cursor=pointer]:
+                  - /url: "#deep-link-url"
+              - listitem [ref=e517]:
+                - link "Active vs Passive" [ref=e518] [cursor=pointer]:
+                  - /url: "#active-vs-passive"
+              - listitem [ref=e519]:
+                - link "Example" [ref=e520] [cursor=pointer]:
+                  - /url: "#example"
+          - listitem [ref=e521]:
+            - link "Known Limitations" [ref=e522] [cursor=pointer]:
+              - /url: "#known-limitations"
+          - listitem [ref=e523]:
+            - link "OAuth2 Redirect Proxy" [ref=e524] [cursor=pointer]:
+              - /url: "#oauth2-redirect-proxy"
+            - list [ref=e525]:
+              - listitem [ref=e526]:
+                - link "Redirect URL" [ref=e527] [cursor=pointer]:
+                  - /url: "#redirect-url"
+          - listitem [ref=e528]:
+            - link "URL Builder" [ref=e529] [cursor=pointer]:
+              - /url: "#url-builder"
+  - contentinfo [ref=e530]:
+    - generic [ref=e531]:
+      - generic [ref=e532]:
+        - generic [ref=e533]:
+          - generic [ref=e534]: Makers
+          - list [ref=e535]:
+            - listitem [ref=e536]:
+              - link "Become a Maker" [ref=e537] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e538]:
+              - link "Elgato Icons" [ref=e539] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e540]:
+              - link "Badges" [ref=e541] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e542]:
+          - generic [ref=e543]: Marketplace
+          - list [ref=e544]:
+            - listitem [ref=e545]:
+              - link "Plugins" [ref=e546] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e547]:
+              - link "Icon Packs" [ref=e548] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e549]:
+              - link "Profiles" [ref=e550] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e551]:
+          - generic [ref=e552]: Support
+          - list [ref=e553]:
+            - listitem [ref=e554]:
+              - link "FAQ" [ref=e555] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e556]:
+              - link "Contact" [ref=e557] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e558]:
+              - link "Copyright Claim" [ref=e559] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e560]:
+              - link "Downloads" [ref=e561] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e562]:
+          - generic [ref=e563]: Company
+          - list [ref=e564]:
+            - listitem [ref=e565]:
+              - link "About" [ref=e566] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e567]:
+              - link "Media Room" [ref=e568] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e569]:
+              - link "Terms of Use" [ref=e570] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e571]:
+              - link "Privacy Policy" [ref=e572] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e574]: © 2026 Elgato. All rights reserved.

@@ -1,0 +1,626 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Plugin Guides
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Logging
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Logging" [level=1] [ref=e133]
+              - paragraph [ref=e134]: Logging is a useful way track the flow of functionality, and can assist with diagnosing bugs within your plugin. By default, the Stream Deck SDK provides support for logging between the runtime consoles, as well as writing logs to the file system.
+              - paragraph [ref=e135]: "In this guide you'll learn:"
+              - list [ref=e136]:
+                - listitem [ref=e137]: How to write log entries using the Stream Deck SDK.
+                - listitem [ref=e138]: Where your plugin's logs are located.
+                - listitem [ref=e139]: Using log levels and logger scopes to help identify logs.
+              - heading "Writing LogsDirect link to Writing Logs" [level=2] [ref=e140]:
+                - text: Writing Logs
+                - link "Direct link to Writing Logs" [ref=e141] [cursor=pointer]:
+                  - /url: "#writing-logs"
+                  - text: "#"
+              - paragraph [ref=e142]:
+                - text: Logs are written using a
+                - code [ref=e143]: Logger
+                - text: instance, with the root logger located on the default
+                - code [ref=e144]: streamDeck
+                - text: "import, for example:"
+              - generic [ref=e145]:
+                - generic [ref=e146]: Info level log
+                - generic [ref=e147]:
+                  - code [ref=e149]:
+                    - generic [ref=e150]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e152]: streamDeck.logger.info("Hello world");
+                    - generic [ref=e154]: streamDeck.connect();
+                  - button "Copy to clipboard" [ref=e156] [cursor=pointer]:
+                    - generic [ref=e157]:
+                      - img "Icon" [ref=e158]
+                      - img "Icon" [ref=e161]
+              - generic [ref=e163]:
+                - generic [ref=e164]:
+                  - img [ref=e166]
+                  - text: tip
+                - paragraph [ref=e171]:
+                  - text: It is recommended to use
+                  - code [ref=e172]: streamDeck.logger
+                  - text: instead of
+                  - code [ref=e173]: console
+                  - text: . Using
+                  - code [ref=e174]: streamDeck.logger
+                  - text: ensures your plugin's logs are written to all available targets, for example the LOG file.
+              - heading "Reading LogsDirect link to Reading Logs" [level=2] [ref=e175]:
+                - text: Reading Logs
+                - link "Direct link to Reading Logs" [ref=e176] [cursor=pointer]:
+                  - /url: "#reading-logs"
+                  - text: "#"
+              - paragraph [ref=e177]: "All logs written to a logger are output to targets based on the source of the log entry, and the plugin's environment, for example whether it is in production or development. The log targets are:"
+              - table [ref=e178]:
+                - rowgroup [ref=e179]:
+                  - row "Source Environment Targets" [ref=e180]:
+                    - columnheader "Source" [ref=e181]
+                    - columnheader "Environment" [ref=e182]
+                    - columnheader "Targets" [ref=e183]
+                - rowgroup [ref=e184]:
+                  - row "Plugin Development File Console (Plugin)" [ref=e185]:
+                    - cell "Plugin" [ref=e186]
+                    - cell "Development" [ref=e187]
+                    - cell "File Console (Plugin)" [ref=e188]:
+                      - list [ref=e189]:
+                        - listitem [ref=e190]:
+                          - link "File" [ref=e191] [cursor=pointer]:
+                            - /url: "#log-files"
+                        - listitem [ref=e192]:
+                          - link "Console (Plugin)" [ref=e193] [cursor=pointer]:
+                            - /url: "#console"
+                  - row "Property Inspector (UI) Development File Console (Plugin) Console (UI)" [ref=e194]:
+                    - cell "Property Inspector (UI)" [ref=e195]
+                    - cell "Development" [ref=e196]
+                    - cell "File Console (Plugin) Console (UI)" [ref=e197]:
+                      - list [ref=e198]:
+                        - listitem [ref=e199]:
+                          - link "File" [ref=e200] [cursor=pointer]:
+                            - /url: "#log-files"
+                        - listitem [ref=e201]:
+                          - link "Console (Plugin)" [ref=e202] [cursor=pointer]:
+                            - /url: "#console"
+                        - listitem [ref=e203]:
+                          - link "Console (UI)" [ref=e204] [cursor=pointer]:
+                            - /url: "#console"
+                  - row "Plugin Production File" [ref=e205]:
+                    - cell "Plugin" [ref=e206]
+                    - cell "Production" [ref=e207]
+                    - cell "File" [ref=e208]:
+                      - list [ref=e209]:
+                        - listitem [ref=e210]:
+                          - link "File" [ref=e211] [cursor=pointer]:
+                            - /url: "#log-files"
+                  - row "Property Inspector (UI) Production File Console (UI)" [ref=e212]:
+                    - cell "Property Inspector (UI)" [ref=e213]
+                    - cell "Production" [ref=e214]
+                    - cell "File Console (UI)" [ref=e215]:
+                      - list [ref=e216]:
+                        - listitem [ref=e217]:
+                          - link "File" [ref=e218] [cursor=pointer]:
+                            - /url: "#log-files"
+                        - listitem [ref=e219]:
+                          - link "Console (UI)" [ref=e220] [cursor=pointer]:
+                            - /url: "#console"
+              - heading "Log FilesDirect link to Log Files" [level=3] [ref=e221]:
+                - text: Log Files
+                - link "Direct link to Log Files" [ref=e222] [cursor=pointer]:
+                  - /url: "#log-files"
+                  - text: "#"
+              - paragraph [ref=e223]:
+                - text: File logging is provided as standard, allowing for writing logs to LOG files. These LOG files are found within your plugin's
+                - code [ref=e224]: logs
+                - text: "directory, for example:"
+              - generic [ref=e226]:
+                - code [ref=e228]:
+                  - generic [ref=e229]: com.elgato.hello-world.sdPlugin/logs/com.elgato.hello-world.0.log
+                  - generic [ref=e230]: └─────────┬──────────┘ └─────────┬──────────┘ └──┐
+                  - generic [ref=e231]: Plugin UUID Plugin UUID Index
+                - button "Copy to clipboard" [ref=e233] [cursor=pointer]:
+                  - generic [ref=e234]:
+                    - img "Icon" [ref=e235]
+                    - img "Icon" [ref=e238]
+              - generic [ref=e240]:
+                - generic [ref=e241]:
+                  - img [ref=e243]
+                  - text: warning
+                - paragraph [ref=e248]: Uninstalling a plugin will also remove its associated log files. When diagnosing issues, we recommend requesting the logs prior to suggesting a re-install.
+              - heading "FormatDirect link to Format" [level=4] [ref=e249]:
+                - text: Format
+                - link "Direct link to Format" [ref=e250] [cursor=pointer]:
+                  - /url: "#format"
+                  - text: "#"
+              - paragraph [ref=e251]: "Logs are written in the following format:"
+              - generic [ref=e253]:
+                - code [ref=e255]:
+                  - generic [ref=e256]: "<iso_date> <log_level> [[scope]: ]<message>"
+                - button "Copy to clipboard" [ref=e258] [cursor=pointer]:
+                  - generic [ref=e259]:
+                    - img "Icon" [ref=e260]
+                    - img "Icon" [ref=e263]
+              - paragraph [ref=e265]: "For example:"
+              - generic [ref=e266]:
+                - generic [ref=e267]: com.elgato.hello-world.sdPlugin/logs/com.elgato.hello-world.0.log
+                - generic [ref=e268]:
+                  - code [ref=e270]:
+                    - generic [ref=e271]: 2024-05-05T12:35:13.000Z INFO Hello world
+                  - button "Copy to clipboard" [ref=e273] [cursor=pointer]:
+                    - generic [ref=e274]:
+                      - img "Icon" [ref=e275]
+                      - img "Icon" [ref=e278]
+              - heading "File RotationDirect link to File Rotation" [level=4] [ref=e280]:
+                - text: File Rotation
+                - link "Direct link to File Rotation" [ref=e281] [cursor=pointer]:
+                  - /url: "#file-rotation"
+                  - text: "#"
+              - paragraph [ref=e282]: "The file target also provides automatic file rotation of your plugin's log files, this means that:"
+              - list [ref=e283]:
+                - listitem [ref=e284]:
+                  - text: Your plugin's 10 most recent log files are available, with
+                  - code [ref=e285]: "0"
+                  - text: being the most recent.
+                - listitem [ref=e286]: Log files never exceed 10 MiB.
+              - paragraph [ref=e287]: "File rotation occurs, i.e. a new log file is created and the oldest removed, when one of the following occurs:"
+              - list [ref=e288]:
+                - listitem [ref=e289]: Your plugin starts.
+                - listitem [ref=e290]: The current log file exceeds 10 MiB.
+              - heading "ConsoleDirect link to Console" [level=3] [ref=e291]:
+                - text: Console
+                - link "Direct link to Console" [ref=e292] [cursor=pointer]:
+                  - /url: "#console"
+                  - text: "#"
+              - paragraph [ref=e293]: "Whilst developing your plugin, logs are also mirrored to the various consoles supported by the Stream Deck SDK. The supported consoles are:"
+              - list [ref=e294]:
+                - listitem [ref=e295]: The Node.js terminal when debugging your plugin.
+                - listitem [ref=e296]: The browser console when debugging your property inspectors.
+              - paragraph [ref=e297]: "Where available, the console logger maps one-to-one with the native console to provide more insightful messages and familiarity. The mapping is as follows:"
+              - generic [ref=e298]:
+                - generic [ref=e299]: Logger vs Console
+                - generic [ref=e300]:
+                  - code [ref=e302]:
+                    - generic [ref=e303]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e305]: // console.error(...)
+                    - generic [ref=e306]: streamDeck.logger.error("Failures or exceptions");
+                    - generic [ref=e308]: // console.warn(...)
+                    - generic [ref=e309]: streamDeck.logger.warn("Recoverable errors");
+                    - generic [ref=e311]: // console.log(...);
+                    - generic [ref=e312]: streamDeck.logger.info("Hello world");
+                    - generic [ref=e313]: streamDeck.logger.debug("Debugging information");
+                    - generic [ref=e314]: streamDeck.logger.trace("Detailed messages");
+                    - generic [ref=e316]: streamDeck.connect();
+                  - button "Copy to clipboard" [ref=e318] [cursor=pointer]:
+                    - generic [ref=e319]:
+                      - img "Icon" [ref=e320]
+                      - img "Icon" [ref=e323]
+              - heading "Log LevelDirect link to Log Level" [level=2] [ref=e325]:
+                - text: Log Level
+                - link "Direct link to Log Level" [ref=e326] [cursor=pointer]:
+                  - /url: "#log-level"
+                  - text: "#"
+              - paragraph [ref=e327]:
+                - text: Log entries are associated with log levels to assist with indicating their severity. In the previous chapter, you created an
+                - code [ref=e328]: INFO
+                - text: "log entry using:"
+              - generic [ref=e330]:
+                - code [ref=e332]:
+                  - generic [ref=e333]: streamDeck.logger.info("Hello world");
+                - button "Copy to clipboard" [ref=e335] [cursor=pointer]:
+                  - generic [ref=e336]:
+                    - img "Icon" [ref=e337]
+                    - img "Icon" [ref=e340]
+              - paragraph [ref=e342]:
+                - text: In addition to
+                - code [ref=e343]: INFO
+                - text: ", it is also possible to create a log with one of the following log levels:"
+              - generic [ref=e344]:
+                - generic [ref=e345]: Log levels
+                - generic [ref=e346]:
+                  - code [ref=e348]:
+                    - generic [ref=e349]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e351]: streamDeck.logger.error("Failures or exceptions");
+                    - generic [ref=e352]: streamDeck.logger.warn("Recoverable errors");
+                    - generic [ref=e353]: streamDeck.logger.info("Hello world");
+                    - generic [ref=e354]: streamDeck.logger.debug("Debugging information");
+                    - generic [ref=e355]: streamDeck.logger.trace("Detailed messages");
+                    - generic [ref=e357]: streamDeck.connect();
+                  - button "Copy to clipboard" [ref=e359] [cursor=pointer]:
+                    - generic [ref=e360]:
+                      - img "Icon" [ref=e361]
+                      - img "Icon" [ref=e364]
+              - table [ref=e366]:
+                - rowgroup [ref=e367]:
+                  - row "Level Value Description" [ref=e368]:
+                    - columnheader "Level" [ref=e369]
+                    - columnheader "Value" [ref=e370]
+                    - columnheader "Description" [ref=e371]
+                - rowgroup [ref=e372]:
+                  - row "Error Direct link to Error LogLevel.ERROR Logs that require immediate attention. For example, module failure, unexpected behavior, or data loss/corruption." [ref=e373]:
+                    - cell "Error Direct link to Error" [ref=e374]:
+                      - generic [ref=e375]:
+                        - generic [ref=e376]: Error
+                        - link "Direct link to Error" [ref=e377] [cursor=pointer]:
+                          - /url: "#error"
+                          - img [ref=e378]
+                    - cell "LogLevel.ERROR" [ref=e380]:
+                      - code [ref=e381]: LogLevel.ERROR
+                    - cell "Logs that require immediate attention. For example, module failure, unexpected behavior, or data loss/corruption." [ref=e382]
+                  - row "Warning Direct link to Warning LogLevel.WARN Represents abnormal behavior, but a recoverable state. For example, a value resorting to a fallback value." [ref=e383]:
+                    - cell "Warning Direct link to Warning" [ref=e384]:
+                      - generic [ref=e385]:
+                        - generic [ref=e386]: Warning
+                        - link "Direct link to Warning" [ref=e387] [cursor=pointer]:
+                          - /url: "#warning"
+                          - img [ref=e388]
+                    - cell "LogLevel.WARN" [ref=e390]:
+                      - code [ref=e391]: LogLevel.WARN
+                    - cell "Represents abnormal behavior, but a recoverable state. For example, a value resorting to a fallback value." [ref=e392]
+                  - row "Information Direct link to Information LogLevel.INFO General information." [ref=e393]:
+                    - cell "Information Direct link to Information" [ref=e394]:
+                      - generic [ref=e395]:
+                        - generic [ref=e396]: Information
+                        - link "Direct link to Information" [ref=e397] [cursor=pointer]:
+                          - /url: "#information"
+                          - img [ref=e398]
+                    - cell "LogLevel.INFO" [ref=e400]:
+                      - code [ref=e401]: LogLevel.INFO
+                    - cell "General information." [ref=e402]
+                  - row "Debug Direct link to Debug LogLevel.DEBUG Log entries for debugging and development. For example, variable values." [ref=e403]:
+                    - cell "Debug Direct link to Debug" [ref=e404]:
+                      - generic [ref=e405]:
+                        - generic [ref=e406]: Debug
+                        - link "Direct link to Debug" [ref=e407] [cursor=pointer]:
+                          - /url: "#debug"
+                          - img [ref=e408]
+                    - cell "LogLevel.DEBUG" [ref=e410]:
+                      - code [ref=e411]: LogLevel.DEBUG
+                    - cell "Log entries for debugging and development. For example, variable values." [ref=e412]
+                  - row "Trace Direct link to Trace LogLevel.TRACE Detailed entries for analyzing the context and flow of execution. For example, network traffic, IPC communication. These entries may contain sensitive information." [ref=e413]:
+                    - cell "Trace Direct link to Trace" [ref=e414]:
+                      - generic [ref=e415]:
+                        - generic [ref=e416]: Trace
+                        - link "Direct link to Trace" [ref=e417] [cursor=pointer]:
+                          - /url: "#trace"
+                          - img [ref=e418]
+                    - cell "LogLevel.TRACE" [ref=e420]:
+                      - code [ref=e421]: LogLevel.TRACE
+                    - cell "Detailed entries for analyzing the context and flow of execution. For example, network traffic, IPC communication. These entries may contain sensitive information." [ref=e422]
+              - paragraph [ref=e423]:
+                - text: You can also control
+                - emphasis [ref=e424]: lowest
+                - text: "level that will be written to the logger, for example if you want to only log error and warning messages, you would do the following:"
+              - generic [ref=e425]:
+                - generic [ref=e426]: Setting the log level
+                - generic [ref=e427]:
+                  - code [ref=e429]:
+                    - generic [ref=e430]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e432]: streamDeck.logger.setLevel("warn");
+                    - generic [ref=e434]: streamDeck.logger.error("Failures or exceptions");
+                    - generic [ref=e435]: streamDeck.logger.warn("Recoverable errors");
+                    - generic [ref=e436]: streamDeck.logger.info("Hello world"); // No output.
+                    - generic [ref=e437]: streamDeck.logger.debug("Debugging information"); // No output.
+                    - generic [ref=e438]: streamDeck.logger.trace("Detailed messages"); // No output.
+                    - generic [ref=e440]: streamDeck.connect();
+                  - button "Copy to clipboard" [ref=e442] [cursor=pointer]:
+                    - generic [ref=e443]:
+                      - img "Icon" [ref=e444]
+                      - img "Icon" [ref=e447]
+              - generic [ref=e449]:
+                - generic [ref=e450]:
+                  - img [ref=e452]
+                  - text: warning
+                - generic [ref=e456]:
+                  - paragraph [ref=e457]: "The default log level is dependent on the mode of the plugin:"
+                  - list [ref=e458]:
+                    - listitem [ref=e459]:
+                      - text: Development, the default log level is
+                      - code [ref=e460]: DEBUG
+                      - text: .
+                    - listitem [ref=e461]:
+                      - text: Production, the default log level is
+                      - code [ref=e462]: INFO
+                      - text: ", with"
+                      - code [ref=e463]: DEBUG
+                      - text: being the lowest possible level.
+              - heading "Creating LoggersDirect link to Creating Loggers" [level=2] [ref=e464]:
+                - text: Creating Loggers
+                - link "Direct link to Creating Loggers" [ref=e465] [cursor=pointer]:
+                  - /url: "#creating-loggers"
+                  - text: "#"
+              - paragraph [ref=e466]: "Additional child loggers may be created from an existing logger, each of which is called a \"scope.\" A scope can be useful to identify the source of a log message, with the scopes acting as breadcrumbs. For example:"
+              - generic [ref=e467]:
+                - generic [ref=e468]: Scoped loggers
+                - generic [ref=e469]:
+                  - code [ref=e471]:
+                    - generic [ref=e472]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e474]: const scopedLogger = streamDeck.logger.createScope("Main");
+                    - generic [ref=e475]: scopedLogger.info("Hello world");
+                    - generic [ref=e477]: streamDeck.connect();
+                  - button "Copy to clipboard" [ref=e479] [cursor=pointer]:
+                    - generic [ref=e480]:
+                      - img "Icon" [ref=e481]
+                      - img "Icon" [ref=e484]
+              - generic [ref=e486]:
+                - generic [ref=e487]: com.elgato.hello-world.sdPlugin/logs/com.elgato.hello-world.0.log
+                - generic [ref=e488]:
+                  - code [ref=e490]:
+                    - generic [ref=e491]: "2024-05-05T12:35:13.000Z INFO Main: Hello world"
+                  - button "Copy to clipboard" [ref=e493] [cursor=pointer]:
+                    - generic [ref=e494]:
+                      - img "Icon" [ref=e495]
+                      - img "Icon" [ref=e498]
+              - paragraph [ref=e500]: "Scoped loggers can also be nested, for example:"
+              - generic [ref=e501]:
+                - generic [ref=e502]: Nested scoped loggers
+                - generic [ref=e503]:
+                  - code [ref=e505]:
+                    - generic [ref=e506]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e508]: const scopedLogger = streamDeck.logger.createScope("Main");
+                    - generic [ref=e509]: scopedLogger.info("Hello world");
+                    - generic [ref=e511]: const nestedLogger = scopedLogger.createScope("Nested");
+                    - generic [ref=e512]: nestedLogger.info("Test");
+                    - generic [ref=e514]: streamDeck.connect();
+                  - button "Copy to clipboard" [ref=e516] [cursor=pointer]:
+                    - generic [ref=e517]:
+                      - img "Icon" [ref=e518]
+                      - img "Icon" [ref=e521]
+              - generic [ref=e523]:
+                - generic [ref=e524]: com.elgato.hello-world.sdPlugin/logs/com.elgato.hello-world.0.log
+                - generic [ref=e525]:
+                  - code [ref=e527]:
+                    - generic [ref=e528]: "2024-05-05T12:35:13.000Z INFO Main: Hello world"
+                    - generic [ref=e529]: "2024-05-05T12:35:13.000Z INFO Main->Nested: Test"
+                  - button "Copy to clipboard" [ref=e531] [cursor=pointer]:
+                    - generic [ref=e532]:
+                      - img "Icon" [ref=e533]
+                      - img "Icon" [ref=e536]
+              - heading "Stream Deck LogsDirect link to Stream Deck Logs" [level=2] [ref=e538]:
+                - text: Stream Deck Logs
+                - link "Direct link to Stream Deck Logs" [ref=e539] [cursor=pointer]:
+                  - /url: "#stream-deck-logs"
+                  - text: "#"
+              - paragraph [ref=e540]: In addition to the logs written by your plugin, the Stream Deck app also writes logs to help diagnose issues.
+              - list [ref=e541]:
+                - listitem [ref=e542]:
+                  - text: On Windows, logs are located at
+                  - code [ref=e543]: "%appdata%\\Elgato\\StreamDeck\\logs\\"
+                  - text: .
+                - listitem [ref=e544]:
+                  - text: On macOS, logs are located at
+                  - code [ref=e545]: ~/Library/Logs/ElgatoStreamDeck/
+                  - text: .
+              - paragraph [ref=e546]:
+                - text: Stream Deck uses a log rotation in which each run of the app creates a new log file, with the most recent log file being
+                - code [ref=e547]: StreamDeck0.log
+                - text: .
+          - navigation "Docs pages" [ref=e548]:
+            - link "Previous « Secrets" [ref=e549] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/secrets
+              - generic [ref=e550]: Previous
+              - generic [ref=e551]: « Secrets
+            - link "Next Localization »" [ref=e552] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/i18n
+              - generic [ref=e553]: Next
+              - generic [ref=e554]: Localization »
+        - list [ref=e557]:
+          - listitem [ref=e558]:
+            - link "Writing Logs" [ref=e559] [cursor=pointer]:
+              - /url: "#writing-logs"
+          - listitem [ref=e560]:
+            - link "Reading Logs" [ref=e561] [cursor=pointer]:
+              - /url: "#reading-logs"
+            - list [ref=e562]:
+              - listitem [ref=e563]:
+                - link "Log Files" [ref=e564] [cursor=pointer]:
+                  - /url: "#log-files"
+              - listitem [ref=e565]:
+                - link "Console" [ref=e566] [cursor=pointer]:
+                  - /url: "#console"
+          - listitem [ref=e567]:
+            - link "Log Level" [ref=e568] [cursor=pointer]:
+              - /url: "#log-level"
+          - listitem [ref=e569]:
+            - link "Creating Loggers" [ref=e570] [cursor=pointer]:
+              - /url: "#creating-loggers"
+          - listitem [ref=e571]:
+            - link "Stream Deck Logs" [ref=e572] [cursor=pointer]:
+              - /url: "#stream-deck-logs"
+  - contentinfo [ref=e573]:
+    - generic [ref=e574]:
+      - generic [ref=e575]:
+        - generic [ref=e576]:
+          - generic [ref=e577]: Makers
+          - list [ref=e578]:
+            - listitem [ref=e579]:
+              - link "Become a Maker" [ref=e580] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e581]:
+              - link "Elgato Icons" [ref=e582] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e583]:
+              - link "Badges" [ref=e584] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e585]:
+          - generic [ref=e586]: Marketplace
+          - list [ref=e587]:
+            - listitem [ref=e588]:
+              - link "Plugins" [ref=e589] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e590]:
+              - link "Icon Packs" [ref=e591] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e592]:
+              - link "Profiles" [ref=e593] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e594]:
+          - generic [ref=e595]: Support
+          - list [ref=e596]:
+            - listitem [ref=e597]:
+              - link "FAQ" [ref=e598] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e599]:
+              - link "Contact" [ref=e600] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e601]:
+              - link "Copyright Claim" [ref=e602] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e603]:
+              - link "Downloads" [ref=e604] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e605]:
+          - generic [ref=e606]: Company
+          - list [ref=e607]:
+            - listitem [ref=e608]:
+              - link "About" [ref=e609] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e610]:
+              - link "Media Room" [ref=e611] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e612]:
+              - link "Terms of Use" [ref=e613] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e614]:
+              - link "Privacy Policy" [ref=e615] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e617]: © 2026 Elgato. All rights reserved.

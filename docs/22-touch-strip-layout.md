@@ -1,0 +1,969 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: References
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Touch Strip Layout
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Touch Strip Layout" [level=1] [ref=e133]
+              - paragraph [ref=e134]:
+                - text: In addition to the
+                - link "built-in touch strip layouts" [ref=e135] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials#built-in-layouts
+                - text: ", you can also create bespoke layouts which allow you to completely customize how content is rendered on a Stream Deck + touch strip. Your bespoke layouts are represented as either a JSON file distributed with your plugin, or programmatically using an object."
+              - generic [ref=e136]:
+                - generic [ref=e137]:
+                  - img [ref=e139]
+                  - text: Shared touch strip
+                - paragraph [ref=e144]:
+                  - text: The Stream Deck + touch strip is shared amongst four actions, with each action able to render one quarter of the touch strip occupying 200 × 100 px. Natively, your plugin cannot render the
+                  - emphasis [ref=e145]: entire
+                  - text: touch strip, however to mimic this behavior, all four actions assigned to the touch strip would need to be from your plugin, and their quarters updated individually.
+              - heading "JSON SchemaDirect link to JSON Schema" [level=2] [ref=e146]:
+                - text: JSON Schema
+                - link "Direct link to JSON Schema" [ref=e147] [cursor=pointer]:
+                  - /url: "#json-schema"
+                  - text: "#"
+              - paragraph [ref=e148]: "A JSON schema is available for layout JSON files, providing intellisense and validation, and is available at the following URL:"
+              - generic [ref=e149]:
+                - generic [ref=e150]: JSON schema URL
+                - generic [ref=e151]:
+                  - code [ref=e153]:
+                    - generic [ref=e154]: https://schemas.elgato.com/streamdeck/plugins/layout.json
+                  - button "Copy to clipboard" [ref=e156] [cursor=pointer]:
+                    - generic [ref=e157]:
+                      - img "Icon" [ref=e158]
+                      - img "Icon" [ref=e161]
+              - paragraph [ref=e163]:
+                - text: You can reference this URL using the
+                - code [ref=e164]: $schema
+                - text: "property within your layout JSON file:"
+              - generic [ref=e165]:
+                - generic [ref=e166]: Layout JSON file
+                - generic [ref=e167]:
+                  - code [ref=e169]:
+                    - generic [ref=e170]: "{"
+                    - generic [ref=e171]: "\"$schema\": \"https://schemas.elgato.com/streamdeck/plugins/layout.json\","
+                    - generic [ref=e172]: "\"id\": \"CustomLayout\","
+                    - generic [ref=e173]: "\"items\": ["
+                    - generic [ref=e174]: // ...
+                    - generic [ref=e175]: "]"
+                    - generic [ref=e176]: "}"
+                  - generic [ref=e177]:
+                    - button "Toggle word wrap" [ref=e178] [cursor=pointer]:
+                      - img [ref=e179]
+                    - button "Copy to clipboard" [ref=e181] [cursor=pointer]:
+                      - generic [ref=e182]:
+                        - img "Icon" [ref=e183]
+                        - img "Icon" [ref=e186]
+              - heading "TypeScript DeclarationDirect link to TypeScript Declaration" [level=2] [ref=e188]:
+                - text: TypeScript Declaration
+                - link "Direct link to TypeScript Declaration" [ref=e189] [cursor=pointer]:
+                  - /url: "#typescript-declaration"
+                  - text: "#"
+              - generic [ref=e190]:
+                - generic [ref=e191]: Layout TypeScript declaration
+                - generic [ref=e192]:
+                  - code [ref=e194]:
+                    - generic [ref=e195]: "type Layout = {"
+                    - generic [ref=e196]: "id: string;"
+                    - generic [ref=e197]: "items: ("
+                    - generic [ref=e198]: "| {"
+                    - generic [ref=e199]: "background?: string;"
+                    - generic [ref=e200]: "bar_bg_c?: string;"
+                    - generic [ref=e201]: "bar_border_c?: string;"
+                    - generic [ref=e202]: "bar_fill_c?: string;"
+                    - generic [ref=e203]: "border_w?: number;"
+                    - generic [ref=e204]: "enabled?: boolean;"
+                    - generic [ref=e205]: "key: string;"
+                    - generic [ref=e206]: "opacity?: 0 | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 | 1;"
+                    - generic [ref=e207]: "range?: {"
+                    - generic [ref=e208]: "max: number;"
+                    - generic [ref=e209]: "min: number;"
+                    - generic [ref=e210]: "};"
+                    - generic [ref=e211]: "rect: [x: number, y: number, width: number, height: number];"
+                    - generic [ref=e212]: "subtype?: 0 | 1 | 2 | 3 | 4;"
+                    - generic [ref=e213]: "type: \"bar\";"
+                    - generic [ref=e214]: "value: number;"
+                    - generic [ref=e215]: "zOrder?: number;"
+                    - generic [ref=e216]: "}"
+                    - generic [ref=e217]: "| {"
+                    - generic [ref=e218]: "background?: string;"
+                    - generic [ref=e219]: "bar_bg_c?: string;"
+                    - generic [ref=e220]: "bar_border_c?: string;"
+                    - generic [ref=e221]: "bar_fill_c?: string;"
+                    - generic [ref=e222]: "bar_h?: number;"
+                    - generic [ref=e223]: "border_w?: number;"
+                    - generic [ref=e224]: "enabled?: boolean;"
+                    - generic [ref=e225]: "key: string;"
+                    - generic [ref=e226]: "opacity?: 0 | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 | 1;"
+                    - generic [ref=e227]: "range?: {"
+                    - generic [ref=e228]: "max: number;"
+                    - generic [ref=e229]: "min: number;"
+                    - generic [ref=e230]: "};"
+                    - generic [ref=e231]: "rect: [x: number, y: number, width: number, height: number];"
+                    - generic [ref=e232]: "subtype?: 0 | 1 | 2 | 3 | 4;"
+                    - generic [ref=e233]: "type: \"gbar\";"
+                    - generic [ref=e234]: "value: number;"
+                    - generic [ref=e235]: "zOrder?: number;"
+                    - generic [ref=e236]: "}"
+                    - generic [ref=e237]: "| {"
+                    - generic [ref=e238]: "background?: string;"
+                    - generic [ref=e239]: "enabled?: boolean;"
+                    - generic [ref=e240]: "key: string;"
+                    - generic [ref=e241]: "opacity?: 0 | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 | 1;"
+                    - generic [ref=e242]: "rect: [x: number, y: number, width: number, height: number];"
+                    - generic [ref=e243]: "type: \"pixmap\";"
+                    - generic [ref=e244]: "value?: string;"
+                    - generic [ref=e245]: "zOrder?: number;"
+                    - generic [ref=e246]: "}"
+                    - generic [ref=e247]: "| {"
+                    - generic [ref=e248]: "alignment?: \"center\" | \"left\" | \"right\";"
+                    - generic [ref=e249]: "background?: string;"
+                    - generic [ref=e250]: "color?: string;"
+                    - generic [ref=e251]: "enabled?: boolean;"
+                    - generic [ref=e252]: "font?: {"
+                    - generic [ref=e253]: "size?: number;"
+                    - generic [ref=e254]: "weight?: number;"
+                    - generic [ref=e255]: "};"
+                    - generic [ref=e256]: "key: string;"
+                    - generic [ref=e257]: "opacity?: 0 | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 | 1;"
+                    - generic [ref=e258]: "rect: [x: number, y: number, width: number, height: number];"
+                    - generic [ref=e259]: "\"text-overflow\"?: \"clip\" | \"ellipsis\" | \"fade\";"
+                    - generic [ref=e260]: "type: \"text\";"
+                    - generic [ref=e261]: "value?: string;"
+                    - generic [ref=e262]: "zOrder?: number;"
+                    - generic [ref=e263]: "}"
+                    - generic [ref=e264]: )[];
+                    - generic [ref=e265]: "};"
+                  - generic [ref=e266]:
+                    - button "Toggle word wrap" [ref=e267] [cursor=pointer]:
+                      - img [ref=e268]
+                    - button "Copy to clipboard" [ref=e270] [cursor=pointer]:
+                      - generic [ref=e271]:
+                        - img "Icon" [ref=e272]
+                        - img "Icon" [ref=e275]
+              - heading "DefinitionsDirect link to Definitions" [level=2] [ref=e277]:
+                - text: Definitions
+                - link "Direct link to Definitions" [ref=e278] [cursor=pointer]:
+                  - /url: "#definitions"
+                  - text: "#"
+              - heading "LayoutDirect link to Layout" [level=3] [ref=e279]:
+                - text: Layout
+                - link "Direct link to Layout" [ref=e280] [cursor=pointer]:
+                  - /url: "#layout"
+                  - text: "#"
+              - paragraph [ref=e281]: Defines the structure of a custom layout file.
+              - paragraph [ref=e282]:
+                - strong [ref=e283]: Properties
+              - group [ref=e284]:
+                - 'generic "id: string Direct link to id Required" [ref=e285] [cursor=pointer]':
+                  - generic [ref=e286]:
+                    - generic [ref=e287]:
+                      - strong [ref=e288]: id
+                      - generic [ref=e289]: ": string"
+                    - link "Direct link to id" [ref=e290]:
+                      - /url: "#layout-id"
+                      - img [ref=e291]
+                  - generic [ref=e293]: Required
+              - group [ref=e294]:
+                - 'generic "items: (Bar, GBar, Pixmap, Text)[] Direct link to items Required" [ref=e295] [cursor=pointer]':
+                  - generic [ref=e296]:
+                    - generic [ref=e297]:
+                      - strong [ref=e298]: items
+                      - generic [ref=e299]:
+                        - text: ": ("
+                        - link "Bar" [ref=e300]:
+                          - /url: "#bar"
+                        - text: ","
+                        - link "GBar" [ref=e301]:
+                          - /url: "#gbar"
+                        - text: ","
+                        - link "Pixmap" [ref=e302]:
+                          - /url: "#pixmap"
+                        - text: ","
+                        - link "Text" [ref=e303]:
+                          - /url: "#text"
+                        - text: )[]
+                    - link "Direct link to items" [ref=e304]:
+                      - /url: "#layout-items"
+                      - img [ref=e305]
+                  - generic [ref=e307]: Required
+              - heading "BarDirect link to Bar" [level=3] [ref=e308]:
+                - text: Bar
+                - link "Direct link to Bar" [ref=e309] [cursor=pointer]:
+                  - /url: "#bar"
+                  - text: "#"
+              - paragraph [ref=e310]:
+                - text: Bar layout item used to render a horizontal bar with a filler, e.g. a progress bar. The amount to fill the bar by can be specified by setting the
+                - code [ref=e311]: value
+                - text: .
+              - paragraph [ref=e312]:
+                - strong [ref=e313]: Properties
+              - group [ref=e314]:
+                - 'generic "background: string Direct link to background" [ref=e315] [cursor=pointer]':
+                  - generic [ref=e316]:
+                    - generic [ref=e317]:
+                      - strong [ref=e318]: background
+                      - generic [ref=e319]: ": string"
+                    - link "Direct link to background" [ref=e320]:
+                      - /url: "#bar-background"
+                      - img [ref=e321]
+              - group [ref=e323]:
+                - 'generic "enabled: boolean Direct link to enabled" [ref=e324] [cursor=pointer]':
+                  - generic [ref=e325]:
+                    - generic [ref=e326]:
+                      - strong [ref=e327]: enabled
+                      - generic [ref=e328]: ": boolean"
+                    - link "Direct link to enabled" [ref=e329]:
+                      - /url: "#bar-enabled"
+                      - img [ref=e330]
+              - group [ref=e332]:
+                - 'generic "key: string Direct link to key Required" [ref=e333] [cursor=pointer]':
+                  - generic [ref=e334]:
+                    - generic [ref=e335]:
+                      - strong [ref=e336]: key
+                      - generic [ref=e337]: ": string"
+                    - link "Direct link to key" [ref=e338]:
+                      - /url: "#bar-key"
+                      - img [ref=e339]
+                  - generic [ref=e341]: Required
+              - group [ref=e342]:
+                - 'generic "opacity: 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 Direct link to opacity" [ref=e343] [cursor=pointer]':
+                  - generic [ref=e344]:
+                    - generic [ref=e345]:
+                      - strong [ref=e346]: opacity
+                      - generic [ref=e347]: ": 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1"
+                    - link "Direct link to opacity" [ref=e348]:
+                      - /url: "#bar-opacity"
+                      - img [ref=e349]
+              - group [ref=e351]:
+                - 'generic "rect: [x: number, y: number, width: number, height: number] Direct link to rect Required" [ref=e352] [cursor=pointer]':
+                  - generic [ref=e353]:
+                    - generic [ref=e354]:
+                      - strong [ref=e355]: rect
+                      - generic [ref=e356]: ": [x: number, y: number, width: number, height: number]"
+                    - link "Direct link to rect" [ref=e357]:
+                      - /url: "#bar-rect"
+                      - img [ref=e358]
+                  - generic [ref=e360]: Required
+              - group [ref=e361]:
+                - 'generic "type: \"bar\" Direct link to type Required" [ref=e362] [cursor=pointer]':
+                  - generic [ref=e363]:
+                    - generic [ref=e364]:
+                      - strong [ref=e365]: type
+                      - generic [ref=e366]: ": \"bar\""
+                    - link "Direct link to type" [ref=e367]:
+                      - /url: "#bar-type"
+                      - img [ref=e368]
+                  - generic [ref=e370]: Required
+              - group [ref=e371]:
+                - 'generic "zOrder: number Direct link to zOrder" [ref=e372] [cursor=pointer]':
+                  - generic [ref=e373]:
+                    - generic [ref=e374]:
+                      - strong [ref=e375]: zOrder
+                      - generic [ref=e376]: ": number"
+                    - link "Direct link to zOrder" [ref=e377]:
+                      - /url: "#bar-zorder"
+                      - img [ref=e378]
+              - group [ref=e380]:
+                - 'generic "bar_bg_c: string Direct link to bar_bg_c" [ref=e381] [cursor=pointer]':
+                  - generic [ref=e382]:
+                    - generic [ref=e383]:
+                      - strong [ref=e384]: bar_bg_c
+                      - generic [ref=e385]: ": string"
+                    - link "Direct link to bar_bg_c" [ref=e386]:
+                      - /url: "#bar-bar_bg_c"
+                      - img [ref=e387]
+              - group [ref=e389]:
+                - 'generic "bar_border_c: string Direct link to bar_border_c" [ref=e390] [cursor=pointer]':
+                  - generic [ref=e391]:
+                    - generic [ref=e392]:
+                      - strong [ref=e393]: bar_border_c
+                      - generic [ref=e394]: ": string"
+                    - link "Direct link to bar_border_c" [ref=e395]:
+                      - /url: "#bar-bar_border_c"
+                      - img [ref=e396]
+              - group [ref=e398]:
+                - 'generic "bar_fill_c: string Direct link to bar_fill_c" [ref=e399] [cursor=pointer]':
+                  - generic [ref=e400]:
+                    - generic [ref=e401]:
+                      - strong [ref=e402]: bar_fill_c
+                      - generic [ref=e403]: ": string"
+                    - link "Direct link to bar_fill_c" [ref=e404]:
+                      - /url: "#bar-bar_fill_c"
+                      - img [ref=e405]
+              - group [ref=e407]:
+                - 'generic "border_w: number Direct link to border_w" [ref=e408] [cursor=pointer]':
+                  - generic [ref=e409]:
+                    - generic [ref=e410]:
+                      - strong [ref=e411]: border_w
+                      - generic [ref=e412]: ": number"
+                    - link "Direct link to border_w" [ref=e413]:
+                      - /url: "#bar-border_w"
+                      - img [ref=e414]
+              - group [ref=e416]:
+                - 'generic "range: Range Direct link to range" [ref=e417] [cursor=pointer]':
+                  - generic [ref=e418]:
+                    - generic [ref=e419]:
+                      - strong [ref=e420]: range
+                      - generic [ref=e421]:
+                        - text: ":"
+                        - link "Range" [ref=e422]:
+                          - /url: "#range"
+                    - link "Direct link to range" [ref=e423]:
+                      - /url: "#bar-range"
+                      - img [ref=e424]
+              - group [ref=e426]:
+                - 'generic "subtype: 0, 1, 2, 3, 4 Direct link to subtype" [ref=e427] [cursor=pointer]':
+                  - generic [ref=e428]:
+                    - generic [ref=e429]:
+                      - strong [ref=e430]: subtype
+                      - generic [ref=e431]: ": 0, 1, 2, 3, 4"
+                    - link "Direct link to subtype" [ref=e432]:
+                      - /url: "#bar-subtype"
+                      - img [ref=e433]
+              - group [ref=e435]:
+                - 'generic "value: number Direct link to value Required" [ref=e436] [cursor=pointer]':
+                  - generic [ref=e437]:
+                    - generic [ref=e438]:
+                      - strong [ref=e439]: value
+                      - generic [ref=e440]: ": number"
+                    - link "Direct link to value" [ref=e441]:
+                      - /url: "#bar-value"
+                      - img [ref=e442]
+                  - generic [ref=e444]: Required
+              - heading "GBarDirect link to GBar" [level=3] [ref=e445]:
+                - text: GBar
+                - link "Direct link to GBar" [ref=e446] [cursor=pointer]:
+                  - /url: "#gbar"
+                  - text: "#"
+              - paragraph [ref=e447]:
+                - text: Bar layout item used to render a horizontal bar with an indicator represented as a triangle beneath the bar. The location of the indicator can be specified by setting the
+                - code [ref=e448]: value
+                - text: .
+              - paragraph [ref=e449]:
+                - strong [ref=e450]: Properties
+              - group [ref=e451]:
+                - 'generic "background: string Direct link to background" [ref=e452] [cursor=pointer]':
+                  - generic [ref=e453]:
+                    - generic [ref=e454]:
+                      - strong [ref=e455]: background
+                      - generic [ref=e456]: ": string"
+                    - link "Direct link to background" [ref=e457]:
+                      - /url: "#gbar-background"
+                      - img [ref=e458]
+              - group [ref=e460]:
+                - 'generic "enabled: boolean Direct link to enabled" [ref=e461] [cursor=pointer]':
+                  - generic [ref=e462]:
+                    - generic [ref=e463]:
+                      - strong [ref=e464]: enabled
+                      - generic [ref=e465]: ": boolean"
+                    - link "Direct link to enabled" [ref=e466]:
+                      - /url: "#gbar-enabled"
+                      - img [ref=e467]
+              - group [ref=e469]:
+                - 'generic "key: string Direct link to key Required" [ref=e470] [cursor=pointer]':
+                  - generic [ref=e471]:
+                    - generic [ref=e472]:
+                      - strong [ref=e473]: key
+                      - generic [ref=e474]: ": string"
+                    - link "Direct link to key" [ref=e475]:
+                      - /url: "#gbar-key"
+                      - img [ref=e476]
+                  - generic [ref=e478]: Required
+              - group [ref=e479]:
+                - 'generic "opacity: 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 Direct link to opacity" [ref=e480] [cursor=pointer]':
+                  - generic [ref=e481]:
+                    - generic [ref=e482]:
+                      - strong [ref=e483]: opacity
+                      - generic [ref=e484]: ": 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1"
+                    - link "Direct link to opacity" [ref=e485]:
+                      - /url: "#gbar-opacity"
+                      - img [ref=e486]
+              - group [ref=e488]:
+                - 'generic "rect: [x: number, y: number, width: number, height: number] Direct link to rect Required" [ref=e489] [cursor=pointer]':
+                  - generic [ref=e490]:
+                    - generic [ref=e491]:
+                      - strong [ref=e492]: rect
+                      - generic [ref=e493]: ": [x: number, y: number, width: number, height: number]"
+                    - link "Direct link to rect" [ref=e494]:
+                      - /url: "#gbar-rect"
+                      - img [ref=e495]
+                  - generic [ref=e497]: Required
+              - group [ref=e498]:
+                - 'generic "type: \"gbar\" Direct link to type Required" [ref=e499] [cursor=pointer]':
+                  - generic [ref=e500]:
+                    - generic [ref=e501]:
+                      - strong [ref=e502]: type
+                      - generic [ref=e503]: ": \"gbar\""
+                    - link "Direct link to type" [ref=e504]:
+                      - /url: "#gbar-type"
+                      - img [ref=e505]
+                  - generic [ref=e507]: Required
+              - group [ref=e508]:
+                - 'generic "zOrder: number Direct link to zOrder" [ref=e509] [cursor=pointer]':
+                  - generic [ref=e510]:
+                    - generic [ref=e511]:
+                      - strong [ref=e512]: zOrder
+                      - generic [ref=e513]: ": number"
+                    - link "Direct link to zOrder" [ref=e514]:
+                      - /url: "#gbar-zorder"
+                      - img [ref=e515]
+              - group [ref=e517]:
+                - 'generic "bar_bg_c: string Direct link to bar_bg_c" [ref=e518] [cursor=pointer]':
+                  - generic [ref=e519]:
+                    - generic [ref=e520]:
+                      - strong [ref=e521]: bar_bg_c
+                      - generic [ref=e522]: ": string"
+                    - link "Direct link to bar_bg_c" [ref=e523]:
+                      - /url: "#gbar-bar_bg_c"
+                      - img [ref=e524]
+              - group [ref=e526]:
+                - 'generic "bar_border_c: string Direct link to bar_border_c" [ref=e527] [cursor=pointer]':
+                  - generic [ref=e528]:
+                    - generic [ref=e529]:
+                      - strong [ref=e530]: bar_border_c
+                      - generic [ref=e531]: ": string"
+                    - link "Direct link to bar_border_c" [ref=e532]:
+                      - /url: "#gbar-bar_border_c"
+                      - img [ref=e533]
+              - group [ref=e535]:
+                - 'generic "bar_fill_c: string Direct link to bar_fill_c" [ref=e536] [cursor=pointer]':
+                  - generic [ref=e537]:
+                    - generic [ref=e538]:
+                      - strong [ref=e539]: bar_fill_c
+                      - generic [ref=e540]: ": string"
+                    - link "Direct link to bar_fill_c" [ref=e541]:
+                      - /url: "#gbar-bar_fill_c"
+                      - img [ref=e542]
+              - group [ref=e544]:
+                - 'generic "border_w: number Direct link to border_w" [ref=e545] [cursor=pointer]':
+                  - generic [ref=e546]:
+                    - generic [ref=e547]:
+                      - strong [ref=e548]: border_w
+                      - generic [ref=e549]: ": number"
+                    - link "Direct link to border_w" [ref=e550]:
+                      - /url: "#gbar-border_w"
+                      - img [ref=e551]
+              - group [ref=e553]:
+                - 'generic "range: Range Direct link to range" [ref=e554] [cursor=pointer]':
+                  - generic [ref=e555]:
+                    - generic [ref=e556]:
+                      - strong [ref=e557]: range
+                      - generic [ref=e558]:
+                        - text: ":"
+                        - link "Range" [ref=e559]:
+                          - /url: "#range"
+                    - link "Direct link to range" [ref=e560]:
+                      - /url: "#gbar-range"
+                      - img [ref=e561]
+              - group [ref=e563]:
+                - 'generic "subtype: 0, 1, 2, 3, 4 Direct link to subtype" [ref=e564] [cursor=pointer]':
+                  - generic [ref=e565]:
+                    - generic [ref=e566]:
+                      - strong [ref=e567]: subtype
+                      - generic [ref=e568]: ": 0, 1, 2, 3, 4"
+                    - link "Direct link to subtype" [ref=e569]:
+                      - /url: "#gbar-subtype"
+                      - img [ref=e570]
+              - group [ref=e572]:
+                - 'generic "value: number Direct link to value Required" [ref=e573] [cursor=pointer]':
+                  - generic [ref=e574]:
+                    - generic [ref=e575]:
+                      - strong [ref=e576]: value
+                      - generic [ref=e577]: ": number"
+                    - link "Direct link to value" [ref=e578]:
+                      - /url: "#gbar-value"
+                      - img [ref=e579]
+                  - generic [ref=e581]: Required
+              - group [ref=e582]:
+                - 'generic "bar_h: number Direct link to bar_h" [ref=e583] [cursor=pointer]':
+                  - generic [ref=e584]:
+                    - generic [ref=e585]:
+                      - strong [ref=e586]: bar_h
+                      - generic [ref=e587]: ": number"
+                    - link "Direct link to bar_h" [ref=e588]:
+                      - /url: "#gbar-bar_h"
+                      - img [ref=e589]
+              - heading "PixmapDirect link to Pixmap" [level=3] [ref=e591]:
+                - text: Pixmap
+                - link "Direct link to Pixmap" [ref=e592] [cursor=pointer]:
+                  - /url: "#pixmap"
+                  - text: "#"
+              - paragraph [ref=e593]:
+                - text: Image layout item used to render an image sourced from either a local file located under the plugin's folder, or base64 encoded
+                - code [ref=e594]: string
+                - text: . The
+                - code [ref=e595]: value
+                - text: defines the image.
+              - paragraph [ref=e596]:
+                - strong [ref=e597]: Properties
+              - group [ref=e598]:
+                - 'generic "background: string Direct link to background" [ref=e599] [cursor=pointer]':
+                  - generic [ref=e600]:
+                    - generic [ref=e601]:
+                      - strong [ref=e602]: background
+                      - generic [ref=e603]: ": string"
+                    - link "Direct link to background" [ref=e604]:
+                      - /url: "#pixmap-background"
+                      - img [ref=e605]
+              - group [ref=e607]:
+                - 'generic "enabled: boolean Direct link to enabled" [ref=e608] [cursor=pointer]':
+                  - generic [ref=e609]:
+                    - generic [ref=e610]:
+                      - strong [ref=e611]: enabled
+                      - generic [ref=e612]: ": boolean"
+                    - link "Direct link to enabled" [ref=e613]:
+                      - /url: "#pixmap-enabled"
+                      - img [ref=e614]
+              - group [ref=e616]:
+                - 'generic "key: string Direct link to key Required" [ref=e617] [cursor=pointer]':
+                  - generic [ref=e618]:
+                    - generic [ref=e619]:
+                      - strong [ref=e620]: key
+                      - generic [ref=e621]: ": string"
+                    - link "Direct link to key" [ref=e622]:
+                      - /url: "#pixmap-key"
+                      - img [ref=e623]
+                  - generic [ref=e625]: Required
+              - group [ref=e626]:
+                - 'generic "opacity: 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 Direct link to opacity" [ref=e627] [cursor=pointer]':
+                  - generic [ref=e628]:
+                    - generic [ref=e629]:
+                      - strong [ref=e630]: opacity
+                      - generic [ref=e631]: ": 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1"
+                    - link "Direct link to opacity" [ref=e632]:
+                      - /url: "#pixmap-opacity"
+                      - img [ref=e633]
+              - group [ref=e635]:
+                - 'generic "rect: [x: number, y: number, width: number, height: number] Direct link to rect Required" [ref=e636] [cursor=pointer]':
+                  - generic [ref=e637]:
+                    - generic [ref=e638]:
+                      - strong [ref=e639]: rect
+                      - generic [ref=e640]: ": [x: number, y: number, width: number, height: number]"
+                    - link "Direct link to rect" [ref=e641]:
+                      - /url: "#pixmap-rect"
+                      - img [ref=e642]
+                  - generic [ref=e644]: Required
+              - group [ref=e645]:
+                - 'generic "type: \"pixmap\" Direct link to type Required" [ref=e646] [cursor=pointer]':
+                  - generic [ref=e647]:
+                    - generic [ref=e648]:
+                      - strong [ref=e649]: type
+                      - generic [ref=e650]: ": \"pixmap\""
+                    - link "Direct link to type" [ref=e651]:
+                      - /url: "#pixmap-type"
+                      - img [ref=e652]
+                  - generic [ref=e654]: Required
+              - group [ref=e655]:
+                - 'generic "zOrder: number Direct link to zOrder" [ref=e656] [cursor=pointer]':
+                  - generic [ref=e657]:
+                    - generic [ref=e658]:
+                      - strong [ref=e659]: zOrder
+                      - generic [ref=e660]: ": number"
+                    - link "Direct link to zOrder" [ref=e661]:
+                      - /url: "#pixmap-zorder"
+                      - img [ref=e662]
+              - group [ref=e664]:
+                - 'generic "value: string Direct link to value" [ref=e665] [cursor=pointer]':
+                  - generic [ref=e666]:
+                    - generic [ref=e667]:
+                      - strong [ref=e668]: value
+                      - generic [ref=e669]: ": string"
+                    - link "Direct link to value" [ref=e670]:
+                      - /url: "#pixmap-value"
+                      - img [ref=e671]
+              - heading "RangeDirect link to Range" [level=3] [ref=e673]:
+                - text: Range
+                - link "Direct link to Range" [ref=e674] [cursor=pointer]:
+                  - /url: "#range"
+                  - text: "#"
+              - paragraph [ref=e675]: Defines the range of the value the bar represents, e.g. 0-20, 0-100, etc.
+              - paragraph [ref=e676]:
+                - strong [ref=e677]: Properties
+              - group [ref=e678]:
+                - 'generic "min: number Direct link to min Required" [ref=e679] [cursor=pointer]':
+                  - generic [ref=e680]:
+                    - generic [ref=e681]:
+                      - strong [ref=e682]: min
+                      - generic [ref=e683]: ": number"
+                    - link "Direct link to min" [ref=e684]:
+                      - /url: "#range-min"
+                      - img [ref=e685]
+                  - generic [ref=e687]: Required
+              - group [ref=e688]:
+                - 'generic "max: number Direct link to max Required" [ref=e689] [cursor=pointer]':
+                  - generic [ref=e690]:
+                    - generic [ref=e691]:
+                      - strong [ref=e692]: max
+                      - generic [ref=e693]: ": number"
+                    - link "Direct link to max" [ref=e694]:
+                      - /url: "#range-max"
+                      - img [ref=e695]
+                  - generic [ref=e697]: Required
+              - heading "TextDirect link to Text" [level=3] [ref=e698]:
+                - text: Text
+                - link "Direct link to Text" [ref=e699] [cursor=pointer]:
+                  - /url: "#text"
+                  - text: "#"
+              - paragraph [ref=e700]:
+                - text: Text layout item used to render text within a layout.
+                - strong [ref=e701]: Note
+                - text: ", when adding a text item to the layout's JSON definition, setting the"
+                - code [ref=e702]: key
+                - text: to the
+                - code [ref=e703]: "\"title\""
+                - text: keyword will enable the user to specify the font's settings via the property inspector, and will cause
+                - code [ref=e704]: setTitle
+                - text: to update this item.
+              - paragraph [ref=e705]:
+                - strong [ref=e706]: Properties
+              - group [ref=e707]:
+                - 'generic "background: string Direct link to background" [ref=e708] [cursor=pointer]':
+                  - generic [ref=e709]:
+                    - generic [ref=e710]:
+                      - strong [ref=e711]: background
+                      - generic [ref=e712]: ": string"
+                    - link "Direct link to background" [ref=e713]:
+                      - /url: "#text-background"
+                      - img [ref=e714]
+              - group [ref=e716]:
+                - 'generic "enabled: boolean Direct link to enabled" [ref=e717] [cursor=pointer]':
+                  - generic [ref=e718]:
+                    - generic [ref=e719]:
+                      - strong [ref=e720]: enabled
+                      - generic [ref=e721]: ": boolean"
+                    - link "Direct link to enabled" [ref=e722]:
+                      - /url: "#text-enabled"
+                      - img [ref=e723]
+              - group [ref=e725]:
+                - 'generic "key: string Direct link to key Required" [ref=e726] [cursor=pointer]':
+                  - generic [ref=e727]:
+                    - generic [ref=e728]:
+                      - strong [ref=e729]: key
+                      - generic [ref=e730]: ": string"
+                    - link "Direct link to key" [ref=e731]:
+                      - /url: "#text-key"
+                      - img [ref=e732]
+                  - generic [ref=e734]: Required
+              - group [ref=e735]:
+                - 'generic "opacity: 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 Direct link to opacity" [ref=e736] [cursor=pointer]':
+                  - generic [ref=e737]:
+                    - generic [ref=e738]:
+                      - strong [ref=e739]: opacity
+                      - generic [ref=e740]: ": 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1"
+                    - link "Direct link to opacity" [ref=e741]:
+                      - /url: "#text-opacity"
+                      - img [ref=e742]
+              - group [ref=e744]:
+                - 'generic "rect: [x: number, y: number, width: number, height: number] Direct link to rect Required" [ref=e745] [cursor=pointer]':
+                  - generic [ref=e746]:
+                    - generic [ref=e747]:
+                      - strong [ref=e748]: rect
+                      - generic [ref=e749]: ": [x: number, y: number, width: number, height: number]"
+                    - link "Direct link to rect" [ref=e750]:
+                      - /url: "#text-rect"
+                      - img [ref=e751]
+                  - generic [ref=e753]: Required
+              - group [ref=e754]:
+                - 'generic "type: \"text\" Direct link to type Required" [ref=e755] [cursor=pointer]':
+                  - generic [ref=e756]:
+                    - generic [ref=e757]:
+                      - strong [ref=e758]: type
+                      - generic [ref=e759]: ": \"text\""
+                    - link "Direct link to type" [ref=e760]:
+                      - /url: "#text-type"
+                      - img [ref=e761]
+                  - generic [ref=e763]: Required
+              - group [ref=e764]:
+                - 'generic "zOrder: number Direct link to zOrder" [ref=e765] [cursor=pointer]':
+                  - generic [ref=e766]:
+                    - generic [ref=e767]:
+                      - strong [ref=e768]: zOrder
+                      - generic [ref=e769]: ": number"
+                    - link "Direct link to zOrder" [ref=e770]:
+                      - /url: "#text-zorder"
+                      - img [ref=e771]
+              - group [ref=e773]:
+                - 'generic "alignment: \"center\", \"left\", \"right\" Direct link to alignment" [ref=e774] [cursor=pointer]':
+                  - generic [ref=e775]:
+                    - generic [ref=e776]:
+                      - strong [ref=e777]: alignment
+                      - generic [ref=e778]: ": \"center\", \"left\", \"right\""
+                    - link "Direct link to alignment" [ref=e779]:
+                      - /url: "#text-alignment"
+                      - img [ref=e780]
+              - group [ref=e782]:
+                - 'generic "color: string Direct link to color" [ref=e783] [cursor=pointer]':
+                  - generic [ref=e784]:
+                    - generic [ref=e785]:
+                      - strong [ref=e786]: color
+                      - generic [ref=e787]: ": string"
+                    - link "Direct link to color" [ref=e788]:
+                      - /url: "#text-color"
+                      - img [ref=e789]
+              - group [ref=e791]:
+                - 'generic "font: object Direct link to font" [ref=e792] [cursor=pointer]':
+                  - generic [ref=e793]:
+                    - generic [ref=e794]:
+                      - strong [ref=e795]: font
+                      - generic [ref=e796]: ": object"
+                    - link "Direct link to font" [ref=e797]:
+                      - /url: "#text-font"
+                      - img [ref=e798]
+              - group [ref=e800]:
+                - 'generic "text-overflow: \"clip\", \"ellipsis\", \"fade\" Direct link to text-overflow" [ref=e801] [cursor=pointer]':
+                  - generic [ref=e802]:
+                    - generic [ref=e803]:
+                      - strong [ref=e804]: text-overflow
+                      - generic [ref=e805]: ": \"clip\", \"ellipsis\", \"fade\""
+                    - link "Direct link to text-overflow" [ref=e806]:
+                      - /url: "#text-text-overflow"
+                      - img [ref=e807]
+              - group [ref=e809]:
+                - 'generic "value: string Direct link to value" [ref=e810] [cursor=pointer]':
+                  - generic [ref=e811]:
+                    - generic [ref=e812]:
+                      - strong [ref=e813]: value
+                      - generic [ref=e814]: ": string"
+                    - link "Direct link to value" [ref=e815]:
+                      - /url: "#text-value"
+                      - img [ref=e816]
+          - navigation "Docs pages" [ref=e818]:
+            - link "Previous « Manifest" [ref=e819] [cursor=pointer]:
+              - /url: /streamdeck/sdk/references/manifest
+              - generic [ref=e820]: Previous
+              - generic [ref=e821]: « Manifest
+            - link "Next Changes »" [ref=e822] [cursor=pointer]:
+              - /url: /streamdeck/sdk/references/changelog
+              - generic [ref=e823]: Next
+              - generic [ref=e824]: Changes »
+        - list [ref=e827]:
+          - listitem [ref=e828]:
+            - link "JSON Schema" [ref=e829] [cursor=pointer]:
+              - /url: "#json-schema"
+          - listitem [ref=e830]:
+            - link "TypeScript Declaration" [ref=e831] [cursor=pointer]:
+              - /url: "#typescript-declaration"
+          - listitem [ref=e832]:
+            - link "Definitions" [ref=e833] [cursor=pointer]:
+              - /url: "#definitions"
+            - list [ref=e834]:
+              - listitem [ref=e835]:
+                - link "Layout" [ref=e836] [cursor=pointer]:
+                  - /url: "#layout"
+              - listitem [ref=e837]:
+                - link "Bar" [ref=e838] [cursor=pointer]:
+                  - /url: "#bar"
+              - listitem [ref=e839]:
+                - link "GBar" [ref=e840] [cursor=pointer]:
+                  - /url: "#gbar"
+              - listitem [ref=e841]:
+                - link "Pixmap" [ref=e842] [cursor=pointer]:
+                  - /url: "#pixmap"
+              - listitem [ref=e843]:
+                - link "Range" [ref=e844] [cursor=pointer]:
+                  - /url: "#range"
+              - listitem [ref=e845]:
+                - link "Text" [ref=e846] [cursor=pointer]:
+                  - /url: "#text"
+  - contentinfo [ref=e847]:
+    - generic [ref=e848]:
+      - generic [ref=e849]:
+        - generic [ref=e850]:
+          - generic [ref=e851]: Makers
+          - list [ref=e852]:
+            - listitem [ref=e853]:
+              - link "Become a Maker" [ref=e854] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e855]:
+              - link "Elgato Icons" [ref=e856] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e857]:
+              - link "Badges" [ref=e858] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e859]:
+          - generic [ref=e860]: Marketplace
+          - list [ref=e861]:
+            - listitem [ref=e862]:
+              - link "Plugins" [ref=e863] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e864]:
+              - link "Icon Packs" [ref=e865] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e866]:
+              - link "Profiles" [ref=e867] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e868]:
+          - generic [ref=e869]: Support
+          - list [ref=e870]:
+            - listitem [ref=e871]:
+              - link "FAQ" [ref=e872] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e873]:
+              - link "Contact" [ref=e874] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e875]:
+              - link "Copyright Claim" [ref=e876] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e877]:
+              - link "Downloads" [ref=e878] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e879]:
+          - generic [ref=e880]: Company
+          - list [ref=e881]:
+            - listitem [ref=e882]:
+              - link "About" [ref=e883] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e884]:
+              - link "Media Room" [ref=e885] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e886]:
+              - link "Terms of Use" [ref=e887] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e888]:
+              - link "Privacy Policy" [ref=e889] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e891]: © 2026 Elgato. All rights reserved.

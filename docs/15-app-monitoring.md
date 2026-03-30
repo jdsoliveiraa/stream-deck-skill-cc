@@ -1,0 +1,367 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e327] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e328]:
+    - generic [ref=e329]:
+      - generic [ref=e330]:
+        - link "Elgato Maker icon" [ref=e331] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e333]
+        - link "Stream Deck" [ref=e334] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e335] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e336] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e337] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e338]:
+        - button "2.0.0" [ref=e340] [cursor=pointer]
+        - button "Discover" [ref=e342] [cursor=pointer]
+        - link "Discord" [ref=e343] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e344] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e345] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e347] [cursor=pointer]:
+          - img [ref=e348]
+        - button "Search (Command+K)" [ref=e351] [cursor=pointer]:
+          - generic [ref=e352]:
+            - img [ref=e353]
+            - generic [ref=e355]: Search
+          - generic [ref=e356]:
+            - generic [ref=e357]: ⌘
+            - generic [ref=e358]: K
+  - generic [ref=e361]:
+    - complementary [ref=e362]:
+      - navigation "Docs sidebar" [ref=e365]:
+        - list [ref=e366]:
+          - listitem [ref=e367]:
+            - generic [ref=e369]: Introduction
+            - list [ref=e370]:
+              - listitem [ref=e371]:
+                - link "Getting Started" [ref=e372] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e373]:
+                - link "Your First Changes" [ref=e374] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e375]:
+                - link "Plugin Environment" [ref=e376] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e377]:
+                - link "Distribution" [ref=e378] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e379]:
+            - generic [ref=e381]: Plugin Guides
+            - list [ref=e382]:
+              - listitem [ref=e383]:
+                - link "Actions" [ref=e384] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e385]:
+                - link "Keys" [ref=e386] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e387]:
+                - link "Dials & Touch Strip" [ref=e388] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e389]:
+                - link "Settings" [ref=e390] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e391]:
+                - link "Property Inspectors (UI)" [ref=e392] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e393]:
+                - link "Devices" [ref=e394] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e395]:
+                - link "Profiles" [ref=e396] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e397]:
+                - link "Embedded Resources" [ref=e398] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e399]:
+                - link "System" [ref=e400] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e401]:
+                - link "Deep-Linking" [ref=e402] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e403]:
+                - link "App Monitoring" [ref=e404] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e405]:
+                - link "Secrets" [ref=e406] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e407]:
+                - link "Logging" [ref=e408] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e409]:
+                - link "Localization" [ref=e410] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e411]:
+            - generic [ref=e413]: Style Guide
+            - list [ref=e414]:
+              - listitem [ref=e415]:
+                - link "Code Linting" [ref=e416] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e417]:
+                - link "Plugin Guidelines" [ref=e418] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e419]:
+            - generic [ref=e421]: References
+            - list [ref=e422]:
+              - listitem [ref=e423]:
+                - link "Manifest" [ref=e424] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e425]:
+                - link "Touch Strip Layout" [ref=e426] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e427]:
+                - link "Changes" [ref=e428] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e429]:
+                - button "WebSocket API" [ref=e431] [cursor=pointer]
+          - listitem [ref=e432]:
+            - generic [ref=e434]: Upgrading
+            - list [ref=e435]:
+              - listitem [ref=e436]:
+                - link "Version 2.x" [ref=e437] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e438]:
+      - generic [ref=e440]:
+        - generic [ref=e442]:
+          - article [ref=e443]:
+            - navigation "Breadcrumbs" [ref=e444]:
+              - list [ref=e445]:
+                - listitem [ref=e446]:
+                  - link "Home page" [ref=e447] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e448]
+                - listitem [ref=e450]:
+                  - generic [ref=e451]: Plugin Guides
+                - listitem [ref=e452]:
+                  - generic [ref=e453]: App Monitoring
+            - generic [ref=e454]: "Version: 2.0.0"
+            - generic [ref=e455]:
+              - heading "App Monitoring" [level=1] [ref=e457]
+              - paragraph [ref=e458]: The Stream Deck SDK can notify your plugin when an application starts (launches) or stops (terminates), allowing it to monitor pre-registered apps. This can be particularly useful if your plugin relies or interacts with a local application, for example via IPC.
+              - heading "Registering AppsDirect link to Registering Apps" [level=2] [ref=e459]:
+                - text: Registering Apps
+                - link "Direct link to Registering Apps" [ref=e460] [cursor=pointer]:
+                  - /url: "#registering-apps"
+                  - text: "#"
+              - paragraph [ref=e461]:
+                - text: To monitor an application, the name of the application must be registered in the manifest JSON file using the
+                - code [ref=e462]: ApplicationsToMonitor
+                - text: property.
+              - generic [ref=e463]:
+                - generic [ref=e464]: Example of "ApplicationsToMonitor" within the manifest JSON file
+                - generic [ref=e465]:
+                  - code [ref=e467]:
+                    - generic [ref=e468]: "{"
+                    - generic [ref=e469]: "\"$schema\": \"https://schemas.elgato.com/streamdeck/plugins/manifest.json\","
+                    - generic [ref=e470]: "\"UUID\": \"com.elgato.hello-world\","
+                    - generic [ref=e471]: "\"Name\": \"Hello World\","
+                    - generic [ref=e472]: "\"Version\": \"0.1.0.0\","
+                    - generic [ref=e473]: "\"Author\": \"Elgato\","
+                    - generic [ref=e474]: "\"Actions\": ["
+                    - generic [ref=e475]: "{"
+                    - generic [ref=e476]: "\"Name\": \"Counter\","
+                    - generic [ref=e477]: "\"UUID\": \"com.elgato.hello-world.increment\","
+                    - generic [ref=e478]: "\"Icon\": \"static/imgs/actions/counter/icon\","
+                    - generic [ref=e479]: "\"Tooltip\": \"Displays a count, which increments by one on press.\","
+                    - generic [ref=e480]: "\"Controllers\": [\"Keypad\"],"
+                    - generic [ref=e481]: "\"States\": ["
+                    - generic [ref=e482]: "{"
+                    - generic [ref=e483]: "\"Image\": \"static/imgs/actions/counter/key\","
+                    - generic [ref=e484]: "\"TitleAlignment\": \"middle\""
+                    - generic [ref=e485]: "}"
+                    - generic [ref=e486]: "]"
+                    - generic [ref=e487]: "}"
+                    - generic [ref=e488]: "],"
+                    - generic [ref=e489]: "\"Category\": \"Hello World\","
+                    - generic [ref=e490]: "\"CategoryIcon\": \"static/imgs/plugin/category-icon\","
+                    - generic [ref=e491]: "\"CodePath\": \"bin/plugin.js\","
+                    - generic [ref=e492]: "\"Description\": \".\","
+                    - generic [ref=e493]: "\"Icon\": \"static/imgs/plugin/marketplace\","
+                    - generic [ref=e494]: "\"SDKVersion\": 2,"
+                    - generic [ref=e495]: "\"Software\": {"
+                    - generic [ref=e496]: "\"MinimumVersion\": \"6.6\""
+                    - generic [ref=e497]: "},"
+                    - generic [ref=e498]: "\"OS\": ["
+                    - generic [ref=e499]: "{"
+                    - generic [ref=e500]: "\"Platform\": \"mac\","
+                    - generic [ref=e501]: "\"MinimumVersion\": \"10.15\""
+                    - generic [ref=e502]: "},"
+                    - generic [ref=e503]: "{"
+                    - generic [ref=e504]: "\"Platform\": \"windows\","
+                    - generic [ref=e505]: "\"MinimumVersion\": \"10\""
+                    - generic [ref=e506]: "}"
+                    - generic [ref=e507]: "],"
+                    - generic [ref=e508]: "\"Nodejs\": {"
+                    - generic [ref=e509]: "\"Version\": \"20\","
+                    - generic [ref=e510]: "\"Debug\": \"enabled\""
+                    - generic [ref=e511]: "},"
+                    - generic [ref=e512]: "\"ApplicationsToMonitor\": {"
+                    - generic [ref=e513]: "\"mac\": [\"com.elgato.WaveLink\"],"
+                    - generic [ref=e514]: "\"windows\": [\"Elgato Wave Link.exe\"]"
+                    - generic [ref=e515]: "},"
+                    - generic [ref=e516]: "\"Profiles\": ["
+                    - generic [ref=e517]: "{"
+                    - generic [ref=e518]: "\"Name\": \"My Cool Profile\","
+                    - generic [ref=e519]: "\"DeviceType\": 0,"
+                    - generic [ref=e520]: "\"Readonly\": false,"
+                    - generic [ref=e521]: "\"DontAutoSwitchWhenInstalled\": false,"
+                    - generic [ref=e522]: "\"AutoInstall\": true"
+                    - generic [ref=e523]: "}"
+                    - generic [ref=e524]: "]"
+                    - generic [ref=e525]: "}"
+                  - generic [ref=e526]:
+                    - button "Toggle word wrap" [ref=e527] [cursor=pointer]:
+                      - img [ref=e528]
+                    - button "Copy to clipboard" [ref=e530] [cursor=pointer]:
+                      - generic [ref=e531]:
+                        - img "Icon" [ref=e532]
+                        - img "Icon" [ref=e535]
+              - paragraph [ref=e537]: Finding the name / identifier of the of application depends on the operating system.
+              - generic [ref=e538]:
+                - tablist [ref=e539]:
+                  - tab "Windows" [selected] [ref=e540] [cursor=pointer]
+                  - tab "macOS" [ref=e541] [cursor=pointer]
+                - tabpanel [ref=e543]:
+                  - paragraph [ref=e544]:
+                    - paragraph [ref=e545]:
+                      - text: For Windows apps, Stream Deck uses the app's executable name. This information is available in the details tab of Windows Task manager. You can also navigate to the file directly in Windows explorer, or right-click on the apps shortcut and select properties to find the target
+                      - code [ref=e546]: exe
+                      - text: file.
+                    - img "StreamDeck.exe" [ref=e550]
+              - heading "Apps LaunchingDirect link to Apps Launching" [level=2] [ref=e551]:
+                - text: Apps Launching
+                - link "Direct link to Apps Launching" [ref=e552] [cursor=pointer]:
+                  - /url: "#apps-launching"
+                  - text: "#"
+              - paragraph [ref=e553]:
+                - text: To listen for a registered application launching, your plugin can subscribe to the
+                - code [ref=e554]: onApplicationDidLaunch
+                - text: event.
+              - generic [ref=e555]:
+                - generic [ref=e556]: Application launch event callback
+                - generic [ref=e557]:
+                  - code [ref=e559]:
+                    - generic [ref=e560]: "import streamDeck, { ApplicationDidLaunchEvent } from \"@elgato/streamdeck\";"
+                    - generic [ref=e562]: "streamDeck.system.onApplicationDidLaunch((ev: ApplicationDidLaunchEvent) => {"
+                    - generic [ref=e563]: // Handle a registered application launching
+                    - generic [ref=e564]: streamDeck.logger.info(ev.application); // e.g. "Elgato Wave Link.exe"
+                    - generic [ref=e565]: "});"
+                  - generic [ref=e566]:
+                    - button "Toggle word wrap" [ref=e567] [cursor=pointer]:
+                      - img [ref=e568]
+                    - button "Copy to clipboard" [ref=e570] [cursor=pointer]:
+                      - generic [ref=e571]:
+                        - img "Icon" [ref=e572]
+                        - img "Icon" [ref=e575]
+              - heading "Apps TerminatingDirect link to Apps Terminating" [level=2] [ref=e577]:
+                - text: Apps Terminating
+                - link "Direct link to Apps Terminating" [ref=e578] [cursor=pointer]:
+                  - /url: "#apps-terminating"
+                  - text: "#"
+              - paragraph [ref=e579]:
+                - text: To listen for a registered application terminating, your plugin can subscribe to the
+                - code [ref=e580]: onApplicationDidTerminate
+                - text: event.
+              - generic [ref=e581]:
+                - generic [ref=e582]: Application terminate event callback
+                - generic [ref=e583]:
+                  - code [ref=e585]:
+                    - generic [ref=e586]: "import streamDeck, { ApplicationDidTerminateEvent } from \"@elgato/streamdeck\";"
+                    - generic [ref=e588]: "streamDeck.system.onApplicationDidTerminate((ev: ApplicationDidTerminateEvent) => {"
+                    - generic [ref=e589]: // Handle a registered application terminating.
+                    - generic [ref=e590]: streamDeck.logger.info(ev.application); // e.g. "Elgato Wave Link.exe"
+                    - generic [ref=e591]: "});"
+                  - generic [ref=e592]:
+                    - button "Toggle word wrap" [ref=e593] [cursor=pointer]:
+                      - img [ref=e594]
+                    - button "Copy to clipboard" [ref=e596] [cursor=pointer]:
+                      - generic [ref=e597]:
+                        - img "Icon" [ref=e598]
+                        - img "Icon" [ref=e601]
+          - navigation "Docs pages" [ref=e603]:
+            - link "Previous « Deep-Linking" [ref=e604] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/deep-linking
+              - generic [ref=e605]: Previous
+              - generic [ref=e606]: « Deep-Linking
+            - link "Next Secrets »" [ref=e607] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/secrets
+              - generic [ref=e608]: Next
+              - generic [ref=e609]: Secrets »
+        - list [ref=e612]:
+          - listitem [ref=e613]:
+            - link "Registering Apps" [ref=e614] [cursor=pointer]:
+              - /url: "#registering-apps"
+          - listitem [ref=e615]:
+            - link "Apps Launching" [ref=e616] [cursor=pointer]:
+              - /url: "#apps-launching"
+          - listitem [ref=e617]:
+            - link "Apps Terminating" [ref=e618] [cursor=pointer]:
+              - /url: "#apps-terminating"
+  - contentinfo [ref=e619]:
+    - generic [ref=e620]:
+      - generic [ref=e621]:
+        - generic [ref=e622]:
+          - generic [ref=e623]: Makers
+          - list [ref=e624]:
+            - listitem [ref=e625]:
+              - link "Become a Maker" [ref=e626] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e627]:
+              - link "Elgato Icons" [ref=e628] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e629]:
+              - link "Badges" [ref=e630] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e631]:
+          - generic [ref=e632]: Marketplace
+          - list [ref=e633]:
+            - listitem [ref=e634]:
+              - link "Plugins" [ref=e635] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e636]:
+              - link "Icon Packs" [ref=e637] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e638]:
+              - link "Profiles" [ref=e639] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e640]:
+          - generic [ref=e641]: Support
+          - list [ref=e642]:
+            - listitem [ref=e643]:
+              - link "FAQ" [ref=e644] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e645]:
+              - link "Contact" [ref=e646] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e647]:
+              - link "Copyright Claim" [ref=e648] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e649]:
+              - link "Downloads" [ref=e650] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e651]:
+          - generic [ref=e652]: Company
+          - list [ref=e653]:
+            - listitem [ref=e654]:
+              - link "About" [ref=e655] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e656]:
+              - link "Media Room" [ref=e657] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e658]:
+              - link "Terms of Use" [ref=e659] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e660]:
+              - link "Privacy Policy" [ref=e661] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e663]: © 2026 Elgato. All rights reserved.

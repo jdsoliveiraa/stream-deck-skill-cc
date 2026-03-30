@@ -1,0 +1,351 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "Discover" [ref=e16] [cursor=pointer]
+        - link "Discord" [ref=e17] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e18] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e19] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button "Search (Command+K)" [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]:
+            - img [ref=e27]
+            - generic [ref=e29]: Search
+          - generic [ref=e30]:
+            - generic [ref=e31]: ⌘
+            - generic [ref=e32]: K
+  - generic [ref=e35]:
+    - complementary [ref=e36]:
+      - navigation "Docs sidebar" [ref=e39]:
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - link "Introduction" [ref=e42] [cursor=pointer]:
+              - /url: /streamdeck/cli/intro
+          - listitem [ref=e43]:
+            - generic [ref=e45]: CLI Commands
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "streamdeck create" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/create
+              - listitem [ref=e49]:
+                - link "streamdeck config" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/config
+              - listitem [ref=e51]:
+                - link "streamdeck dev" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/dev
+              - listitem [ref=e53]:
+                - link "streamdeck link" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/link
+              - listitem [ref=e55]:
+                - link "streamdeck list" [ref=e56] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/list
+              - listitem [ref=e57]:
+                - link "streamdeck pack" [ref=e58] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/pack
+              - listitem [ref=e59]:
+                - link "streamdeck restart" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/restart
+              - listitem [ref=e61]:
+                - link "streamdeck stop" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/stop
+              - listitem [ref=e63]:
+                - link "streamdeck unlink" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/unlink
+              - listitem [ref=e65]:
+                - link "streamdeck validate" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/validate
+    - main [ref=e67]:
+      - generic [ref=e69]:
+        - generic [ref=e71]:
+          - article [ref=e72]:
+            - navigation "Breadcrumbs" [ref=e73]:
+              - list [ref=e74]:
+                - listitem [ref=e75]:
+                  - link "Home page" [ref=e76] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e77]
+                - listitem [ref=e79]:
+                  - generic [ref=e80]: CLI Commands
+                - listitem [ref=e81]:
+                  - generic [ref=e82]: streamdeck config
+            - generic [ref=e83]:
+              - heading "streamdeck config" [level=1] [ref=e85]
+              - paragraph [ref=e86]: Manage the local CLI configuration files.
+              - heading "SynopsisDirect link to Synopsis" [level=2] [ref=e87]:
+                - text: Synopsis
+                - link "Direct link to Synopsis" [ref=e88] [cursor=pointer]:
+                  - /url: "#synopsis"
+                  - text: "#"
+              - generic [ref=e90]:
+                - code [ref=e92]:
+                  - generic [ref=e93]: streamdeck config set <key>=<value> [<key>=<value>...]
+                  - generic [ref=e94]: streamdeck config unset <key> [<key>...]
+                  - generic [ref=e95]: streamdeck config list
+                  - generic [ref=e96]: streamdeck config reset
+                - button "Copy to clipboard" [ref=e98] [cursor=pointer]:
+                  - generic [ref=e99]:
+                    - img "Icon" [ref=e100]
+                    - img "Icon" [ref=e103]
+              - heading "DescriptionDirect link to Description" [level=2] [ref=e105]:
+                - text: Description
+                - link "Direct link to Description" [ref=e106] [cursor=pointer]:
+                  - /url: "#description"
+                  - text: "#"
+              - paragraph [ref=e107]:
+                - text: The CLI gets its configuration settings from local configuration files. These configuration settings define the output of commands and how they're executed, and enable customization of interaction. The
+                - code [ref=e108]: streamdeck config
+                - text: command can be used to update and manage these settings.
+              - heading "ExamplesDirect link to Examples" [level=2] [ref=e109]:
+                - text: Examples
+                - link "Direct link to Examples" [ref=e110] [cursor=pointer]:
+                  - /url: "#examples"
+                  - text: "#"
+              - paragraph [ref=e111]:
+                - text: Set the
+                - code [ref=e112]: packageManager
+                - text: property to
+                - code [ref=e113]: yarn
+                - text: ":"
+              - generic [ref=e114]:
+                - generic [ref=e115]: Terminal
+                - generic [ref=e116]:
+                  - code [ref=e118]:
+                    - generic [ref=e119]: streamdeck config set packageManager=yarn
+                  - button "Copy to clipboard" [ref=e121] [cursor=pointer]:
+                    - generic [ref=e122]:
+                      - img "Icon" [ref=e123]
+                      - img "Icon" [ref=e126]
+              - paragraph [ref=e128]: "Reduce motion within the CLI:"
+              - generic [ref=e129]:
+                - generic [ref=e130]: Terminal
+                - generic [ref=e131]:
+                  - code [ref=e133]:
+                    - generic [ref=e134]: streamdeck config set reduceMotion=true
+                  - button "Copy to clipboard" [ref=e136] [cursor=pointer]:
+                    - generic [ref=e137]:
+                      - img "Icon" [ref=e138]
+                      - img "Icon" [ref=e141]
+              - heading "Sub-commandsDirect link to Sub-commands" [level=2] [ref=e143]:
+                - text: Sub-commands
+                - link "Direct link to Sub-commands" [ref=e144] [cursor=pointer]:
+                  - /url: "#sub-commands"
+                  - text: "#"
+              - heading "setDirect link to set" [level=3] [ref=e145]:
+                - text: set
+                - link "Direct link to set" [ref=e146] [cursor=pointer]:
+                  - /url: "#set"
+                  - text: "#"
+              - generic [ref=e148]:
+                - code [ref=e150]:
+                  - generic [ref=e151]: streamdeck config set <key>=<value> [<key>=<value>...]
+                - button "Copy to clipboard" [ref=e153] [cursor=pointer]:
+                  - generic [ref=e154]:
+                    - img "Icon" [ref=e155]
+                    - img "Icon" [ref=e158]
+              - paragraph [ref=e160]: Sets each of the configuration keys to the value provided.
+              - heading "unsetDirect link to unset" [level=3] [ref=e161]:
+                - text: unset
+                - link "Direct link to unset" [ref=e162] [cursor=pointer]:
+                  - /url: "#unset"
+                  - text: "#"
+              - generic [ref=e164]:
+                - code [ref=e166]:
+                  - generic [ref=e167]: streamdeck config <key> [<key>...]
+                - button "Copy to clipboard" [ref=e169] [cursor=pointer]:
+                  - generic [ref=e170]:
+                    - img "Icon" [ref=e171]
+                    - img "Icon" [ref=e174]
+              - paragraph [ref=e176]: Sets each of the configuration keys to their default values.
+              - heading "resetDirect link to reset" [level=3] [ref=e177]:
+                - text: reset
+                - link "Direct link to reset" [ref=e178] [cursor=pointer]:
+                  - /url: "#reset"
+                  - text: "#"
+              - generic [ref=e180]:
+                - code [ref=e182]:
+                  - generic [ref=e183]: streamdeck config reset
+                - button "Copy to clipboard" [ref=e185] [cursor=pointer]:
+                  - generic [ref=e186]:
+                    - img "Icon" [ref=e187]
+                    - img "Icon" [ref=e190]
+              - paragraph [ref=e192]: Resets all configuration keys to their default values.
+              - heading "listDirect link to list" [level=3] [ref=e193]:
+                - text: list
+                - link "Direct link to list" [ref=e194] [cursor=pointer]:
+                  - /url: "#list"
+                  - text: "#"
+              - generic [ref=e196]:
+                - code [ref=e198]:
+                  - generic [ref=e199]: streamdeck config list
+                - button "Copy to clipboard" [ref=e201] [cursor=pointer]:
+                  - generic [ref=e202]:
+                    - img "Icon" [ref=e203]
+                    - img "Icon" [ref=e206]
+              - paragraph [ref=e208]:
+                - text: Lists the defined configuration, eg. values defined using
+                - link "config set" [ref=e209] [cursor=pointer]:
+                  - /url: "#set"
+                - text: .
+              - heading "Configuration optionsDirect link to Configuration options" [level=2] [ref=e210]:
+                - text: Configuration options
+                - link "Direct link to Configuration options" [ref=e211] [cursor=pointer]:
+                  - /url: "#configuration-options"
+                  - text: "#"
+              - heading "reduceMotionDirect link to reduceMotion" [level=4] [ref=e212]:
+                - text: reduceMotion
+                - link "Direct link to reduceMotion" [ref=e213] [cursor=pointer]:
+                  - /url: "#reducemotion"
+                  - text: "#"
+              - list [ref=e214]:
+                - listitem [ref=e215]:
+                  - text: "Default:"
+                  - code [ref=e216]: "false"
+                - listitem [ref=e217]: "Type: Boolean"
+              - paragraph [ref=e218]:
+                - text: Determines whether feedback provided should prefer reduced motion; when
+                - code [ref=e219]: "true"
+                - text: ", the busy indicator will be rendered as a static indicator."
+              - heading "packageManagerDirect link to packageManager" [level=4] [ref=e220]:
+                - text: packageManager
+                - link "Direct link to packageManager" [ref=e221] [cursor=pointer]:
+                  - /url: "#packagemanager"
+                  - text: "#"
+              - list [ref=e222]:
+                - listitem [ref=e223]:
+                  - text: "Default:"
+                  - code [ref=e224]: npm
+                - listitem [ref=e225]:
+                  - text: "Type:"
+                  - code [ref=e226]: bun
+                  - text: ","
+                  - code [ref=e227]: npm
+                  - text: ","
+                  - code [ref=e228]: pnpm
+                  - text: ","
+                  - code [ref=e229]: yarn
+              - paragraph [ref=e230]: The package manager to use when creating a new project.
+          - navigation "Docs pages" [ref=e231]:
+            - link "Previous « streamdeck create" [ref=e232] [cursor=pointer]:
+              - /url: /streamdeck/cli/commands/create
+              - generic [ref=e233]: Previous
+              - generic [ref=e234]: « streamdeck create
+            - link "Next streamdeck dev »" [ref=e235] [cursor=pointer]:
+              - /url: /streamdeck/cli/commands/dev
+              - generic [ref=e236]: Next
+              - generic [ref=e237]: streamdeck dev »
+        - list [ref=e240]:
+          - listitem [ref=e241]:
+            - link "Synopsis" [ref=e242] [cursor=pointer]:
+              - /url: "#synopsis"
+          - listitem [ref=e243]:
+            - link "Description" [ref=e244] [cursor=pointer]:
+              - /url: "#description"
+          - listitem [ref=e245]:
+            - link "Examples" [ref=e246] [cursor=pointer]:
+              - /url: "#examples"
+          - listitem [ref=e247]:
+            - link "Sub-commands" [ref=e248] [cursor=pointer]:
+              - /url: "#sub-commands"
+            - list [ref=e249]:
+              - listitem [ref=e250]:
+                - link "set" [ref=e251] [cursor=pointer]:
+                  - /url: "#set"
+              - listitem [ref=e252]:
+                - link "unset" [ref=e253] [cursor=pointer]:
+                  - /url: "#unset"
+              - listitem [ref=e254]:
+                - link "reset" [ref=e255] [cursor=pointer]:
+                  - /url: "#reset"
+              - listitem [ref=e256]:
+                - link "list" [ref=e257] [cursor=pointer]:
+                  - /url: "#list"
+          - listitem [ref=e258]:
+            - link "Configuration options" [ref=e259] [cursor=pointer]:
+              - /url: "#configuration-options"
+            - list [ref=e260]:
+              - listitem [ref=e261]:
+                - link "reduceMotion" [ref=e262] [cursor=pointer]:
+                  - /url: "#reducemotion"
+              - listitem [ref=e263]:
+                - link "packageManager" [ref=e264] [cursor=pointer]:
+                  - /url: "#packagemanager"
+  - contentinfo [ref=e265]:
+    - generic [ref=e266]:
+      - generic [ref=e267]:
+        - generic [ref=e268]:
+          - generic [ref=e269]: Makers
+          - list [ref=e270]:
+            - listitem [ref=e271]:
+              - link "Become a Maker" [ref=e272] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e273]:
+              - link "Elgato Icons" [ref=e274] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e275]:
+              - link "Badges" [ref=e276] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e277]:
+          - generic [ref=e278]: Marketplace
+          - list [ref=e279]:
+            - listitem [ref=e280]:
+              - link "Plugins" [ref=e281] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e282]:
+              - link "Icon Packs" [ref=e283] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e284]:
+              - link "Profiles" [ref=e285] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e286]:
+          - generic [ref=e287]: Support
+          - list [ref=e288]:
+            - listitem [ref=e289]:
+              - link "FAQ" [ref=e290] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e291]:
+              - link "Contact" [ref=e292] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e293]:
+              - link "Copyright Claim" [ref=e294] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e295]:
+              - link "Downloads" [ref=e296] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e297]:
+          - generic [ref=e298]: Company
+          - list [ref=e299]:
+            - listitem [ref=e300]:
+              - link "About" [ref=e301] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e302]:
+              - link "Media Room" [ref=e303] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e304]:
+              - link "Terms of Use" [ref=e305] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e306]:
+              - link "Privacy Policy" [ref=e307] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e309]: © 2026 Elgato. All rights reserved.

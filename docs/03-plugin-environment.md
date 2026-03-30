@@ -1,0 +1,402 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Introduction
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Plugin Environment
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Plugin Environment" [level=1] [ref=e133]
+              - paragraph [ref=e134]: In this article you'll learn more about how Stream Deck plugins built with the Stream Deck SDK are executed, and the different runtime environments.
+              - heading "Host EnvironmentDirect link to Host Environment" [level=2] [ref=e135]:
+                - text: Host Environment
+                - link "Direct link to Host Environment" [ref=e136] [cursor=pointer]:
+                  - /url: "#host-environment"
+                  - text: "#"
+              - paragraph [ref=e137]: The architecture of a Stream Deck plugin is closely comparable to a web app, comprising of a frontend and a backend. Unlike a web app, a Stream Deck plugin is hosted entirely on the user's local machine, with all hardware communication managed by the Stream Deck app.
+              - paragraph [ref=e138]: "The host environment is summarized in the following diagram:"
+              - img "Architecture overview of how Stream Deck plugins are run. Plugins connect to the Stream Deck SDK, which connects to the Stream Deck, which in turn communicates with Stream Deck devices." [ref=e140]
+              - generic [ref=e141]:
+                - generic [ref=e142]:
+                  - img [ref=e144]
+                  - text: Secrets
+                - paragraph [ref=e149]:
+                  - text: Stream Deck plugins run locally on the users machine; should you need to distribute your plugin with secrets, such as API keys, you can now use our
+                  - link "secrets API" [ref=e150] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/secrets
+                  - text: ", available with DRM protected plugins."
+              - heading "JavaScript RuntimesDirect link to JavaScript Runtimes" [level=2] [ref=e151]:
+                - text: JavaScript Runtimes
+                - link "Direct link to JavaScript Runtimes" [ref=e152] [cursor=pointer]:
+                  - /url: "#javascript-runtimes"
+                  - text: "#"
+              - paragraph [ref=e153]: Similar to a web app, the layers of a plugin use separate JavaScript runtimes.
+              - table [ref=e154]:
+                - rowgroup [ref=e155]:
+                  - row "Layer Runtime Responsibilities" [ref=e156]:
+                    - columnheader "Layer" [ref=e157]
+                    - columnheader "Runtime" [ref=e158]
+                    - columnheader "Responsibilities" [ref=e159]
+                - rowgroup [ref=e160]:
+                  - row "Application-layer (backend) Node.js The main logic that drives a plugin, responsible for handling events received from Stream Deck, for example a key press." [ref=e161]:
+                    - cell "Application-layer (backend)" [ref=e162]
+                    - cell "Node.js" [ref=e163]
+                    - cell "The main logic that drives a plugin, responsible for handling events received from Stream Deck, for example a key press." [ref=e164]
+                  - row "Presentation-layer (frontend), aka a \"property inspector\" Chromium, with DOM access Views, in the form of HTML, rendered in the Stream Deck app, allowing a user to configure an action." [ref=e165]:
+                    - cell "Presentation-layer (frontend), aka a \"property inspector\"" [ref=e166]:
+                      - text: Presentation-layer (frontend), aka a "
+                      - link "property inspector" [ref=e167] [cursor=pointer]:
+                        - /url: /streamdeck/sdk/guides/ui
+                      - text: "\""
+                    - cell "Chromium, with DOM access" [ref=e168]
+                    - cell "Views, in the form of HTML, rendered in the Stream Deck app, allowing a user to configure an action." [ref=e169]
+              - heading "Runtime VersionsDirect link to Runtime Versions" [level=3] [ref=e170]:
+                - text: Runtime Versions
+                - link "Direct link to Runtime Versions" [ref=e171] [cursor=pointer]:
+                  - /url: "#runtime-versions"
+                  - text: "#"
+              - paragraph [ref=e172]: "The latest JavaScript runtime versions are:"
+              - table [ref=e173]:
+                - rowgroup [ref=e174]:
+                  - row "Stream Deck Node.js (application) Chromium (UI)" [ref=e175]:
+                    - columnheader "Stream Deck" [ref=e176]
+                    - columnheader "Node.js (application)" [ref=e177]
+                    - columnheader "Chromium (UI)" [ref=e178]
+                - rowgroup [ref=e179]:
+                  - row "7.3 20.20.0, 24.13.1 130.0.0.0" [ref=e180]:
+                    - cell "7.3" [ref=e181]
+                    - cell "20.20.0, 24.13.1" [ref=e182]
+                    - cell "130.0.0.0" [ref=e183]
+                  - row "7.2 20.20.0, 24.13.1 130.0.0.0" [ref=e184]:
+                    - cell "7.2" [ref=e185]
+                    - cell "20.20.0, 24.13.1" [ref=e186]
+                    - cell "130.0.0.0" [ref=e187]
+                  - row "7.1 20.20.0, 24.13.1 130.0.0.0" [ref=e188]:
+                    - cell "7.1" [ref=e189]
+                    - cell "20.20.0, 24.13.1" [ref=e190]
+                    - cell "130.0.0.0" [ref=e191]
+              - group [ref=e192]:
+                - generic "Full list of JavaScript runtime versions." [ref=e193] [cursor=pointer]
+              - generic [ref=e194]:
+                - generic [ref=e195]:
+                  - img [ref=e197]
+                  - text: tip
+                - paragraph [ref=e202]: From Stream Deck 7.1, Node.js versions are automatically updated to the latest versions supported by Stream Deck.
+              - heading "ManifestDirect link to Manifest" [level=2] [ref=e203]:
+                - text: Manifest
+                - link "Direct link to Manifest" [ref=e204] [cursor=pointer]:
+                  - /url: "#manifest"
+                  - text: "#"
+              - paragraph [ref=e205]:
+                - text: The manifest defines the metadata of a Stream Deck plugin, in the form of a JSON file located at
+                - code [ref=e206]: ./*.sdPlugin/manifest.json
+                - text: ", that includes:"
+              - list [ref=e207]:
+                - listitem [ref=e208]: General information about the plugin, for example the name, author, description, etc.
+                - listitem [ref=e209]: Actions, and their metadata, available to the user.
+                - listitem [ref=e210]: Version compatibility with Stream Deck, Node.js, and operating systems.
+              - generic [ref=e211]:
+                - generic [ref=e212]: Example manifest JSON file
+                - generic [ref=e213]:
+                  - code [ref=e215]:
+                    - generic [ref=e216]: "{"
+                    - generic [ref=e217]: "\"$schema\": \"https://schemas.elgato.com/streamdeck/plugins/manifest.json\","
+                    - generic [ref=e218]: "\"UUID\": \"com.elgato.hello-world\","
+                    - generic [ref=e219]: "\"Name\": \"Hello World\","
+                    - generic [ref=e220]: "\"Version\": \"0.1.0.0\","
+                    - generic [ref=e221]: "\"Author\": \"Elgato\","
+                    - generic [ref=e222]: "\"Actions\": ["
+                    - generic [ref=e223]: "{"
+                    - generic [ref=e224]: "\"Name\": \"Counter\","
+                    - generic [ref=e225]: "\"UUID\": \"com.elgato.hello-world.increment\","
+                    - generic [ref=e226]: "\"Icon\": \"static/imgs/actions/counter/icon\","
+                    - generic [ref=e227]: "\"Tooltip\": \"Displays a count, which increments by one on press.\","
+                    - generic [ref=e228]: "\"Controllers\": [\"Keypad\"],"
+                    - generic [ref=e229]: "\"States\": ["
+                    - generic [ref=e230]: "{"
+                    - generic [ref=e231]: "\"Image\": \"static/imgs/actions/counter/key\","
+                    - generic [ref=e232]: "\"TitleAlignment\": \"middle\""
+                    - generic [ref=e233]: "}"
+                    - generic [ref=e234]: "]"
+                    - generic [ref=e235]: "}"
+                    - generic [ref=e236]: "],"
+                    - generic [ref=e237]: "\"Category\": \"Hello World\","
+                    - generic [ref=e238]: "\"CategoryIcon\": \"static/imgs/plugin/category-icon\","
+                    - generic [ref=e239]: "\"CodePath\": \"bin/plugin.js\","
+                    - generic [ref=e240]: "\"Description\": \".\","
+                    - generic [ref=e241]: "\"Icon\": \"static/imgs/plugin/marketplace\","
+                    - generic [ref=e242]: "\"SDKVersion\": 2,"
+                    - generic [ref=e243]: "\"Software\": {"
+                    - generic [ref=e244]: "\"MinimumVersion\": \"6.6\""
+                    - generic [ref=e245]: "},"
+                    - generic [ref=e246]: "\"OS\": ["
+                    - generic [ref=e247]: "{"
+                    - generic [ref=e248]: "\"Platform\": \"mac\","
+                    - generic [ref=e249]: "\"MinimumVersion\": \"10.15\""
+                    - generic [ref=e250]: "},"
+                    - generic [ref=e251]: "{"
+                    - generic [ref=e252]: "\"Platform\": \"windows\","
+                    - generic [ref=e253]: "\"MinimumVersion\": \"10\""
+                    - generic [ref=e254]: "}"
+                    - generic [ref=e255]: "],"
+                    - generic [ref=e256]: "\"Nodejs\": {"
+                    - generic [ref=e257]: "\"Version\": \"20\","
+                    - generic [ref=e258]: "\"Debug\": \"enabled\""
+                    - generic [ref=e259]: "},"
+                    - generic [ref=e260]: "\"ApplicationsToMonitor\": {"
+                    - generic [ref=e261]: "\"mac\": [\"com.elgato.WaveLink\"],"
+                    - generic [ref=e262]: "\"windows\": [\"Elgato Wave Link.exe\"]"
+                    - generic [ref=e263]: "},"
+                    - generic [ref=e264]: "\"Profiles\": ["
+                    - generic [ref=e265]: "{"
+                    - generic [ref=e266]: "\"Name\": \"My Cool Profile\","
+                    - generic [ref=e267]: "\"DeviceType\": 0,"
+                    - generic [ref=e268]: "\"Readonly\": false,"
+                    - generic [ref=e269]: "\"DontAutoSwitchWhenInstalled\": false,"
+                    - generic [ref=e270]: "\"AutoInstall\": true"
+                    - generic [ref=e271]: "}"
+                    - generic [ref=e272]: "]"
+                    - generic [ref=e273]: "}"
+                  - generic [ref=e274]:
+                    - button "Toggle word wrap" [ref=e275] [cursor=pointer]:
+                      - img [ref=e276]
+                    - button "Copy to clipboard" [ref=e278] [cursor=pointer]:
+                      - generic [ref=e279]:
+                        - img "Icon" [ref=e280]
+                        - img "Icon" [ref=e283]
+              - paragraph [ref=e285]:
+                - text: For more information about the manifest, please refer to the
+                - link "manifest API reference" [ref=e286] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+                - text: .
+              - heading "Plugin LifecycleDirect link to Plugin Lifecycle" [level=2] [ref=e287]:
+                - text: Plugin Lifecycle
+                - link "Direct link to Plugin Lifecycle" [ref=e288] [cursor=pointer]:
+                  - /url: "#plugin-lifecycle"
+                  - text: "#"
+              - paragraph [ref=e289]: "Stream Deck is responsible for managing your plugin's lifecycle, and provides automatic failure recovery in the event an unexpected error occurs. An overview of the plugin lifecycle is as follows:"
+              - img "Overview of a Stream Deck plugin lifecycle" [ref=e293]
+          - navigation "Docs pages" [ref=e294]:
+            - link "Previous « Your First Changes" [ref=e295] [cursor=pointer]:
+              - /url: /streamdeck/sdk/introduction/your-first-changes
+              - generic [ref=e296]: Previous
+              - generic [ref=e297]: « Your First Changes
+            - link "Next Distribution »" [ref=e298] [cursor=pointer]:
+              - /url: /streamdeck/sdk/introduction/distribution
+              - generic [ref=e299]: Next
+              - generic [ref=e300]: Distribution »
+        - list [ref=e303]:
+          - listitem [ref=e304]:
+            - link "Host Environment" [ref=e305] [cursor=pointer]:
+              - /url: "#host-environment"
+          - listitem [ref=e306]:
+            - link "JavaScript Runtimes" [ref=e307] [cursor=pointer]:
+              - /url: "#javascript-runtimes"
+            - list [ref=e308]:
+              - listitem [ref=e309]:
+                - link "Runtime Versions" [ref=e310] [cursor=pointer]:
+                  - /url: "#runtime-versions"
+          - listitem [ref=e311]:
+            - link "Manifest" [ref=e312] [cursor=pointer]:
+              - /url: "#manifest"
+          - listitem [ref=e313]:
+            - link "Plugin Lifecycle" [ref=e314] [cursor=pointer]:
+              - /url: "#plugin-lifecycle"
+  - contentinfo [ref=e315]:
+    - generic [ref=e316]:
+      - generic [ref=e317]:
+        - generic [ref=e318]:
+          - generic [ref=e319]: Makers
+          - list [ref=e320]:
+            - listitem [ref=e321]:
+              - link "Become a Maker" [ref=e322] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e323]:
+              - link "Elgato Icons" [ref=e324] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e325]:
+              - link "Badges" [ref=e326] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e327]:
+          - generic [ref=e328]: Marketplace
+          - list [ref=e329]:
+            - listitem [ref=e330]:
+              - link "Plugins" [ref=e331] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e332]:
+              - link "Icon Packs" [ref=e333] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e334]:
+              - link "Profiles" [ref=e335] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e336]:
+          - generic [ref=e337]: Support
+          - list [ref=e338]:
+            - listitem [ref=e339]:
+              - link "FAQ" [ref=e340] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e341]:
+              - link "Contact" [ref=e342] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e343]:
+              - link "Copyright Claim" [ref=e344] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e345]:
+              - link "Downloads" [ref=e346] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e347]:
+          - generic [ref=e348]: Company
+          - list [ref=e349]:
+            - listitem [ref=e350]:
+              - link "About" [ref=e351] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e352]:
+              - link "Media Room" [ref=e353] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e354]:
+              - link "Terms of Use" [ref=e355] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e356]:
+              - link "Privacy Policy" [ref=e357] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e359]: © 2026 Elgato. All rights reserved.

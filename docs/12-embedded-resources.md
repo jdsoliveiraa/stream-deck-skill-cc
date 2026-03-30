@@ -1,0 +1,410 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Plugin Guides
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Embedded Resources
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Embedded Resources" [level=1] [ref=e133]
+              - paragraph [ref=e134]: Embedding resources, such audio or configuration files, into instances of actions actions makes them more portable, allowing you and others to easily share fully-working profiles that depend on your plugin.
+              - heading "OverviewDirect link to Overview" [level=2] [ref=e135]:
+                - text: Overview
+                - link "Direct link to Overview" [ref=e136] [cursor=pointer]:
+                  - /url: "#overview"
+                  - text: "#"
+              - paragraph [ref=e137]:
+                - text: Resources can be embedded into instances of actions, making them self-contained and more portable. When an action with embedded resources is exported, the resources are compressed along with the necessary metadata into the
+                - code [ref=e138]: .streamDeckProfile
+                - text: or
+                - code [ref=e139]: .streamDeckAction
+                - text: file, making it easy to share profiles on Marketplace that depend on your plugin.
+              - paragraph [ref=e140]: "Examples of types of actions where this can be useful include:"
+              - list [ref=e141]:
+                - listitem [ref=e142]: Audio players and soundboards
+                - listitem [ref=e143]: App scripts, such as with Photoshop Play action
+                - listitem [ref=e144]: External configuration files
+              - generic [ref=e145]:
+                - generic [ref=e146]:
+                  - img [ref=e148]
+                  - text: note
+                - paragraph [ref=e153]: Available from Stream Deck 7.1 or higher.
+              - heading "Embedding ResourcesDirect link to Embedding Resources" [level=2] [ref=e154]:
+                - text: Embedding Resources
+                - link "Direct link to Embedding Resources" [ref=e155] [cursor=pointer]:
+                  - /url: "#embedding-resources"
+                  - text: "#"
+              - paragraph [ref=e156]:
+                - text: Much like
+                - link "settings" [ref=e157] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+                - text: ", resources are associated with an instance of an action, and are mapped using a similar interface:"
+              - list [ref=e158]:
+                - listitem [ref=e159]:
+                  - link "action.setResources" [ref=e160] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/actions#setresources
+                    - code [ref=e161]: action.setResources
+                  - text: "- Sets resources associated with an instance of an action."
+                - listitem [ref=e162]:
+                  - link "action.getResources" [ref=e163] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/actions#getresources
+                    - code [ref=e164]: action.getResources
+                  - text: "- Gets resources associated with an instance of an action."
+                - listitem [ref=e165]:
+                  - link "SingletonAction.onDidReceiveResources" [ref=e166] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/actions#ondidreceiveresources
+                    - code [ref=e167]: SingletonAction.onDidReceiveResources
+                  - text: "- Occurs when resources are updated within the property inspector."
+              - generic [ref=e168]:
+                - generic [ref=e169]:
+                  - img [ref=e171]
+                  - text: tip
+                - paragraph [ref=e176]:
+                  - text: Resources use Stream Deck's new message identifiers, meaning
+                  - code [ref=e177]: onDidReceiveResources
+                  - text: is
+                  - strong [ref=e178]: only
+                  - text: called when the resources were updated within the property inspector. This makes it easier to distinguish between when resources were updated versus requested.
+              - paragraph [ref=e179]: Unlike settings, the payload is not arbitrary and must be a map of key/file-path to allow Stream Deck to update file paths when importing an action.
+              - paragraph [ref=e180]: "The following example demonstrates embedding a resource into an instance of an action:"
+              - generic [ref=e181]:
+                - generic [ref=e182]: Embedding resources
+                - generic [ref=e183]:
+                  - code [ref=e185]:
+                    - generic [ref=e186]: "import { action, type DidReceiveSettingsEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e188]: "@action({ UUID: \"com.elgato.audio.play\" })"
+                    - generic [ref=e189]: "class PlayAudio extends SingletonAction {"
+                    - generic [ref=e190]: /**
+                    - generic [ref=e191]: "* Occurs when the settings are updated."
+                    - generic [ref=e192]: "*/"
+                    - generic [ref=e193]: "override async onDidReceiveSettings(ev: DidReceiveSettingsEvent<Settings>): Promise<void> {"
+                    - generic [ref=e194]: "await ev.action.setResources({"
+                    - generic [ref=e195]: "audioFile: ev.payload.settings.userSelectedFile,"
+                    - generic [ref=e196]: "});"
+                    - generic [ref=e197]: "}"
+                    - generic [ref=e198]: "}"
+                    - generic [ref=e200]: "type Settings = {"
+                    - generic [ref=e201]: "userSelectedFile: string;"
+                    - generic [ref=e202]: "};"
+                  - generic [ref=e203]:
+                    - button "Toggle word wrap" [ref=e204] [cursor=pointer]:
+                      - img [ref=e205]
+                    - button "Copy to clipboard" [ref=e207] [cursor=pointer]:
+                      - generic [ref=e208]:
+                        - img "Icon" [ref=e209]
+                        - img "Icon" [ref=e212]
+              - paragraph [ref=e214]: With the resource now embedded into the action, the file be compressed alongside the action's metadata when the action or parent profile is exported.
+              - heading "Accessing ResourcesDirect link to Accessing Resources" [level=2] [ref=e215]:
+                - text: Accessing Resources
+                - link "Direct link to Accessing Resources" [ref=e216] [cursor=pointer]:
+                  - /url: "#accessing-resources"
+                  - text: "#"
+              - paragraph [ref=e217]: "Accessing embedded resource file paths can be achieved using either:"
+              - list [ref=e218]:
+                - listitem [ref=e219]:
+                  - link "action.getResources" [ref=e220] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/actions#getresources
+                    - code [ref=e221]: action.getResources
+                - listitem [ref=e222]:
+                  - link "SingletonAction.onDidReceiveResources" [ref=e223] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/guides/actions#ondidreceiveresources
+                    - code [ref=e224]: SingletonAction.onDidReceiveResources
+              - paragraph [ref=e225]:
+                - text: Continuing from the above
+                - code [ref=e226]: PlayAction
+                - text: example, the following demonstrates playing the embedded audio file when the action's key down occurs.
+              - generic [ref=e227]:
+                - generic [ref=e228]: Accessing resources
+                - generic [ref=e229]:
+                  - code [ref=e231]:
+                    - generic [ref=e232]: "import { action, type DidReceiveSettingsEvent, type KeyDownEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e234]: "import { audioService } from \"./audio-service\";"
+                    - generic [ref=e236]: "@action({ UUID: \"com.elgato.audio.play\" })"
+                    - generic [ref=e237]: "class PlayAudio extends SingletonAction {"
+                    - generic [ref=e238]: /**
+                    - generic [ref=e239]: "* Occurs when the settings are updated."
+                    - generic [ref=e240]: "*/"
+                    - generic [ref=e241]: "override async onDidReceiveSettings(ev: DidReceiveSettingsEvent<Settings>): Promise<void> {"
+                    - generic [ref=e242]: "await ev.action.setResources({"
+                    - generic [ref=e243]: "audioFile: ev.payload.settings.userSelectedFile,"
+                    - generic [ref=e244]: "});"
+                    - generic [ref=e245]: "}"
+                    - generic [ref=e247]: /**
+                    - generic [ref=e248]: "* Occurs when the key is pressed down."
+                    - generic [ref=e249]: "*/"
+                    - generic [ref=e250]: "override async onKeyDown(ev: KeyDownEvent): Promise<void> {"
+                    - generic [ref=e251]: const filePath = ev.payload.resources.audioFile;
+                    - generic [ref=e252]: "if (filePath) {"
+                    - generic [ref=e253]: await audioService.play(ev.payload.resources.audioFile);
+                    - generic [ref=e254]: "}"
+                    - generic [ref=e255]: "}"
+                    - generic [ref=e256]: "}"
+                    - generic [ref=e258]: "type Settings = {"
+                    - generic [ref=e259]: "userSelectedFile: string;"
+                    - generic [ref=e260]: "};"
+                  - generic [ref=e261]:
+                    - button "Toggle word wrap" [ref=e262] [cursor=pointer]:
+                      - img [ref=e263]
+                    - button "Copy to clipboard" [ref=e265] [cursor=pointer]:
+                      - generic [ref=e266]:
+                        - img "Icon" [ref=e267]
+                        - img "Icon" [ref=e270]
+              - heading "File PathsDirect link to File Paths" [level=2] [ref=e272]:
+                - text: File Paths
+                - link "Direct link to File Paths" [ref=e273] [cursor=pointer]:
+                  - /url: "#file-paths"
+                  - text: "#"
+              - paragraph [ref=e274]: "When setting resources, the payload must be a map of file paths identifiable by a key, for example:"
+              - generic [ref=e275]:
+                - generic [ref=e276]: Original action resources
+                - generic [ref=e277]:
+                  - code [ref=e279]:
+                    - generic [ref=e280]: "{"
+                    - generic [ref=e281]: "fileOne: \"C:\\\\audio\\\\track.mp3\","
+                    - generic [ref=e282]: "fileTwo: \"C:\\\\config.json\""
+                    - generic [ref=e283]: "}"
+                  - button "Copy to clipboard" [ref=e285] [cursor=pointer]:
+                    - generic [ref=e286]:
+                      - img "Icon" [ref=e287]
+                      - img "Icon" [ref=e290]
+              - paragraph [ref=e292]: "Using this map structure ensures Stream Deck can mutate the file paths when an action or profile is imported. For example, if the above action were to be exported and imported into another Stream Deck, the file paths may look as follows:"
+              - generic [ref=e293]:
+                - generic [ref=e294]: Imported action resources
+                - generic [ref=e295]:
+                  - code [ref=e297]:
+                    - generic [ref=e298]: "{"
+                    - generic [ref=e299]: "fileOne: \"C:\\\\...\\\\7ae61d68-6882-41dd-8e90-3c54114fa2cf\\\\track.mp3\","
+                    - generic [ref=e300]: "fileTwo: \"C:\\\\...\\\\7ae61d68-6882-41dd-8e90-3c54114fa2cf\\\\config.json\""
+                    - generic [ref=e301]: "}"
+                  - generic [ref=e302]:
+                    - button "Toggle word wrap" [ref=e303] [cursor=pointer]:
+                      - img [ref=e304]
+                    - button "Copy to clipboard" [ref=e306] [cursor=pointer]:
+                      - generic [ref=e307]:
+                        - img "Icon" [ref=e308]
+                        - img "Icon" [ref=e311]
+              - generic [ref=e313]:
+                - generic [ref=e314]:
+                  - img [ref=e316]
+                  - text: tip
+                - paragraph [ref=e321]: The file name of an embedded resource is unchanged when exporting / importing an action.
+          - navigation "Docs pages" [ref=e322]:
+            - link "Previous « Profiles" [ref=e323] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/profiles
+              - generic [ref=e324]: Previous
+              - generic [ref=e325]: « Profiles
+            - link "Next System »" [ref=e326] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/system
+              - generic [ref=e327]: Next
+              - generic [ref=e328]: System »
+        - list [ref=e331]:
+          - listitem [ref=e332]:
+            - link "Overview" [ref=e333] [cursor=pointer]:
+              - /url: "#overview"
+          - listitem [ref=e334]:
+            - link "Embedding Resources" [ref=e335] [cursor=pointer]:
+              - /url: "#embedding-resources"
+          - listitem [ref=e336]:
+            - link "Accessing Resources" [ref=e337] [cursor=pointer]:
+              - /url: "#accessing-resources"
+          - listitem [ref=e338]:
+            - link "File Paths" [ref=e339] [cursor=pointer]:
+              - /url: "#file-paths"
+  - contentinfo [ref=e340]:
+    - generic [ref=e341]:
+      - generic [ref=e342]:
+        - generic [ref=e343]:
+          - generic [ref=e344]: Makers
+          - list [ref=e345]:
+            - listitem [ref=e346]:
+              - link "Become a Maker" [ref=e347] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e348]:
+              - link "Elgato Icons" [ref=e349] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e350]:
+              - link "Badges" [ref=e351] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e352]:
+          - generic [ref=e353]: Marketplace
+          - list [ref=e354]:
+            - listitem [ref=e355]:
+              - link "Plugins" [ref=e356] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e357]:
+              - link "Icon Packs" [ref=e358] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e359]:
+              - link "Profiles" [ref=e360] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e361]:
+          - generic [ref=e362]: Support
+          - list [ref=e363]:
+            - listitem [ref=e364]:
+              - link "FAQ" [ref=e365] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e366]:
+              - link "Contact" [ref=e367] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e368]:
+              - link "Copyright Claim" [ref=e369] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e370]:
+              - link "Downloads" [ref=e371] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e372]:
+          - generic [ref=e373]: Company
+          - list [ref=e374]:
+            - listitem [ref=e375]:
+              - link "About" [ref=e376] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e377]:
+              - link "Media Room" [ref=e378] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e379]:
+              - link "Terms of Use" [ref=e380] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e381]:
+              - link "Privacy Policy" [ref=e382] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e384]: © 2026 Elgato. All rights reserved.

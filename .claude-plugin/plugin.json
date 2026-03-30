@@ -1,0 +1,10 @@
+{
+  "name": "stream-deck",
+  "description": "Build Stream Deck plugins with the Elgato SDK v2. Scaffold projects, add actions, create property inspectors, build, pack, and validate — all guided by the official SDK documentation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joao Oliveira"
+  },
+  "homepage": "https://docs.elgato.com/streamdeck/sdk/introduction/getting-started",
+  "repository": "https://github.com/elgatosf/streamdeck"
+}

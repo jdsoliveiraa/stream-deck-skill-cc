@@ -1,0 +1,365 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Plugin Guides
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Secrets
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - generic [ref=e132]: Experimental
+              - heading "Secrets" [level=1] [ref=e134]
+              - paragraph [ref=e135]: Plugins distributed on Marketplace with DRM enabled have access to the secrets API. This API enables plugin to define secrets, and access them at runtime in a secure way.
+              - paragraph [ref=e136]: In this article you'll learn about the benefits of secrets, and how to use them within your plugin.
+              - group [ref=e137]:
+                - generic "Disclaimer" [ref=e138] [cursor=pointer]
+              - heading "IntroductionDirect link to Introduction" [level=2] [ref=e139]:
+                - text: Introduction
+                - link "Direct link to Introduction" [ref=e140] [cursor=pointer]:
+                  - /url: "#introduction"
+                  - text: "#"
+              - paragraph [ref=e141]: The secrets API is available to DRM protected plugins distributed on Marketplace, and allows your plugins to access their obfuscated secrets at runtime. With access to secrets, plugins are able to utilize APIs and services that might otherwise be unavailable, such as those requiring client keys.
+              - heading "Defining SecretsDirect link to Defining Secrets" [level=2] [ref=e142]:
+                - text: Defining Secrets
+                - link "Direct link to Defining Secrets" [ref=e143] [cursor=pointer]:
+                  - /url: "#defining-secrets"
+                  - text: "#"
+              - paragraph [ref=e144]:
+                - text: During development, secrets are defined within a secrets JSON file,
+                - code [ref=e145]: secrets.json
+                - text: ", that sits alongside the manifest JSON file, for example:"
+              - generic [ref=e146]:
+                - generic [ref=e147]: Secrets JSON file location
+                - generic [ref=e148]:
+                  - code [ref=e150]:
+                    - generic [ref=e151]: .
+                    - generic [ref=e152]: ├── *.sdPlugin/
+                    - generic [ref=e153]: │ ├── ...
+                    - generic [ref=e154]: │ ├── manifest.json
+                    - generic [ref=e155]: "| └── secrets.json"
+                    - generic [ref=e156]: └── ...
+                  - button "Copy to clipboard" [ref=e158] [cursor=pointer]:
+                    - generic [ref=e159]:
+                      - img "Icon" [ref=e160]
+                      - img "Icon" [ref=e163]
+              - generic [ref=e165]:
+                - generic [ref=e166]:
+                  - img [ref=e168]
+                  - text: danger
+                - paragraph [ref=e171]:
+                  - text: You should never commit your
+                  - code [ref=e172]: secrets.json
+                  - text: file into Git.
+              - paragraph [ref=e173]: "Within your secrets JSON file, you should define secrets as a JSON object, for example:"
+              - generic [ref=e174]:
+                - generic [ref=e175]: Secrets JSON file example
+                - generic [ref=e176]:
+                  - code [ref=e178]:
+                    - generic [ref=e179]: "{"
+                    - generic [ref=e180]: "\"apiKey\": \"1479fa141ddf47438710afb3f45b75be\""
+                    - generic [ref=e181]: "}"
+                  - button "Copy to clipboard" [ref=e183] [cursor=pointer]:
+                    - generic [ref=e184]:
+                      - img "Icon" [ref=e185]
+                      - img "Icon" [ref=e188]
+              - heading "Accessing SecretsDirect link to Accessing Secrets" [level=2] [ref=e190]:
+                - text: Accessing Secrets
+                - link "Direct link to Accessing Secrets" [ref=e191] [cursor=pointer]:
+                  - /url: "#accessing-secrets"
+                  - text: "#"
+              - paragraph [ref=e192]:
+                - text: Secrets can be accessed at runtime using the
+                - code [ref=e193]: getSecrets()
+                - text: function, found on the
+                - code [ref=e194]: system
+                - text: namespace, for example.
+              - generic [ref=e196]:
+                - code [ref=e198]:
+                  - generic [ref=e199]: import streamDeck from "@elgato/streamdeck";
+                  - generic [ref=e201]: const secrets = await streamDeck.system.getSecrets<Secrets>();
+                  - generic [ref=e202]: secrets.apiKey; // 1479fa141ddf47438710afb3f45b75be
+                  - generic [ref=e204]: "type Secrets = {"
+                  - generic [ref=e205]: "apiKey: string;"
+                  - generic [ref=e206]: "};"
+                - button "Copy to clipboard" [ref=e208] [cursor=pointer]:
+                  - generic [ref=e209]:
+                    - img "Icon" [ref=e210]
+                    - img "Icon" [ref=e213]
+              - paragraph [ref=e215]: "Depending on your plugin's environment, secrets are read from one of two places:"
+              - list [ref=e216]:
+                - listitem [ref=e217]:
+                  - text: Development — your local secrets JSON file,
+                  - code [ref=e218]: secrets.json
+                  - text: .
+                - listitem [ref=e219]: Production — provided by Stream Deck.
+              - generic [ref=e220]:
+                - generic [ref=e221]:
+                  - img [ref=e223]
+                  - text: info
+                - generic [ref=e225]:
+                  - paragraph [ref=e226]: "Production is defined as a plugin that has been processed by Maker Console, this includes:"
+                  - list [ref=e227]:
+                    - listitem [ref=e228]: Plugins installed from Marketplace.
+                    - listitem [ref=e229]: Plugins downloaded from Maker Console.
+              - heading "DistributionDirect link to Distribution" [level=2] [ref=e230]:
+                - text: Distribution
+                - link "Direct link to Distribution" [ref=e231] [cursor=pointer]:
+                  - /url: "#distribution"
+                  - text: "#"
+              - paragraph [ref=e232]: The distribution of secrets with plugins is only available when distributing your plugin using Marketplace.
+              - paragraph [ref=e233]: "When preparing your plugin for Marketplace, you should:"
+              - list [ref=e234]:
+                - listitem [ref=e235]:
+                  - img [ref=e236]
+                  - generic [ref=e239]: "Do:"
+                  - link "Enable DRM protection" [ref=e240] [cursor=pointer]:
+                    - /url: /streamdeck/sdk/introduction/distribution#enabling-drm
+                  - text: .
+                - listitem [ref=e241]:
+                  - img [ref=e242]
+                  - generic [ref=e245]: "Do:"
+                  - paragraph [ref=e246]:
+                    - text: Include the
+                    - code [ref=e247]: secrets.json
+                    - text: file within the
+                    - code [ref=e248]: .streamDeckPlugin
+                    - text: when uploading it to Maker Console — the
+                    - code [ref=e249]: secrets.json
+                    - text: file is removed as part processing plugins within Maker Console, and the file will not be available to users when downloading from Marketplace or Maker Console.
+                - listitem [ref=e250]:
+                  - img [ref=e251]
+                  - generic [ref=e254]: "Don't:"
+                  - paragraph [ref=e255]:
+                    - text: Distribute your plugin without DRM protecting it in Maker Console first.
+                    - link "Learn more about testing with DRM" [ref=e256] [cursor=pointer]:
+                      - /url: /streamdeck/sdk/introduction/distribution#testing-with-drm
+                    - text: .
+              - generic [ref=e257]:
+                - generic [ref=e258]:
+                  - img [ref=e260]
+                  - text: danger
+                - paragraph [ref=e263]:
+                  - text: The contents of your
+                  - code [ref=e264]: secrets.json
+                  - text: file are only secure after your plugin has been DRM protected in Maker Console. Once protected, the
+                  - code [ref=e265]: secrets.json
+                  - text: file is removed from your plugin; this happens before your plugin becomes available on Marketplace and Maker Console.
+          - navigation "Docs pages" [ref=e266]:
+            - link "Previous « App Monitoring" [ref=e267] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/app-monitoring
+              - generic [ref=e268]: Previous
+              - generic [ref=e269]: « App Monitoring
+            - link "Next Logging »" [ref=e270] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/logging
+              - generic [ref=e271]: Next
+              - generic [ref=e272]: Logging »
+        - list [ref=e275]:
+          - listitem [ref=e276]:
+            - link "Introduction" [ref=e277] [cursor=pointer]:
+              - /url: "#introduction"
+          - listitem [ref=e278]:
+            - link "Defining Secrets" [ref=e279] [cursor=pointer]:
+              - /url: "#defining-secrets"
+          - listitem [ref=e280]:
+            - link "Accessing Secrets" [ref=e281] [cursor=pointer]:
+              - /url: "#accessing-secrets"
+          - listitem [ref=e282]:
+            - link "Distribution" [ref=e283] [cursor=pointer]:
+              - /url: "#distribution"
+  - contentinfo [ref=e284]:
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - generic [ref=e287]:
+          - generic [ref=e288]: Makers
+          - list [ref=e289]:
+            - listitem [ref=e290]:
+              - link "Become a Maker" [ref=e291] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e292]:
+              - link "Elgato Icons" [ref=e293] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e294]:
+              - link "Badges" [ref=e295] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e296]:
+          - generic [ref=e297]: Marketplace
+          - list [ref=e298]:
+            - listitem [ref=e299]:
+              - link "Plugins" [ref=e300] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e301]:
+              - link "Icon Packs" [ref=e302] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e303]:
+              - link "Profiles" [ref=e304] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e305]:
+          - generic [ref=e306]: Support
+          - list [ref=e307]:
+            - listitem [ref=e308]:
+              - link "FAQ" [ref=e309] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e310]:
+              - link "Contact" [ref=e311] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e312]:
+              - link "Copyright Claim" [ref=e313] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e314]:
+              - link "Downloads" [ref=e315] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e316]:
+          - generic [ref=e317]: Company
+          - list [ref=e318]:
+            - listitem [ref=e319]:
+              - link "About" [ref=e320] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e321]:
+              - link "Media Room" [ref=e322] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e323]:
+              - link "Terms of Use" [ref=e324] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e325]:
+              - link "Privacy Policy" [ref=e326] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e328]: © 2026 Elgato. All rights reserved.

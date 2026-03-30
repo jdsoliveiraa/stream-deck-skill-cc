@@ -1,0 +1,933 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [expanded] [ref=e107] [cursor=pointer]
+                - list [ref=e108]:
+                  - listitem [ref=e109]:
+                    - link "Plugin" [ref=e110] [cursor=pointer]:
+                      - /url: /streamdeck/sdk/references/websocket/plugin
+                  - listitem [ref=e111]:
+                    - link "Property Inspector (UI)" [ref=e112] [cursor=pointer]:
+                      - /url: /streamdeck/sdk/references/websocket/ui
+                  - listitem [ref=e113]:
+                    - link "Changes" [ref=e114] [cursor=pointer]:
+                      - /url: /streamdeck/sdk/references/websocket/changelog
+          - listitem [ref=e115]:
+            - generic [ref=e117]: Upgrading
+            - list [ref=e118]:
+              - listitem [ref=e119]:
+                - link "Version 2.x" [ref=e120] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e121]:
+      - generic [ref=e123]:
+        - generic [ref=e125]:
+          - article [ref=e126]:
+            - navigation "Breadcrumbs" [ref=e127]:
+              - list [ref=e128]:
+                - listitem [ref=e129]:
+                  - link "Home page" [ref=e130] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e131]
+                - listitem [ref=e133]:
+                  - generic [ref=e134]: References
+                - listitem [ref=e135]:
+                  - generic [ref=e136]: WebSocket API
+                - listitem [ref=e137]:
+                  - generic [ref=e138]: Property Inspector (UI)
+            - generic [ref=e139]: "Version: 2.0.0"
+            - generic [ref=e140]:
+              - heading "Property Inspector (UI)" [level=1] [ref=e142]
+              - paragraph [ref=e143]: The property inspector (UI) connects to Stream Deck using a WebSocket, allowing it to directly receive a subset of events, and send commands. The WebSocket connection also allows the property inspector to communicate with the application-layer (i.e. the plugin).
+              - heading "RegistrationDirect link to Registration" [level=2] [ref=e144]:
+                - text: Registration
+                - link "Direct link to Registration" [ref=e145] [cursor=pointer]:
+                  - /url: "#registration"
+                  - text: "#"
+              - generic [ref=e146]:
+                - tablist [ref=e147]:
+                  - tab "Manually" [selected] [ref=e148] [cursor=pointer]
+                  - tab "Automatically" [ref=e149] [cursor=pointer]
+                - tabpanel [ref=e151]:
+                  - paragraph [ref=e152]:
+                    - text: A connection with Stream Deck is established within the property inspector by defining a function on the
+                    - code [ref=e153]: window
+                    - text: ", named"
+                    - link "connectElgatoStreamDeckSocket" [ref=e154] [cursor=pointer]:
+                      - /url: "#connectelgatostreamdecksocket"
+                      - code [ref=e155]: connectElgatoStreamDeckSocket
+                    - text: . Once the DOM has loaded, Stream Deck will invoke this function and provide registration information, including the port to connect on.
+                  - paragraph [ref=e156]:
+                    - text: Below is an example of implementing the
+                    - code [ref=e157]: connectElgatoStreamDeckSocket
+                    - text: "function to establish a connection with Stream Deck:"
+                  - generic [ref=e158]:
+                    - generic [ref=e159]: Connecting to Stream Deck in the property inspector
+                    - generic [ref=e160]:
+                      - code [ref=e162]:
+                        - generic [ref=e163]: "window.connectElgatoStreamDeckSocket = (port, uuid, event, info, actionInfo) => {"
+                        - generic [ref=e164]: const infoObj = JSON.parse(info); // Information about Stream Deck and the plugin.
+                        - generic [ref=e165]: const actionInfo = JSON.parse(actionInfo); // Information about the action the UI is for.
+                        - generic [ref=e167]: // Establish a connection with Stream Deck
+                        - generic [ref=e168]: "const connection = new WebSocket(`ws://127.0.0.1:${port}`);"
+                        - generic [ref=e169]: "connection.onopen = () => {"
+                        - generic [ref=e170]: "connection.send(JSON.stringify({ event, uuid }));"
+                        - generic [ref=e171]: "};"
+                        - generic [ref=e172]: "};"
+                      - generic [ref=e173]:
+                        - button "Toggle word wrap" [ref=e174] [cursor=pointer]:
+                          - img [ref=e175]
+                        - button "Copy to clipboard" [ref=e177] [cursor=pointer]:
+                          - generic [ref=e178]:
+                            - img "Icon" [ref=e179]
+                            - img "Icon" [ref=e182]
+              - heading "connectElgatoStreamDeckSocketDirect link to connectElgatoStreamDeckSocket" [level=3] [ref=e184]:
+                - text: connectElgatoStreamDeckSocket
+                - link "Direct link to connectElgatoStreamDeckSocket" [ref=e185] [cursor=pointer]:
+                  - /url: "#connectelgatostreamdecksocket"
+                  - text: "#"
+              - paragraph [ref=e186]: Connects to the Stream Deck, enabling the UI to interact with the plugin, and access the Stream Deck API.
+              - generic [ref=e188]:
+                - code [ref=e190]:
+                  - generic [ref=e191]: "window.connectElgatoStreamDeckSocket = (port: string, uuid: string, event: string, info: string, actionInfo: string) => void | Promise<void>"
+                - generic [ref=e192]:
+                  - button "Toggle word wrap" [ref=e193] [cursor=pointer]:
+                    - img [ref=e194]
+                  - button "Copy to clipboard" [ref=e196] [cursor=pointer]:
+                    - generic [ref=e197]:
+                      - img "Icon" [ref=e198]
+                      - img "Icon" [ref=e201]
+              - paragraph [ref=e203]:
+                - strong [ref=e204]: Parameters
+              - table [ref=e205]:
+                - rowgroup [ref=e206]:
+                  - row "Name Description" [ref=e207]:
+                    - columnheader "Name" [ref=e208]
+                    - columnheader "Description" [ref=e209]
+                - rowgroup [ref=e210]:
+                  - row "port Port to be used when connecting to Stream Deck." [ref=e211]:
+                    - cell "port" [ref=e212]
+                    - cell "Port to be used when connecting to Stream Deck." [ref=e213]
+                  - row "uuid Identifies the UI; this must be provided when establishing the connection with Stream Deck." [ref=e214]:
+                    - cell "uuid" [ref=e215]
+                    - cell "Identifies the UI; this must be provided when establishing the connection with Stream Deck." [ref=e216]
+                  - row "event Name of the event that identifies the registration procedure; this must be provided when establishing the connection with Stream Deck." [ref=e217]:
+                    - cell "event" [ref=e218]
+                    - cell "Name of the event that identifies the registration procedure; this must be provided when establishing the connection with Stream Deck." [ref=e219]
+                  - row "info Information about the Stream Deck application and operating system." [ref=e220]:
+                    - cell "info" [ref=e221]
+                    - cell "Information about the Stream Deck application and operating system." [ref=e222]
+                  - row "actionInfo Information about the action the UI is associated with." [ref=e223]:
+                    - cell "actionInfo" [ref=e224]
+                    - cell "Information about the action the UI is associated with." [ref=e225]
+              - heading "RegistrationInfoDirect link to RegistrationInfo" [level=3] [ref=e226]:
+                - text: RegistrationInfo
+                - link "Direct link to RegistrationInfo" [ref=e227] [cursor=pointer]:
+                  - /url: "#registrationinfo"
+                  - text: "#"
+              - paragraph [ref=e228]: Information about the Stream Deck application, the plugin, the user's operating system, user's Stream Deck devices, etc.
+              - generic [ref=e230]:
+                - code [ref=e232]:
+                  - generic [ref=e233]: "type RegistrationInfo = {"
+                  - generic [ref=e234]: "application: {"
+                  - generic [ref=e235]: "font: string;"
+                  - generic [ref=e236]: "language: \"de\" | \"en\" | \"es\" | \"fr\" | \"ja\" | \"ko\" | \"zh_CN\" | \"zh_TW\";"
+                  - generic [ref=e237]: "platform: \"mac\" | \"windows\";"
+                  - generic [ref=e238]: "platformVersion: string;"
+                  - generic [ref=e239]: "version: string;"
+                  - generic [ref=e240]: "};"
+                  - generic [ref=e241]: "colors: {"
+                  - generic [ref=e242]: "buttonMouseOverBackgroundColor: string;"
+                  - generic [ref=e243]: "buttonPressedBackgroundColor: string;"
+                  - generic [ref=e244]: "buttonPressedBorderColor: string;"
+                  - generic [ref=e245]: "buttonPressedTextColor: string;"
+                  - generic [ref=e246]: "highlightColor: string;"
+                  - generic [ref=e247]: "};"
+                  - generic [ref=e248]: "devicePixelRatio: number;"
+                  - generic [ref=e249]: "devices: {"
+                  - generic [ref=e250]: "id: string;"
+                  - generic [ref=e251]: "name: string;"
+                  - generic [ref=e252]: "size: {"
+                  - generic [ref=e253]: "columns: number;"
+                  - generic [ref=e254]: "rows: number;"
+                  - generic [ref=e255]: "};"
+                  - generic [ref=e256]: "type: DeviceType;"
+                  - generic [ref=e257]: "}[];"
+                  - generic [ref=e258]: "plugin: {"
+                  - generic [ref=e259]: "uuid: string;"
+                  - generic [ref=e260]: "version: string;"
+                  - generic [ref=e261]: "};"
+                  - generic [ref=e262]: "};"
+                - generic [ref=e263]:
+                  - button "Toggle word wrap" [ref=e264] [cursor=pointer]:
+                    - img [ref=e265]
+                  - button "Copy to clipboard" [ref=e267] [cursor=pointer]:
+                    - generic [ref=e268]:
+                      - img "Icon" [ref=e269]
+                      - img "Icon" [ref=e272]
+              - group [ref=e274]:
+                - 'generic "application : object Required" [ref=e275] [cursor=pointer]':
+                  - strong [ref=e276]: application
+                  - generic [ref=e277]: ": object"
+                  - generic [ref=e278]: Required
+              - group [ref=e279]:
+                - 'generic "colors : object Required" [ref=e280] [cursor=pointer]':
+                  - strong [ref=e281]: colors
+                  - generic [ref=e282]: ": object"
+                  - generic [ref=e283]: Required
+              - group [ref=e284]:
+                - 'generic "devicePixelRatio : number Required" [ref=e285] [cursor=pointer]':
+                  - strong [ref=e286]: devicePixelRatio
+                  - generic [ref=e287]: ": number"
+                  - generic [ref=e288]: Required
+              - group [ref=e289]:
+                - 'generic "devices : object[] Required" [ref=e290] [cursor=pointer]':
+                  - strong [ref=e291]: devices
+                  - generic [ref=e292]: ": object[]"
+                  - generic [ref=e293]: Required
+              - group [ref=e294]:
+                - 'generic "plugin : object Required" [ref=e295] [cursor=pointer]':
+                  - strong [ref=e296]: plugin
+                  - generic [ref=e297]: ": object"
+                  - generic [ref=e298]: Required
+              - heading "EventsDirect link to Events" [level=2] [ref=e299]:
+                - text: Events
+                - link "Direct link to Events" [ref=e300] [cursor=pointer]:
+                  - /url: "#events"
+                  - text: "#"
+              - heading "DidReceiveGlobalSettingsDirect link to DidReceiveGlobalSettings" [level=3] [ref=e301]:
+                - text: DidReceiveGlobalSettings
+                - link "Direct link to DidReceiveGlobalSettings" [ref=e302] [cursor=pointer]:
+                  - /url: "#didreceiveglobalsettings"
+                  - text: "#"
+              - paragraph [ref=e303]: Occurs when the settings associated with the plugin are requested, or when the the plugin's settings were updated by the plugin.
+              - generic [ref=e305]:
+                - code [ref=e307]:
+                  - generic [ref=e308]: "type DidReceiveGlobalSettings = {"
+                  - generic [ref=e309]: "event: \"didReceiveGlobalSettings\";"
+                  - generic [ref=e310]: "payload: {"
+                  - generic [ref=e311]: "settings: JsonObject;"
+                  - generic [ref=e312]: "};"
+                  - generic [ref=e313]: "};"
+                - button "Copy to clipboard" [ref=e315] [cursor=pointer]:
+                  - generic [ref=e316]:
+                    - img "Icon" [ref=e317]
+                    - img "Icon" [ref=e320]
+              - group [ref=e322]:
+                - 'generic "event : \"didReceiveGlobalSettings\" Required" [ref=e323] [cursor=pointer]':
+                  - strong [ref=e324]: event
+                  - generic [ref=e325]: ": \"didReceiveGlobalSettings\""
+                  - generic [ref=e326]: Required
+              - group [ref=e327]:
+                - 'generic "payload : object Required" [ref=e328] [cursor=pointer]':
+                  - strong [ref=e329]: payload
+                  - generic [ref=e330]: ": object"
+                  - generic [ref=e331]: Required
+              - heading "DidReceiveResourcesDirect link to DidReceiveResources" [level=3] [ref=e332]:
+                - text: DidReceiveResources
+                - link "Direct link to DidReceiveResources" [ref=e333] [cursor=pointer]:
+                  - /url: "#didreceiveresources"
+                  - text: "#"
+              - paragraph [ref=e334]: Occurs when the resources associated with an action instance are requested, or when the the resources were updated in the plugin.
+              - generic [ref=e336]:
+                - code [ref=e338]:
+                  - generic [ref=e339]: "type DidReceiveResources = {"
+                  - generic [ref=e340]: "action: string;"
+                  - generic [ref=e341]: "context: string;"
+                  - generic [ref=e342]: "device: string;"
+                  - generic [ref=e343]: "event: \"didReceiveResources\";"
+                  - generic [ref=e344]: "id?: string;"
+                  - generic [ref=e345]: "payload:"
+                  - generic [ref=e346]: "| {"
+                  - generic [ref=e347]: "controller: \"Keypad\";"
+                  - generic [ref=e348]: "isInMultiAction: true;"
+                  - generic [ref=e349]: "resources: {"
+                  - generic [ref=e350]: "[key: string]: string;"
+                  - generic [ref=e351]: "};"
+                  - generic [ref=e352]: "settings: JsonObject;"
+                  - generic [ref=e353]: "state?: number;"
+                  - generic [ref=e354]: "}"
+                  - generic [ref=e355]: "| {"
+                  - generic [ref=e356]: "controller: \"Keypad\" | \"Encoder\";"
+                  - generic [ref=e357]: "coordinates: {"
+                  - generic [ref=e358]: "column: number;"
+                  - generic [ref=e359]: "row: number;"
+                  - generic [ref=e360]: "};"
+                  - generic [ref=e361]: "isInMultiAction: false;"
+                  - generic [ref=e362]: "resources: {"
+                  - generic [ref=e363]: "[key: string]: string;"
+                  - generic [ref=e364]: "};"
+                  - generic [ref=e365]: "settings: JsonObject;"
+                  - generic [ref=e366]: "state?: number;"
+                  - generic [ref=e367]: "};"
+                  - generic [ref=e368]: "};"
+                - button "Copy to clipboard" [ref=e370] [cursor=pointer]:
+                  - generic [ref=e371]:
+                    - img "Icon" [ref=e372]
+                    - img "Icon" [ref=e375]
+              - group [ref=e377]:
+                - 'generic "action : string Required" [ref=e378] [cursor=pointer]':
+                  - strong [ref=e379]: action
+                  - generic [ref=e380]: ": string"
+                  - generic [ref=e381]: Required
+              - group [ref=e382]:
+                - 'generic "context : string Required" [ref=e383] [cursor=pointer]':
+                  - strong [ref=e384]: context
+                  - generic [ref=e385]: ": string"
+                  - generic [ref=e386]: Required
+              - group [ref=e387]:
+                - 'generic "device : string Required" [ref=e388] [cursor=pointer]':
+                  - strong [ref=e389]: device
+                  - generic [ref=e390]: ": string"
+                  - generic [ref=e391]: Required
+              - group [ref=e392]:
+                - 'generic "event : \"didReceiveResources\" Required" [ref=e393] [cursor=pointer]':
+                  - strong [ref=e394]: event
+                  - generic [ref=e395]: ": \"didReceiveResources\""
+                  - generic [ref=e396]: Required
+              - group [ref=e397]:
+                - 'generic "id : string" [ref=e398] [cursor=pointer]':
+                  - strong [ref=e399]: id
+                  - generic [ref=e400]: ": string"
+              - group [ref=e401]:
+                - 'generic "payload : ActionPayload Required" [ref=e402] [cursor=pointer]':
+                  - strong [ref=e403]: payload
+                  - generic [ref=e404]: ": ActionPayload"
+                  - generic [ref=e405]: Required
+              - heading "DidReceiveSettingsDirect link to DidReceiveSettings" [level=3] [ref=e406]:
+                - text: DidReceiveSettings
+                - link "Direct link to DidReceiveSettings" [ref=e407] [cursor=pointer]:
+                  - /url: "#didreceivesettings"
+                  - text: "#"
+              - paragraph [ref=e408]: Occurs when the settings associated with an action instance are requested, or when the the settings were updated by the plugin.
+              - generic [ref=e410]:
+                - code [ref=e412]:
+                  - generic [ref=e413]: "type DidReceiveSettings = {"
+                  - generic [ref=e414]: "action: string;"
+                  - generic [ref=e415]: "context: string;"
+                  - generic [ref=e416]: "device: string;"
+                  - generic [ref=e417]: "event: \"didReceiveSettings\";"
+                  - generic [ref=e418]: "payload:"
+                  - generic [ref=e419]: "| {"
+                  - generic [ref=e420]: "controller: \"Keypad\";"
+                  - generic [ref=e421]: "isInMultiAction: true;"
+                  - generic [ref=e422]: "resources: {"
+                  - generic [ref=e423]: "[key: string]: string;"
+                  - generic [ref=e424]: "};"
+                  - generic [ref=e425]: "settings: JsonObject;"
+                  - generic [ref=e426]: "state?: number;"
+                  - generic [ref=e427]: "}"
+                  - generic [ref=e428]: "| {"
+                  - generic [ref=e429]: "controller: \"Keypad\" | \"Encoder\";"
+                  - generic [ref=e430]: "coordinates: {"
+                  - generic [ref=e431]: "column: number;"
+                  - generic [ref=e432]: "row: number;"
+                  - generic [ref=e433]: "};"
+                  - generic [ref=e434]: "isInMultiAction: false;"
+                  - generic [ref=e435]: "resources: {"
+                  - generic [ref=e436]: "[key: string]: string;"
+                  - generic [ref=e437]: "};"
+                  - generic [ref=e438]: "settings: JsonObject;"
+                  - generic [ref=e439]: "state?: number;"
+                  - generic [ref=e440]: "};"
+                  - generic [ref=e441]: "};"
+                - button "Copy to clipboard" [ref=e443] [cursor=pointer]:
+                  - generic [ref=e444]:
+                    - img "Icon" [ref=e445]
+                    - img "Icon" [ref=e448]
+              - group [ref=e450]:
+                - 'generic "action : string Required" [ref=e451] [cursor=pointer]':
+                  - strong [ref=e452]: action
+                  - generic [ref=e453]: ": string"
+                  - generic [ref=e454]: Required
+              - group [ref=e455]:
+                - 'generic "context : string Required" [ref=e456] [cursor=pointer]':
+                  - strong [ref=e457]: context
+                  - generic [ref=e458]: ": string"
+                  - generic [ref=e459]: Required
+              - group [ref=e460]:
+                - 'generic "device : string Required" [ref=e461] [cursor=pointer]':
+                  - strong [ref=e462]: device
+                  - generic [ref=e463]: ": string"
+                  - generic [ref=e464]: Required
+              - group [ref=e465]:
+                - 'generic "event : \"didReceiveSettings\" Required" [ref=e466] [cursor=pointer]':
+                  - strong [ref=e467]: event
+                  - generic [ref=e468]: ": \"didReceiveSettings\""
+                  - generic [ref=e469]: Required
+              - group [ref=e470]:
+                - 'generic "payload : ActionPayload Required" [ref=e471] [cursor=pointer]':
+                  - strong [ref=e472]: payload
+                  - generic [ref=e473]: ": ActionPayload"
+                  - generic [ref=e474]: Required
+              - heading "SendToPropertyInspectorDirect link to SendToPropertyInspector" [level=3] [ref=e475]:
+                - text: SendToPropertyInspector
+                - link "Direct link to SendToPropertyInspector" [ref=e476] [cursor=pointer]:
+                  - /url: "#sendtopropertyinspector"
+                  - text: "#"
+              - paragraph [ref=e477]: Occurs when a payload was sent to the property inspector from the plugin.
+              - generic [ref=e479]:
+                - code [ref=e481]:
+                  - generic [ref=e482]: "type SendToPropertyInspector = {"
+                  - generic [ref=e483]: "action: string;"
+                  - generic [ref=e484]: "context: string;"
+                  - generic [ref=e485]: "event: \"sendToPropertyInspector\";"
+                  - generic [ref=e486]: "payload: JsonValue;"
+                  - generic [ref=e487]: "};"
+                - button "Copy to clipboard" [ref=e489] [cursor=pointer]:
+                  - generic [ref=e490]:
+                    - img "Icon" [ref=e491]
+                    - img "Icon" [ref=e494]
+              - group [ref=e496]:
+                - 'generic "action : string Required" [ref=e497] [cursor=pointer]':
+                  - strong [ref=e498]: action
+                  - generic [ref=e499]: ": string"
+                  - generic [ref=e500]: Required
+              - group [ref=e501]:
+                - 'generic "context : string Required" [ref=e502] [cursor=pointer]':
+                  - strong [ref=e503]: context
+                  - generic [ref=e504]: ": string"
+                  - generic [ref=e505]: Required
+              - group [ref=e506]:
+                - 'generic "event : \"sendToPropertyInspector\" Required" [ref=e507] [cursor=pointer]':
+                  - strong [ref=e508]: event
+                  - generic [ref=e509]: ": \"sendToPropertyInspector\""
+                  - generic [ref=e510]: Required
+              - group [ref=e511]:
+                - 'generic "payload : JsonValue Required" [ref=e512] [cursor=pointer]':
+                  - strong [ref=e513]: payload
+                  - generic [ref=e514]: ": JsonValue"
+                  - generic [ref=e515]: Required
+              - heading "CommandsDirect link to Commands" [level=2] [ref=e516]:
+                - text: Commands
+                - link "Direct link to Commands" [ref=e517] [cursor=pointer]:
+                  - /url: "#commands"
+                  - text: "#"
+              - heading "GetGlobalSettingsDirect link to GetGlobalSettings" [level=3] [ref=e518]:
+                - text: GetGlobalSettings
+                - link "Direct link to GetGlobalSettings" [ref=e519] [cursor=pointer]:
+                  - /url: "#getglobalsettings"
+                  - text: "#"
+              - paragraph [ref=e520]:
+                - text: Gets the global settings associated with the plugin. Causes
+                - code [ref=e521]: didReceiveGlobalSettings
+                - text: to be emitted.
+              - generic [ref=e523]:
+                - code [ref=e525]:
+                  - generic [ref=e526]: "type GetGlobalSettings = {"
+                  - generic [ref=e527]: "context: string;"
+                  - generic [ref=e528]: "event: \"getGlobalSettings\";"
+                  - generic [ref=e529]: "};"
+                - button "Copy to clipboard" [ref=e531] [cursor=pointer]:
+                  - generic [ref=e532]:
+                    - img "Icon" [ref=e533]
+                    - img "Icon" [ref=e536]
+              - group [ref=e538]:
+                - 'generic "context : string Required" [ref=e539] [cursor=pointer]':
+                  - strong [ref=e540]: context
+                  - generic [ref=e541]: ": string"
+                  - generic [ref=e542]: Required
+              - group [ref=e543]:
+                - 'generic "event : \"getGlobalSettings\" Required" [ref=e544] [cursor=pointer]':
+                  - strong [ref=e545]: event
+                  - generic [ref=e546]: ": \"getGlobalSettings\""
+                  - generic [ref=e547]: Required
+              - heading "GetResourcesDirect link to GetResources" [level=3] [ref=e548]:
+                - text: GetResources
+                - link "Direct link to GetResources" [ref=e549] [cursor=pointer]:
+                  - /url: "#getresources"
+                  - text: "#"
+              - paragraph [ref=e550]: Gets the resources (files) associated with the action; these resources are embedded into the action when it is exported, either individually, or as part of a profile.
+              - paragraph [ref=e551]: Available from Stream Deck 7.1.
+              - generic [ref=e553]:
+                - code [ref=e555]:
+                  - generic [ref=e556]: "type GetResources = {"
+                  - generic [ref=e557]: "action: string;"
+                  - generic [ref=e558]: "context: string;"
+                  - generic [ref=e559]: "event: \"getResources\";"
+                  - generic [ref=e560]: "id?: string;"
+                  - generic [ref=e561]: "};"
+                - button "Copy to clipboard" [ref=e563] [cursor=pointer]:
+                  - generic [ref=e564]:
+                    - img "Icon" [ref=e565]
+                    - img "Icon" [ref=e568]
+              - group [ref=e570]:
+                - 'generic "action : string Required" [ref=e571] [cursor=pointer]':
+                  - strong [ref=e572]: action
+                  - generic [ref=e573]: ": string"
+                  - generic [ref=e574]: Required
+              - group [ref=e575]:
+                - 'generic "context : string Required" [ref=e576] [cursor=pointer]':
+                  - strong [ref=e577]: context
+                  - generic [ref=e578]: ": string"
+                  - generic [ref=e579]: Required
+              - group [ref=e580]:
+                - 'generic "event : \"getResources\" Required" [ref=e581] [cursor=pointer]':
+                  - strong [ref=e582]: event
+                  - generic [ref=e583]: ": \"getResources\""
+                  - generic [ref=e584]: Required
+              - group [ref=e585]:
+                - 'generic "id : string" [ref=e586] [cursor=pointer]':
+                  - strong [ref=e587]: id
+                  - generic [ref=e588]: ": string"
+              - heading "GetSettingsDirect link to GetSettings" [level=3] [ref=e589]:
+                - text: GetSettings
+                - link "Direct link to GetSettings" [ref=e590] [cursor=pointer]:
+                  - /url: "#getsettings"
+                  - text: "#"
+              - paragraph [ref=e591]:
+                - text: Gets the settings associated with an instance of an action. Causes
+                - code [ref=e592]: didReceiveSettings
+                - text: to be emitted.
+              - generic [ref=e594]:
+                - code [ref=e596]:
+                  - generic [ref=e597]: "type GetSettings = {"
+                  - generic [ref=e598]: "action: string;"
+                  - generic [ref=e599]: "context: string;"
+                  - generic [ref=e600]: "event: \"getSettings\";"
+                  - generic [ref=e601]: "};"
+                - button "Copy to clipboard" [ref=e603] [cursor=pointer]:
+                  - generic [ref=e604]:
+                    - img "Icon" [ref=e605]
+                    - img "Icon" [ref=e608]
+              - group [ref=e610]:
+                - 'generic "action : string Required" [ref=e611] [cursor=pointer]':
+                  - strong [ref=e612]: action
+                  - generic [ref=e613]: ": string"
+                  - generic [ref=e614]: Required
+              - group [ref=e615]:
+                - 'generic "context : string Required" [ref=e616] [cursor=pointer]':
+                  - strong [ref=e617]: context
+                  - generic [ref=e618]: ": string"
+                  - generic [ref=e619]: Required
+              - group [ref=e620]:
+                - 'generic "event : \"getSettings\" Required" [ref=e621] [cursor=pointer]':
+                  - strong [ref=e622]: event
+                  - generic [ref=e623]: ": \"getSettings\""
+                  - generic [ref=e624]: Required
+              - heading "OpenUrlDirect link to OpenUrl" [level=3] [ref=e625]:
+                - text: OpenUrl
+                - link "Direct link to OpenUrl" [ref=e626] [cursor=pointer]:
+                  - /url: "#openurl"
+                  - text: "#"
+              - paragraph [ref=e627]: Opens the URL in the user's default browser.
+              - generic [ref=e629]:
+                - code [ref=e631]:
+                  - generic [ref=e632]: "type OpenUrl = {"
+                  - generic [ref=e633]: "event: \"openUrl\";"
+                  - generic [ref=e634]: "payload: {"
+                  - generic [ref=e635]: "url: string;"
+                  - generic [ref=e636]: "};"
+                  - generic [ref=e637]: "};"
+                - button "Copy to clipboard" [ref=e639] [cursor=pointer]:
+                  - generic [ref=e640]:
+                    - img "Icon" [ref=e641]
+                    - img "Icon" [ref=e644]
+              - group [ref=e646]:
+                - 'generic "event : \"openUrl\" Required" [ref=e647] [cursor=pointer]':
+                  - strong [ref=e648]: event
+                  - generic [ref=e649]: ": \"openUrl\""
+                  - generic [ref=e650]: Required
+              - group [ref=e651]:
+                - 'generic "payload : object Required" [ref=e652] [cursor=pointer]':
+                  - strong [ref=e653]: payload
+                  - generic [ref=e654]: ": object"
+                  - generic [ref=e655]: Required
+              - heading "SendToPluginDirect link to SendToPlugin" [level=3] [ref=e656]:
+                - text: SendToPlugin
+                - link "Direct link to SendToPlugin" [ref=e657] [cursor=pointer]:
+                  - /url: "#sendtoplugin"
+                  - text: "#"
+              - paragraph [ref=e658]: Sends a message to the plugin.
+              - generic [ref=e660]:
+                - code [ref=e662]:
+                  - generic [ref=e663]: "type SendToPlugin = {"
+                  - generic [ref=e664]: "action: string;"
+                  - generic [ref=e665]: "context: string;"
+                  - generic [ref=e666]: "event: \"sendToPlugin\";"
+                  - generic [ref=e667]: "payload: JsonValue;"
+                  - generic [ref=e668]: "};"
+                - button "Copy to clipboard" [ref=e670] [cursor=pointer]:
+                  - generic [ref=e671]:
+                    - img "Icon" [ref=e672]
+                    - img "Icon" [ref=e675]
+              - group [ref=e677]:
+                - 'generic "action : string Required" [ref=e678] [cursor=pointer]':
+                  - strong [ref=e679]: action
+                  - generic [ref=e680]: ": string"
+                  - generic [ref=e681]: Required
+              - group [ref=e682]:
+                - 'generic "context : string Required" [ref=e683] [cursor=pointer]':
+                  - strong [ref=e684]: context
+                  - generic [ref=e685]: ": string"
+                  - generic [ref=e686]: Required
+              - group [ref=e687]:
+                - 'generic "event : \"sendToPlugin\" Required" [ref=e688] [cursor=pointer]':
+                  - strong [ref=e689]: event
+                  - generic [ref=e690]: ": \"sendToPlugin\""
+                  - generic [ref=e691]: Required
+              - group [ref=e692]:
+                - 'generic "payload : JsonValue Required" [ref=e693] [cursor=pointer]':
+                  - strong [ref=e694]: payload
+                  - generic [ref=e695]: ": JsonValue"
+                  - generic [ref=e696]: Required
+              - heading "SetGlobalSettingsDirect link to SetGlobalSettings" [level=3] [ref=e697]:
+                - text: SetGlobalSettings
+                - link "Direct link to SetGlobalSettings" [ref=e698] [cursor=pointer]:
+                  - /url: "#setglobalsettings"
+                  - text: "#"
+              - paragraph [ref=e699]:
+                - text: Sets the global settings associated with the plugin, and notifies the plugin by emitting
+                - code [ref=e700]: didReceiveGlobalSettings
+                - text: .
+              - generic [ref=e702]:
+                - code [ref=e704]:
+                  - generic [ref=e705]: "type SetGlobalSettings = {"
+                  - generic [ref=e706]: "context: string;"
+                  - generic [ref=e707]: "event: \"setGlobalSettings\";"
+                  - generic [ref=e708]: "payload: JsonObject;"
+                  - generic [ref=e709]: "};"
+                - button "Copy to clipboard" [ref=e711] [cursor=pointer]:
+                  - generic [ref=e712]:
+                    - img "Icon" [ref=e713]
+                    - img "Icon" [ref=e716]
+              - group [ref=e718]:
+                - 'generic "context : string Required" [ref=e719] [cursor=pointer]':
+                  - strong [ref=e720]: context
+                  - generic [ref=e721]: ": string"
+                  - generic [ref=e722]: Required
+              - group [ref=e723]:
+                - 'generic "event : \"setGlobalSettings\" Required" [ref=e724] [cursor=pointer]':
+                  - strong [ref=e725]: event
+                  - generic [ref=e726]: ": \"setGlobalSettings\""
+                  - generic [ref=e727]: Required
+              - group [ref=e728]:
+                - 'generic "payload : JsonObject Required" [ref=e729] [cursor=pointer]':
+                  - strong [ref=e730]: payload
+                  - generic [ref=e731]: ": JsonObject"
+                  - generic [ref=e732]: Required
+              - heading "SetResourcesDirect link to SetResources" [level=3] [ref=e733]:
+                - text: SetResources
+                - link "Direct link to SetResources" [ref=e734] [cursor=pointer]:
+                  - /url: "#setresources"
+                  - text: "#"
+              - paragraph [ref=e735]: Sets the resources (files) associated with the action; these resources are embedded into the action when it is exported, either individually, or as part of a profile.
+              - paragraph [ref=e736]: Available from Stream Deck 7.1.
+              - generic [ref=e738]:
+                - code [ref=e740]:
+                  - generic [ref=e741]: "type SetResources = {"
+                  - generic [ref=e742]: "action: string;"
+                  - generic [ref=e743]: "context: string;"
+                  - generic [ref=e744]: "event: \"setResources\";"
+                  - generic [ref=e745]: "payload: {"
+                  - generic [ref=e746]: "[key: string]: string;"
+                  - generic [ref=e747]: "};"
+                  - generic [ref=e748]: "};"
+                - button "Copy to clipboard" [ref=e750] [cursor=pointer]:
+                  - generic [ref=e751]:
+                    - img "Icon" [ref=e752]
+                    - img "Icon" [ref=e755]
+              - group [ref=e757]:
+                - 'generic "action : string Required" [ref=e758] [cursor=pointer]':
+                  - strong [ref=e759]: action
+                  - generic [ref=e760]: ": string"
+                  - generic [ref=e761]: Required
+              - group [ref=e762]:
+                - 'generic "context : string Required" [ref=e763] [cursor=pointer]':
+                  - strong [ref=e764]: context
+                  - generic [ref=e765]: ": string"
+                  - generic [ref=e766]: Required
+              - group [ref=e767]:
+                - 'generic "event : \"setResources\" Required" [ref=e768] [cursor=pointer]':
+                  - strong [ref=e769]: event
+                  - generic [ref=e770]: ": \"setResources\""
+                  - generic [ref=e771]: Required
+              - group [ref=e772]:
+                - 'generic "payload : Resources Required" [ref=e773] [cursor=pointer]':
+                  - strong [ref=e774]: payload
+                  - generic [ref=e775]: ": Resources"
+                  - generic [ref=e776]: Required
+              - heading "SetSettingsDirect link to SetSettings" [level=3] [ref=e777]:
+                - text: SetSettings
+                - link "Direct link to SetSettings" [ref=e778] [cursor=pointer]:
+                  - /url: "#setsettings"
+                  - text: "#"
+              - paragraph [ref=e779]:
+                - text: Sets the settings associated with an action instance, and notifies the plugin by emitting
+                - code [ref=e780]: didReceiveSettings
+                - text: .
+              - generic [ref=e782]:
+                - code [ref=e784]:
+                  - generic [ref=e785]: "type SetSettings = {"
+                  - generic [ref=e786]: "action: string;"
+                  - generic [ref=e787]: "context: string;"
+                  - generic [ref=e788]: "event: \"setSettings\";"
+                  - generic [ref=e789]: "payload: JsonObject;"
+                  - generic [ref=e790]: "};"
+                - button "Copy to clipboard" [ref=e792] [cursor=pointer]:
+                  - generic [ref=e793]:
+                    - img "Icon" [ref=e794]
+                    - img "Icon" [ref=e797]
+              - group [ref=e799]:
+                - 'generic "action : string Required" [ref=e800] [cursor=pointer]':
+                  - strong [ref=e801]: action
+                  - generic [ref=e802]: ": string"
+                  - generic [ref=e803]: Required
+              - group [ref=e804]:
+                - 'generic "context : string Required" [ref=e805] [cursor=pointer]':
+                  - strong [ref=e806]: context
+                  - generic [ref=e807]: ": string"
+                  - generic [ref=e808]: Required
+              - group [ref=e809]:
+                - 'generic "event : \"setSettings\" Required" [ref=e810] [cursor=pointer]':
+                  - strong [ref=e811]: event
+                  - generic [ref=e812]: ": \"setSettings\""
+                  - generic [ref=e813]: Required
+              - group [ref=e814]:
+                - 'generic "payload : JsonObject Required" [ref=e815] [cursor=pointer]':
+                  - strong [ref=e816]: payload
+                  - generic [ref=e817]: ": JsonObject"
+                  - generic [ref=e818]: Required
+          - navigation "Docs pages" [ref=e819]:
+            - link "Previous « Plugin" [ref=e820] [cursor=pointer]:
+              - /url: /streamdeck/sdk/references/websocket/plugin
+              - generic [ref=e821]: Previous
+              - generic [ref=e822]: « Plugin
+            - link "Next Changes »" [ref=e823] [cursor=pointer]:
+              - /url: /streamdeck/sdk/references/websocket/changelog
+              - generic [ref=e824]: Next
+              - generic [ref=e825]: Changes »
+        - list [ref=e828]:
+          - listitem [ref=e829]:
+            - link "Registration" [ref=e830] [cursor=pointer]:
+              - /url: "#registration"
+            - list [ref=e831]:
+              - listitem [ref=e832]:
+                - link "connectElgatoStreamDeckSocket" [ref=e833] [cursor=pointer]:
+                  - /url: "#connectelgatostreamdecksocket"
+              - listitem [ref=e834]:
+                - link "RegistrationInfo" [ref=e835] [cursor=pointer]:
+                  - /url: "#registrationinfo"
+          - listitem [ref=e836]:
+            - link "Events" [ref=e837] [cursor=pointer]:
+              - /url: "#events"
+            - list [ref=e838]:
+              - listitem [ref=e839]:
+                - link "DidReceiveGlobalSettings" [ref=e840] [cursor=pointer]:
+                  - /url: "#didreceiveglobalsettings"
+              - listitem [ref=e841]:
+                - link "DidReceiveResources" [ref=e842] [cursor=pointer]:
+                  - /url: "#didreceiveresources"
+              - listitem [ref=e843]:
+                - link "DidReceiveSettings" [ref=e844] [cursor=pointer]:
+                  - /url: "#didreceivesettings"
+              - listitem [ref=e845]:
+                - link "SendToPropertyInspector" [ref=e846] [cursor=pointer]:
+                  - /url: "#sendtopropertyinspector"
+          - listitem [ref=e847]:
+            - link "Commands" [ref=e848] [cursor=pointer]:
+              - /url: "#commands"
+            - list [ref=e849]:
+              - listitem [ref=e850]:
+                - link "GetGlobalSettings" [ref=e851] [cursor=pointer]:
+                  - /url: "#getglobalsettings"
+              - listitem [ref=e852]:
+                - link "GetResources" [ref=e853] [cursor=pointer]:
+                  - /url: "#getresources"
+              - listitem [ref=e854]:
+                - link "GetSettings" [ref=e855] [cursor=pointer]:
+                  - /url: "#getsettings"
+              - listitem [ref=e856]:
+                - link "OpenUrl" [ref=e857] [cursor=pointer]:
+                  - /url: "#openurl"
+              - listitem [ref=e858]:
+                - link "SendToPlugin" [ref=e859] [cursor=pointer]:
+                  - /url: "#sendtoplugin"
+              - listitem [ref=e860]:
+                - link "SetGlobalSettings" [ref=e861] [cursor=pointer]:
+                  - /url: "#setglobalsettings"
+              - listitem [ref=e862]:
+                - link "SetResources" [ref=e863] [cursor=pointer]:
+                  - /url: "#setresources"
+              - listitem [ref=e864]:
+                - link "SetSettings" [ref=e865] [cursor=pointer]:
+                  - /url: "#setsettings"
+  - contentinfo [ref=e866]:
+    - generic [ref=e867]:
+      - generic [ref=e868]:
+        - generic [ref=e869]:
+          - generic [ref=e870]: Makers
+          - list [ref=e871]:
+            - listitem [ref=e872]:
+              - link "Become a Maker" [ref=e873] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e874]:
+              - link "Elgato Icons" [ref=e875] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e876]:
+              - link "Badges" [ref=e877] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e878]:
+          - generic [ref=e879]: Marketplace
+          - list [ref=e880]:
+            - listitem [ref=e881]:
+              - link "Plugins" [ref=e882] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e883]:
+              - link "Icon Packs" [ref=e884] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e885]:
+              - link "Profiles" [ref=e886] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e887]:
+          - generic [ref=e888]: Support
+          - list [ref=e889]:
+            - listitem [ref=e890]:
+              - link "FAQ" [ref=e891] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e892]:
+              - link "Contact" [ref=e893] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e894]:
+              - link "Copyright Claim" [ref=e895] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e896]:
+              - link "Downloads" [ref=e897] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e898]:
+          - generic [ref=e899]: Company
+          - list [ref=e900]:
+            - listitem [ref=e901]:
+              - link "About" [ref=e902] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e903]:
+              - link "Media Room" [ref=e904] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e905]:
+              - link "Terms of Use" [ref=e906] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e907]:
+              - link "Privacy Policy" [ref=e908] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e910]: © 2026 Elgato. All rights reserved.

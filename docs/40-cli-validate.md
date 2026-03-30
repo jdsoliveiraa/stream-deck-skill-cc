@@ -1,0 +1,271 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "Discover" [ref=e16] [cursor=pointer]
+        - link "Discord" [ref=e17] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e18] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e19] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button "Search (Command+K)" [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]:
+            - img [ref=e27]
+            - generic [ref=e29]: Search
+          - generic [ref=e30]:
+            - generic [ref=e31]: ⌘
+            - generic [ref=e32]: K
+  - generic [ref=e35]:
+    - complementary [ref=e36]:
+      - navigation "Docs sidebar" [ref=e39]:
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - link "Introduction" [ref=e42] [cursor=pointer]:
+              - /url: /streamdeck/cli/intro
+          - listitem [ref=e43]:
+            - generic [ref=e45]: CLI Commands
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "streamdeck create" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/create
+              - listitem [ref=e49]:
+                - link "streamdeck config" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/config
+              - listitem [ref=e51]:
+                - link "streamdeck dev" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/dev
+              - listitem [ref=e53]:
+                - link "streamdeck link" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/link
+              - listitem [ref=e55]:
+                - link "streamdeck list" [ref=e56] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/list
+              - listitem [ref=e57]:
+                - link "streamdeck pack" [ref=e58] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/pack
+              - listitem [ref=e59]:
+                - link "streamdeck restart" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/restart
+              - listitem [ref=e61]:
+                - link "streamdeck stop" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/stop
+              - listitem [ref=e63]:
+                - link "streamdeck unlink" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/unlink
+              - listitem [ref=e65]:
+                - link "streamdeck validate" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/validate
+    - main [ref=e67]:
+      - generic [ref=e69]:
+        - generic [ref=e71]:
+          - article [ref=e72]:
+            - navigation "Breadcrumbs" [ref=e73]:
+              - list [ref=e74]:
+                - listitem [ref=e75]:
+                  - link "Home page" [ref=e76] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e77]
+                - listitem [ref=e79]:
+                  - generic [ref=e80]: CLI Commands
+                - listitem [ref=e81]:
+                  - generic [ref=e82]: streamdeck validate
+            - generic [ref=e83]:
+              - heading "streamdeck validate" [level=1] [ref=e85]
+              - paragraph [ref=e86]: Validates the Stream Deck plugin.
+              - heading "SynopsisDirect link to Synopsis" [level=2] [ref=e87]:
+                - text: Synopsis
+                - link "Direct link to Synopsis" [ref=e88] [cursor=pointer]:
+                  - /url: "#synopsis"
+                  - text: "#"
+              - generic [ref=e90]:
+                - code [ref=e92]:
+                  - generic [ref=e93]: streamdeck validate [path]
+                  - generic [ref=e95]: "Arguments:"
+                  - generic [ref=e96]: path Path of the plugin to validate
+                  - generic [ref=e98]: "Options:"
+                  - generic [ref=e99]: "--force-update-check Forces an update check (default: false)"
+                  - generic [ref=e100]: "--no-update-check Disables updating schemas"
+                - button "Copy to clipboard" [ref=e102] [cursor=pointer]:
+                  - generic [ref=e103]:
+                    - img "Icon" [ref=e104]
+                    - img "Icon" [ref=e107]
+              - heading "DescriptionDirect link to Description" [level=2] [ref=e109]:
+                - text: Description
+                - link "Direct link to Description" [ref=e110] [cursor=pointer]:
+                  - /url: "#description"
+                  - text: "#"
+              - paragraph [ref=e111]:
+                - text: Validates the Stream Deck plugin in the current working directory, or
+                - code [ref=e112]: path
+                - text: when specified, and outputs the validation results. By default, the command will automatically check and install validation rule updates; this check occurs daily, unless forced with
+                - code [ref=e113]: "--force-update-check"
+                - text: or prevented with
+                - code [ref=e114]: "--no-update-check"
+                - text: .
+              - heading "ExamplesDirect link to Examples" [level=2] [ref=e115]:
+                - text: Examples
+                - link "Direct link to Examples" [ref=e116] [cursor=pointer]:
+                  - /url: "#examples"
+                  - text: "#"
+              - paragraph [ref=e117]:
+                - text: Validate the plugin in the directory
+                - code [ref=e118]: com.elgato.hello-world.sdPlugin
+                - text: ":"
+              - generic [ref=e119]:
+                - generic [ref=e120]: Terminal
+                - generic [ref=e121]:
+                  - code [ref=e123]:
+                    - generic [ref=e124]: streamdeck validate com.elgato.hello-world.sdPlugin
+                  - button "Copy to clipboard" [ref=e126] [cursor=pointer]:
+                    - generic [ref=e127]:
+                      - img "Icon" [ref=e128]
+                      - img "Icon" [ref=e131]
+              - paragraph [ref=e133]: "Validate the plugin in the current working directory, with the latest validation schemas:"
+              - generic [ref=e134]:
+                - generic [ref=e135]: Terminal
+                - generic [ref=e136]:
+                  - code [ref=e138]:
+                    - generic [ref=e139]: streamdeck validate --force-update-check
+                  - button "Copy to clipboard" [ref=e141] [cursor=pointer]:
+                    - generic [ref=e142]:
+                      - img "Icon" [ref=e143]
+                      - img "Icon" [ref=e146]
+              - heading "ConfigurationDirect link to Configuration" [level=2] [ref=e148]:
+                - text: Configuration
+                - link "Direct link to Configuration" [ref=e149] [cursor=pointer]:
+                  - /url: "#configuration"
+                  - text: "#"
+              - heading "--force-update-checkDirect link to --force-update-check" [level=4] [ref=e150]:
+                - code [ref=e151]: "--force-update-check"
+                - link "Direct link to --force-update-check" [ref=e152] [cursor=pointer]:
+                  - /url: "#--force-update-check"
+                  - text: "#"
+              - list [ref=e153]:
+                - listitem [ref=e154]:
+                  - text: "Default:"
+                  - code [ref=e155]: "false"
+                - listitem [ref=e156]: "Type: Boolean"
+              - paragraph [ref=e157]:
+                - text: Forces an update check of new validation rules; by default, an update check will occur once a day. Cannot be used in conjunction with
+                - code [ref=e158]: "--no-update-check"
+                - text: .
+              - heading "--no-update-checkDirect link to --no-update-check" [level=4] [ref=e159]:
+                - code [ref=e160]: "--no-update-check"
+                - link "Direct link to --no-update-check" [ref=e161] [cursor=pointer]:
+                  - /url: "#--no-update-check"
+                  - text: "#"
+              - list [ref=e162]:
+                - listitem [ref=e163]:
+                  - text: "Default:"
+                  - code [ref=e164]: "false"
+                - listitem [ref=e165]: "Type: Boolean"
+              - paragraph [ref=e166]:
+                - text: Prevents an update check of new validation rules. This configuration option is recommended when using the CLI as part of a build pipeline. Cannot be used in conjunction with
+                - code [ref=e167]: "--force-update-check"
+                - text: .
+          - navigation "Docs pages" [ref=e168]:
+            - link "Previous « streamdeck unlink" [ref=e169] [cursor=pointer]:
+              - /url: /streamdeck/cli/commands/unlink
+              - generic [ref=e170]: Previous
+              - generic [ref=e171]: « streamdeck unlink
+        - list [ref=e174]:
+          - listitem [ref=e175]:
+            - link "Synopsis" [ref=e176] [cursor=pointer]:
+              - /url: "#synopsis"
+          - listitem [ref=e177]:
+            - link "Description" [ref=e178] [cursor=pointer]:
+              - /url: "#description"
+          - listitem [ref=e179]:
+            - link "Examples" [ref=e180] [cursor=pointer]:
+              - /url: "#examples"
+          - listitem [ref=e181]:
+            - link "Configuration" [ref=e182] [cursor=pointer]:
+              - /url: "#configuration"
+            - list [ref=e183]:
+              - listitem [ref=e184]:
+                - link "--force-update-check" [ref=e185] [cursor=pointer]:
+                  - /url: "#--force-update-check"
+                  - code [ref=e186]: "--force-update-check"
+              - listitem [ref=e187]:
+                - link "--no-update-check" [ref=e188] [cursor=pointer]:
+                  - /url: "#--no-update-check"
+                  - code [ref=e189]: "--no-update-check"
+  - contentinfo [ref=e190]:
+    - generic [ref=e191]:
+      - generic [ref=e192]:
+        - generic [ref=e193]:
+          - generic [ref=e194]: Makers
+          - list [ref=e195]:
+            - listitem [ref=e196]:
+              - link "Become a Maker" [ref=e197] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e198]:
+              - link "Elgato Icons" [ref=e199] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e200]:
+              - link "Badges" [ref=e201] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e202]:
+          - generic [ref=e203]: Marketplace
+          - list [ref=e204]:
+            - listitem [ref=e205]:
+              - link "Plugins" [ref=e206] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e207]:
+              - link "Icon Packs" [ref=e208] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e209]:
+              - link "Profiles" [ref=e210] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e211]:
+          - generic [ref=e212]: Support
+          - list [ref=e213]:
+            - listitem [ref=e214]:
+              - link "FAQ" [ref=e215] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e216]:
+              - link "Contact" [ref=e217] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e218]:
+              - link "Copyright Claim" [ref=e219] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e220]:
+              - link "Downloads" [ref=e221] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e222]:
+          - generic [ref=e223]: Company
+          - list [ref=e224]:
+            - listitem [ref=e225]:
+              - link "About" [ref=e226] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e227]:
+              - link "Media Room" [ref=e228] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e229]:
+              - link "Terms of Use" [ref=e230] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e231]:
+              - link "Privacy Policy" [ref=e232] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e234]: © 2026 Elgato. All rights reserved.

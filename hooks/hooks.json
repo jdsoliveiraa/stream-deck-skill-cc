@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "file=$(jq -r '.tool_input.file_path // .tool_input.filePath // empty' 2>/dev/null); if [ -n \"$file\" ] && echo \"$file\" | grep -q 'manifest.json$'; then dir=$(dirname \"$file\"); if [ -f \"$dir/../package.json\" ] || echo \"$dir\" | grep -q '\\.sdPlugin'; then echo 'manifest.json modified — remember to run: streamdeck validate'; fi; fi"
+          }
+        ]
+      }
+    ]
+  }
+}

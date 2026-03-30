@@ -1,0 +1,242 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "Discover" [ref=e16] [cursor=pointer]
+        - link "Discord" [ref=e17] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e18] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e19] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button "Search (Command+K)" [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]:
+            - img [ref=e27]
+            - generic [ref=e29]: Search
+          - generic [ref=e30]:
+            - generic [ref=e31]: ⌘
+            - generic [ref=e32]: K
+  - generic [ref=e35]:
+    - complementary [ref=e36]:
+      - navigation "Docs sidebar" [ref=e39]:
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - link "Introduction" [ref=e42] [cursor=pointer]:
+              - /url: /streamdeck/cli/intro
+          - listitem [ref=e43]:
+            - generic [ref=e45]: CLI Commands
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "streamdeck create" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/create
+              - listitem [ref=e49]:
+                - link "streamdeck config" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/config
+              - listitem [ref=e51]:
+                - link "streamdeck dev" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/dev
+              - listitem [ref=e53]:
+                - link "streamdeck link" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/link
+              - listitem [ref=e55]:
+                - link "streamdeck list" [ref=e56] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/list
+              - listitem [ref=e57]:
+                - link "streamdeck pack" [ref=e58] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/pack
+              - listitem [ref=e59]:
+                - link "streamdeck restart" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/restart
+              - listitem [ref=e61]:
+                - link "streamdeck stop" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/stop
+              - listitem [ref=e63]:
+                - link "streamdeck unlink" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/unlink
+              - listitem [ref=e65]:
+                - link "streamdeck validate" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/cli/commands/validate
+    - main [ref=e67]:
+      - generic [ref=e69]:
+        - generic [ref=e71]:
+          - article [ref=e72]:
+            - navigation "Breadcrumbs" [ref=e73]:
+              - list [ref=e74]:
+                - listitem [ref=e75]:
+                  - link "Home page" [ref=e76] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e77]
+                - listitem [ref=e79]:
+                  - generic [ref=e80]: CLI Commands
+                - listitem [ref=e81]:
+                  - generic [ref=e82]: streamdeck link
+            - generic [ref=e83]:
+              - heading "streamdeck link" [level=1] [ref=e85]
+              - paragraph [ref=e86]: Link (install) the plugin to Stream Deck.
+              - heading "SynopsisDirect link to Synopsis" [level=2] [ref=e87]:
+                - text: Synopsis
+                - link "Direct link to Synopsis" [ref=e88] [cursor=pointer]:
+                  - /url: "#synopsis"
+                  - text: "#"
+              - generic [ref=e90]:
+                - code [ref=e92]:
+                  - generic [ref=e93]: streamdeck link <path>
+                - button "Copy to clipboard" [ref=e95] [cursor=pointer]:
+                  - generic [ref=e96]:
+                    - img "Icon" [ref=e97]
+                    - img "Icon" [ref=e100]
+              - heading "DescriptionDirect link to Description" [level=2] [ref=e102]:
+                - text: Description
+                - link "Direct link to Description" [ref=e103] [cursor=pointer]:
+                  - /url: "#description"
+                  - text: "#"
+              - paragraph [ref=e104]: Links the specified directory to Stream Deck, effectively installing the plugin, allowing it to be accessed from within Stream Deck. When the path is unspecified, the current working directory is used.
+              - generic [ref=e105]:
+                - generic [ref=e106]:
+                  - img [ref=e108]
+                  - text: Directory name
+                - paragraph [ref=e113]:
+                  - text: The directory name must reflect the UUID of your plugin and be suffixed with
+                  - code [ref=e114]: .sdPlugin
+                  - text: . For example, a plugin with the UUID
+                  - code [ref=e115]: com.elgato.hello-world
+                  - text: must be located in a directory named
+                  - code [ref=e116]: com.elgato.hello-world.sdPlugin/
+                  - text: .
+              - heading "ExamplesDirect link to Examples" [level=2] [ref=e117]:
+                - text: Examples
+                - link "Direct link to Examples" [ref=e118] [cursor=pointer]:
+                  - /url: "#examples"
+                  - text: "#"
+              - paragraph [ref=e119]: "Link the current working directory:"
+              - generic [ref=e120]:
+                - generic [ref=e121]: Terminal
+                - generic [ref=e122]:
+                  - code [ref=e124]:
+                    - generic [ref=e125]: streamdeck link
+                  - button "Copy to clipboard" [ref=e127] [cursor=pointer]:
+                    - generic [ref=e128]:
+                      - img "Icon" [ref=e129]
+                      - img "Icon" [ref=e132]
+              - paragraph [ref=e134]:
+                - text: Link the directory,
+                - code [ref=e135]: com.elgato.hello-world.sdPlugin
+                - text: ":"
+              - generic [ref=e136]:
+                - generic [ref=e137]: Terminal
+                - generic [ref=e138]:
+                  - code [ref=e140]:
+                    - generic [ref=e141]: streamdeck link com.elgato.hello-world.sdPlugin
+                  - button "Copy to clipboard" [ref=e143] [cursor=pointer]:
+                    - generic [ref=e144]:
+                      - img "Icon" [ref=e145]
+                      - img "Icon" [ref=e148]
+              - heading "See AlsoDirect link to See Also" [level=2] [ref=e150]:
+                - text: See Also
+                - link "Direct link to See Also" [ref=e151] [cursor=pointer]:
+                  - /url: "#see-also"
+                  - text: "#"
+              - list [ref=e152]:
+                - listitem [ref=e153]:
+                  - link "streamdeck unlink" [ref=e154] [cursor=pointer]:
+                    - /url: /streamdeck/cli/commands/unlink
+          - navigation "Docs pages" [ref=e155]:
+            - link "Previous « streamdeck dev" [ref=e156] [cursor=pointer]:
+              - /url: /streamdeck/cli/commands/dev
+              - generic [ref=e157]: Previous
+              - generic [ref=e158]: « streamdeck dev
+            - link "Next streamdeck list »" [ref=e159] [cursor=pointer]:
+              - /url: /streamdeck/cli/commands/list
+              - generic [ref=e160]: Next
+              - generic [ref=e161]: streamdeck list »
+        - list [ref=e164]:
+          - listitem [ref=e165]:
+            - link "Synopsis" [ref=e166] [cursor=pointer]:
+              - /url: "#synopsis"
+          - listitem [ref=e167]:
+            - link "Description" [ref=e168] [cursor=pointer]:
+              - /url: "#description"
+          - listitem [ref=e169]:
+            - link "Examples" [ref=e170] [cursor=pointer]:
+              - /url: "#examples"
+          - listitem [ref=e171]:
+            - link "See Also" [ref=e172] [cursor=pointer]:
+              - /url: "#see-also"
+  - contentinfo [ref=e173]:
+    - generic [ref=e174]:
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e177]: Makers
+          - list [ref=e178]:
+            - listitem [ref=e179]:
+              - link "Become a Maker" [ref=e180] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e181]:
+              - link "Elgato Icons" [ref=e182] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e183]:
+              - link "Badges" [ref=e184] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e185]:
+          - generic [ref=e186]: Marketplace
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - link "Plugins" [ref=e189] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e190]:
+              - link "Icon Packs" [ref=e191] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e192]:
+              - link "Profiles" [ref=e193] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e194]:
+          - generic [ref=e195]: Support
+          - list [ref=e196]:
+            - listitem [ref=e197]:
+              - link "FAQ" [ref=e198] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e199]:
+              - link "Contact" [ref=e200] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e201]:
+              - link "Copyright Claim" [ref=e202] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e203]:
+              - link "Downloads" [ref=e204] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e205]:
+          - generic [ref=e206]: Company
+          - list [ref=e207]:
+            - listitem [ref=e208]:
+              - link "About" [ref=e209] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e210]:
+              - link "Media Room" [ref=e211] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e212]:
+              - link "Terms of Use" [ref=e213] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e214]:
+              - link "Privacy Policy" [ref=e215] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e217]: © 2026 Elgato. All rights reserved.

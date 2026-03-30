@@ -1,0 +1,834 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Plugin Guides
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Settings
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Settings" [level=1] [ref=e133]
+              - paragraph [ref=e134]: The Stream Deck SDK provides support for managing settings associated with your plugin. This is useful when you want to provide a higher level of configurability for your plugin, provide a persisted context to an action, or securely store an access token to an API, etc.
+              - paragraph [ref=e135]: "There are two types of settings:"
+              - list [ref=e136]:
+                - listitem [ref=e137]: Action settings - settings associated with one of your plugin's actions.
+                - listitem [ref=e138]: Global settings - plugin-wide settings.
+              - paragraph [ref=e139]: Both types of settings can only be accessed by the plugin they are associated with.
+              - heading "OverviewDirect link to Overview" [level=2] [ref=e140]:
+                - text: Overview
+                - link "Direct link to Overview" [ref=e141] [cursor=pointer]:
+                  - /url: "#overview"
+                  - text: "#"
+              - paragraph [ref=e142]:
+                - text: Global and action settings share similarities in their APIs, and both can be managed from either the application-layer, or
+                - link "property inspector (UI)" [ref=e143] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+                - text: ". Additionally, once settings have been set, the adjacent environment is notified of the update, for example:"
+              - list [ref=e144]:
+                - listitem [ref=e145]: When updated in the property inspector, the application-layer is notified.
+                - listitem [ref=e146]: When updated in the application-layer, and there is an active property inspector, the property inspector will notified.
+              - paragraph [ref=e147]: "The following table provides an overview of the common functions and events:"
+              - generic [ref=e148]:
+                - tablist [ref=e149]:
+                  - tab "Action settings" [selected] [ref=e150] [cursor=pointer]
+                  - tab "Global settings" [ref=e151] [cursor=pointer]
+                - tabpanel [ref=e153]:
+                  - list [ref=e154]:
+                    - listitem [ref=e155]:
+                      - link "Writing" [ref=e156] [cursor=pointer]:
+                        - /url: "#writing-action-settings"
+                      - text: ":"
+                      - list [ref=e157]:
+                        - listitem [ref=e158]:
+                          - code [ref=e159]: ev.action.setSettings(settings)
+                          - superscript [ref=e160]: "1"
+                    - listitem [ref=e161]:
+                      - link "Reading" [ref=e162] [cursor=pointer]:
+                        - /url: "#reading-action-settings"
+                      - text: ":"
+                      - list [ref=e163]:
+                        - listitem [ref=e164]:
+                          - code [ref=e165]: ev.payload.settings
+                        - listitem [ref=e166]:
+                          - code [ref=e167]: ev.action.getSettings()
+                          - superscript [ref=e168]: "1"
+                    - listitem [ref=e169]:
+                      - link "Changed" [ref=e170] [cursor=pointer]:
+                        - /url: "#action-settings-changed"
+                      - text: ":"
+                      - list [ref=e171]:
+                        - listitem [ref=e172]:
+                          - code [ref=e173]: SingletonAction.onDidReceiveSettings(handler)
+                        - listitem [ref=e174]:
+                          - code [ref=e175]: streamDeck.settings.onDidReceiveSettings(handler)
+                  - paragraph [ref=e176]:
+                    - superscript [ref=e177]: "1"
+                    - text: available whilst the action is visible.
+                  - generic [ref=e178]:
+                    - generic [ref=e179]:
+                      - img [ref=e181]
+                      - text: note
+                    - paragraph [ref=e186]:
+                      - text: In this context,
+                      - code [ref=e187]: ev
+                      - text: are event arguments associated with an event emitted within the
+                      - code [ref=e188]: SingletonAction
+                      - text: or from
+                      - code [ref=e189]: streamDeck.*
+                      - text: for events that are associated with an action.
+              - generic [ref=e190]:
+                - generic [ref=e191]:
+                  - img [ref=e193]
+                  - text: info
+                - paragraph [ref=e196]:
+                  - text: Settings are persisted as JSON objects, meaning values can be
+                  - code [ref=e197]: boolean
+                  - text: ","
+                  - code [ref=e198]: number
+                  - text: ","
+                  - code [ref=e199]: string
+                  - text: ","
+                  - code [ref=e200]: "null"
+                  - text: ", arrays, or objects."
+              - heading "Action SettingsDirect link to Action Settings" [level=2] [ref=e201]:
+                - text: Action Settings
+                - link "Direct link to Action Settings" [ref=e202] [cursor=pointer]:
+                  - /url: "#action-settings"
+                  - text: "#"
+              - heading "Writing SettingsDirect link to Writing Settings" [level=3] [ref=e203]:
+                - text: Writing Settings
+                - link "Direct link to Writing Settings" [ref=e204] [cursor=pointer]:
+                  - /url: "#writing-action-settings"
+                  - text: "#"
+              - paragraph [ref=e205]: Settings can be associated with an instance of an action to provide it context. This is useful when you want to allow a user to customize a specific action provided by your plugin, or the action has a state that it manages, for example a counter.
+              - paragraph [ref=e206]:
+                - text: The following example demonstrates setting
+                - code [ref=e207]: count
+                - text: to 1 when the
+                - code [ref=e208]: Counter
+                - text: action key is pressed down.
+              - generic [ref=e209]:
+                - generic [ref=e210]: Write to settings on key down
+                - generic [ref=e211]:
+                  - code [ref=e213]:
+                    - generic [ref=e214]: "import streamDeck, { action, type KeyDownEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e216]: "@action({ UUID: \"com.elgato.hello-world.counter\" })"
+                    - generic [ref=e217]: "class Counter extends SingletonAction {"
+                    - generic [ref=e218]: /**
+                    - generic [ref=e219]: "* Occurs when the user presses the key action."
+                    - generic [ref=e220]: "*/"
+                    - generic [ref=e221]: "override async onKeyDown(ev: KeyDownEvent): Promise<void> {"
+                    - generic [ref=e222]: // Set the actions settings on key down.
+                    - generic [ref=e223]: "await ev.action.setSettings({"
+                    - generic [ref=e224]: "count: 1,"
+                    - generic [ref=e225]: "});"
+                    - generic [ref=e226]: "}"
+                    - generic [ref=e227]: "}"
+                    - generic [ref=e229]: streamDeck.actions.registerAction(new Counter());
+                    - generic [ref=e230]: streamDeck.connect();
+                  - generic [ref=e231]:
+                    - button "Toggle word wrap" [ref=e232] [cursor=pointer]:
+                      - img [ref=e233]
+                    - button "Copy to clipboard" [ref=e235] [cursor=pointer]:
+                      - generic [ref=e236]:
+                        - img "Icon" [ref=e237]
+                        - img "Icon" [ref=e240]
+              - generic [ref=e242]:
+                - generic [ref=e243]:
+                  - img [ref=e245]
+                  - text: Security
+                - paragraph [ref=e248]:
+                  - text: Security-sensitive settings, such as API keys, should always be persisted using
+                  - link "global settings" [ref=e249] [cursor=pointer]:
+                    - /url: "#global-settings"
+                  - text: ", never action settings. Action settings are stored as plain-text and are included when exporting Stream Deck profiles, and in their nature action settings are not secure."
+              - heading "Reading SettingsDirect link to Reading Settings" [level=3] [ref=e250]:
+                - text: Reading Settings
+                - link "Direct link to Reading Settings" [ref=e251] [cursor=pointer]:
+                  - /url: "#reading-action-settings"
+                  - text: "#"
+              - paragraph [ref=e252]:
+                - text: An action's settings are provided as part of the event arguments, for example when
+                - code [ref=e253]: onWillAppear
+                - text: or
+                - code [ref=e254]: onKeyDown
+                - text: occurs. By default, the settings' type is
+                - code [ref=e255]: JsonObject
+                - text: and whilst this is fine when setting them, it isn't particularly useful when reading them. To fix this, a type that represents the settings should be defined separately, and provided when declaring the class.
+              - paragraph [ref=e256]: "The following example demonstrates defining the settings' type to provide intellisense when reading the settings from the event arguments:"
+              - generic [ref=e257]:
+                - generic [ref=e258]: Using types with settings
+                - generic [ref=e259]:
+                  - code [ref=e261]:
+                    - generic [ref=e262]: "import streamDeck, { action, type KeyDownEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e264]: // Define the action's settings type.
+                    - generic [ref=e265]: "type Settings = {"
+                    - generic [ref=e266]: "count: number;"
+                    - generic [ref=e267]: "};"
+                    - generic [ref=e269]: "@action({ UUID: \"com.elgato.hello-world.counter\" })"
+                    - generic [ref=e270]: "class Counter extends SingletonAction<Settings> {"
+                    - generic [ref=e271]: /**
+                    - generic [ref=e272]: "* Occurs when the user presses the key action."
+                    - generic [ref=e273]: "*/"
+                    - generic [ref=e274]: "override async onKeyDown(ev: KeyDownEvent<Settings>): Promise<void> {"
+                    - generic [ref=e275]: "// `ev.payload.settings` now contains typed-settings."
+                    - generic [ref=e277]: // Set the actions settings on key down.
+                    - generic [ref=e278]: "await ev.action.setSettings({"
+                    - generic [ref=e279]: "count: 1,"
+                    - generic [ref=e280]: "});"
+                    - generic [ref=e281]: "}"
+                    - generic [ref=e282]: "}"
+                    - generic [ref=e284]: streamDeck.actions.registerAction(new Counter());
+                    - generic [ref=e285]: streamDeck.connect();
+                  - generic [ref=e286]:
+                    - button "Toggle word wrap" [ref=e287] [cursor=pointer]:
+                      - img [ref=e288]
+                    - button "Copy to clipboard" [ref=e290] [cursor=pointer]:
+                      - generic [ref=e291]:
+                        - img "Icon" [ref=e292]
+                        - img "Icon" [ref=e295]
+              - generic [ref=e297]:
+                - generic [ref=e298]:
+                  - img [ref=e300]
+                  - text: Type safety
+                - paragraph [ref=e305]:
+                  - text: Defining the type of your settings provides insight into what their type might be, but does not guarantee their underlying type.
+                  - link "Learn more about type-safety to prevent runtime errors" [ref=e306] [cursor=pointer]:
+                    - /url: "#type-safety"
+                  - text: .
+              - generic [ref=e307]:
+                - generic [ref=e308]:
+                  - img [ref=e310]
+                  - text: Event argument types
+                - generic [ref=e312]:
+                  - paragraph [ref=e313]:
+                    - text: In the above the
+                    - code [ref=e314]: KeyDownEvent
+                    - text: includes the settings type
+                    - code [ref=e315]: Settings
+                    - text: to provide typing. This is also possible of other event arguments for events within the
+                    - code [ref=e316]: SingletonAction
+                    - text: "action, including:"
+                  - list [ref=e317]:
+                    - listitem [ref=e318]:
+                      - code [ref=e319]: onDialDown
+                      - text: ","
+                      - code [ref=e320]: onDialRotate
+                      - text: ","
+                      - code [ref=e321]: onDialUp
+                      - text: ","
+                      - code [ref=e322]: onTouchTap
+                      - text: .
+                    - listitem [ref=e323]:
+                      - code [ref=e324]: onDidReceiveSettings
+                      - text: .
+                    - listitem [ref=e325]:
+                      - code [ref=e326]: onKeyDown
+                      - text: ","
+                      - code [ref=e327]: onKeyUp
+                      - text: .
+                    - listitem [ref=e328]:
+                      - code [ref=e329]: onTitleParametersDidChange
+                      - text: .
+                    - listitem [ref=e330]:
+                      - code [ref=e331]: onWillAppear
+                      - text: ","
+                      - code [ref=e332]: onWillDisappear
+                      - text: .
+              - paragraph [ref=e333]:
+                - text: The following example demonstrates reading the settings as part of the
+                - code [ref=e334]: onKeyDown
+                - text: event, and incrementing the count by one, and then updating the action's settings.
+              - generic [ref=e335]:
+                - generic [ref=e336]: Access settings via event payload
+                - generic [ref=e337]:
+                  - code [ref=e339]:
+                    - generic [ref=e340]: "import streamDeck, { action, type KeyDownEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e342]: // Define the action's settings type.
+                    - generic [ref=e343]: "type Settings = {"
+                    - generic [ref=e344]: "count: number;"
+                    - generic [ref=e345]: "};"
+                    - generic [ref=e347]: "@action({ UUID: \"com.elgato.hello-world.counter\" })"
+                    - generic [ref=e348]: "class Counter extends SingletonAction<Settings> {"
+                    - generic [ref=e349]: /**
+                    - generic [ref=e350]: "* Occurs when the user presses the key action."
+                    - generic [ref=e351]: "*/"
+                    - generic [ref=e352]: "override async onKeyDown(ev: KeyDownEvent<Settings>): Promise<void> {"
+                    - generic [ref=e353]: // Read the current count.
+                    - generic [ref=e354]: "let { count = 0 } = ev.payload.settings;"
+                    - generic [ref=e355]: count++;
+                    - generic [ref=e357]: // Set the new count.
+                    - generic [ref=e358]: "await ev.action.setSettings({ count });"
+                    - generic [ref=e359]: "}"
+                    - generic [ref=e360]: "}"
+                    - generic [ref=e362]: streamDeck.actions.registerAction(new Counter());
+                    - generic [ref=e363]: streamDeck.connect();
+                  - generic [ref=e364]:
+                    - button "Toggle word wrap" [ref=e365] [cursor=pointer]:
+                      - img [ref=e366]
+                    - button "Copy to clipboard" [ref=e368] [cursor=pointer]:
+                      - generic [ref=e369]:
+                        - img "Icon" [ref=e370]
+                        - img "Icon" [ref=e373]
+              - generic [ref=e375]:
+                - generic [ref=e376]:
+                  - img [ref=e378]
+                  - text: info
+                - paragraph [ref=e381]:
+                  - text: You can also request a
+                  - strong [ref=e382]: visible
+                  - text: action's settings using
+                  - code [ref=e383]: ev.action.getSettings()
+                  - text: ; as there is no guarantee the action will be visible, we recommend using the settings supplied as part of the event arguments where possible.
+              - heading "Settings ChangedDirect link to Settings Changed" [level=3] [ref=e384]:
+                - text: Settings Changed
+                - link "Direct link to Settings Changed" [ref=e385] [cursor=pointer]:
+                  - /url: "#action-settings-changed"
+                  - text: "#"
+              - paragraph [ref=e386]: "Upon the settings of an action being set in the property inspector, your application-layer will receive an event allowing you to react accordingly, for example your plugin could set the image of the action based on the user's selection of a drop down:"
+              - generic [ref=e387]:
+                - generic [ref=e388]: Receive settings callback
+                - generic [ref=e389]:
+                  - code [ref=e391]:
+                    - generic [ref=e392]: "import streamDeck, { action, type DidReceiveSettingsEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e394]: // Define the action's settings type.
+                    - generic [ref=e395]: "type Settings = {"
+                    - generic [ref=e396]: "count: number;"
+                    - generic [ref=e397]: "};"
+                    - generic [ref=e399]: "@action({ UUID: \"com.elgato.hello-world.counter\" })"
+                    - generic [ref=e400]: "class Counter extends SingletonAction<Settings> {"
+                    - generic [ref=e401]: /**
+                    - generic [ref=e402]: "* Occurs when the application-layer receives the settings from the UI."
+                    - generic [ref=e403]: "*/"
+                    - generic [ref=e404]: "override onDidReceiveSettings(ev: DidReceiveSettingsEvent<Settings>): void {"
+                    - generic [ref=e405]: // Handle the settings changing in the property inspector (UI).
+                    - generic [ref=e406]: "}"
+                    - generic [ref=e407]: "}"
+                    - generic [ref=e409]: streamDeck.actions.registerAction(new Counter());
+                    - generic [ref=e410]: streamDeck.connect();
+                  - generic [ref=e411]:
+                    - button "Toggle word wrap" [ref=e412] [cursor=pointer]:
+                      - img [ref=e413]
+                    - button "Copy to clipboard" [ref=e415] [cursor=pointer]:
+                      - generic [ref=e416]:
+                        - img "Icon" [ref=e417]
+                        - img "Icon" [ref=e420]
+              - heading "Global SettingsDirect link to Global Settings" [level=2] [ref=e422]:
+                - text: Global Settings
+                - link "Direct link to Global Settings" [ref=e423] [cursor=pointer]:
+                  - /url: "#global-settings"
+                  - text: "#"
+              - heading "Writing SettingsDirect link to Writing Settings" [level=3] [ref=e424]:
+                - text: Writing Settings
+                - link "Direct link to Writing Settings" [ref=e425] [cursor=pointer]:
+                  - /url: "#writing-global-settings"
+                  - text: "#"
+              - paragraph [ref=e426]: Global settings are persisted at the plugin-level, and are accessible only to the plugin that persisted them.
+              - paragraph [ref=e427]: "The following example demonstrates setting the global settings from the application-layer after receiving a deep-link message:"
+              - generic [ref=e428]:
+                - generic [ref=e429]: Write global settings from plugin
+                - generic [ref=e430]:
+                  - code [ref=e432]:
+                    - generic [ref=e433]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e435]: "streamDeck.system.onDidReceiveDeepLink((ev) => {"
+                    - generic [ref=e436]: // Set the global settings after receiving a deep-link.
+                    - generic [ref=e437]: "streamDeck.settings.setGlobalSettings({"
+                    - generic [ref=e438]: "messageReceived: true,"
+                    - generic [ref=e439]: "});"
+                    - generic [ref=e440]: "});"
+                    - generic [ref=e442]: streamDeck.connect();
+                  - button "Copy to clipboard" [ref=e444] [cursor=pointer]:
+                    - generic [ref=e445]:
+                      - img "Icon" [ref=e446]
+                      - img "Icon" [ref=e449]
+              - generic [ref=e451]:
+                - generic [ref=e452]:
+                  - img [ref=e454]
+                  - text: Security
+                - generic [ref=e458]:
+                  - paragraph [ref=e459]: "Security-sensitive settings, such as access tokens, should always be persisted using global settings as these are stored securely on the user's local machine. However, as these are stored locally, users can access them. We therefore recommend you:"
+                  - list [ref=e460]:
+                    - listitem [ref=e461]:
+                      - img [ref=e462]
+                      - generic [ref=e465]: "Do:"
+                      - paragraph [ref=e466]: use global settings for user-specific settings, for example OAuth2 access tokens or API keys provided by the user.
+                    - listitem [ref=e467]:
+                      - img [ref=e468]
+                      - generic [ref=e471]: "Do:"
+                      - text: use global settings for non-sensitive plugin-level settings.
+                    - listitem [ref=e472]:
+                      - img [ref=e473]
+                      - generic [ref=e476]: "Don't:"
+                      - text: use global settings for your plugin's secrets, for example API keys.
+              - heading "Reading SettingsDirect link to Reading Settings" [level=3] [ref=e477]:
+                - text: Reading Settings
+                - link "Direct link to Reading Settings" [ref=e478] [cursor=pointer]:
+                  - /url: "#reading-global-settings"
+                  - text: "#"
+              - paragraph [ref=e479]:
+                - text: Retrieving global settings is achieved using
+                - code [ref=e480]: getGlobalSettings
+                - text: found in the
+                - code [ref=e481]: settings
+                - text: "namespace, for example:"
+              - generic [ref=e482]:
+                - generic [ref=e483]: Get global settings in plugin
+                - generic [ref=e484]:
+                  - code [ref=e486]:
+                    - generic [ref=e487]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e489]: "streamDeck.system.onDidReceiveDeepLink(async (ev) => {"
+                    - generic [ref=e490]: // Get the settings.
+                    - generic [ref=e491]: const settings = await streamDeck.settings.getGlobalSettings();
+                    - generic [ref=e492]: "});"
+                    - generic [ref=e494]: streamDeck.connect();
+                  - button "Copy to clipboard" [ref=e496] [cursor=pointer]:
+                    - generic [ref=e497]:
+                      - img "Icon" [ref=e498]
+                      - img "Icon" [ref=e501]
+              - paragraph [ref=e503]:
+                - text: When retrieving the global settings, the result has a type of
+                - code [ref=e504]: JsonObject
+                - text: which does not allow intellisense to provide suggestions. To overcome this limitation, a type may be provided as part of the call to request the settings. The following combines the
+                - link "reading" [ref=e505] [cursor=pointer]:
+                  - /url: "#reading-global-settings"
+                - text: and
+                - link "writing" [ref=e506] [cursor=pointer]:
+                  - /url: "#writing-global-settings"
+                - text: examples, updated to demonstrate how typed settings can be used to track the number of deep-link messages received.
+              - generic [ref=e507]:
+                - generic [ref=e508]: Using types with global settings
+                - generic [ref=e509]:
+                  - code [ref=e511]:
+                    - generic [ref=e512]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e514]: // Define a type that represents the settings.
+                    - generic [ref=e515]: "type Settings = {"
+                    - generic [ref=e516]: "count: number;"
+                    - generic [ref=e517]: "};"
+                    - generic [ref=e519]: "streamDeck.system.onDidReceiveDeepLink(async (ev) => {"
+                    - generic [ref=e520]: // When getting the settings, supply the type.
+                    - generic [ref=e521]: "let { count = 0 } = await streamDeck.settings.getGlobalSettings<Settings>();"
+                    - generic [ref=e523]: count++;
+                    - generic [ref=e524]: "await streamDeck.settings.setGlobalSettings({ count });"
+                    - generic [ref=e525]: "});"
+                    - generic [ref=e527]: streamDeck.connect();
+                  - generic [ref=e528]:
+                    - button "Toggle word wrap" [ref=e529] [cursor=pointer]:
+                      - img [ref=e530]
+                    - button "Copy to clipboard" [ref=e532] [cursor=pointer]:
+                      - generic [ref=e533]:
+                        - img "Icon" [ref=e534]
+                        - img "Icon" [ref=e537]
+              - generic [ref=e539]:
+                - generic [ref=e540]:
+                  - img [ref=e542]
+                  - text: Type safety
+                - paragraph [ref=e547]:
+                  - text: Defining the type of your settings provides insight into what their type might be, but does not guarantee their underlying type.
+                  - link "Learn more about type-safety to prevent runtime errors" [ref=e548] [cursor=pointer]:
+                    - /url: "#type-safety"
+                  - text: .
+              - heading "Settings ChangedDirect link to Settings Changed" [level=3] [ref=e549]:
+                - text: Settings Changed
+                - link "Direct link to Settings Changed" [ref=e550] [cursor=pointer]:
+                  - /url: "#global-settings-changed"
+                  - text: "#"
+              - paragraph [ref=e551]: "In addition to explicitly requesting the global settings, the application-layer and property inspector can subscribe to an event to be notified when the other updates the global settings. For example, the property inspector can listen to changes to global settings made by the application-layer in the following way:"
+              - generic [ref=e552]:
+                - generic [ref=e553]: Global settings callback
+                - generic [ref=e554]:
+                  - code [ref=e556]:
+                    - generic [ref=e557]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e559]: "streamDeck.settings.onDidReceiveGlobalSettings((ev) => {"
+                    - generic [ref=e560]: // Handle the global settings changing in application layer.
+                    - generic [ref=e561]: "});"
+                  - button "Copy to clipboard" [ref=e563] [cursor=pointer]:
+                    - generic [ref=e564]:
+                      - img "Icon" [ref=e565]
+                      - img "Icon" [ref=e568]
+              - generic [ref=e570]:
+                - generic [ref=e571]:
+                  - img [ref=e573]
+                  - text: tip
+                - paragraph [ref=e578]:
+                  - text: The application-layer can also listen for the global settings changing in the property inspector using
+                  - code [ref=e579]: onDidReceiveGlobalSettings
+                  - text: in the
+                  - code [ref=e580]: settings
+                  - text: namespace.
+              - heading "Changed vs RequestedDirect link to Changed vs Requested" [level=2] [ref=e581]:
+                - text: Changed vs Requested
+                - link "Direct link to Changed vs Requested" [ref=e582] [cursor=pointer]:
+                  - /url: "#changed-vs-requested"
+                  - text: "#"
+              - paragraph [ref=e583]:
+                - text: By default, when calling
+                - code [ref=e584]: action.getSettings
+                - text: or
+                - code [ref=e585]: streamDeck.settings.getGlobalSettings
+                - text: the relevant settings-changed handler is also called. Historically, this has made it difficult to determine when settings were changed in the property inspector, vs requested in the plugin.
+              - paragraph [ref=e586]:
+                - text: Starting with
+                - code [ref=e587]: "@elgato/streamdeck"
+                - text: version 2 and Stream Deck 7.1, this flow can be improved by enabling experimental message identifiers.
+              - generic [ref=e588]:
+                - generic [ref=e589]: Global settings callback
+                - generic [ref=e590]:
+                  - code [ref=e592]:
+                    - generic [ref=e593]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e595]: // Only call onDidReceive[Global]Settings when settings change.
+                    - generic [ref=e596]: streamDeck.settings.useExperimentalMessageIdentifiers = true;
+                    - generic [ref=e598]: // ...
+                    - generic [ref=e600]: streamDeck.connect();
+                  - button "Copy to clipboard" [ref=e602] [cursor=pointer]:
+                    - generic [ref=e603]:
+                      - img "Icon" [ref=e604]
+                      - img "Icon" [ref=e607]
+              - paragraph [ref=e609]: Below is a comparison of the behavior with message identifiers off vs on.
+              - table [ref=e610]:
+                - rowgroup [ref=e611]:
+                  - row "Scenario Message Identifiers Off (Default) Message Identifiers On" [ref=e612]:
+                    - columnheader "Scenario" [ref=e613]
+                    - columnheader "Message Identifiers Off (Default)" [ref=e614]:
+                      - text: Message Identifiers Off
+                      - text: (Default)
+                    - columnheader "Message Identifiers On" [ref=e615]
+                - rowgroup [ref=e616]:
+                  - row "Settings changed in UI onDidReceive[Global]Settings 🟢 Called onDidReceive[Global]Settings 🟢 Called" [ref=e617]:
+                    - cell "Settings changed in UI" [ref=e618]
+                    - cell "onDidReceive[Global]Settings 🟢 Called" [ref=e619]:
+                      - code [ref=e620]: onDidReceive[Global]Settings
+                      - text: 🟢 Called
+                    - cell "onDidReceive[Global]Settings 🟢 Called" [ref=e621]:
+                      - code [ref=e622]: onDidReceive[Global]Settings
+                      - text: 🟢 Called
+                  - row "Settings requested (get) onDidReceive[Global]Settings 🟢 Called onDidReceive[Global]Settings 🔴 Not called" [ref=e623]:
+                    - cell "Settings requested (get)" [ref=e624]
+                    - cell "onDidReceive[Global]Settings 🟢 Called" [ref=e625]:
+                      - code [ref=e626]: onDidReceive[Global]Settings
+                      - text: 🟢 Called
+                    - cell "onDidReceive[Global]Settings 🔴 Not called" [ref=e627]:
+                      - code [ref=e628]: onDidReceive[Global]Settings
+                      - text: 🔴 Not called
+              - heading "Type SafetyDirect link to Type Safety" [level=2] [ref=e629]:
+                - text: Type Safety
+                - link "Direct link to Type Safety" [ref=e630] [cursor=pointer]:
+                  - /url: "#type-safety"
+                  - text: "#"
+              - paragraph [ref=e631]:
+                - text: TypeScript types provide good insight into what values might be, but do not
+                - emphasis [ref=e632]: guarantee
+                - text: the types of values. The following example demonstrates how runtime errors can occur, even with types.
+              - generic [ref=e633]:
+                - generic [ref=e634]: "Bad: Example of how runtime errors can occur"
+                - generic [ref=e635]:
+                  - code [ref=e637]:
+                    - generic [ref=e638]: "import { type KeyDownEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e640]: "type Settings = {"
+                    - generic [ref=e641]: "name: string;"
+                    - generic [ref=e642]: "};"
+                    - generic [ref=e644]: "export class MyAction extends SingletonAction<Settings> {"
+                    - generic [ref=e645]: /**
+                    - generic [ref=e646]: "* Occurs when the user presses the key action."
+                    - generic [ref=e647]: "*/"
+                    - generic [ref=e648]: "override async onKeyDown(ev: KeyDownEvent<Settings>): Promise<void> {"
+                    - generic [ref=e649]: /*
+                    - generic [ref=e650]: "* Even though the settings are typed, if they have not"
+                    - generic [ref=e651]: "* been previously set, their values will be undefined."
+                    - generic [ref=e652]: "*/"
+                    - generic [ref=e653]: "const { name } = await ev.action.getSettings();"
+                    - generic [ref=e654]: name.toLowerCase(); // Runtime error!
+                    - generic [ref=e655]: "}"
+                    - generic [ref=e656]: "}"
+                  - generic [ref=e657]:
+                    - button "Toggle word wrap" [ref=e658] [cursor=pointer]:
+                      - img [ref=e659]
+                    - button "Copy to clipboard" [ref=e661] [cursor=pointer]:
+                      - generic [ref=e662]:
+                        - img "Icon" [ref=e663]
+                        - img "Icon" [ref=e666]
+              - paragraph [ref=e668]: "To reduce runtime errors with data, you should always the check values before attempting to use them. When using values that might not be safe, we recommend:"
+              - list [ref=e669]:
+                - listitem [ref=e670]: Use default values when destructuring objects that might be nullish.
+                - listitem [ref=e671]:
+                  - text: For complex types, consider using a schema validation library such as
+                  - link "Zod" [ref=e672] [cursor=pointer]:
+                    - /url: https://zod.dev/
+                  - text: .
+              - paragraph [ref=e673]: The following example demonstrates using Zod to validate settings.
+              - generic [ref=e674]:
+                - generic [ref=e675]: Example of using Zod to validate data
+                - generic [ref=e676]:
+                  - code [ref=e678]:
+                    - generic [ref=e679]: "import { type KeyDownEvent, SingletonAction } from \"@elgato/streamdeck\";"
+                    - generic [ref=e680]: import z from "zod";
+                    - generic [ref=e682]: // Define the Zod schema.
+                    - generic [ref=e683]: "const Settings = z.object({"
+                    - generic [ref=e684]: "name: z.string().default(\"Elgato\"),"
+                    - generic [ref=e685]: "});"
+                    - generic [ref=e687]: // Infer the settings type.
+                    - generic [ref=e688]: type Settings = z.infer<typeof Settings>;
+                    - generic [ref=e690]: /**
+                    - generic [ref=e691]: "* An example action that demonstrates parsing settings with Zod."
+                    - generic [ref=e692]: "*/"
+                    - generic [ref=e693]: "export class MyAction extends SingletonAction<Settings> {"
+                    - generic [ref=e694]: /**
+                    - generic [ref=e695]: "* Occurs when the user presses the key action."
+                    - generic [ref=e696]: "*/"
+                    - generic [ref=e697]: "override async onKeyDown(ev: KeyDownEvent<Settings>): Promise<void> {"
+                    - generic [ref=e698]: /*
+                    - generic [ref=e699]: "* Settings can safely be undefined here, Zod"
+                    - generic [ref=e700]: "* will fallback `name` to \"Elgato\"."
+                    - generic [ref=e701]: "*/"
+                    - generic [ref=e702]: "const { name } = Settings.parse(ev.payload.settings);"
+                    - generic [ref=e703]: name.toLowerCase(); // "elgato"
+                    - generic [ref=e704]: "}"
+                    - generic [ref=e705]: "}"
+                  - generic [ref=e706]:
+                    - button "Toggle word wrap" [ref=e707] [cursor=pointer]:
+                      - img [ref=e708]
+                    - button "Copy to clipboard" [ref=e710] [cursor=pointer]:
+                      - generic [ref=e711]:
+                        - img "Icon" [ref=e712]
+                        - img "Icon" [ref=e715]
+          - navigation "Docs pages" [ref=e717]:
+            - link "Previous « Dials & Touch Strip" [ref=e718] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/dials
+              - generic [ref=e719]: Previous
+              - generic [ref=e720]: « Dials & Touch Strip
+            - link "Next Property Inspectors (UI) »" [ref=e721] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/ui
+              - generic [ref=e722]: Next
+              - generic [ref=e723]: Property Inspectors (UI) »
+        - list [ref=e726]:
+          - listitem [ref=e727]:
+            - link "Overview" [ref=e728] [cursor=pointer]:
+              - /url: "#overview"
+          - listitem [ref=e729]:
+            - link "Action Settings" [ref=e730] [cursor=pointer]:
+              - /url: "#action-settings"
+            - list [ref=e731]:
+              - listitem [ref=e732]:
+                - link "Writing Settings" [ref=e733] [cursor=pointer]:
+                  - /url: "#writing-action-settings"
+              - listitem [ref=e734]:
+                - link "Reading Settings" [ref=e735] [cursor=pointer]:
+                  - /url: "#reading-action-settings"
+              - listitem [ref=e736]:
+                - link "Settings Changed" [ref=e737] [cursor=pointer]:
+                  - /url: "#action-settings-changed"
+          - listitem [ref=e738]:
+            - link "Global Settings" [ref=e739] [cursor=pointer]:
+              - /url: "#global-settings"
+            - list [ref=e740]:
+              - listitem [ref=e741]:
+                - link "Writing Settings" [ref=e742] [cursor=pointer]:
+                  - /url: "#writing-global-settings"
+              - listitem [ref=e743]:
+                - link "Reading Settings" [ref=e744] [cursor=pointer]:
+                  - /url: "#reading-global-settings"
+              - listitem [ref=e745]:
+                - link "Settings Changed" [ref=e746] [cursor=pointer]:
+                  - /url: "#global-settings-changed"
+          - listitem [ref=e747]:
+            - link "Changed vs Requested" [ref=e748] [cursor=pointer]:
+              - /url: "#changed-vs-requested"
+          - listitem [ref=e749]:
+            - link "Type Safety" [ref=e750] [cursor=pointer]:
+              - /url: "#type-safety"
+  - contentinfo [ref=e751]:
+    - generic [ref=e752]:
+      - generic [ref=e753]:
+        - generic [ref=e754]:
+          - generic [ref=e755]: Makers
+          - list [ref=e756]:
+            - listitem [ref=e757]:
+              - link "Become a Maker" [ref=e758] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e759]:
+              - link "Elgato Icons" [ref=e760] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e761]:
+              - link "Badges" [ref=e762] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e763]:
+          - generic [ref=e764]: Marketplace
+          - list [ref=e765]:
+            - listitem [ref=e766]:
+              - link "Plugins" [ref=e767] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e768]:
+              - link "Icon Packs" [ref=e769] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e770]:
+              - link "Profiles" [ref=e771] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e772]:
+          - generic [ref=e773]: Support
+          - list [ref=e774]:
+            - listitem [ref=e775]:
+              - link "FAQ" [ref=e776] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e777]:
+              - link "Contact" [ref=e778] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e779]:
+              - link "Copyright Claim" [ref=e780] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e781]:
+              - link "Downloads" [ref=e782] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e783]:
+          - generic [ref=e784]: Company
+          - list [ref=e785]:
+            - listitem [ref=e786]:
+              - link "About" [ref=e787] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e788]:
+              - link "Media Room" [ref=e789] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e790]:
+              - link "Terms of Use" [ref=e791] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e792]:
+              - link "Privacy Policy" [ref=e793] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e795]: © 2026 Elgato. All rights reserved.

@@ -1,0 +1,778 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Style Guide
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Code Linting
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "Code Linting" [level=1] [ref=e133]
+              - paragraph [ref=e134]: Linting your code greatly improves consistency and readability. This leads to improved maintainability, and often reduces bugs caused to coding quirks. Whilst completely optional, it is encouraged to lint your code; to assist with this, Elgato provides pre-defined configurations that we use for our projects.
+              - heading "Quick StartDirect link to Quick Start" [level=2] [ref=e135]:
+                - text: Quick Start
+                - link "Direct link to Quick Start" [ref=e136] [cursor=pointer]:
+                  - /url: "#quick-start"
+                  - text: "#"
+              - paragraph [ref=e137]: Install the ESLint and Prettier configurations.
+              - generic [ref=e138]:
+                - generic [ref=e139]: Terminal
+                - generic [ref=e140]:
+                  - code [ref=e142]:
+                    - generic [ref=e143]: npm install @elgato/eslint-config @elgato/prettier-config --save-dev
+                  - button "Copy to clipboard" [ref=e145] [cursor=pointer]:
+                    - generic [ref=e146]:
+                      - img "Icon" [ref=e147]
+                      - img "Icon" [ref=e150]
+              - paragraph [ref=e152]:
+                - text: Update your
+                - code [ref=e153]: package.json
+                - text: file to include a
+                - code [ref=e154]: lint
+                - text: script, and configure Prettier.
+              - generic [ref=e155]:
+                - generic [ref=e156]: package.json
+                - generic [ref=e157]:
+                  - code [ref=e159]:
+                    - generic [ref=e160]: "{"
+                    - generic [ref=e161]: "\"scripts\": {"
+                    - generic [ref=e162]: "\"lint\": \"eslint --max-warnings 0\""
+                    - generic [ref=e163]: "},"
+                    - generic [ref=e164]: "\"prettier\": \"@elgato/prettier-config\""
+                    - generic [ref=e165]: "}"
+                  - button "Copy to clipboard" [ref=e167] [cursor=pointer]:
+                    - generic [ref=e168]:
+                      - img "Icon" [ref=e169]
+                      - img "Icon" [ref=e172]
+              - paragraph [ref=e174]:
+                - text: At the root of your project, download the
+                - link ".editorconfig" [ref=e175] [cursor=pointer]:
+                  - /url: https://raw.githubusercontent.com/elgatosf/prettier-config/main/.editorconfig
+                  - code [ref=e176]: .editorconfig
+                - text: file to configure your IDE, and create a
+                - code [ref=e177]: eslint.config.js
+                - text: file to configure ESLint.
+              - generic [ref=e178]:
+                - generic [ref=e179]: eslint.config.js
+                - generic [ref=e180]:
+                  - code [ref=e182]:
+                    - generic [ref=e183]: "import { config } from \"@elgato/eslint-config\";"
+                    - generic [ref=e185]: export default config.recommended;
+                  - button "Copy to clipboard" [ref=e187] [cursor=pointer]:
+                    - generic [ref=e188]:
+                      - img "Icon" [ref=e189]
+                      - img "Icon" [ref=e192]
+              - heading "ESLintDirect link to ESLint" [level=2] [ref=e194]:
+                - text: ESLint
+                - link "Direct link to ESLint" [ref=e195] [cursor=pointer]:
+                  - /url: "#eslint"
+                  - text: "#"
+              - paragraph [ref=e196]:
+                - link "ESLint" [ref=e197] [cursor=pointer]:
+                  - /url: https://eslint.org/
+                - text: is a popular static code analysis tool for JavaScript and Typescript projects, allowing you to quickly identify and resolve problems. The ESLing configuration used within Elgato's project is available publicly, and can optionally be added to your projects.
+              - heading "InstallationDirect link to Installation" [level=3] [ref=e198]:
+                - text: Installation
+                - link "Direct link to Installation" [ref=e199] [cursor=pointer]:
+                  - /url: "#eslint-installation"
+                  - text: "#"
+              - paragraph [ref=e200]:
+                - text: Install
+                - code [ref=e201]: "@elgato/eslint-config"
+                - text: as a
+                - code [ref=e202]: devDependency
+                - text: .
+              - generic [ref=e203]:
+                - generic [ref=e204]: Terminal
+                - generic [ref=e205]:
+                  - code [ref=e207]:
+                    - generic [ref=e208]: npm install @elgato/eslint-config --save-dev
+                  - button "Copy to clipboard" [ref=e210] [cursor=pointer]:
+                    - generic [ref=e211]:
+                      - img "Icon" [ref=e212]
+                      - img "Icon" [ref=e215]
+              - paragraph [ref=e217]:
+                - text: Create an
+                - code [ref=e218]: eslint.config.js
+                - text: file at the root of your project.
+              - generic [ref=e219]:
+                - generic [ref=e220]: eslint.config.js
+                - generic [ref=e221]:
+                  - code [ref=e223]:
+                    - generic [ref=e224]: "import { config } from \"@elgato/eslint-config\";"
+                    - generic [ref=e226]: export default config.recommended;
+                  - button "Copy to clipboard" [ref=e228] [cursor=pointer]:
+                    - generic [ref=e229]:
+                      - img "Icon" [ref=e230]
+                      - img "Icon" [ref=e233]
+              - paragraph [ref=e235]: "There are two configurations available:"
+              - list [ref=e236]:
+                - listitem [ref=e237]:
+                  - text: Recommended —
+                  - code [ref=e238]: config.recommended
+                - listitem [ref=e239]:
+                  - text: Strict —
+                  - code [ref=e240]: config.strict
+                  - text: (stricter type enforcing)
+              - heading "UsageDirect link to Usage" [level=3] [ref=e241]:
+                - text: Usage
+                - link "Direct link to Usage" [ref=e242] [cursor=pointer]:
+                  - /url: "#eslint-usage"
+                  - text: "#"
+              - paragraph [ref=e243]:
+                - text: The
+                - link "ESLint CLI" [ref=e244] [cursor=pointer]:
+                  - /url: https://eslint.org/docs/latest/use/command-line-interface
+                - text: provides an array of useful commands. These can optionally be added to your
+                - code [ref=e245]: package.json
+                - code [ref=e246]: scripts
+                - text: object to further streamline checking and formatting, for example.
+              - generic [ref=e247]:
+                - tablist [ref=e248]:
+                  - tab "NPM Script" [selected] [ref=e249] [cursor=pointer]
+                  - tab "Terminal" [ref=e250] [cursor=pointer]
+                - tabpanel [ref=e252]:
+                  - generic [ref=e253]:
+                    - generic [ref=e254]: package.json
+                    - generic [ref=e255]:
+                      - code [ref=e257]:
+                        - generic [ref=e258]: "{"
+                        - generic [ref=e259]: "\"scripts\": {"
+                        - generic [ref=e260]: "\"lint\": \"eslint --max-warnings 0\""
+                        - generic [ref=e261]: "}"
+                        - generic [ref=e262]: "}"
+                      - button "Copy to clipboard" [ref=e264] [cursor=pointer]:
+                        - generic [ref=e265]:
+                          - img "Icon" [ref=e266]
+                          - img "Icon" [ref=e269]
+              - heading "ConfigurationDirect link to Configuration" [level=3] [ref=e271]:
+                - text: Configuration
+                - link "Direct link to Configuration" [ref=e272] [cursor=pointer]:
+                  - /url: "#eslint-configuration"
+                  - text: "#"
+              - heading "ExtendsDirect link to Extends" [level=4] [ref=e273]:
+                - text: Extends
+                - link "Direct link to Extends" [ref=e274] [cursor=pointer]:
+                  - /url: "#eslint-configuration-extends"
+                  - text: "#"
+              - list [ref=e275]:
+                - listitem [ref=e276]: JSDoc recommended
+                - listitem [ref=e277]: ESLint recommended
+                - listitem [ref=e278]: TypeScript ESLint recommended
+              - heading "RulesDirect link to Rules" [level=4] [ref=e279]:
+                - text: Rules
+                - link "Direct link to Rules" [ref=e280] [cursor=pointer]:
+                  - /url: "#eslint-rules"
+                  - text: "#"
+              - table [ref=e281]:
+                - rowgroup [ref=e282]:
+                  - row "Rule Recommended Strict Notes" [ref=e283]:
+                    - columnheader "Rule" [ref=e284]
+                    - columnheader "Recommended" [ref=e285]
+                    - columnheader "Strict" [ref=e286]
+                    - columnheader "Notes" [ref=e287]
+                - rowgroup [ref=e288]:
+                  - 'row "Indent: Tabs ⚠️ Warn ⚠️ Warn" [ref=e289]':
+                    - 'cell "Indent: Tabs" [ref=e290]'
+                    - cell "⚠️ Warn" [ref=e291]
+                    - cell "⚠️ Warn" [ref=e292]
+                    - cell [ref=e293]
+                  - 'row "JSDoc: Check tag names ⚠️ Warn ⚠️ Warn Additional tags: csspart, cssproperty, jest-environment, slot" [ref=e294]':
+                    - 'cell "JSDoc: Check tag names" [ref=e295]'
+                    - cell "⚠️ Warn" [ref=e296]
+                    - cell "⚠️ Warn" [ref=e297]
+                    - 'cell "Additional tags: csspart, cssproperty, jest-environment, slot" [ref=e298]':
+                      - text: "Additional tags:"
+                      - code [ref=e299]: csspart
+                      - text: ","
+                      - code [ref=e300]: cssproperty
+                      - text: ","
+                      - code [ref=e301]: jest-environment
+                      - text: ","
+                      - code [ref=e302]: slot
+                  - 'row "JSDoc: No undefined types ⚠️ Warn ⚠️ Warn" [ref=e303]':
+                    - 'cell "JSDoc: No undefined types" [ref=e304]'
+                    - cell "⚠️ Warn" [ref=e305]
+                    - cell "⚠️ Warn" [ref=e306]
+                    - cell [ref=e307]
+                  - 'row "JSDoc: Require JSDoc ⚠️ Warn ⚠️ Warn" [ref=e308]':
+                    - 'cell "JSDoc: Require JSDoc" [ref=e309]'
+                    - cell "⚠️ Warn" [ref=e310]
+                    - cell "⚠️ Warn" [ref=e311]
+                    - cell [ref=e312]
+                  - 'row "JSDoc: Require Returns ⚠️ Warn ⚠️ Warn Disabled for getters." [ref=e313]':
+                    - 'cell "JSDoc: Require Returns" [ref=e314]'
+                    - cell "⚠️ Warn" [ref=e315]
+                    - cell "⚠️ Warn" [ref=e316]
+                    - cell "Disabled for getters." [ref=e317]
+                  - 'row "TypeScript: Explicit function return types ✅ Off ⚠️ Warn Disabled for JavaScript, tests, and mock files." [ref=e318]':
+                    - 'cell "TypeScript: Explicit function return types" [ref=e319]'
+                    - cell "✅ Off" [ref=e320]
+                    - cell "⚠️ Warn" [ref=e321]
+                    - cell "Disabled for JavaScript, tests, and mock files." [ref=e322]
+                  - 'row "TypeScript: Explicit member accessibility ⚠️ Warn ⚠️ Warn No public required constructor." [ref=e323]':
+                    - 'cell "TypeScript: Explicit member accessibility" [ref=e324]'
+                    - cell "⚠️ Warn" [ref=e325]
+                    - cell "⚠️ Warn" [ref=e326]
+                    - cell "No public required constructor." [ref=e327]:
+                      - text: "No"
+                      - code [ref=e328]: public
+                      - text: required
+                      - code [ref=e329]: constructor
+                      - text: .
+                  - 'row "TypeScript: Member ordering ⚠️ Warn ⚠️ Warn Grouped by type and then access, and ordered alphabetically." [ref=e330]':
+                    - 'cell "TypeScript: Member ordering" [ref=e331]'
+                    - cell "⚠️ Warn" [ref=e332]
+                    - cell "⚠️ Warn" [ref=e333]
+                    - cell "Grouped by type and then access, and ordered alphabetically." [ref=e334]
+                  - 'row "TypeScript: Sort type constituents ⚠️ Warn ⚠️ Warn" [ref=e335]':
+                    - 'cell "TypeScript: Sort type constituents" [ref=e336]'
+                    - cell "⚠️ Warn" [ref=e337]
+                    - cell "⚠️ Warn" [ref=e338]
+                    - cell [ref=e339]
+              - group [ref=e340]:
+                - generic "Member Ordering" [ref=e341] [cursor=pointer]:
+                  - paragraph [ref=e342]: Member Ordering
+              - group [ref=e343]:
+                - generic "Ignored Files" [ref=e344] [cursor=pointer]:
+                  - paragraph [ref=e345]: Ignored Files
+              - heading "OverridesDirect link to Overrides" [level=3] [ref=e346]:
+                - text: Overrides
+                - link "Direct link to Overrides" [ref=e347] [cursor=pointer]:
+                  - /url: "#prettier-overrides"
+                  - text: "#"
+              - paragraph [ref=e348]:
+                - text: Configuration settings can be overridden using the
+                - code [ref=e349]: defineConfig
+                - text: helper function from ESLint, extending
+                - code [ref=e350]: "@elgato/eslint-config"
+                - text: ", and then defining your preferred settings."
+              - generic [ref=e351]:
+                - generic [ref=e352]: eslint.config.js
+                - generic [ref=e353]:
+                  - code [ref=e355]:
+                    - generic [ref=e356]: "import { config } from \"@elgato/eslint-config\";"
+                    - generic [ref=e357]: "import { defineConfig } from \"eslint/config\";"
+                    - generic [ref=e359]: export default defineConfig([
+                    - generic [ref=e360]: "{"
+                    - generic [ref=e361]: "extends: [config.recommended],"
+                    - generic [ref=e363]: // Anything from here will override @elgato/eslint-config
+                    - generic [ref=e364]: "rules: {"
+                    - generic [ref=e365]: "\"no-unused-vars\": \"warn\","
+                    - generic [ref=e366]: "},"
+                    - generic [ref=e367]: "},"
+                    - generic [ref=e368]: "]);"
+                  - button "Copy to clipboard" [ref=e370] [cursor=pointer]:
+                    - generic [ref=e371]:
+                      - img "Icon" [ref=e372]
+                      - img "Icon" [ref=e375]
+              - paragraph [ref=e377]:
+                - link "Learn more" [ref=e378] [cursor=pointer]:
+                  - /url: https://eslint.org/docs/latest/extend/shareable-configs#overriding-settings-from-shareable-configs
+                - text: about overriding settings.
+              - heading "PrettierDirect link to Prettier" [level=2] [ref=e379]:
+                - text: Prettier
+                - link "Direct link to Prettier" [ref=e380] [cursor=pointer]:
+                  - /url: "#prettier"
+                  - text: "#"
+              - paragraph [ref=e381]:
+                - link "Prettier" [ref=e382] [cursor=pointer]:
+                  - /url: https://prettier.io
+                - text: is a configurable "opinionated code formatter" that makes formatting code effortless. The Prettier configuration used within Elgato's projects is available publicly, and can optionally be added to your projects to improve readability and code consistency.
+              - heading "InstallationDirect link to Installation" [level=3] [ref=e383]:
+                - text: Installation
+                - link "Direct link to Installation" [ref=e384] [cursor=pointer]:
+                  - /url: "#prettier-installation"
+                  - text: "#"
+              - paragraph [ref=e385]:
+                - text: Install
+                - code [ref=e386]: "@elgato/prettier-config"
+                - text: as a
+                - code [ref=e387]: devDependency
+                - text: .
+              - generic [ref=e388]:
+                - generic [ref=e389]: Terminal
+                - generic [ref=e390]:
+                  - code [ref=e392]:
+                    - generic [ref=e393]: npm install @elgato/prettier-config --save-dev
+                  - button "Copy to clipboard" [ref=e395] [cursor=pointer]:
+                    - generic [ref=e396]:
+                      - img "Icon" [ref=e397]
+                      - img "Icon" [ref=e400]
+              - paragraph [ref=e402]:
+                - text: Configure Prettier within your
+                - code [ref=e403]: package.json
+                - text: to use the configuration.
+              - generic [ref=e404]:
+                - generic [ref=e405]: package.json
+                - generic [ref=e406]:
+                  - code [ref=e408]:
+                    - generic [ref=e409]: "\"prettier\": \"@elgato/prettier-config\""
+                  - button "Copy to clipboard" [ref=e411] [cursor=pointer]:
+                    - generic [ref=e412]:
+                      - img "Icon" [ref=e413]
+                      - img "Icon" [ref=e416]
+              - paragraph [ref=e418]:
+                - text: Add the accompanying
+                - code [ref=e419]: .editorconfig
+                - text: file to the root of your project.
+                - link "Download the .editorconfig file" [ref=e420] [cursor=pointer]:
+                  - /url: https://raw.githubusercontent.com/elgatosf/prettier-config/main/.editorconfig
+                  - text: Download the
+                  - code [ref=e421]: .editorconfig
+                  - text: file
+                - text: .
+              - heading "UsageDirect link to Usage" [level=3] [ref=e422]:
+                - text: Usage
+                - link "Direct link to Usage" [ref=e423] [cursor=pointer]:
+                  - /url: "#prettier-usage"
+                  - text: "#"
+              - paragraph [ref=e424]:
+                - text: The
+                - link "Prettier CLI" [ref=e425] [cursor=pointer]:
+                  - /url: https://prettier.io/docs/en/cli
+                - text: provides an array of useful commands. These can optionally be added to your
+                - code [ref=e426]: package.json
+                - code [ref=e427]: scripts
+                - text: object to further streamline checking and formatting, for example.
+              - heading "Check FilesDirect link to Check Files" [level=4] [ref=e428]:
+                - text: Check Files
+                - link "Direct link to Check Files" [ref=e429] [cursor=pointer]:
+                  - /url: "#check-files"
+                  - text: "#"
+              - generic [ref=e430]:
+                - tablist [ref=e431]:
+                  - tab "NPM Script" [selected] [ref=e432] [cursor=pointer]
+                  - tab "Terminal" [ref=e433] [cursor=pointer]
+                - tabpanel [ref=e435]:
+                  - generic [ref=e436]:
+                    - generic [ref=e437]: package.json
+                    - generic [ref=e438]:
+                      - code [ref=e440]:
+                        - generic [ref=e441]: "{"
+                        - generic [ref=e442]: "\"scripts\": {"
+                        - generic [ref=e443]: "\"lint\": \"prettier . --check\","
+                        - generic [ref=e444]: "}"
+                        - generic [ref=e445]: "}"
+                      - button "Copy to clipboard" [ref=e447] [cursor=pointer]:
+                        - generic [ref=e448]:
+                          - img "Icon" [ref=e449]
+                          - img "Icon" [ref=e452]
+              - heading "Format FilesDirect link to Format Files" [level=4] [ref=e454]:
+                - text: Format Files
+                - link "Direct link to Format Files" [ref=e455] [cursor=pointer]:
+                  - /url: "#format-files"
+                  - text: "#"
+              - generic [ref=e456]:
+                - tablist [ref=e457]:
+                  - tab "NPM Script" [selected] [ref=e458] [cursor=pointer]
+                  - tab "Terminal" [ref=e459] [cursor=pointer]
+                - tabpanel [ref=e461]:
+                  - generic [ref=e462]:
+                    - generic [ref=e463]: package.json
+                    - generic [ref=e464]:
+                      - code [ref=e466]:
+                        - generic [ref=e467]: "{"
+                        - generic [ref=e468]: "\"scripts\": {"
+                        - generic [ref=e469]: "\"lint:fix\": \"prettier . --write\","
+                        - generic [ref=e470]: "}"
+                        - generic [ref=e471]: "}"
+                      - button "Copy to clipboard" [ref=e473] [cursor=pointer]:
+                        - generic [ref=e474]:
+                          - img "Icon" [ref=e475]
+                          - img "Icon" [ref=e478]
+              - generic [ref=e480]:
+                - generic [ref=e481]:
+                  - img [ref=e483]
+                  - text: Format on save
+                - paragraph [ref=e488]:
+                  - text: Prettier provides a
+                  - link "VS Code extension" [ref=e489] [cursor=pointer]:
+                    - /url: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+                  - text: to further streamline formatting your files. Once installed and configured, you can configure VS Code to format files when they're saved by setting
+                  - code [ref=e490]: editor.formatOnSave
+                  - text: to
+                  - code [ref=e491]: "true"
+                  - text: in your VS Code preferences.
+              - heading "ConfigurationDirect link to Configuration" [level=3] [ref=e492]:
+                - text: Configuration
+                - link "Direct link to Configuration" [ref=e493] [cursor=pointer]:
+                  - /url: "#prettier-configuration"
+                  - text: "#"
+              - table [ref=e494]:
+                - rowgroup [ref=e495]:
+                  - row "Option Value" [ref=e496]:
+                    - columnheader "Option" [ref=e497]
+                    - columnheader "Value" [ref=e498]
+                - rowgroup [ref=e499]:
+                  - row "endOfLine lf" [ref=e500]:
+                    - cell "endOfLine" [ref=e501]:
+                      - link "endOfLine" [ref=e502] [cursor=pointer]:
+                        - /url: https://prettier.io/docs/en/options#end-of-line
+                        - code [ref=e503]: endOfLine
+                    - cell "lf" [ref=e504]:
+                      - code [ref=e505]: lf
+                  - row "printWidth 120" [ref=e506]:
+                    - cell "printWidth" [ref=e507]:
+                      - link "printWidth" [ref=e508] [cursor=pointer]:
+                        - /url: https://prettier.io/docs/en/options#print-width
+                        - code [ref=e509]: printWidth
+                    - cell "120" [ref=e510]
+                  - row "singleQuote ❌ Prefer double" [ref=e511]:
+                    - cell "singleQuote" [ref=e512]:
+                      - link "singleQuote" [ref=e513] [cursor=pointer]:
+                        - /url: https://prettier.io/docs/en/options#quotes
+                        - code [ref=e514]: singleQuote
+                    - cell "❌ Prefer double" [ref=e515]
+                  - row "semi ✅ Prefer semicolons" [ref=e516]:
+                    - cell "semi" [ref=e517]:
+                      - link "semi" [ref=e518] [cursor=pointer]:
+                        - /url: https://prettier.io/docs/en/options#semicolons
+                        - code [ref=e519]: semi
+                    - cell "✅ Prefer semicolons" [ref=e520]
+                  - row "tabWidth 4 spaces (2 spaces for .yaml, .yml)" [ref=e521]:
+                    - cell "tabWidth" [ref=e522]:
+                      - link "tabWidth" [ref=e523] [cursor=pointer]:
+                        - /url: https://prettier.io/docs/en/options#tab-width
+                        - code [ref=e524]: tabWidth
+                    - cell "4 spaces (2 spaces for .yaml, .yml)" [ref=e525]:
+                      - text: 4 spaces (2 spaces for
+                      - code [ref=e526]: .yaml
+                      - text: ","
+                      - code [ref=e527]: .yml
+                      - text: )
+                  - row "useTabs ✅ Except .json, .jsonc, .md, .yaml, .yml" [ref=e528]:
+                    - cell "useTabs" [ref=e529]:
+                      - link "useTabs" [ref=e530] [cursor=pointer]:
+                        - /url: https://prettier.io/docs/en/options#tabs
+                        - code [ref=e531]: useTabs
+                    - cell "✅ Except .json, .jsonc, .md, .yaml, .yml" [ref=e532]:
+                      - text: ✅ Except
+                      - code [ref=e533]: .json
+                      - text: ","
+                      - code [ref=e534]: .jsonc
+                      - text: ","
+                      - code [ref=e535]: .md
+                      - text: ","
+                      - code [ref=e536]: .yaml
+                      - text: ","
+                      - code [ref=e537]: .yml
+                  - row "trailingComma All, except .jsonc" [ref=e538]:
+                    - cell "trailingComma" [ref=e539]:
+                      - link "trailingComma" [ref=e540] [cursor=pointer]:
+                        - /url: https://prettier.io/docs/en/options#trailing-commas
+                        - code [ref=e541]: trailingComma
+                    - cell "All, except .jsonc" [ref=e542]:
+                      - text: All, except
+                      - code [ref=e543]: .jsonc
+                  - row "multilineArraysWrapThreshold (multiline-arrays) -1 (manual)" [ref=e544]:
+                    - cell "multilineArraysWrapThreshold (multiline-arrays)" [ref=e545]:
+                      - link "multilineArraysWrapThreshold" [ref=e546] [cursor=pointer]:
+                        - /url: https://github.com/electrovir/prettier-plugin-multiline-arrays?tab=readme-ov-file#options
+                        - code [ref=e547]: multilineArraysWrapThreshold
+                      - text: (multiline-arrays)
+                    - cell "-1 (manual)" [ref=e548]
+                  - row "importOrder (sort-imports) Third-party modules first" [ref=e549]:
+                    - cell "importOrder (sort-imports)" [ref=e550]:
+                      - link "importOrder" [ref=e551] [cursor=pointer]:
+                        - /url: https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importorder
+                        - code [ref=e552]: importOrder
+                      - text: (sort-imports)
+                    - cell "Third-party modules first" [ref=e553]
+                  - row "importOrderSeparation (sort-imports) ✅" [ref=e554]:
+                    - cell "importOrderSeparation (sort-imports)" [ref=e555]:
+                      - link "importOrderSeparation" [ref=e556] [cursor=pointer]:
+                        - /url: https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importorderseparation
+                        - code [ref=e557]: importOrderSeparation
+                      - text: (sort-imports)
+                    - cell "✅" [ref=e558]
+                  - row "importOrderSortSpecifiers (sort-imports) ✅" [ref=e559]:
+                    - cell "importOrderSortSpecifiers (sort-imports)" [ref=e560]:
+                      - link "importOrderSortSpecifiers" [ref=e561] [cursor=pointer]:
+                        - /url: https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importordersortspecifiers
+                        - code [ref=e562]: importOrderSortSpecifiers
+                      - text: (sort-imports)
+                    - cell "✅" [ref=e563]
+                  - row "importOrderCaseInsensitive (sort-imports) ✅" [ref=e564]:
+                    - cell "importOrderCaseInsensitive (sort-imports)" [ref=e565]:
+                      - link "importOrderCaseInsensitive" [ref=e566] [cursor=pointer]:
+                        - /url: https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importordercaseinsensitive
+                        - code [ref=e567]: importOrderCaseInsensitive
+                      - text: (sort-imports)
+                    - cell "✅" [ref=e568]
+                  - row "importOrderParserPlugins (sort-imports) TypeScript" [ref=e569]:
+                    - cell "importOrderParserPlugins (sort-imports)" [ref=e570]:
+                      - link "importOrderParserPlugins" [ref=e571] [cursor=pointer]:
+                        - /url: https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importorderparserplugins
+                        - code [ref=e572]: importOrderParserPlugins
+                      - text: (sort-imports)
+                    - cell "TypeScript" [ref=e573]
+              - heading "OverridesDirect link to Overrides" [level=3] [ref=e574]:
+                - text: Overrides
+                - link "Direct link to Overrides" [ref=e575] [cursor=pointer]:
+                  - /url: "#prettier-overrides"
+                  - text: "#"
+              - paragraph [ref=e576]:
+                - text: Overriding configuration can be achieved by removing the
+                - code [ref=e577]: prettier
+                - text: entry from your
+                - code [ref=e578]: package.json
+                - text: ", and instead using a"
+                - link ".prettierrc.js" [ref=e579] [cursor=pointer]:
+                  - /url: https://prettier.io/docs/en/configuration
+                - text: "file. For example, to prefer spaces over tabs:"
+              - generic [ref=e580]:
+                - generic [ref=e581]: .prettierrc.js
+                - generic [ref=e582]:
+                  - code [ref=e584]:
+                    - generic [ref=e585]: "module.exports = {"
+                    - generic [ref=e586]: ...require("@elgato/prettier-config"),
+                    - generic [ref=e587]: "tabWidth: 2,"
+                    - generic [ref=e588]: "useTabs: false,"
+                    - generic [ref=e589]: "};"
+                  - button "Copy to clipboard" [ref=e591] [cursor=pointer]:
+                    - generic [ref=e592]:
+                      - img "Icon" [ref=e593]
+                      - img "Icon" [ref=e596]
+          - navigation "Docs pages" [ref=e598]:
+            - link "Previous « Localization" [ref=e599] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/i18n
+              - generic [ref=e600]: Previous
+              - generic [ref=e601]: « Localization
+            - link "Next Manifest »" [ref=e602] [cursor=pointer]:
+              - /url: /streamdeck/sdk/references/manifest
+              - generic [ref=e603]: Next
+              - generic [ref=e604]: Manifest »
+        - list [ref=e607]:
+          - listitem [ref=e608]:
+            - link "Quick Start" [ref=e609] [cursor=pointer]:
+              - /url: "#quick-start"
+          - listitem [ref=e610]:
+            - link "ESLint" [ref=e611] [cursor=pointer]:
+              - /url: "#eslint"
+            - list [ref=e612]:
+              - listitem [ref=e613]:
+                - link "Installation" [ref=e614] [cursor=pointer]:
+                  - /url: "#eslint-installation"
+              - listitem [ref=e615]:
+                - link "Usage" [ref=e616] [cursor=pointer]:
+                  - /url: "#eslint-usage"
+              - listitem [ref=e617]:
+                - link "Configuration" [ref=e618] [cursor=pointer]:
+                  - /url: "#eslint-configuration"
+              - listitem [ref=e619]:
+                - link "Overrides" [ref=e620] [cursor=pointer]:
+                  - /url: "#prettier-overrides"
+          - listitem [ref=e621]:
+            - link "Prettier" [ref=e622] [cursor=pointer]:
+              - /url: "#prettier"
+            - list [ref=e623]:
+              - listitem [ref=e624]:
+                - link "Installation" [ref=e625] [cursor=pointer]:
+                  - /url: "#prettier-installation"
+              - listitem [ref=e626]:
+                - link "Usage" [ref=e627] [cursor=pointer]:
+                  - /url: "#prettier-usage"
+              - listitem [ref=e628]:
+                - link "Configuration" [ref=e629] [cursor=pointer]:
+                  - /url: "#prettier-configuration"
+              - listitem [ref=e630]:
+                - link "Overrides" [ref=e631] [cursor=pointer]:
+                  - /url: "#prettier-overrides"
+  - contentinfo [ref=e632]:
+    - generic [ref=e633]:
+      - generic [ref=e634]:
+        - generic [ref=e635]:
+          - generic [ref=e636]: Makers
+          - list [ref=e637]:
+            - listitem [ref=e638]:
+              - link "Become a Maker" [ref=e639] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e640]:
+              - link "Elgato Icons" [ref=e641] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e642]:
+              - link "Badges" [ref=e643] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e644]:
+          - generic [ref=e645]: Marketplace
+          - list [ref=e646]:
+            - listitem [ref=e647]:
+              - link "Plugins" [ref=e648] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e649]:
+              - link "Icon Packs" [ref=e650] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e651]:
+              - link "Profiles" [ref=e652] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e653]:
+          - generic [ref=e654]: Support
+          - list [ref=e655]:
+            - listitem [ref=e656]:
+              - link "FAQ" [ref=e657] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e658]:
+              - link "Contact" [ref=e659] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e660]:
+              - link "Copyright Claim" [ref=e661] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e662]:
+              - link "Downloads" [ref=e663] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e664]:
+          - generic [ref=e665]: Company
+          - list [ref=e666]:
+            - listitem [ref=e667]:
+              - link "About" [ref=e668] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e669]:
+              - link "Media Room" [ref=e670] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e671]:
+              - link "Terms of Use" [ref=e672] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e673]:
+              - link "Privacy Policy" [ref=e674] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e676]: © 2026 Elgato. All rights reserved.

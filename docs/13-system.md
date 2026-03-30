@@ -1,0 +1,300 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elgato Maker icon" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Elgato Maker icon" [ref=e9]
+        - link "Stream Deck" [ref=e10] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+        - link "Stream Deck SDK" [ref=e11] [cursor=pointer]:
+          - /url: /streamdeck/sdk/introduction/getting-started
+          - text: SDK
+        - link "Stream Deck CLI" [ref=e12] [cursor=pointer]:
+          - /url: /streamdeck/cli/intro
+          - text: CLI
+        - link "Stream Deck SDK Plugin Samples" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck-plugin-samples
+          - text: Samples
+      - generic [ref=e14]:
+        - button "2.0.0" [ref=e16] [cursor=pointer]
+        - button "Discover" [ref=e18] [cursor=pointer]
+        - link "Discord" [ref=e19] [cursor=pointer]:
+          - /url: https://discord.gg/GehBUcu627
+        - link "X (formerly Twitter)" [ref=e20] [cursor=pointer]:
+          - /url: https://x.com/elgatomarket
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/elgatosf/streamdeck
+        - button "Switch between dark and light mode (currently light mode)" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Search (Command+K)" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Search
+          - generic [ref=e32]:
+            - generic [ref=e33]: ⌘
+            - generic [ref=e34]: K
+  - generic [ref=e37]:
+    - complementary [ref=e38]:
+      - navigation "Docs sidebar" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - generic [ref=e45]: Introduction
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link "Getting Started" [ref=e48] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/getting-started
+              - listitem [ref=e49]:
+                - link "Your First Changes" [ref=e50] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/your-first-changes
+              - listitem [ref=e51]:
+                - link "Plugin Environment" [ref=e52] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/plugin-environment
+              - listitem [ref=e53]:
+                - link "Distribution" [ref=e54] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/introduction/distribution
+          - listitem [ref=e55]:
+            - generic [ref=e57]: Plugin Guides
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Actions" [ref=e60] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/actions
+              - listitem [ref=e61]:
+                - link "Keys" [ref=e62] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/keys
+              - listitem [ref=e63]:
+                - link "Dials & Touch Strip" [ref=e64] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/dials
+              - listitem [ref=e65]:
+                - link "Settings" [ref=e66] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/settings
+              - listitem [ref=e67]:
+                - link "Property Inspectors (UI)" [ref=e68] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/ui
+              - listitem [ref=e69]:
+                - link "Devices" [ref=e70] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/devices
+              - listitem [ref=e71]:
+                - link "Profiles" [ref=e72] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/profiles
+              - listitem [ref=e73]:
+                - link "Embedded Resources" [ref=e74] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/resources
+              - listitem [ref=e75]:
+                - link "System" [ref=e76] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/system
+              - listitem [ref=e77]:
+                - link "Deep-Linking" [ref=e78] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+              - listitem [ref=e79]:
+                - link "App Monitoring" [ref=e80] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+              - listitem [ref=e81]:
+                - link "Secrets" [ref=e82] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/secrets
+              - listitem [ref=e83]:
+                - link "Logging" [ref=e84] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/logging
+              - listitem [ref=e85]:
+                - link "Localization" [ref=e86] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/i18n
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Style Guide
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Code Linting" [ref=e92] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/style-guide/linting
+              - listitem [ref=e93]:
+                - link "Plugin Guidelines" [ref=e94] [cursor=pointer]:
+                  - /url: /guidelines/stream-deck/plugins
+          - listitem [ref=e95]:
+            - generic [ref=e97]: References
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Manifest" [ref=e100] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/manifest
+              - listitem [ref=e101]:
+                - link "Touch Strip Layout" [ref=e102] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/touch-strip-layout
+              - listitem [ref=e103]:
+                - link "Changes" [ref=e104] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/references/changelog
+              - listitem [ref=e105]:
+                - button "WebSocket API" [ref=e107] [cursor=pointer]
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Upgrading
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Version 2.x" [ref=e113] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/releases/upgrading/v2
+    - main [ref=e114]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - article [ref=e119]:
+            - navigation "Breadcrumbs" [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Home page" [ref=e123] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e124]
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Plugin Guides
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: System
+            - generic [ref=e130]: "Version: 2.0.0"
+            - generic [ref=e131]:
+              - heading "System" [level=1] [ref=e133]
+              - paragraph [ref=e134]:
+                - text: The Stream Deck SDK provides utilities to streamline interacting with common system functionality, such as
+                - link "monitoring an app launching or terminating" [ref=e135] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/app-monitoring
+                - text: and
+                - link "receiving deep-links" [ref=e136] [cursor=pointer]:
+                  - /url: /streamdeck/sdk/guides/deep-linking
+                - text: . In addition to these, the following utilities are available.
+              - heading "Opening URLsDirect link to Opening URLs" [level=2] [ref=e137]:
+                - text: Opening URLs
+                - link "Direct link to Opening URLs" [ref=e138] [cursor=pointer]:
+                  - /url: "#opening-urls"
+                  - text: "#"
+              - paragraph [ref=e139]: "There may be occasions when your plugin needs to direct the user to a website in their browser, for example when authenticating a service, or when the user is seeking help. This can be achieved with the following utility:"
+              - generic [ref=e140]:
+                - generic [ref=e141]: Open URL from plugin
+                - generic [ref=e142]:
+                  - code [ref=e144]:
+                    - generic [ref=e145]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e147]: "streamDeck.actions.onKeyDown(() => {"
+                    - generic [ref=e148]: streamDeck.system.openUrl("https://elgato.com");
+                    - generic [ref=e149]: "});"
+                    - generic [ref=e151]: streamDeck.connect();
+                  - button "Copy to clipboard" [ref=e153] [cursor=pointer]:
+                    - generic [ref=e154]:
+                      - img "Icon" [ref=e155]
+                      - img "Icon" [ref=e158]
+              - paragraph [ref=e160]:
+                - text: The above example will open
+                - code [ref=e161]: https://elgato.com
+                - text: in the user's default browser.
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - img [ref=e165]
+                  - text: note
+                - paragraph [ref=e170]:
+                  - text: All URLs are opened in the user's default browser. Custom URL schemes, for example
+                  - code [ref=e171]: my-app://
+                  - text: are not yet supported by the SDK.
+              - heading "System WakeDirect link to System Wake" [level=2] [ref=e172]:
+                - text: System Wake
+                - link "Direct link to System Wake" [ref=e173] [cursor=pointer]:
+                  - /url: "#system-wake"
+                  - text: "#"
+              - paragraph [ref=e174]: "Handling system wake correctly is an important part of ensuring your plugin resumes seamlessly. As part of the system wake procedure, your plugin will receive the following events:"
+              - list [ref=e175]:
+                - listitem [ref=e176]:
+                  - code [ref=e177]: onWillAppear
+                  - text: for all visible actions.
+                - listitem [ref=e178]:
+                  - text: A one-time
+                  - code [ref=e179]: onSystemDidWakeUp
+                  - text: event.
+              - paragraph [ref=e180]:
+                - text: The latter
+                - code [ref=e181]: systemDidWakeUp
+                - text: "event can be used to restore connections / state, for example a websocket connection with an API, or IPC with local app. Listening for this event is achieved with the following:"
+              - generic [ref=e182]:
+                - generic [ref=e183]: System wake callback
+                - generic [ref=e184]:
+                  - code [ref=e186]:
+                    - generic [ref=e187]: import streamDeck from "@elgato/streamdeck";
+                    - generic [ref=e189]: "streamDeck.system.onSystemDidWakeUp((ev) => {"
+                    - generic [ref=e190]: // Handle system wake.
+                    - generic [ref=e191]: "});"
+                    - generic [ref=e193]: streamDeck.connect();
+                  - button "Copy to clipboard" [ref=e195] [cursor=pointer]:
+                    - generic [ref=e196]:
+                      - img "Icon" [ref=e197]
+                      - img "Icon" [ref=e200]
+              - generic [ref=e202]:
+                - generic [ref=e203]:
+                  - img [ref=e205]
+                  - text: warning
+                - paragraph [ref=e210]:
+                  - code [ref=e211]: onSystemDidWakeUp
+                  - text: is only available in the context of the plugin, and is not available in the property inspector.
+          - navigation "Docs pages" [ref=e212]:
+            - link "Previous « Embedded Resources" [ref=e213] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/resources
+              - generic [ref=e214]: Previous
+              - generic [ref=e215]: « Embedded Resources
+            - link "Next Deep-Linking »" [ref=e216] [cursor=pointer]:
+              - /url: /streamdeck/sdk/guides/deep-linking
+              - generic [ref=e217]: Next
+              - generic [ref=e218]: Deep-Linking »
+        - list [ref=e221]:
+          - listitem [ref=e222]:
+            - link "Opening URLs" [ref=e223] [cursor=pointer]:
+              - /url: "#opening-urls"
+          - listitem [ref=e224]:
+            - link "System Wake" [ref=e225] [cursor=pointer]:
+              - /url: "#system-wake"
+  - contentinfo [ref=e226]:
+    - generic [ref=e227]:
+      - generic [ref=e228]:
+        - generic [ref=e229]:
+          - generic [ref=e230]: Makers
+          - list [ref=e231]:
+            - listitem [ref=e232]:
+              - link "Become a Maker" [ref=e233] [cursor=pointer]:
+                - /url: /marketplace/become-a-maker
+            - listitem [ref=e234]:
+              - link "Elgato Icons" [ref=e235] [cursor=pointer]:
+                - /url: /resources/icons
+            - listitem [ref=e236]:
+              - link "Badges" [ref=e237] [cursor=pointer]:
+                - /url: /resources/badges
+        - generic [ref=e238]:
+          - generic [ref=e239]: Marketplace
+          - list [ref=e240]:
+            - listitem [ref=e241]:
+              - link "Plugins" [ref=e242] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/plugins
+            - listitem [ref=e243]:
+              - link "Icon Packs" [ref=e244] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/icons
+            - listitem [ref=e245]:
+              - link "Profiles" [ref=e246] [cursor=pointer]:
+                - /url: https://marketplace.elgato.com/stream-deck/profiles
+        - generic [ref=e247]:
+          - generic [ref=e248]: Support
+          - list [ref=e249]:
+            - listitem [ref=e250]:
+              - link "FAQ" [ref=e251] [cursor=pointer]:
+                - /url: https://help.elgato.com/hc/en-us/search?query=popular+topics+faq
+            - listitem [ref=e252]:
+              - link "Contact" [ref=e253] [cursor=pointer]:
+                - /url: https://www.elgato.com/contact
+            - listitem [ref=e254]:
+              - link "Copyright Claim" [ref=e255] [cursor=pointer]:
+                - /url: https://airtable.com/appZZFEyqgCOY1wJn/shr44hhDbFFkv3FaX
+            - listitem [ref=e256]:
+              - link "Downloads" [ref=e257] [cursor=pointer]:
+                - /url: https://www.elgato.com/downloads
+        - generic [ref=e258]:
+          - generic [ref=e259]: Company
+          - list [ref=e260]:
+            - listitem [ref=e261]:
+              - link "About" [ref=e262] [cursor=pointer]:
+                - /url: https://www.elgato.com/about
+            - listitem [ref=e263]:
+              - link "Media Room" [ref=e264] [cursor=pointer]:
+                - /url: https://www.elgato.com/media-room
+            - listitem [ref=e265]:
+              - link "Terms of Use" [ref=e266] [cursor=pointer]:
+                - /url: https://www.elgato.com/terms-of-use
+            - listitem [ref=e267]:
+              - link "Privacy Policy" [ref=e268] [cursor=pointer]:
+                - /url: https://www.elgato.com/privacy-policy
+      - generic [ref=e270]: © 2026 Elgato. All rights reserved.
